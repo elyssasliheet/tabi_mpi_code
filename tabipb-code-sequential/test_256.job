@@ -1,0 +1,12 @@
+#!/bin/bash
+#SBATCH -J test_256         # job name to display in squeue
+#SBATCH -o test_256_dens20_cyc.txt     # standard output file
+#SBATCH -N 8                            # requested nodes
+#SBATCH --ntasks-per-node=32            # task load per node
+#SBATCH -p standard-mem-l               # requested partition
+#SBATCH -t 5                            # maximum runtime in minutes
+#SBATCH --exclusive                     # do not share nodes
+#SBATCH --mail-user esliheet@smu.edu
+#SBATCH --mail-type=all
+
+srun ./tabipb.exe

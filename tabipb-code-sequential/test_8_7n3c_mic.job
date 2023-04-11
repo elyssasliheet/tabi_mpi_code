@@ -1,0 +1,12 @@
+#!/bin/bash
+#SBATCH -J test_8_7n3c_mic_1        # job name to display in squeue
+#SBATCH -o test_8_7n3c_mic_1.txt     # standard output file
+#SBATCH -N 1
+#SBATCH -n 8                            # requested MPI tasks
+#SBATCH -p mic --mem=40GB              # requested partition
+#SBATCH -t 180                           # maximum runtime in minutes
+#SBATCH --exclusive                     # do not share nodes
+#SBATCH --mail-user esliheet@smu.edu
+#SBATCH --mail-type=all
+
+srun ./tabipb.exe
