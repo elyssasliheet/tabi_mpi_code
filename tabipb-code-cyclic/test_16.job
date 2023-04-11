@@ -1,0 +1,13 @@
+#!/bin/bash
+#SBATCH -J test_16        # job name to display in squeue
+#SBATCH -o test_16_dens20_cyc.txt     # standard output file
+#SBATCH -n 16                            # requested MPI tasks
+#SBATCH -p standard-mem-s               # requested partition
+#SBATCH -t 5                            # maximum runtime in minutes
+#SBATCH --exclusive                     # do not share nodes
+#SBATCH --mail-user esliheet@smu.edu
+#SBATCH --mail-type=all
+
+srun ./tabipb.exe
+
+
