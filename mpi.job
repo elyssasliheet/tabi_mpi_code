@@ -1,0 +1,12 @@
+#!/bin/bash
+#SBATCH -J mpi_2_7n3c
+#SBATCH -o mpi_2_7n3c.out
+#SBATCH -N 1
+#SBATCH -n 2
+#SBATCH -p mic
+#SBATCH --mem=40GB
+#SBATCH -t 14400
+
+
+module load gcc-9.2 hpcx
+srun ./bimpb_mpi.exe 7n3c 12
