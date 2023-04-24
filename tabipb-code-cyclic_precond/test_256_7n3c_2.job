@@ -1,0 +1,12 @@
+#!/bin/bash
+#SBATCH -J cyc_256_test_7n3c         # job name to display in squeue
+#SBATCH -o test_256_7n3c_2.txt     # standard output file
+#SBATCH -N 8                            # requested nodes
+#SBATCH --ntasks-per-node=32            # task load per node
+#SBATCH -p high-mem-1 --mem=1500G             # requested partition
+#SBATCH -t 30                            # maximum runtime in minutes
+#SBATCH --exclusive                     # do not share nodes
+#SBATCH --mail-user esliheet@smu.edu
+#SBATCH --mail-type=all
+
+srun ./tabipb.exe
