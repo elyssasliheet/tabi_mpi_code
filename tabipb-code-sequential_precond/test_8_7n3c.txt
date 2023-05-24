@@ -1,5 +1,5 @@
  Starting MPI with     8 processes.
-MSMS 2.6.1 started on b033
+MSMS 2.6.1 started on b037
 Copyright M.F. Sanner (1994)
 Compilation flags -O2 -DVERBOSE -DTIMING
 Atom 85 ignored, radius = 0.000000
@@ -110,7 +110,7 @@ Atom 6328 ignored, radius = 0.000000
 Atom 6346 ignored, radius = 0.000000
 Atom 6364 ignored, radius = 0.000000
 Atom 6385 ignored, radius = 0.000000
-MSMS 2.6.1 started on b033
+MSMS 2.6.1 started on b037
 Copyright M.F. Sanner (1994)
 Compilation flags -O2 -DVERBOSE -DTIMING
 Atom 85 ignored, radius = 0.000000
@@ -221,7 +221,7 @@ Atom 6328 ignored, radius = 0.000000
 Atom 6346 ignored, radius = 0.000000
 Atom 6364 ignored, radius = 0.000000
 Atom 6385 ignored, radius = 0.000000
-MSMS 2.6.1 started on b033
+MSMS 2.6.1 started on b037
 Copyright M.F. Sanner (1994)
 Compilation flags -O2 -DVERBOSE -DTIMING
 Atom 85 ignored, radius = 0.000000
@@ -332,7 +332,7 @@ Atom 6328 ignored, radius = 0.000000
 Atom 6346 ignored, radius = 0.000000
 Atom 6364 ignored, radius = 0.000000
 Atom 6385 ignored, radius = 0.000000
-MSMS 2.6.1 started on b033
+MSMS 2.6.1 started on b037
 Copyright M.F. Sanner (1994)
 Compilation flags -O2 -DVERBOSE -DTIMING
 Atom 85 ignored, radius = 0.000000
@@ -443,7 +443,7 @@ Atom 6328 ignored, radius = 0.000000
 Atom 6346 ignored, radius = 0.000000
 Atom 6364 ignored, radius = 0.000000
 Atom 6385 ignored, radius = 0.000000
-MSMS 2.6.1 started on b033
+MSMS 2.6.1 started on b037
 Copyright M.F. Sanner (1994)
 Compilation flags -O2 -DVERBOSE -DTIMING
 Atom 85 ignored, radius = 0.000000
@@ -554,7 +554,7 @@ Atom 6328 ignored, radius = 0.000000
 Atom 6346 ignored, radius = 0.000000
 Atom 6364 ignored, radius = 0.000000
 Atom 6385 ignored, radius = 0.000000
-MSMS 2.6.1 started on b033
+MSMS 2.6.1 started on b037
 Copyright M.F. Sanner (1994)
 Compilation flags -O2 -DVERBOSE -DTIMING
 Atom 85 ignored, radius = 0.000000
@@ -665,7 +665,7 @@ Atom 6328 ignored, radius = 0.000000
 Atom 6346 ignored, radius = 0.000000
 Atom 6364 ignored, radius = 0.000000
 Atom 6385 ignored, radius = 0.000000
-MSMS 2.6.1 started on b033
+MSMS 2.6.1 started on b037
 Copyright M.F. Sanner (1994)
 Compilation flags -O2 -DVERBOSE -DTIMING
 Atom 85 ignored, radius = 0.000000
@@ -776,7 +776,7 @@ Atom 6328 ignored, radius = 0.000000
 Atom 6346 ignored, radius = 0.000000
 Atom 6364 ignored, radius = 0.000000
 Atom 6385 ignored, radius = 0.000000
-MSMS 2.6.1 started on b033
+MSMS 2.6.1 started on b037
 Copyright M.F. Sanner (1994)
 Compilation flags -O2 -DVERBOSE -DTIMING
 Atom 85 ignored, radius = 0.000000
@@ -891,22 +891,19 @@ WARNING: atoms 812 is completely inside atom 801
 WARNING: atoms 813 is completely inside atom 801
 WARNING: atoms 815 is completely inside atom 802
 WARNING: atoms 814 is completely inside atom 802
-WARNING: atoms 812 is completely inside atom 801
-WARNING: atoms 813 is completely inside atom 801
-WARNING: atoms 812 is completely inside atom 801
-WARNING: atoms 815 is completely inside atom 802
-WARNING: atoms 814 is completely inside atom 802
-WARNING: atoms 813 is completely inside atom 801
-WARNING: atoms 812 is completely inside atom 801
-WARNING: atoms 813 is completely inside atom 801
-WARNING: atoms 812 is completely inside atom 801
-WARNING: atoms 813 is completely inside atom 801
-WARNING: atoms 815 is completely inside atom 802
-WARNING: atoms 814 is completely inside atom 802
-WARNING: atoms 815 is completely inside atom 802
-WARNING: atoms 814 is completely inside atom 802
-WARNING: atoms 815 is completely inside atom 802
-WARNING: atoms 814 is completely inside atom 802
+WARNING: atoms 1910 is completely inside atom 1898
+WARNING: atoms 1909 is completely inside atom 1898
+WARNING: atoms 1911 is completely inside atom 1898
+WARNING: atoms 265 is completely inside atom 252
+WARNING: atoms 264 is completely inside atom 252
+WARNING: atoms 263 is completely inside atom 252
+WARNING: atoms 1268 is completely inside atom 1266
+WARNING: atoms 1267 is completely inside atom 1266
+WARNING: atoms 331 is completely inside atom 320
+WARNING: atoms 332 is completely inside atom 320
+WARNING: atoms 333 is completely inside atom 320
+WARNING: atoms 1822 is completely inside atom 1821
+WARNING: atoms 1823 is completely inside atom 1821
 WARNING: atoms 812 is completely inside atom 801
 WARNING: atoms 813 is completely inside atom 801
 WARNING: atoms 815 is completely inside atom 802
@@ -919,9 +916,37 @@ WARNING: atoms 812 is completely inside atom 801
 WARNING: atoms 813 is completely inside atom 801
 WARNING: atoms 815 is completely inside atom 802
 WARNING: atoms 814 is completely inside atom 802
+WARNING: atoms 812 is completely inside atom 801
+WARNING: atoms 813 is completely inside atom 801
+WARNING: atoms 815 is completely inside atom 802
+WARNING: atoms 814 is completely inside atom 802
+WARNING: atoms 812 is completely inside atom 801
+WARNING: atoms 813 is completely inside atom 801
+WARNING: atoms 815 is completely inside atom 802
+WARNING: atoms 814 is completely inside atom 802
+WARNING: atoms 812 is completely inside atom 801
+WARNING: atoms 813 is completely inside atom 801
+WARNING: atoms 815 is completely inside atom 802
+WARNING: atoms 814 is completely inside atom 802
+WARNING: atoms 812 is completely inside atom 801
+WARNING: atoms 813 is completely inside atom 801
+WARNING: atoms 815 is completely inside atom 802
+WARNING: atoms 814 is completely inside atom 802
 WARNING: atoms 1910 is completely inside atom 1898
 WARNING: atoms 1909 is completely inside atom 1898
 WARNING: atoms 1911 is completely inside atom 1898
+WARNING: atoms 1910 is completely inside atom 1898
+WARNING: atoms 1909 is completely inside atom 1898
+WARNING: atoms 265 is completely inside atom 252
+WARNING: atoms 264 is completely inside atom 252
+WARNING: atoms 263 is completely inside atom 252
+WARNING: atoms 1911 is completely inside atom 1898
+WARNING: atoms 1910 is completely inside atom 1898
+WARNING: atoms 1909 is completely inside atom 1898
+WARNING: atoms 1911 is completely inside atom 1898
+WARNING: atoms 265 is completely inside atom 252
+WARNING: atoms 264 is completely inside atom 252
+WARNING: atoms 263 is completely inside atom 252
 WARNING: atoms 265 is completely inside atom 252
 WARNING: atoms 264 is completely inside atom 252
 WARNING: atoms 263 is completely inside atom 252
@@ -934,15 +959,6 @@ WARNING: atoms 263 is completely inside atom 252
 WARNING: atoms 1910 is completely inside atom 1898
 WARNING: atoms 1909 is completely inside atom 1898
 WARNING: atoms 1911 is completely inside atom 1898
-WARNING: atoms 265 is completely inside atom 252
-WARNING: atoms 264 is completely inside atom 252
-WARNING: atoms 263 is completely inside atom 252
-WARNING: atoms 1910 is completely inside atom 1898
-WARNING: atoms 1909 is completely inside atom 1898
-WARNING: atoms 1911 is completely inside atom 1898
-WARNING: atoms 1910 is completely inside atom 1898
-WARNING: atoms 1909 is completely inside atom 1898
-WARNING: atoms 1911 is completely inside atom 1898
 WARNING: atoms 1910 is completely inside atom 1898
 WARNING: atoms 1909 is completely inside atom 1898
 WARNING: atoms 1911 is completely inside atom 1898
@@ -952,38 +968,14 @@ WARNING: atoms 263 is completely inside atom 252
 WARNING: atoms 265 is completely inside atom 252
 WARNING: atoms 264 is completely inside atom 252
 WARNING: atoms 263 is completely inside atom 252
-WARNING: atoms 265 is completely inside atom 252
-WARNING: atoms 264 is completely inside atom 252
-WARNING: atoms 263 is completely inside atom 252
 WARNING: atoms 1910 is completely inside atom 1898
 WARNING: atoms 1909 is completely inside atom 1898
 WARNING: atoms 1911 is completely inside atom 1898
-WARNING: atoms 1910 is completely inside atom 1898
-WARNING: atoms 1909 is completely inside atom 1898
-WARNING: atoms 265 is completely inside atom 252
-WARNING: atoms 264 is completely inside atom 252
-WARNING: atoms 263 is completely inside atom 252
-WARNING: atoms 1911 is completely inside atom 1898
 WARNING: atoms 265 is completely inside atom 252
 WARNING: atoms 264 is completely inside atom 252
 WARNING: atoms 263 is completely inside atom 252
 WARNING: atoms 1268 is completely inside atom 1266
 WARNING: atoms 1267 is completely inside atom 1266
-WARNING: atoms 331 is completely inside atom 320
-WARNING: atoms 332 is completely inside atom 320
-WARNING: atoms 333 is completely inside atom 320
-WARNING: atoms 1268 is completely inside atom 1266
-WARNING: atoms 1267 is completely inside atom 1266
-WARNING: atoms 331 is completely inside atom 320
-WARNING: atoms 332 is completely inside atom 320
-WARNING: atoms 333 is completely inside atom 320
-WARNING: atoms 1268 is completely inside atom 1266
-WARNING: atoms 1267 is completely inside atom 1266
-WARNING: atoms 331 is completely inside atom 320
-WARNING: atoms 332 is completely inside atom 320
-WARNING: atoms 333 is completely inside atom 320
-WARNING: atoms 1268 is completely inside atom 1266
-WARNING: atoms 1267 is completely inside atom 1266
 WARNING: atoms 1268 is completely inside atom 1266
 WARNING: atoms 1267 is completely inside atom 1266
 WARNING: atoms 1268 is completely inside atom 1266
@@ -994,13 +986,6 @@ WARNING: atoms 333 is completely inside atom 320
 WARNING: atoms 331 is completely inside atom 320
 WARNING: atoms 332 is completely inside atom 320
 WARNING: atoms 333 is completely inside atom 320
-WARNING: atoms 331 is completely inside atom 320
-WARNING: atoms 332 is completely inside atom 320
-WARNING: atoms 333 is completely inside atom 320
-WARNING: atoms 1822 is completely inside atom 1821
-WARNING: atoms 1823 is completely inside atom 1821
-WARNING: atoms 1268 is completely inside atom 1266
-WARNING: atoms 1267 is completely inside atom 1266
 WARNING: atoms 1268 is completely inside atom 1266
 WARNING: atoms 1267 is completely inside atom 1266
 WARNING: atoms 331 is completely inside atom 320
@@ -1009,6 +994,24 @@ WARNING: atoms 333 is completely inside atom 320
 WARNING: atoms 331 is completely inside atom 320
 WARNING: atoms 332 is completely inside atom 320
 WARNING: atoms 333 is completely inside atom 320
+WARNING: atoms 1268 is completely inside atom 1266
+WARNING: atoms 1267 is completely inside atom 1266
+WARNING: atoms 7803 is completely inside atom 7791
+WARNING: atoms 7804 is completely inside atom 7791
+WARNING: atoms 7802 is completely inside atom 7791
+WARNING: atoms 1268 is completely inside atom 1266
+WARNING: atoms 1267 is completely inside atom 1266
+WARNING: atoms 331 is completely inside atom 320
+WARNING: atoms 332 is completely inside atom 320
+WARNING: atoms 333 is completely inside atom 320
+WARNING: atoms 331 is completely inside atom 320
+WARNING: atoms 332 is completely inside atom 320
+WARNING: atoms 333 is completely inside atom 320
+WARNING: atoms 1268 is completely inside atom 1266
+WARNING: atoms 1267 is completely inside atom 1266
+WARNING: atoms 331 is completely inside atom 320
+WARNING: atoms 332 is completely inside atom 320
+WARNING: atoms 333 is completely inside atom 320
 WARNING: atoms 1822 is completely inside atom 1821
 WARNING: atoms 1823 is completely inside atom 1821
 WARNING: atoms 1822 is completely inside atom 1821
@@ -1023,32 +1026,32 @@ WARNING: atoms 1822 is completely inside atom 1821
 WARNING: atoms 1823 is completely inside atom 1821
 WARNING: atoms 1822 is completely inside atom 1821
 WARNING: atoms 1823 is completely inside atom 1821
-WARNING: atoms 7803 is completely inside atom 7791
-WARNING: atoms 7804 is completely inside atom 7791
-WARNING: atoms 7802 is completely inside atom 7791
-WARNING: atoms 7803 is completely inside atom 7791
-WARNING: atoms 7804 is completely inside atom 7791
-WARNING: atoms 7802 is completely inside atom 7791
-WARNING: atoms 7803 is completely inside atom 7791
-WARNING: atoms 7804 is completely inside atom 7791
-WARNING: atoms 7802 is completely inside atom 7791
-WARNING: atoms 7803 is completely inside atom 7791
-WARNING: atoms 7804 is completely inside atom 7791
-WARNING: atoms 7802 is completely inside atom 7791
-WARNING: atoms 7803 is completely inside atom 7791
-WARNING: atoms 7804 is completely inside atom 7791
-WARNING: atoms 7802 is completely inside atom 7791
-WARNING: atoms 7803 is completely inside atom 7791
-WARNING: atoms 7804 is completely inside atom 7791
-WARNING: atoms 7802 is completely inside atom 7791
-WARNING: atoms 7803 is completely inside atom 7791
-WARNING: atoms 7804 is completely inside atom 7791
-WARNING: atoms 7802 is completely inside atom 7791
-WARNING: atoms 7803 is completely inside atom 7791
-WARNING: atoms 7804 is completely inside atom 7791
-WARNING: atoms 7802 is completely inside atom 7791
 WARNING: atoms 7570 is completely inside atom 7568
 WARNING: atoms 7569 is completely inside atom 7568
+WARNING: atoms 5078 is completely inside atom 5067
+WARNING: atoms 5080 is completely inside atom 5067
+WARNING: atoms 5079 is completely inside atom 5067
+WARNING: atoms 7803 is completely inside atom 7791
+WARNING: atoms 7804 is completely inside atom 7791
+WARNING: atoms 7802 is completely inside atom 7791
+WARNING: atoms 7803 is completely inside atom 7791
+WARNING: atoms 7804 is completely inside atom 7791
+WARNING: atoms 7802 is completely inside atom 7791
+WARNING: atoms 7803 is completely inside atom 7791
+WARNING: atoms 7804 is completely inside atom 7791
+WARNING: atoms 7802 is completely inside atom 7791
+WARNING: atoms 7803 is completely inside atom 7791
+WARNING: atoms 7804 is completely inside atom 7791
+WARNING: atoms 7802 is completely inside atom 7791
+WARNING: atoms 7803 is completely inside atom 7791
+WARNING: atoms 7804 is completely inside atom 7791
+WARNING: atoms 7802 is completely inside atom 7791
+WARNING: atoms 7803 is completely inside atom 7791
+WARNING: atoms 7804 is completely inside atom 7791
+WARNING: atoms 7802 is completely inside atom 7791
+WARNING: atoms 7803 is completely inside atom 7791
+WARNING: atoms 7804 is completely inside atom 7791
+WARNING: atoms 7802 is completely inside atom 7791
 WARNING: atoms 7570 is completely inside atom 7568
 WARNING: atoms 7569 is completely inside atom 7568
 WARNING: atoms 7570 is completely inside atom 7568
@@ -1084,33 +1087,10 @@ WARNING: atoms 5079 is completely inside atom 5067
 WARNING: atoms 5078 is completely inside atom 5067
 WARNING: atoms 5080 is completely inside atom 5067
 WARNING: atoms 5079 is completely inside atom 5067
-WARNING: atoms 5078 is completely inside atom 5067
-WARNING: atoms 5080 is completely inside atom 5067
-WARNING: atoms 5079 is completely inside atom 5067
 WARNING: atoms 812 is completely inside atom 801
 WARNING: atoms 813 is completely inside atom 801
 WARNING: atoms 815 is completely inside atom 802
 WARNING: atoms 814 is completely inside atom 802
-WARNING: atoms 812 is completely inside atom 801
-WARNING: atoms 813 is completely inside atom 801
-WARNING: atoms 815 is completely inside atom 802
-WARNING: atoms 814 is completely inside atom 802
-WARNING: atoms 812 is completely inside atom 801
-WARNING: atoms 813 is completely inside atom 801
-WARNING: atoms 815 is completely inside atom 802
-WARNING: atoms 814 is completely inside atom 802
-WARNING: atoms 1910 is completely inside atom 1898
-WARNING: atoms 1909 is completely inside atom 1898
-WARNING: atoms 1911 is completely inside atom 1898
-WARNING: atoms 265 is completely inside atom 252
-WARNING: atoms 264 is completely inside atom 252
-WARNING: atoms 263 is completely inside atom 252
-WARNING: atoms 1910 is completely inside atom 1898
-WARNING: atoms 1909 is completely inside atom 1898
-WARNING: atoms 1911 is completely inside atom 1898
-WARNING: atoms 265 is completely inside atom 252
-WARNING: atoms 264 is completely inside atom 252
-WARNING: atoms 263 is completely inside atom 252
 WARNING: atoms 1910 is completely inside atom 1898
 WARNING: atoms 1909 is completely inside atom 1898
 WARNING: atoms 1911 is completely inside atom 1898
@@ -1122,40 +1102,10 @@ WARNING: atoms 1267 is completely inside atom 1266
 WARNING: atoms 331 is completely inside atom 320
 WARNING: atoms 332 is completely inside atom 320
 WARNING: atoms 333 is completely inside atom 320
-WARNING: atoms 1268 is completely inside atom 1266
-WARNING: atoms 1267 is completely inside atom 1266
-WARNING: atoms 331 is completely inside atom 320
-WARNING: atoms 332 is completely inside atom 320
-WARNING: atoms 333 is completely inside atom 320
-WARNING: atoms 1822 is completely inside atom 1821
-WARNING: atoms 1823 is completely inside atom 1821
-WARNING: atoms 1268 is completely inside atom 1266
-WARNING: atoms 1267 is completely inside atom 1266
-WARNING: atoms 331 is completely inside atom 320
-WARNING: atoms 332 is completely inside atom 320
-WARNING: atoms 333 is completely inside atom 320
-WARNING: atoms 1822 is completely inside atom 1821
-WARNING: atoms 1823 is completely inside atom 1821
 WARNING: atoms 1822 is completely inside atom 1821
 WARNING: atoms 1823 is completely inside atom 1821
 WARNING: atoms 812 is completely inside atom 801
 WARNING: atoms 813 is completely inside atom 801
-WARNING: atoms 815 is completely inside atom 802
-WARNING: atoms 814 is completely inside atom 802
-WARNING: atoms 812 is completely inside atom 801
-WARNING: atoms 813 is completely inside atom 801
-WARNING: atoms 812 is completely inside atom 801
-WARNING: atoms 813 is completely inside atom 801
-WARNING: atoms 815 is completely inside atom 802
-WARNING: atoms 814 is completely inside atom 802
-WARNING: atoms 815 is completely inside atom 802
-WARNING: atoms 814 is completely inside atom 802
-WARNING: atoms 812 is completely inside atom 801
-WARNING: atoms 813 is completely inside atom 801
-WARNING: atoms 812 is completely inside atom 801
-WARNING: atoms 813 is completely inside atom 801
-WARNING: atoms 815 is completely inside atom 802
-WARNING: atoms 814 is completely inside atom 802
 WARNING: atoms 815 is completely inside atom 802
 WARNING: atoms 814 is completely inside atom 802
 WARNING: atoms 1910 is completely inside atom 1898
@@ -1164,114 +1114,164 @@ WARNING: atoms 1911 is completely inside atom 1898
 WARNING: atoms 265 is completely inside atom 252
 WARNING: atoms 264 is completely inside atom 252
 WARNING: atoms 263 is completely inside atom 252
-WARNING: atoms 1910 is completely inside atom 1898
-WARNING: atoms 1909 is completely inside atom 1898
-WARNING: atoms 1911 is completely inside atom 1898
-WARNING: atoms 265 is completely inside atom 252
-WARNING: atoms 264 is completely inside atom 252
-WARNING: atoms 263 is completely inside atom 252
-WARNING: atoms 1910 is completely inside atom 1898
-WARNING: atoms 1909 is completely inside atom 1898
-WARNING: atoms 1911 is completely inside atom 1898
-WARNING: atoms 265 is completely inside atom 252
-WARNING: atoms 264 is completely inside atom 252
-WARNING: atoms 263 is completely inside atom 252
-WARNING: atoms 1910 is completely inside atom 1898
-WARNING: atoms 1909 is completely inside atom 1898
-WARNING: atoms 1911 is completely inside atom 1898
-WARNING: atoms 1910 is completely inside atom 1898
-WARNING: atoms 1909 is completely inside atom 1898
-WARNING: atoms 1911 is completely inside atom 1898
-WARNING: atoms 265 is completely inside atom 252
-WARNING: atoms 264 is completely inside atom 252
-WARNING: atoms 263 is completely inside atom 252
-WARNING: atoms 265 is completely inside atom 252
-WARNING: atoms 264 is completely inside atom 252
-WARNING: atoms 263 is completely inside atom 252
-WARNING: atoms 1268 is completely inside atom 1266
-WARNING: atoms 1267 is completely inside atom 1266
-WARNING: atoms 331 is completely inside atom 320
-WARNING: atoms 332 is completely inside atom 320
-WARNING: atoms 333 is completely inside atom 320
-WARNING: atoms 1268 is completely inside atom 1266
-WARNING: atoms 1267 is completely inside atom 1266
-WARNING: atoms 331 is completely inside atom 320
-WARNING: atoms 332 is completely inside atom 320
-WARNING: atoms 333 is completely inside atom 320
-WARNING: atoms 1268 is completely inside atom 1266
-WARNING: atoms 1267 is completely inside atom 1266
-WARNING: atoms 331 is completely inside atom 320
-WARNING: atoms 332 is completely inside atom 320
-WARNING: atoms 333 is completely inside atom 320
-WARNING: atoms 1268 is completely inside atom 1266
-WARNING: atoms 1267 is completely inside atom 1266
-WARNING: atoms 1268 is completely inside atom 1266
-WARNING: atoms 1267 is completely inside atom 1266
-WARNING: atoms 1822 is completely inside atom 1821
-WARNING: atoms 1823 is completely inside atom 1821
-WARNING: atoms 331 is completely inside atom 320
-WARNING: atoms 332 is completely inside atom 320
-WARNING: atoms 333 is completely inside atom 320
-WARNING: atoms 331 is completely inside atom 320
-WARNING: atoms 332 is completely inside atom 320
-WARNING: atoms 333 is completely inside atom 320
-WARNING: atoms 1822 is completely inside atom 1821
-WARNING: atoms 1823 is completely inside atom 1821
-WARNING: atoms 1822 is completely inside atom 1821
-WARNING: atoms 1823 is completely inside atom 1821
-WARNING: atoms 1822 is completely inside atom 1821
-WARNING: atoms 1823 is completely inside atom 1821
-WARNING: atoms 1822 is completely inside atom 1821
-WARNING: atoms 1823 is completely inside atom 1821
 WARNING: atoms 7803 is completely inside atom 7791
 WARNING: atoms 7804 is completely inside atom 7791
 WARNING: atoms 7802 is completely inside atom 7791
-WARNING: atoms 7803 is completely inside atom 7791
-WARNING: atoms 7804 is completely inside atom 7791
-WARNING: atoms 7802 is completely inside atom 7791
-WARNING: atoms 7803 is completely inside atom 7791
-WARNING: atoms 7804 is completely inside atom 7791
-WARNING: atoms 7802 is completely inside atom 7791
-WARNING: atoms 7570 is completely inside atom 7568
-WARNING: atoms 7569 is completely inside atom 7568
-WARNING: atoms 7570 is completely inside atom 7568
-WARNING: atoms 7569 is completely inside atom 7568
+WARNING: atoms 1268 is completely inside atom 1266
+WARNING: atoms 1267 is completely inside atom 1266
+WARNING: atoms 331 is completely inside atom 320
+WARNING: atoms 332 is completely inside atom 320
+WARNING: atoms 333 is completely inside atom 320
+WARNING: atoms 1822 is completely inside atom 1821
+WARNING: atoms 1823 is completely inside atom 1821
 WARNING: atoms 7570 is completely inside atom 7568
 WARNING: atoms 7569 is completely inside atom 7568
 WARNING: atoms 5078 is completely inside atom 5067
 WARNING: atoms 5080 is completely inside atom 5067
 WARNING: atoms 5079 is completely inside atom 5067
+WARNING: atoms 7803 is completely inside atom 7791
+WARNING: atoms 7804 is completely inside atom 7791
+WARNING: atoms 7802 is completely inside atom 7791
+WARNING: atoms 7570 is completely inside atom 7568
+WARNING: atoms 7569 is completely inside atom 7568
+WARNING: atoms 812 is completely inside atom 801
+WARNING: atoms 813 is completely inside atom 801
+WARNING: atoms 812 is completely inside atom 801
+WARNING: atoms 813 is completely inside atom 801
+WARNING: atoms 815 is completely inside atom 802
+WARNING: atoms 814 is completely inside atom 802
+WARNING: atoms 815 is completely inside atom 802
+WARNING: atoms 814 is completely inside atom 802
+WARNING: atoms 812 is completely inside atom 801
+WARNING: atoms 813 is completely inside atom 801
+WARNING: atoms 812 is completely inside atom 801
+WARNING: atoms 815 is completely inside atom 802
+WARNING: atoms 814 is completely inside atom 802
+WARNING: atoms 813 is completely inside atom 801
+WARNING: atoms 812 is completely inside atom 801
+WARNING: atoms 815 is completely inside atom 802
+WARNING: atoms 814 is completely inside atom 802
+WARNING: atoms 813 is completely inside atom 801
+WARNING: atoms 815 is completely inside atom 802
+WARNING: atoms 814 is completely inside atom 802
+WARNING: atoms 812 is completely inside atom 801
+WARNING: atoms 813 is completely inside atom 801
+WARNING: atoms 815 is completely inside atom 802
+WARNING: atoms 814 is completely inside atom 802
+WARNING: atoms 1910 is completely inside atom 1898
+WARNING: atoms 1909 is completely inside atom 1898
+WARNING: atoms 1911 is completely inside atom 1898
+WARNING: atoms 1910 is completely inside atom 1898
+WARNING: atoms 1909 is completely inside atom 1898
+WARNING: atoms 1911 is completely inside atom 1898
+WARNING: atoms 265 is completely inside atom 252
+WARNING: atoms 264 is completely inside atom 252
+WARNING: atoms 263 is completely inside atom 252
+WARNING: atoms 1910 is completely inside atom 1898
+WARNING: atoms 1909 is completely inside atom 1898
+WARNING: atoms 1911 is completely inside atom 1898
+WARNING: atoms 265 is completely inside atom 252
+WARNING: atoms 264 is completely inside atom 252
+WARNING: atoms 263 is completely inside atom 252
+WARNING: atoms 1910 is completely inside atom 1898
+WARNING: atoms 1909 is completely inside atom 1898
+WARNING: atoms 1911 is completely inside atom 1898
+WARNING: atoms 265 is completely inside atom 252
+WARNING: atoms 264 is completely inside atom 252
+WARNING: atoms 263 is completely inside atom 252
+WARNING: atoms 1910 is completely inside atom 1898
+WARNING: atoms 1909 is completely inside atom 1898
+WARNING: atoms 1911 is completely inside atom 1898
+WARNING: atoms 265 is completely inside atom 252
+WARNING: atoms 264 is completely inside atom 252
+WARNING: atoms 263 is completely inside atom 252
+WARNING: atoms 265 is completely inside atom 252
+WARNING: atoms 264 is completely inside atom 252
+WARNING: atoms 263 is completely inside atom 252
+WARNING: atoms 1910 is completely inside atom 1898
+WARNING: atoms 1909 is completely inside atom 1898
+WARNING: atoms 1911 is completely inside atom 1898
+WARNING: atoms 265 is completely inside atom 252
+WARNING: atoms 264 is completely inside atom 252
+WARNING: atoms 263 is completely inside atom 252
 WARNING: atoms 5078 is completely inside atom 5067
 WARNING: atoms 5080 is completely inside atom 5067
 WARNING: atoms 5079 is completely inside atom 5067
+WARNING: atoms 1268 is completely inside atom 1266
+WARNING: atoms 1267 is completely inside atom 1266
+WARNING: atoms 1268 is completely inside atom 1266
+WARNING: atoms 1267 is completely inside atom 1266
+WARNING: atoms 1268 is completely inside atom 1266
+WARNING: atoms 1267 is completely inside atom 1266
+WARNING: atoms 1268 is completely inside atom 1266
+WARNING: atoms 1267 is completely inside atom 1266
+WARNING: atoms 331 is completely inside atom 320
+WARNING: atoms 332 is completely inside atom 320
+WARNING: atoms 333 is completely inside atom 320
+WARNING: atoms 331 is completely inside atom 320
+WARNING: atoms 332 is completely inside atom 320
+WARNING: atoms 333 is completely inside atom 320
+WARNING: atoms 1268 is completely inside atom 1266
+WARNING: atoms 1267 is completely inside atom 1266
+WARNING: atoms 331 is completely inside atom 320
+WARNING: atoms 332 is completely inside atom 320
+WARNING: atoms 333 is completely inside atom 320
+WARNING: atoms 331 is completely inside atom 320
+WARNING: atoms 332 is completely inside atom 320
+WARNING: atoms 333 is completely inside atom 320
+WARNING: atoms 331 is completely inside atom 320
+WARNING: atoms 332 is completely inside atom 320
+WARNING: atoms 333 is completely inside atom 320
+WARNING: atoms 1268 is completely inside atom 1266
+WARNING: atoms 1267 is completely inside atom 1266
+WARNING: atoms 331 is completely inside atom 320
+WARNING: atoms 332 is completely inside atom 320
+WARNING: atoms 333 is completely inside atom 320
+WARNING: atoms 1822 is completely inside atom 1821
+WARNING: atoms 1823 is completely inside atom 1821
+WARNING: atoms 1822 is completely inside atom 1821
+WARNING: atoms 1823 is completely inside atom 1821
+WARNING: atoms 1822 is completely inside atom 1821
+WARNING: atoms 1823 is completely inside atom 1821
+WARNING: atoms 1822 is completely inside atom 1821
+WARNING: atoms 1823 is completely inside atom 1821
+WARNING: atoms 1822 is completely inside atom 1821
+WARNING: atoms 1823 is completely inside atom 1821
+WARNING: atoms 1822 is completely inside atom 1821
+WARNING: atoms 1823 is completely inside atom 1821
+WARNING: atoms 7803 is completely inside atom 7791
+WARNING: atoms 7804 is completely inside atom 7791
+WARNING: atoms 7802 is completely inside atom 7791
+WARNING: atoms 7803 is completely inside atom 7791
+WARNING: atoms 7804 is completely inside atom 7791
+WARNING: atoms 7802 is completely inside atom 7791
+WARNING: atoms 7803 is completely inside atom 7791
+WARNING: atoms 7804 is completely inside atom 7791
+WARNING: atoms 7802 is completely inside atom 7791
+WARNING: atoms 7803 is completely inside atom 7791
+WARNING: atoms 7804 is completely inside atom 7791
+WARNING: atoms 7802 is completely inside atom 7791
+WARNING: atoms 7803 is completely inside atom 7791
+WARNING: atoms 7804 is completely inside atom 7791
+WARNING: atoms 7802 is completely inside atom 7791
+WARNING: atoms 7803 is completely inside atom 7791
+WARNING: atoms 7804 is completely inside atom 7791
+WARNING: atoms 7802 is completely inside atom 7791
+WARNING: atoms 7570 is completely inside atom 7568
+WARNING: atoms 7569 is completely inside atom 7568
+WARNING: atoms 7570 is completely inside atom 7568
+WARNING: atoms 7569 is completely inside atom 7568
+WARNING: atoms 7570 is completely inside atom 7568
+WARNING: atoms 7569 is completely inside atom 7568
+WARNING: atoms 7570 is completely inside atom 7568
+WARNING: atoms 7569 is completely inside atom 7568
+WARNING: atoms 7570 is completely inside atom 7568
+WARNING: atoms 7569 is completely inside atom 7568
+WARNING: atoms 7570 is completely inside atom 7568
+WARNING: atoms 7569 is completely inside atom 7568
 WARNING: atoms 5078 is completely inside atom 5067
 WARNING: atoms 5080 is completely inside atom 5067
 WARNING: atoms 5079 is completely inside atom 5067
-WARNING: atoms 7803 is completely inside atom 7791
-WARNING: atoms 7804 is completely inside atom 7791
-WARNING: atoms 7802 is completely inside atom 7791
-WARNING: atoms 7803 is completely inside atom 7791
-WARNING: atoms 7804 is completely inside atom 7791
-WARNING: atoms 7802 is completely inside atom 7791
-WARNING: atoms 7803 is completely inside atom 7791
-WARNING: atoms 7804 is completely inside atom 7791
-WARNING: atoms 7802 is completely inside atom 7791
-WARNING: atoms 7803 is completely inside atom 7791
-WARNING: atoms 7804 is completely inside atom 7791
-WARNING: atoms 7802 is completely inside atom 7791
-WARNING: atoms 7803 is completely inside atom 7791
-WARNING: atoms 7804 is completely inside atom 7791
-WARNING: atoms 7802 is completely inside atom 7791
-WARNING: atoms 7570 is completely inside atom 7568
-WARNING: atoms 7569 is completely inside atom 7568
-WARNING: atoms 7570 is completely inside atom 7568
-WARNING: atoms 7569 is completely inside atom 7568
-WARNING: atoms 7570 is completely inside atom 7568
-WARNING: atoms 7569 is completely inside atom 7568
-WARNING: atoms 7570 is completely inside atom 7568
-WARNING: atoms 7569 is completely inside atom 7568
-WARNING: atoms 7570 is completely inside atom 7568
-WARNING: atoms 7569 is completely inside atom 7568
 WARNING: atoms 5078 is completely inside atom 5067
 WARNING: atoms 5080 is completely inside atom 5067
 WARNING: atoms 5079 is completely inside atom 5067
@@ -1331,7 +1331,7 @@ REDUCED SURFACE ...
     0 free edge(s) found in component 0
     RS component  #faces  #edges #free_edges  #vertices   genus
          0        6918    10377          0       3140      160.5
-    Time Reduced Surface real: 0.15 user: 0.15 sys: 0.00
+    Time Reduced Surface real: 0.13 user: 0.13 sys: 0.00
 ANALYTICAL SOLVENT EXCLUDED SURFACE...
     Component   0
         Time Surface real: 0.02 user: 0.01 sys: 0.01
@@ -1348,10 +1348,10 @@ REDUCED SURFACE ...
     0 free edge(s) found in component 0
     RS component  #faces  #edges #free_edges  #vertices   genus
          0        6916    10374          0       3140      160
-    Time Reduced Surface real: 0.16 user: 0.15 sys: 0.00
+    Time Reduced Surface real: 0.14 user: 0.14 sys: 0.00
     Component   0
-        Time Surface real: 0.01 user: 0.02 sys: 0.00
-        Time Singularities real: 0.01 user: 0.00 sys: 0.00
+        Time Surface real: 0.01 user: 0.01 sys: 0.00
+        Time Singularities real: 0.00 user: 0.01 sys: 0.00
     SES comp.  #fac.  #edg. #s_edg. #vert. #s_vert. R_h C_h genus
          0    21118  42600    410   21476      714   0   0    4
 ANALYTICAL SURFACE AREA :
@@ -1422,10 +1422,10 @@ REDUCED SURFACE ...
     0 free edge(s) found in component 0
     RS component  #faces  #edges #free_edges  #vertices   genus
          0        6918    10377          0       3140      160.5
-    Time Reduced Surface real: 0.16 user: 0.15 sys: 0.00
+    Time Reduced Surface real: 0.15 user: 0.15 sys: 0.01
 ANALYTICAL SOLVENT EXCLUDED SURFACE...
     Component   0
-        Time Surface real: 0.02 user: 0.01 sys: 0.01
+        Time Surface real: 0.02 user: 0.02 sys: 0.00
 ordonne_aretes: No cycle in face 3726 (nba=-4)
 ordonne_aretes: No cycle in face 3728 (nba=-3)
  2 faces with problems
@@ -1439,7 +1439,7 @@ REDUCED SURFACE ...
     0 free edge(s) found in component 0
     RS component  #faces  #edges #free_edges  #vertices   genus
          0        6916    10374          0       3140      160
-    Time Reduced Surface real: 0.15 user: 0.16 sys: 0.00
+    Time Reduced Surface real: 0.14 user: 0.15 sys: 0.00
     Component   0
         Time Surface real: 0.01 user: 0.01 sys: 0.00
         Time Singularities real: 0.01 user: 0.00 sys: 0.00
@@ -1513,280 +1513,7 @@ REDUCED SURFACE ...
     0 free edge(s) found in component 0
     RS component  #faces  #edges #free_edges  #vertices   genus
          0        6918    10377          0       3140      160.5
-    Time Reduced Surface real: 0.16 user: 0.14 sys: 0.01
-ANALYTICAL SOLVENT EXCLUDED SURFACE...
-    Component   0
-        Time Surface real: 0.02 user: 0.02 sys: 0.00
-ordonne_aretes: No cycle in face 3726 (nba=-4)
-ordonne_aretes: No cycle in face 3728 (nba=-3)
- 2 faces with problems
-radius of atom 407 goes from 1.387000 to 1.487000
-radius of atom 416 goes from 1.824000 to 1.924000
-radius of atom 1803 goes from 1.487000 to 1.587000
-radius of atom 1805 goes from 1.387000 to 1.487000
-Failed to compute level 0 surface, try again 2
-REDUCED SURFACE ...
-    RS component 0 identified 801 800 809
-    0 free edge(s) found in component 0
-    RS component  #faces  #edges #free_edges  #vertices   genus
-         0        6916    10374          0       3140      160
-    Time Reduced Surface real: 0.15 user: 0.16 sys: 0.00
-    Component   0
-        Time Surface real: 0.02 user: 0.01 sys: 0.00
-        Time Singularities real: 0.00 user: 0.01 sys: 0.00
-    SES comp.  #fac.  #edg. #s_edg. #vert. #s_vert. R_h C_h genus
-         0    21118  42600    410   21476      714   0   0    4
-ANALYTICAL SURFACE AREA :
-    Comp. probe_radius,   reent,    toric,   contact    SES       SAS
-      0       1.400    6604.927  9348.686  7393.632 23347.244 25996.855
-TRIANGULATION...
-    Component 0
-WARNING: geodesic which intersects odd number of edges
-WARNING: geodesic which intersects odd number of edges
-WARNING: geodesic which intersects odd number of edges
-WARNING: geodesic which intersects odd number of edges
-WARNING: geodesic which intersects odd number of edges
-WARNING: geodesic which intersects odd number of edges
-WARNING: geodesic which intersects odd number of edges
-WARNING: geodesic which intersects odd number of edges
-WARNING: geodesic which intersects odd number of edges
-WARNING: geodesic which intersects odd number of edges
-WARNING: geodesic which intersects odd number of edges
-WARNING: geodesic which intersects odd number of edges
-WARNING: geodesic which intersects odd number of edges
-WARNING: geodesic which intersects odd number of edges
-WARNING: geodesic which intersects odd number of edges
-WARNING: geodesic which intersects odd number of edges
-WARNING: geodesic which intersects odd number of edges
-WARNING: geodesic which intersects odd number of edges
-WARNING: geodesic which intersects odd number of edges
-Atom 6431 ignored, radius = 0.000000
-Atom 6464 ignored, radius = 0.000000
-Atom 6494 ignored, radius = 0.000000
-Atom 6505 ignored, radius = 0.000000
-Atom 6647 ignored, radius = 0.000000
-Atom 6668 ignored, radius = 0.000000
-Atom 6845 ignored, radius = 0.000000
-Atom 6900 ignored, radius = 0.000000
-Atom 6967 ignored, radius = 0.000000
-Atom 7027 ignored, radius = 0.000000
-Atom 7088 ignored, radius = 0.000000
-Atom 7202 ignored, radius = 0.000000
-Atom 7298 ignored, radius = 0.000000
-Atom 7319 ignored, radius = 0.000000
-Atom 7340 ignored, radius = 0.000000
-Atom 7489 ignored, radius = 0.000000
-Atom 7752 ignored, radius = 0.000000
-Atom 7784 ignored, radius = 0.000000
-Atom 7827 ignored, radius = 0.000000
-Atom 7857 ignored, radius = 0.000000
-Atom 7912 ignored, radius = 0.000000
-Atom 7957 ignored, radius = 0.000000
-Atom 7971 ignored, radius = 0.000000
-Atom 7992 ignored, radius = 0.000000
-Atom 8003 ignored, radius = 0.000000
-Atom 8033 ignored, radius = 0.000000
-Atom 8044 ignored, radius = 0.000000
-Atom 8058 ignored, radius = 0.000000
-Atom 8091 ignored, radius = 0.000000
-Atom 8121 ignored, radius = 0.000000
-Atom 8186 ignored, radius = 0.000000
-Atom 8299 ignored, radius = 0.000000
-Atom 8364 ignored, radius = 0.000000
-Atom 8435 ignored, radius = 0.000000
-Atom 8446 ignored, radius = 0.000000
-Atom 8490 ignored, radius = 0.000000
-Atom 8523 ignored, radius = 0.000000
-INPUT  test_proteins/7n3c.xyzr 8459 spheres 0 collision only, radii  0.600 to  2.000
-PARAM  Probe_radius  1.400 density 12.000 hdensity  3.000
-REDUCED SURFACE ...
-    RS component 0 identified 801 800 809
-    0 free edge(s) found in component 0
-    RS component  #faces  #edges #free_edges  #vertices   genus
-         0        6918    10377          0       3140      160.5
-    Time Reduced Surface real: 0.16 user: 0.15 sys: 0.01
-ANALYTICAL SOLVENT EXCLUDED SURFACE...
-    Component   0
-        Time Surface real: 0.02 user: 0.01 sys: 0.00
-ordonne_aretes: No cycle in face 3726 (nba=-4)
-ordonne_aretes: No cycle in face 3728 (nba=-3)
- 2 faces with problems
-radius of atom 407 goes from 1.387000 to 1.487000
-radius of atom 416 goes from 1.824000 to 1.924000
-radius of atom 1803 goes from 1.487000 to 1.587000
-radius of atom 1805 goes from 1.387000 to 1.487000
-Failed to compute level 0 surface, try again 2
-REDUCED SURFACE ...
-    RS component 0 identified 801 800 809
-    0 free edge(s) found in component 0
-    RS component  #faces  #edges #free_edges  #vertices   genus
-         0        6916    10374          0       3140      160
     Time Reduced Surface real: 0.16 user: 0.16 sys: 0.00
-    Component   0
-        Time Surface real: 0.01 user: 0.01 sys: 0.00
-        Time Singularities real: 0.01 user: 0.01 sys: 0.00
-    SES comp.  #fac.  #edg. #s_edg. #vert. #s_vert. R_h C_h genus
-         0    21118  42600    410   21476      714   0   0    4
-ANALYTICAL SURFACE AREA :
-    Comp. probe_radius,   reent,    toric,   contact    SES       SAS
-      0       1.400    6604.927  9348.686  7393.632 23347.244 25996.855
-TRIANGULATION...
-    Component 0
-WARNING: geodesic which intersects odd number of edges
-WARNING: geodesic which intersects odd number of edges
-WARNING: geodesic which intersects odd number of edges
-WARNING: geodesic which intersects odd number of edges
-WARNING: geodesic which intersects odd number of edges
-WARNING: geodesic which intersects odd number of edges
-WARNING: geodesic which intersects odd number of edges
-WARNING: geodesic which intersects odd number of edges
-WARNING: geodesic which intersects odd number of edges
-WARNING: geodesic which intersects odd number of edges
-WARNING: geodesic which intersects odd number of edges
-WARNING: geodesic which intersects odd number of edges
-WARNING: geodesic which intersects odd number of edges
-WARNING: geodesic which intersects odd number of edges
-WARNING: geodesic which intersects odd number of edges
-WARNING: geodesic which intersects odd number of edges
-WARNING: geodesic which intersects odd number of edges
-WARNING: geodesic which intersects odd number of edges
-WARNING: geodesic which intersects odd number of edges
-Atom 6431 ignored, radius = 0.000000
-Atom 6464 ignored, radius = 0.000000
-Atom 6494 ignored, radius = 0.000000
-Atom 6505 ignored, radius = 0.000000
-Atom 6647 ignored, radius = 0.000000
-Atom 6668 ignored, radius = 0.000000
-Atom 6845 ignored, radius = 0.000000
-Atom 6900 ignored, radius = 0.000000
-Atom 6967 ignored, radius = 0.000000
-Atom 7027 ignored, radius = 0.000000
-Atom 7088 ignored, radius = 0.000000
-Atom 7202 ignored, radius = 0.000000
-Atom 7298 ignored, radius = 0.000000
-Atom 7319 ignored, radius = 0.000000
-Atom 7340 ignored, radius = 0.000000
-Atom 7489 ignored, radius = 0.000000
-Atom 7752 ignored, radius = 0.000000
-Atom 7784 ignored, radius = 0.000000
-Atom 7827 ignored, radius = 0.000000
-Atom 7857 ignored, radius = 0.000000
-Atom 7912 ignored, radius = 0.000000
-Atom 7957 ignored, radius = 0.000000
-Atom 7971 ignored, radius = 0.000000
-Atom 7992 ignored, radius = 0.000000
-Atom 8003 ignored, radius = 0.000000
-Atom 8033 ignored, radius = 0.000000
-Atom 8044 ignored, radius = 0.000000
-Atom 8058 ignored, radius = 0.000000
-Atom 8091 ignored, radius = 0.000000
-Atom 8121 ignored, radius = 0.000000
-Atom 8186 ignored, radius = 0.000000
-Atom 8299 ignored, radius = 0.000000
-Atom 8364 ignored, radius = 0.000000
-Atom 8435 ignored, radius = 0.000000
-Atom 8446 ignored, radius = 0.000000
-Atom 8490 ignored, radius = 0.000000
-Atom 8523 ignored, radius = 0.000000
-INPUT  test_proteins/7n3c.xyzr 8459 spheres 0 collision only, radii  0.600 to  2.000
-PARAM  Probe_radius  1.400 density 12.000 hdensity  3.000
-REDUCED SURFACE ...
-    RS component 0 identified 801 800 809
-    0 free edge(s) found in component 0
-    RS component  #faces  #edges #free_edges  #vertices   genus
-         0        6918    10377          0       3140      160.5
-    Time Reduced Surface real: 0.16 user: 0.15 sys: 0.00
-ANALYTICAL SOLVENT EXCLUDED SURFACE...
-    Component   0
-        Time Surface real: 0.02 user: 0.02 sys: 0.00
-ordonne_aretes: No cycle in face 3726 (nba=-4)
-ordonne_aretes: No cycle in face 3728 (nba=-3)
- 2 faces with problems
-radius of atom 407 goes from 1.387000 to 1.487000
-radius of atom 416 goes from 1.824000 to 1.924000
-radius of atom 1803 goes from 1.487000 to 1.587000
-radius of atom 1805 goes from 1.387000 to 1.487000
-Failed to compute level 0 surface, try again 2
-REDUCED SURFACE ...
-    RS component 0 identified 801 800 809
-    0 free edge(s) found in component 0
-    RS component  #faces  #edges #free_edges  #vertices   genus
-         0        6916    10374          0       3140      160
-    Time Reduced Surface real: 0.16 user: 0.16 sys: 0.01
-    Component   0
-        Time Surface real: 0.01 user: 0.01 sys: 0.00
-        Time Singularities real: 0.01 user: 0.01 sys: 0.00
-    SES comp.  #fac.  #edg. #s_edg. #vert. #s_vert. R_h C_h genus
-         0    21118  42600    410   21476      714   0   0    4
-ANALYTICAL SURFACE AREA :
-    Comp. probe_radius,   reent,    toric,   contact    SES       SAS
-      0       1.400    6604.927  9348.686  7393.632 23347.244 25996.855
-TRIANGULATION...
-    Component 0
-WARNING: geodesic which intersects odd number of edges
-WARNING: geodesic which intersects odd number of edges
-WARNING: geodesic which intersects odd number of edges
-WARNING: geodesic which intersects odd number of edges
-WARNING: geodesic which intersects odd number of edges
-WARNING: geodesic which intersects odd number of edges
-WARNING: geodesic which intersects odd number of edges
-WARNING: geodesic which intersects odd number of edges
-WARNING: geodesic which intersects odd number of edges
-WARNING: geodesic which intersects odd number of edges
-WARNING: geodesic which intersects odd number of edges
-WARNING: geodesic which intersects odd number of edges
-WARNING: geodesic which intersects odd number of edges
-WARNING: geodesic which intersects odd number of edges
-WARNING: geodesic which intersects odd number of edges
-WARNING: geodesic which intersects odd number of edges
-WARNING: geodesic which intersects odd number of edges
-WARNING: geodesic which intersects odd number of edges
-WARNING: geodesic which intersects odd number of edges
-Atom 6431 ignored, radius = 0.000000
-Atom 6464 ignored, radius = 0.000000
-Atom 6494 ignored, radius = 0.000000
-Atom 6505 ignored, radius = 0.000000
-Atom 6647 ignored, radius = 0.000000
-Atom 6668 ignored, radius = 0.000000
-Atom 6845 ignored, radius = 0.000000
-Atom 6900 ignored, radius = 0.000000
-Atom 6967 ignored, radius = 0.000000
-Atom 7027 ignored, radius = 0.000000
-Atom 7088 ignored, radius = 0.000000
-Atom 7202 ignored, radius = 0.000000
-Atom 7298 ignored, radius = 0.000000
-Atom 7319 ignored, radius = 0.000000
-Atom 7340 ignored, radius = 0.000000
-Atom 7489 ignored, radius = 0.000000
-Atom 7752 ignored, radius = 0.000000
-Atom 7784 ignored, radius = 0.000000
-Atom 7827 ignored, radius = 0.000000
-Atom 7857 ignored, radius = 0.000000
-Atom 7912 ignored, radius = 0.000000
-Atom 7957 ignored, radius = 0.000000
-Atom 7971 ignored, radius = 0.000000
-Atom 7992 ignored, radius = 0.000000
-Atom 8003 ignored, radius = 0.000000
-Atom 8033 ignored, radius = 0.000000
-Atom 8044 ignored, radius = 0.000000
-Atom 8058 ignored, radius = 0.000000
-Atom 8091 ignored, radius = 0.000000
-Atom 8121 ignored, radius = 0.000000
-Atom 8186 ignored, radius = 0.000000
-Atom 8299 ignored, radius = 0.000000
-Atom 8364 ignored, radius = 0.000000
-Atom 8435 ignored, radius = 0.000000
-Atom 8446 ignored, radius = 0.000000
-Atom 8490 ignored, radius = 0.000000
-Atom 8523 ignored, radius = 0.000000
-INPUT  test_proteins/7n3c.xyzr 8459 spheres 0 collision only, radii  0.600 to  2.000
-PARAM  Probe_radius  1.400 density 12.000 hdensity  3.000
-REDUCED SURFACE ...
-    RS component 0 identified 801 800 809
-    0 free edge(s) found in component 0
-    RS component  #faces  #edges #free_edges  #vertices   genus
-         0        6918    10377          0       3140      160.5
-    Time Reduced Surface real: 0.16 user: 0.15 sys: 0.00
 ANALYTICAL SOLVENT EXCLUDED SURFACE...
     Component   0
         Time Surface real: 0.02 user: 0.02 sys: 0.01
@@ -1803,191 +1530,9 @@ REDUCED SURFACE ...
     0 free edge(s) found in component 0
     RS component  #faces  #edges #free_edges  #vertices   genus
          0        6916    10374          0       3140      160
-    Time Reduced Surface real: 0.16 user: 0.17 sys: 0.00
+    Time Reduced Surface real: 0.17 user: 0.17 sys: 0.00
     Component   0
         Time Surface real: 0.02 user: 0.01 sys: 0.00
-        Time Singularities real: 0.00 user: 0.01 sys: 0.00
-    SES comp.  #fac.  #edg. #s_edg. #vert. #s_vert. R_h C_h genus
-         0    21118  42600    410   21476      714   0   0    4
-ANALYTICAL SURFACE AREA :
-    Comp. probe_radius,   reent,    toric,   contact    SES       SAS
-      0       1.400    6604.927  9348.686  7393.632 23347.244 25996.855
-TRIANGULATION...
-    Component 0
-WARNING: geodesic which intersects odd number of edges
-WARNING: geodesic which intersects odd number of edges
-WARNING: geodesic which intersects odd number of edges
-WARNING: geodesic which intersects odd number of edges
-WARNING: geodesic which intersects odd number of edges
-WARNING: geodesic which intersects odd number of edges
-WARNING: geodesic which intersects odd number of edges
-WARNING: geodesic which intersects odd number of edges
-WARNING: geodesic which intersects odd number of edges
-WARNING: geodesic which intersects odd number of edges
-WARNING: geodesic which intersects odd number of edges
-WARNING: geodesic which intersects odd number of edges
-WARNING: geodesic which intersects odd number of edges
-WARNING: geodesic which intersects odd number of edges
-WARNING: geodesic which intersects odd number of edges
-WARNING: geodesic which intersects odd number of edges
-WARNING: geodesic which intersects odd number of edges
-WARNING: geodesic which intersects odd number of edges
-WARNING: geodesic which intersects odd number of edges
-Atom 6431 ignored, radius = 0.000000
-Atom 6464 ignored, radius = 0.000000
-Atom 6494 ignored, radius = 0.000000
-Atom 6505 ignored, radius = 0.000000
-Atom 6647 ignored, radius = 0.000000
-Atom 6668 ignored, radius = 0.000000
-Atom 6845 ignored, radius = 0.000000
-Atom 6900 ignored, radius = 0.000000
-Atom 6967 ignored, radius = 0.000000
-Atom 7027 ignored, radius = 0.000000
-Atom 7088 ignored, radius = 0.000000
-Atom 7202 ignored, radius = 0.000000
-Atom 7298 ignored, radius = 0.000000
-Atom 7319 ignored, radius = 0.000000
-Atom 7340 ignored, radius = 0.000000
-Atom 7489 ignored, radius = 0.000000
-Atom 7752 ignored, radius = 0.000000
-Atom 7784 ignored, radius = 0.000000
-Atom 7827 ignored, radius = 0.000000
-Atom 7857 ignored, radius = 0.000000
-Atom 7912 ignored, radius = 0.000000
-Atom 7957 ignored, radius = 0.000000
-Atom 7971 ignored, radius = 0.000000
-Atom 7992 ignored, radius = 0.000000
-Atom 8003 ignored, radius = 0.000000
-Atom 8033 ignored, radius = 0.000000
-Atom 8044 ignored, radius = 0.000000
-Atom 8058 ignored, radius = 0.000000
-Atom 8091 ignored, radius = 0.000000
-Atom 8121 ignored, radius = 0.000000
-Atom 8186 ignored, radius = 0.000000
-Atom 8299 ignored, radius = 0.000000
-Atom 8364 ignored, radius = 0.000000
-Atom 8435 ignored, radius = 0.000000
-Atom 8446 ignored, radius = 0.000000
-Atom 8490 ignored, radius = 0.000000
-Atom 8523 ignored, radius = 0.000000
-INPUT  test_proteins/7n3c.xyzr 8459 spheres 0 collision only, radii  0.600 to  2.000
-PARAM  Probe_radius  1.400 density 12.000 hdensity  3.000
-REDUCED SURFACE ...
-    RS component 0 identified 801 800 809
-    0 free edge(s) found in component 0
-    RS component  #faces  #edges #free_edges  #vertices   genus
-         0        6918    10377          0       3140      160.5
-    Time Reduced Surface real: 0.16 user: 0.15 sys: 0.00
-ANALYTICAL SOLVENT EXCLUDED SURFACE...
-    Component   0
-        Time Surface real: 0.02 user: 0.02 sys: 0.01
-ordonne_aretes: No cycle in face 3726 (nba=-4)
-ordonne_aretes: No cycle in face 3728 (nba=-3)
- 2 faces with problems
-radius of atom 407 goes from 1.387000 to 1.487000
-radius of atom 416 goes from 1.824000 to 1.924000
-radius of atom 1803 goes from 1.487000 to 1.587000
-radius of atom 1805 goes from 1.387000 to 1.487000
-Failed to compute level 0 surface, try again 2
-REDUCED SURFACE ...
-    RS component 0 identified 801 800 809
-    0 free edge(s) found in component 0
-    RS component  #faces  #edges #free_edges  #vertices   genus
-         0        6916    10374          0       3140      160
-    Time Reduced Surface real: 0.16 user: 0.16 sys: 0.00
-    Component   0
-        Time Surface real: 0.02 user: 0.01 sys: 0.00
-        Time Singularities real: 0.00 user: 0.01 sys: 0.00
-    SES comp.  #fac.  #edg. #s_edg. #vert. #s_vert. R_h C_h genus
-         0    21118  42600    410   21476      714   0   0    4
-ANALYTICAL SURFACE AREA :
-    Comp. probe_radius,   reent,    toric,   contact    SES       SAS
-      0       1.400    6604.927  9348.686  7393.632 23347.244 25996.855
-TRIANGULATION...
-    Component 0
-WARNING: geodesic which intersects odd number of edges
-WARNING: geodesic which intersects odd number of edges
-WARNING: geodesic which intersects odd number of edges
-WARNING: geodesic which intersects odd number of edges
-WARNING: geodesic which intersects odd number of edges
-WARNING: geodesic which intersects odd number of edges
-WARNING: geodesic which intersects odd number of edges
-WARNING: geodesic which intersects odd number of edges
-WARNING: geodesic which intersects odd number of edges
-WARNING: geodesic which intersects odd number of edges
-WARNING: geodesic which intersects odd number of edges
-WARNING: geodesic which intersects odd number of edges
-WARNING: geodesic which intersects odd number of edges
-WARNING: geodesic which intersects odd number of edges
-WARNING: geodesic which intersects odd number of edges
-WARNING: geodesic which intersects odd number of edges
-WARNING: geodesic which intersects odd number of edges
-WARNING: geodesic which intersects odd number of edges
-WARNING: geodesic which intersects odd number of edges
-Atom 6431 ignored, radius = 0.000000
-Atom 6464 ignored, radius = 0.000000
-Atom 6494 ignored, radius = 0.000000
-Atom 6505 ignored, radius = 0.000000
-Atom 6647 ignored, radius = 0.000000
-Atom 6668 ignored, radius = 0.000000
-Atom 6845 ignored, radius = 0.000000
-Atom 6900 ignored, radius = 0.000000
-Atom 6967 ignored, radius = 0.000000
-Atom 7027 ignored, radius = 0.000000
-Atom 7088 ignored, radius = 0.000000
-Atom 7202 ignored, radius = 0.000000
-Atom 7298 ignored, radius = 0.000000
-Atom 7319 ignored, radius = 0.000000
-Atom 7340 ignored, radius = 0.000000
-Atom 7489 ignored, radius = 0.000000
-Atom 7752 ignored, radius = 0.000000
-Atom 7784 ignored, radius = 0.000000
-Atom 7827 ignored, radius = 0.000000
-Atom 7857 ignored, radius = 0.000000
-Atom 7912 ignored, radius = 0.000000
-Atom 7957 ignored, radius = 0.000000
-Atom 7971 ignored, radius = 0.000000
-Atom 7992 ignored, radius = 0.000000
-Atom 8003 ignored, radius = 0.000000
-Atom 8033 ignored, radius = 0.000000
-Atom 8044 ignored, radius = 0.000000
-Atom 8058 ignored, radius = 0.000000
-Atom 8091 ignored, radius = 0.000000
-Atom 8121 ignored, radius = 0.000000
-Atom 8186 ignored, radius = 0.000000
-Atom 8299 ignored, radius = 0.000000
-Atom 8364 ignored, radius = 0.000000
-Atom 8435 ignored, radius = 0.000000
-Atom 8446 ignored, radius = 0.000000
-Atom 8490 ignored, radius = 0.000000
-Atom 8523 ignored, radius = 0.000000
-INPUT  test_proteins/7n3c.xyzr 8459 spheres 0 collision only, radii  0.600 to  2.000
-PARAM  Probe_radius  1.400 density 12.000 hdensity  3.000
-REDUCED SURFACE ...
-    RS component 0 identified 801 800 809
-    0 free edge(s) found in component 0
-    RS component  #faces  #edges #free_edges  #vertices   genus
-         0        6918    10377          0       3140      160.5
-    Time Reduced Surface real: 0.16 user: 0.15 sys: 0.00
-ANALYTICAL SOLVENT EXCLUDED SURFACE...
-    Component   0
-        Time Surface real: 0.02 user: 0.01 sys: 0.01
-ordonne_aretes: No cycle in face 3726 (nba=-4)
-ordonne_aretes: No cycle in face 3728 (nba=-3)
- 2 faces with problems
-radius of atom 407 goes from 1.387000 to 1.487000
-radius of atom 416 goes from 1.824000 to 1.924000
-radius of atom 1803 goes from 1.487000 to 1.587000
-radius of atom 1805 goes from 1.387000 to 1.487000
-Failed to compute level 0 surface, try again 2
-REDUCED SURFACE ...
-    RS component 0 identified 801 800 809
-    0 free edge(s) found in component 0
-    RS component  #faces  #edges #free_edges  #vertices   genus
-         0        6916    10374          0       3140      160
-    Time Reduced Surface real: 0.16 user: 0.16 sys: 0.00
-    Component   0
-        Time Surface real: 0.02 user: 0.02 sys: 0.00
         Time Singularities real: 0.00 user: 0.00 sys: 0.00
     SES comp.  #fac.  #edg. #s_edg. #vert. #s_vert. R_h C_h genus
          0    21118  42600    410   21476      714   0   0    4
@@ -2015,6 +1560,442 @@ WARNING: geodesic which intersects odd number of edges
 WARNING: geodesic which intersects odd number of edges
 WARNING: geodesic which intersects odd number of edges
 WARNING: geodesic which intersects odd number of edges
+Atom 6431 ignored, radius = 0.000000
+Atom 6464 ignored, radius = 0.000000
+Atom 6494 ignored, radius = 0.000000
+Atom 6505 ignored, radius = 0.000000
+Atom 6647 ignored, radius = 0.000000
+Atom 6668 ignored, radius = 0.000000
+Atom 6845 ignored, radius = 0.000000
+Atom 6900 ignored, radius = 0.000000
+Atom 6967 ignored, radius = 0.000000
+Atom 7027 ignored, radius = 0.000000
+Atom 7088 ignored, radius = 0.000000
+Atom 7202 ignored, radius = 0.000000
+Atom 7298 ignored, radius = 0.000000
+Atom 7319 ignored, radius = 0.000000
+Atom 7340 ignored, radius = 0.000000
+Atom 7489 ignored, radius = 0.000000
+Atom 7752 ignored, radius = 0.000000
+Atom 7784 ignored, radius = 0.000000
+Atom 7827 ignored, radius = 0.000000
+Atom 7857 ignored, radius = 0.000000
+Atom 7912 ignored, radius = 0.000000
+Atom 7957 ignored, radius = 0.000000
+Atom 7971 ignored, radius = 0.000000
+Atom 7992 ignored, radius = 0.000000
+Atom 8003 ignored, radius = 0.000000
+Atom 8033 ignored, radius = 0.000000
+Atom 8044 ignored, radius = 0.000000
+Atom 8058 ignored, radius = 0.000000
+Atom 8091 ignored, radius = 0.000000
+Atom 8121 ignored, radius = 0.000000
+Atom 8186 ignored, radius = 0.000000
+Atom 8299 ignored, radius = 0.000000
+Atom 8364 ignored, radius = 0.000000
+Atom 8435 ignored, radius = 0.000000
+Atom 8446 ignored, radius = 0.000000
+Atom 8490 ignored, radius = 0.000000
+Atom 8523 ignored, radius = 0.000000
+INPUT  test_proteins/7n3c.xyzr 8459 spheres 0 collision only, radii  0.600 to  2.000
+PARAM  Probe_radius  1.400 density 12.000 hdensity  3.000
+REDUCED SURFACE ...
+    RS component 0 identified 801 800 809
+    0 free edge(s) found in component 0
+    RS component  #faces  #edges #free_edges  #vertices   genus
+         0        6918    10377          0       3140      160.5
+    Time Reduced Surface real: 0.16 user: 0.16 sys: 0.00
+ANALYTICAL SOLVENT EXCLUDED SURFACE...
+    Component   0
+        Time Surface real: 0.02 user: 0.01 sys: 0.01
+ordonne_aretes: No cycle in face 3726 (nba=-4)
+ordonne_aretes: No cycle in face 3728 (nba=-3)
+ 2 faces with problems
+radius of atom 407 goes from 1.387000 to 1.487000
+radius of atom 416 goes from 1.824000 to 1.924000
+radius of atom 1803 goes from 1.487000 to 1.587000
+radius of atom 1805 goes from 1.387000 to 1.487000
+Failed to compute level 0 surface, try again 2
+REDUCED SURFACE ...
+    RS component 0 identified 801 800 809
+    0 free edge(s) found in component 0
+    RS component  #faces  #edges #free_edges  #vertices   genus
+         0        6916    10374          0       3140      160
+    Time Reduced Surface real: 0.17 user: 0.18 sys: 0.00
+    Component   0
+        Time Surface real: 0.02 user: 0.01 sys: 0.00
+        Time Singularities real: 0.01 user: 0.01 sys: 0.00
+    SES comp.  #fac.  #edg. #s_edg. #vert. #s_vert. R_h C_h genus
+         0    21118  42600    410   21476      714   0   0    4
+ANALYTICAL SURFACE AREA :
+    Comp. probe_radius,   reent,    toric,   contact    SES       SAS
+      0       1.400    6604.927  9348.686  7393.632 23347.244 25996.855
+TRIANGULATION...
+    Component 0
+WARNING: geodesic which intersects odd number of edges
+WARNING: geodesic which intersects odd number of edges
+WARNING: geodesic which intersects odd number of edges
+WARNING: geodesic which intersects odd number of edges
+WARNING: geodesic which intersects odd number of edges
+WARNING: geodesic which intersects odd number of edges
+WARNING: geodesic which intersects odd number of edges
+WARNING: geodesic which intersects odd number of edges
+WARNING: geodesic which intersects odd number of edges
+WARNING: geodesic which intersects odd number of edges
+WARNING: geodesic which intersects odd number of edges
+WARNING: geodesic which intersects odd number of edges
+WARNING: geodesic which intersects odd number of edges
+WARNING: geodesic which intersects odd number of edges
+WARNING: geodesic which intersects odd number of edges
+WARNING: geodesic which intersects odd number of edges
+WARNING: geodesic which intersects odd number of edges
+WARNING: geodesic which intersects odd number of edges
+WARNING: geodesic which intersects odd number of edges
+Atom 6431 ignored, radius = 0.000000
+Atom 6464 ignored, radius = 0.000000
+Atom 6494 ignored, radius = 0.000000
+Atom 6505 ignored, radius = 0.000000
+Atom 6647 ignored, radius = 0.000000
+Atom 6668 ignored, radius = 0.000000
+Atom 6845 ignored, radius = 0.000000
+Atom 6900 ignored, radius = 0.000000
+Atom 6967 ignored, radius = 0.000000
+Atom 7027 ignored, radius = 0.000000
+Atom 7088 ignored, radius = 0.000000
+Atom 7202 ignored, radius = 0.000000
+Atom 7298 ignored, radius = 0.000000
+Atom 7319 ignored, radius = 0.000000
+Atom 7340 ignored, radius = 0.000000
+Atom 7489 ignored, radius = 0.000000
+Atom 7752 ignored, radius = 0.000000
+Atom 7784 ignored, radius = 0.000000
+Atom 7827 ignored, radius = 0.000000
+Atom 7857 ignored, radius = 0.000000
+Atom 7912 ignored, radius = 0.000000
+Atom 7957 ignored, radius = 0.000000
+Atom 7971 ignored, radius = 0.000000
+Atom 7992 ignored, radius = 0.000000
+Atom 8003 ignored, radius = 0.000000
+Atom 8033 ignored, radius = 0.000000
+Atom 8044 ignored, radius = 0.000000
+Atom 8058 ignored, radius = 0.000000
+Atom 8091 ignored, radius = 0.000000
+Atom 8121 ignored, radius = 0.000000
+Atom 8186 ignored, radius = 0.000000
+Atom 8299 ignored, radius = 0.000000
+Atom 8364 ignored, radius = 0.000000
+Atom 8435 ignored, radius = 0.000000
+Atom 8446 ignored, radius = 0.000000
+Atom 8490 ignored, radius = 0.000000
+Atom 8523 ignored, radius = 0.000000
+INPUT  test_proteins/7n3c.xyzr 8459 spheres 0 collision only, radii  0.600 to  2.000
+PARAM  Probe_radius  1.400 density 12.000 hdensity  3.000
+REDUCED SURFACE ...
+    RS component 0 identified 801 800 809
+    0 free edge(s) found in component 0
+    RS component  #faces  #edges #free_edges  #vertices   genus
+         0        6918    10377          0       3140      160.5
+    Time Reduced Surface real: 0.16 user: 0.16 sys: 0.00
+ANALYTICAL SOLVENT EXCLUDED SURFACE...
+    Component   0
+        Time Surface real: 0.02 user: 0.02 sys: 0.01
+ordonne_aretes: No cycle in face 3726 (nba=-4)
+ordonne_aretes: No cycle in face 3728 (nba=-3)
+ 2 faces with problems
+radius of atom 407 goes from 1.387000 to 1.487000
+radius of atom 416 goes from 1.824000 to 1.924000
+radius of atom 1803 goes from 1.487000 to 1.587000
+radius of atom 1805 goes from 1.387000 to 1.487000
+Failed to compute level 0 surface, try again 2
+REDUCED SURFACE ...
+    RS component 0 identified 801 800 809
+    0 free edge(s) found in component 0
+    RS component  #faces  #edges #free_edges  #vertices   genus
+         0        6916    10374          0       3140      160
+    Time Reduced Surface real: 0.17 user: 0.17 sys: 0.00
+    Component   0
+        Time Surface real: 0.02 user: 0.01 sys: 0.00
+        Time Singularities real: 0.01 user: 0.01 sys: 0.00
+    SES comp.  #fac.  #edg. #s_edg. #vert. #s_vert. R_h C_h genus
+         0    21118  42600    410   21476      714   0   0    4
+ANALYTICAL SURFACE AREA :
+    Comp. probe_radius,   reent,    toric,   contact    SES       SAS
+      0       1.400    6604.927  9348.686  7393.632 23347.244 25996.855
+TRIANGULATION...
+    Component 0
+WARNING: geodesic which intersects odd number of edges
+WARNING: geodesic which intersects odd number of edges
+WARNING: geodesic which intersects odd number of edges
+WARNING: geodesic which intersects odd number of edges
+WARNING: geodesic which intersects odd number of edges
+WARNING: geodesic which intersects odd number of edges
+WARNING: geodesic which intersects odd number of edges
+WARNING: geodesic which intersects odd number of edges
+WARNING: geodesic which intersects odd number of edges
+WARNING: geodesic which intersects odd number of edges
+WARNING: geodesic which intersects odd number of edges
+WARNING: geodesic which intersects odd number of edges
+WARNING: geodesic which intersects odd number of edges
+WARNING: geodesic which intersects odd number of edges
+WARNING: geodesic which intersects odd number of edges
+WARNING: geodesic which intersects odd number of edges
+WARNING: geodesic which intersects odd number of edges
+WARNING: geodesic which intersects odd number of edges
+WARNING: geodesic which intersects odd number of edges
+Atom 6431 ignored, radius = 0.000000
+Atom 6464 ignored, radius = 0.000000
+Atom 6494 ignored, radius = 0.000000
+Atom 6505 ignored, radius = 0.000000
+Atom 6647 ignored, radius = 0.000000
+Atom 6668 ignored, radius = 0.000000
+Atom 6845 ignored, radius = 0.000000
+Atom 6900 ignored, radius = 0.000000
+Atom 6967 ignored, radius = 0.000000
+Atom 7027 ignored, radius = 0.000000
+Atom 7088 ignored, radius = 0.000000
+Atom 7202 ignored, radius = 0.000000
+Atom 7298 ignored, radius = 0.000000
+Atom 7319 ignored, radius = 0.000000
+Atom 7340 ignored, radius = 0.000000
+Atom 7489 ignored, radius = 0.000000
+Atom 7752 ignored, radius = 0.000000
+Atom 7784 ignored, radius = 0.000000
+Atom 7827 ignored, radius = 0.000000
+Atom 7857 ignored, radius = 0.000000
+Atom 7912 ignored, radius = 0.000000
+Atom 7957 ignored, radius = 0.000000
+Atom 7971 ignored, radius = 0.000000
+Atom 7992 ignored, radius = 0.000000
+Atom 8003 ignored, radius = 0.000000
+Atom 8033 ignored, radius = 0.000000
+Atom 8044 ignored, radius = 0.000000
+Atom 8058 ignored, radius = 0.000000
+Atom 8091 ignored, radius = 0.000000
+Atom 8121 ignored, radius = 0.000000
+Atom 8186 ignored, radius = 0.000000
+Atom 8299 ignored, radius = 0.000000
+Atom 8364 ignored, radius = 0.000000
+Atom 8435 ignored, radius = 0.000000
+Atom 8446 ignored, radius = 0.000000
+Atom 8490 ignored, radius = 0.000000
+Atom 8523 ignored, radius = 0.000000
+INPUT  test_proteins/7n3c.xyzr 8459 spheres 0 collision only, radii  0.600 to  2.000
+PARAM  Probe_radius  1.400 density 12.000 hdensity  3.000
+REDUCED SURFACE ...
+    RS component 0 identified 801 800 809
+    0 free edge(s) found in component 0
+    RS component  #faces  #edges #free_edges  #vertices   genus
+         0        6918    10377          0       3140      160.5
+    Time Reduced Surface real: 0.16 user: 0.16 sys: 0.01
+ANALYTICAL SOLVENT EXCLUDED SURFACE...
+    Component   0
+        Time Surface real: 0.02 user: 0.01 sys: 0.00
+ordonne_aretes: No cycle in face 3726 (nba=-4)
+ordonne_aretes: No cycle in face 3728 (nba=-3)
+ 2 faces with problems
+radius of atom 407 goes from 1.387000 to 1.487000
+radius of atom 416 goes from 1.824000 to 1.924000
+radius of atom 1803 goes from 1.487000 to 1.587000
+radius of atom 1805 goes from 1.387000 to 1.487000
+Failed to compute level 0 surface, try again 2
+REDUCED SURFACE ...
+    RS component 0 identified 801 800 809
+    0 free edge(s) found in component 0
+    RS component  #faces  #edges #free_edges  #vertices   genus
+         0        6916    10374          0       3140      160
+    Time Reduced Surface real: 0.17 user: 0.17 sys: 0.00
+    Component   0
+        Time Surface real: 0.02 user: 0.02 sys: 0.00
+        Time Singularities real: 0.01 user: 0.01 sys: 0.00
+    SES comp.  #fac.  #edg. #s_edg. #vert. #s_vert. R_h C_h genus
+         0    21118  42600    410   21476      714   0   0    4
+ANALYTICAL SURFACE AREA :
+    Comp. probe_radius,   reent,    toric,   contact    SES       SAS
+      0       1.400    6604.927  9348.686  7393.632 23347.244 25996.855
+TRIANGULATION...
+    Component 0
+WARNING: geodesic which intersects odd number of edges
+WARNING: geodesic which intersects odd number of edges
+WARNING: geodesic which intersects odd number of edges
+WARNING: geodesic which intersects odd number of edges
+WARNING: geodesic which intersects odd number of edges
+WARNING: geodesic which intersects odd number of edges
+WARNING: geodesic which intersects odd number of edges
+WARNING: geodesic which intersects odd number of edges
+WARNING: geodesic which intersects odd number of edges
+WARNING: geodesic which intersects odd number of edges
+WARNING: geodesic which intersects odd number of edges
+WARNING: geodesic which intersects odd number of edges
+WARNING: geodesic which intersects odd number of edges
+WARNING: geodesic which intersects odd number of edges
+WARNING: geodesic which intersects odd number of edges
+WARNING: geodesic which intersects odd number of edges
+WARNING: geodesic which intersects odd number of edges
+WARNING: geodesic which intersects odd number of edges
+WARNING: geodesic which intersects odd number of edges
+Atom 6431 ignored, radius = 0.000000
+Atom 6464 ignored, radius = 0.000000
+Atom 6494 ignored, radius = 0.000000
+Atom 6505 ignored, radius = 0.000000
+Atom 6647 ignored, radius = 0.000000
+Atom 6668 ignored, radius = 0.000000
+Atom 6845 ignored, radius = 0.000000
+Atom 6900 ignored, radius = 0.000000
+Atom 6967 ignored, radius = 0.000000
+Atom 7027 ignored, radius = 0.000000
+Atom 7088 ignored, radius = 0.000000
+Atom 7202 ignored, radius = 0.000000
+Atom 7298 ignored, radius = 0.000000
+Atom 7319 ignored, radius = 0.000000
+Atom 7340 ignored, radius = 0.000000
+Atom 7489 ignored, radius = 0.000000
+Atom 7752 ignored, radius = 0.000000
+Atom 7784 ignored, radius = 0.000000
+Atom 7827 ignored, radius = 0.000000
+Atom 7857 ignored, radius = 0.000000
+Atom 7912 ignored, radius = 0.000000
+Atom 7957 ignored, radius = 0.000000
+Atom 7971 ignored, radius = 0.000000
+Atom 7992 ignored, radius = 0.000000
+Atom 8003 ignored, radius = 0.000000
+Atom 8033 ignored, radius = 0.000000
+Atom 8044 ignored, radius = 0.000000
+Atom 8058 ignored, radius = 0.000000
+Atom 8091 ignored, radius = 0.000000
+Atom 8121 ignored, radius = 0.000000
+Atom 8186 ignored, radius = 0.000000
+Atom 8299 ignored, radius = 0.000000
+Atom 8364 ignored, radius = 0.000000
+Atom 8435 ignored, radius = 0.000000
+Atom 8446 ignored, radius = 0.000000
+Atom 8490 ignored, radius = 0.000000
+Atom 8523 ignored, radius = 0.000000
+INPUT  test_proteins/7n3c.xyzr 8459 spheres 0 collision only, radii  0.600 to  2.000
+PARAM  Probe_radius  1.400 density 12.000 hdensity  3.000
+REDUCED SURFACE ...
+    RS component 0 identified 801 800 809
+    0 free edge(s) found in component 0
+    RS component  #faces  #edges #free_edges  #vertices   genus
+         0        6918    10377          0       3140      160.5
+    Time Reduced Surface real: 0.16 user: 0.16 sys: 0.00
+ANALYTICAL SOLVENT EXCLUDED SURFACE...
+    Component   0
+        Time Surface real: 0.02 user: 0.02 sys: 0.01
+ordonne_aretes: No cycle in face 3726 (nba=-4)
+ordonne_aretes: No cycle in face 3728 (nba=-3)
+ 2 faces with problems
+radius of atom 407 goes from 1.387000 to 1.487000
+radius of atom 416 goes from 1.824000 to 1.924000
+radius of atom 1803 goes from 1.487000 to 1.587000
+radius of atom 1805 goes from 1.387000 to 1.487000
+Failed to compute level 0 surface, try again 2
+REDUCED SURFACE ...
+    RS component 0 identified 801 800 809
+    0 free edge(s) found in component 0
+    RS component  #faces  #edges #free_edges  #vertices   genus
+         0        6916    10374          0       3140      160
+    Time Reduced Surface real: 0.17 user: 0.17 sys: 0.00
+    Component   0
+        Time Surface real: 0.02 user: 0.02 sys: 0.00
+        Time Singularities real: 0.01 user: 0.01 sys: 0.00
+    SES comp.  #fac.  #edg. #s_edg. #vert. #s_vert. R_h C_h genus
+         0    21118  42600    410   21476      714   0   0    4
+ANALYTICAL SURFACE AREA :
+    Comp. probe_radius,   reent,    toric,   contact    SES       SAS
+      0       1.400    6604.927  9348.686  7393.632 23347.244 25996.855
+TRIANGULATION...
+    Component 0
+WARNING: geodesic which intersects odd number of edges
+WARNING: geodesic which intersects odd number of edges
+WARNING: geodesic which intersects odd number of edges
+WARNING: geodesic which intersects odd number of edges
+WARNING: geodesic which intersects odd number of edges
+WARNING: geodesic which intersects odd number of edges
+WARNING: geodesic which intersects odd number of edges
+WARNING: geodesic which intersects odd number of edges
+WARNING: geodesic which intersects odd number of edges
+WARNING: geodesic which intersects odd number of edges
+WARNING: geodesic which intersects odd number of edges
+WARNING: geodesic which intersects odd number of edges
+WARNING: geodesic which intersects odd number of edges
+WARNING: geodesic which intersects odd number of edges
+WARNING: geodesic which intersects odd number of edges
+WARNING: geodesic which intersects odd number of edges
+WARNING: geodesic which intersects odd number of edges
+WARNING: geodesic which intersects odd number of edges
+WARNING: geodesic which intersects odd number of edges
+Atom 6431 ignored, radius = 0.000000
+Atom 6464 ignored, radius = 0.000000
+Atom 6494 ignored, radius = 0.000000
+Atom 6505 ignored, radius = 0.000000
+Atom 6647 ignored, radius = 0.000000
+Atom 6668 ignored, radius = 0.000000
+Atom 6845 ignored, radius = 0.000000
+Atom 6900 ignored, radius = 0.000000
+Atom 6967 ignored, radius = 0.000000
+Atom 7027 ignored, radius = 0.000000
+Atom 7088 ignored, radius = 0.000000
+Atom 7202 ignored, radius = 0.000000
+Atom 7298 ignored, radius = 0.000000
+Atom 7319 ignored, radius = 0.000000
+Atom 7340 ignored, radius = 0.000000
+Atom 7489 ignored, radius = 0.000000
+Atom 7752 ignored, radius = 0.000000
+Atom 7784 ignored, radius = 0.000000
+Atom 7827 ignored, radius = 0.000000
+Atom 7857 ignored, radius = 0.000000
+Atom 7912 ignored, radius = 0.000000
+Atom 7957 ignored, radius = 0.000000
+Atom 7971 ignored, radius = 0.000000
+Atom 7992 ignored, radius = 0.000000
+Atom 8003 ignored, radius = 0.000000
+Atom 8033 ignored, radius = 0.000000
+Atom 8044 ignored, radius = 0.000000
+Atom 8058 ignored, radius = 0.000000
+Atom 8091 ignored, radius = 0.000000
+Atom 8121 ignored, radius = 0.000000
+Atom 8186 ignored, radius = 0.000000
+Atom 8299 ignored, radius = 0.000000
+Atom 8364 ignored, radius = 0.000000
+Atom 8435 ignored, radius = 0.000000
+Atom 8446 ignored, radius = 0.000000
+Atom 8490 ignored, radius = 0.000000
+Atom 8523 ignored, radius = 0.000000
+INPUT  test_proteins/7n3c.xyzr 8459 spheres 0 collision only, radii  0.600 to  2.000
+PARAM  Probe_radius  1.400 density 12.000 hdensity  3.000
+REDUCED SURFACE ...
+    RS component 0 identified 801 800 809
+    0 free edge(s) found in component 0
+    RS component  #faces  #edges #free_edges  #vertices   genus
+         0        6918    10377          0       3140      160.5
+    Time Reduced Surface real: 0.16 user: 0.16 sys: 0.00
+ANALYTICAL SOLVENT EXCLUDED SURFACE...
+    Component   0
+        Time Surface real: 0.02 user: 0.02 sys: 0.01
+ordonne_aretes: No cycle in face 3726 (nba=-4)
+ordonne_aretes: No cycle in face 3728 (nba=-3)
+ 2 faces with problems
+radius of atom 407 goes from 1.387000 to 1.487000
+radius of atom 416 goes from 1.824000 to 1.924000
+radius of atom 1803 goes from 1.487000 to 1.587000
+radius of atom 1805 goes from 1.387000 to 1.487000
+Failed to compute level 0 surface, try again 2
+REDUCED SURFACE ...
+    RS component 0 identified 801 800 809
+    0 free edge(s) found in component 0
+    RS component  #faces  #edges #free_edges  #vertices   genus
+         0        6916    10374          0       3140      160
+    Time Reduced Surface real: 0.17 user: 0.17 sys: 0.00
+    Component   0
+        Time Surface real: 0.02 user: 0.01 sys: 0.00
+        Time Singularities real: 0.01 user: 0.01 sys: 0.00
+    SES comp.  #fac.  #edg. #s_edg. #vert. #s_vert. R_h C_h genus
+         0    21118  42600    410   21476      714   0   0    4
+ANALYTICAL SURFACE AREA :
+    Comp. probe_radius,   reent,    toric,   contact    SES       SAS
+      0       1.400    6604.927  9348.686  7393.632 23347.244 25996.855
+TRIANGULATION...
+    Component 0
 WARNING: geodesic which intersects odd number of edges
 WARNING: geodesic which intersects odd number of edges
 WARNING: geodesic which intersects odd number of edges
@@ -2034,155 +2015,6 @@ WARNING: geodesic which intersects odd number of edges
 WARNING: geodesic which intersects odd number of edges
 WARNING: geodesic which intersects odd number of edges
 WARNING: geodesic which intersects odd number of edges
-    component#, vertices,  edges,  faces, genus, density
-        0         265079  795255  530170    4    11.354
-        Time Triangulation real: 0.91 user: 0.91 sys: 0.01
-NUMERICAL VOLUMES AND AREA
-    Comp. probe_radius SES_volume SES_area)
-       0      1.40    77762.383  23251.789
-    Total ses_volume: 77762.383
-MSMS terminated normally
-Total Time real: 2.20 user: 2.10 sys: 0.05
-WARNING: geodesic which intersects odd number of edges
-WARNING: geodesic which intersects odd number of edges
-WARNING: geodesic which intersects odd number of edges
-WARNING: geodesic which intersects odd number of edges
-WARNING: geodesic which intersects odd number of edges
-WARNING: geodesic which intersects odd number of edges
-WARNING: geodesic which intersects odd number of edges
-WARNING: geodesic which intersects odd number of edges
-WARNING: geodesic which intersects odd number of edges
-WARNING: geodesic which intersects odd number of edges
-WARNING: geodesic which intersects odd number of edges
-WARNING: geodesic which intersects odd number of edges
-WARNING: geodesic which intersects odd number of edges
-WARNING: geodesic which intersects odd number of edges
-WARNING: geodesic which intersects odd number of edges
-WARNING: geodesic which intersects odd number of edges
-WARNING: geodesic which intersects odd number of edges
-WARNING: geodesic which intersects odd number of edges
-WARNING: geodesic which intersects odd number of edges
-    component#, vertices,  edges,  faces, genus, density
-        0         265079  795255  530170    4    11.354
-        Time Triangulation real: 0.91 user: 0.90 sys: 0.01
-NUMERICAL VOLUMES AND AREA
-    Comp. probe_radius SES_volume SES_area)
-       0      1.40    77762.383  23251.789
-    Total ses_volume: 77762.383
-MSMS terminated normally
-Total Time real: 2.20 user: 2.10 sys: 0.04
-WARNING: geodesic which intersects odd number of edges
-WARNING: geodesic which intersects odd number of edges
-WARNING: geodesic which intersects odd number of edges
-WARNING: geodesic which intersects odd number of edges
-WARNING: geodesic which intersects odd number of edges
-WARNING: geodesic which intersects odd number of edges
-WARNING: geodesic which intersects odd number of edges
-WARNING: geodesic which intersects odd number of edges
-WARNING: geodesic which intersects odd number of edges
-WARNING: geodesic which intersects odd number of edges
-WARNING: geodesic which intersects odd number of edges
-WARNING: geodesic which intersects odd number of edges
-WARNING: geodesic which intersects odd number of edges
-WARNING: geodesic which intersects odd number of edges
-WARNING: geodesic which intersects odd number of edges
-WARNING: geodesic which intersects odd number of edges
-WARNING: geodesic which intersects odd number of edges
-WARNING: geodesic which intersects odd number of edges
-WARNING: geodesic which intersects odd number of edges
-    component#, vertices,  edges,  faces, genus, density
-        0         265079  795255  530170    4    11.354
-        Time Triangulation real: 0.92 user: 0.90 sys: 0.01
-NUMERICAL VOLUMES AND AREA
-    Comp. probe_radius SES_volume SES_area)
-       0      1.40    77762.383  23251.789
-    Total ses_volume: 77762.383
-MSMS terminated normally
-Total Time real: 2.20 user: 2.09 sys: 0.05
-WARNING: geodesic which intersects odd number of edges
-WARNING: geodesic which intersects odd number of edges
-WARNING: geodesic which intersects odd number of edges
-WARNING: geodesic which intersects odd number of edges
-WARNING: geodesic which intersects odd number of edges
-WARNING: geodesic which intersects odd number of edges
-WARNING: geodesic which intersects odd number of edges
-WARNING: geodesic which intersects odd number of edges
-WARNING: geodesic which intersects odd number of edges
-WARNING: geodesic which intersects odd number of edges
-WARNING: geodesic which intersects odd number of edges
-WARNING: geodesic which intersects odd number of edges
-WARNING: geodesic which intersects odd number of edges
-WARNING: geodesic which intersects odd number of edges
-WARNING: geodesic which intersects odd number of edges
-WARNING: geodesic which intersects odd number of edges
-WARNING: geodesic which intersects odd number of edges
-WARNING: geodesic which intersects odd number of edges
-WARNING: geodesic which intersects odd number of edges
-    component#, vertices,  edges,  faces, genus, density
-        0         265079  795255  530170    4    11.354
-        Time Triangulation real: 0.90 user: 0.89 sys: 0.02
-NUMERICAL VOLUMES AND AREA
-    Comp. probe_radius SES_volume SES_area)
-       0      1.40    77762.383  23251.789
-    Total ses_volume: 77762.383
-MSMS terminated normally
-Total Time real: 2.20 user: 2.04 sys: 0.09
-WARNING: geodesic which intersects odd number of edges
-WARNING: geodesic which intersects odd number of edges
-WARNING: geodesic which intersects odd number of edges
-WARNING: geodesic which intersects odd number of edges
-WARNING: geodesic which intersects odd number of edges
-WARNING: geodesic which intersects odd number of edges
-WARNING: geodesic which intersects odd number of edges
-WARNING: geodesic which intersects odd number of edges
-WARNING: geodesic which intersects odd number of edges
-WARNING: geodesic which intersects odd number of edges
-WARNING: geodesic which intersects odd number of edges
-WARNING: geodesic which intersects odd number of edges
-WARNING: geodesic which intersects odd number of edges
-WARNING: geodesic which intersects odd number of edges
-WARNING: geodesic which intersects odd number of edges
-WARNING: geodesic which intersects odd number of edges
-WARNING: geodesic which intersects odd number of edges
-WARNING: geodesic which intersects odd number of edges
-WARNING: geodesic which intersects odd number of edges
-    component#, vertices,  edges,  faces, genus, density
-        0         265079  795255  530170    4    11.354
-        Time Triangulation real: 0.90 user: 0.89 sys: 0.00
-NUMERICAL VOLUMES AND AREA
-    Comp. probe_radius SES_volume SES_area)
-       0      1.40    77762.383  23251.789
-    Total ses_volume: 77762.383
-MSMS terminated normally
-Total Time real: 2.20 user: 2.05 sys: 0.07
-WARNING: geodesic which intersects odd number of edges
-WARNING: geodesic which intersects odd number of edges
-WARNING: geodesic which intersects odd number of edges
-WARNING: geodesic which intersects odd number of edges
-WARNING: geodesic which intersects odd number of edges
-WARNING: geodesic which intersects odd number of edges
-WARNING: geodesic which intersects odd number of edges
-WARNING: geodesic which intersects odd number of edges
-WARNING: geodesic which intersects odd number of edges
-WARNING: geodesic which intersects odd number of edges
-WARNING: geodesic which intersects odd number of edges
-WARNING: geodesic which intersects odd number of edges
-WARNING: geodesic which intersects odd number of edges
-WARNING: geodesic which intersects odd number of edges
-WARNING: geodesic which intersects odd number of edges
-WARNING: geodesic which intersects odd number of edges
-WARNING: geodesic which intersects odd number of edges
-WARNING: geodesic which intersects odd number of edges
-WARNING: geodesic which intersects odd number of edges
-    component#, vertices,  edges,  faces, genus, density
-        0         265079  795255  530170    4    11.354
-        Time Triangulation real: 0.91 user: 0.90 sys: 0.00
-NUMERICAL VOLUMES AND AREA
-    Comp. probe_radius SES_volume SES_area)
-       0      1.40    77762.383  23251.789
-    Total ses_volume: 77762.383
-MSMS terminated normally
-Total Time real: 2.20 user: 2.06 sys: 0.07
 WARNING: geodesic which intersects odd number of edges
 WARNING: geodesic which intersects odd number of edges
 WARNING: geodesic which intersects odd number of edges
@@ -2210,7 +2042,7 @@ NUMERICAL VOLUMES AND AREA
        0      1.40    77762.383  23251.789
     Total ses_volume: 77762.383
 MSMS terminated normally
-Total Time real: 2.20 user: 2.07 sys: 0.06
+Total Time real: 2.21 user: 2.05 sys: 0.06
 WARNING: geodesic which intersects odd number of edges
 WARNING: geodesic which intersects odd number of edges
 WARNING: geodesic which intersects odd number of edges
@@ -2232,13 +2064,181 @@ WARNING: geodesic which intersects odd number of edges
 WARNING: geodesic which intersects odd number of edges
     component#, vertices,  edges,  faces, genus, density
         0         265079  795255  530170    4    11.354
-        Time Triangulation real: 0.92 user: 0.91 sys: 0.01
+        Time Triangulation real: 0.91 user: 0.89 sys: 0.01
 NUMERICAL VOLUMES AND AREA
     Comp. probe_radius SES_volume SES_area)
        0      1.40    77762.383  23251.789
     Total ses_volume: 77762.383
 MSMS terminated normally
-Total Time real: 2.22 user: 2.13 sys: 0.06
+Total Time real: 2.22 user: 2.08 sys: 0.05
+WARNING: geodesic which intersects odd number of edges
+WARNING: geodesic which intersects odd number of edges
+WARNING: geodesic which intersects odd number of edges
+WARNING: geodesic which intersects odd number of edges
+WARNING: geodesic which intersects odd number of edges
+WARNING: geodesic which intersects odd number of edges
+WARNING: geodesic which intersects odd number of edges
+WARNING: geodesic which intersects odd number of edges
+WARNING: geodesic which intersects odd number of edges
+WARNING: geodesic which intersects odd number of edges
+WARNING: geodesic which intersects odd number of edges
+WARNING: geodesic which intersects odd number of edges
+WARNING: geodesic which intersects odd number of edges
+WARNING: geodesic which intersects odd number of edges
+WARNING: geodesic which intersects odd number of edges
+WARNING: geodesic which intersects odd number of edges
+WARNING: geodesic which intersects odd number of edges
+WARNING: geodesic which intersects odd number of edges
+WARNING: geodesic which intersects odd number of edges
+    component#, vertices,  edges,  faces, genus, density
+        0         265079  795255  530170    4    11.354
+        Time Triangulation real: 0.91 user: 0.89 sys: 0.02
+NUMERICAL VOLUMES AND AREA
+    Comp. probe_radius SES_volume SES_area)
+       0      1.40    77762.383  23251.789
+    Total ses_volume: 77762.383
+MSMS terminated normally
+Total Time real: 2.23 user: 2.10 sys: 0.06
+WARNING: geodesic which intersects odd number of edges
+WARNING: geodesic which intersects odd number of edges
+WARNING: geodesic which intersects odd number of edges
+WARNING: geodesic which intersects odd number of edges
+WARNING: geodesic which intersects odd number of edges
+WARNING: geodesic which intersects odd number of edges
+WARNING: geodesic which intersects odd number of edges
+WARNING: geodesic which intersects odd number of edges
+WARNING: geodesic which intersects odd number of edges
+WARNING: geodesic which intersects odd number of edges
+WARNING: geodesic which intersects odd number of edges
+WARNING: geodesic which intersects odd number of edges
+WARNING: geodesic which intersects odd number of edges
+WARNING: geodesic which intersects odd number of edges
+WARNING: geodesic which intersects odd number of edges
+WARNING: geodesic which intersects odd number of edges
+WARNING: geodesic which intersects odd number of edges
+WARNING: geodesic which intersects odd number of edges
+WARNING: geodesic which intersects odd number of edges
+    component#, vertices,  edges,  faces, genus, density
+        0         265079  795255  530170    4    11.354
+        Time Triangulation real: 0.91 user: 0.90 sys: 0.01
+NUMERICAL VOLUMES AND AREA
+    Comp. probe_radius SES_volume SES_area)
+       0      1.40    77762.383  23251.789
+    Total ses_volume: 77762.383
+MSMS terminated normally
+Total Time real: 2.23 user: 2.11 sys: 0.06
+WARNING: geodesic which intersects odd number of edges
+WARNING: geodesic which intersects odd number of edges
+WARNING: geodesic which intersects odd number of edges
+WARNING: geodesic which intersects odd number of edges
+WARNING: geodesic which intersects odd number of edges
+WARNING: geodesic which intersects odd number of edges
+WARNING: geodesic which intersects odd number of edges
+WARNING: geodesic which intersects odd number of edges
+WARNING: geodesic which intersects odd number of edges
+WARNING: geodesic which intersects odd number of edges
+WARNING: geodesic which intersects odd number of edges
+WARNING: geodesic which intersects odd number of edges
+WARNING: geodesic which intersects odd number of edges
+WARNING: geodesic which intersects odd number of edges
+WARNING: geodesic which intersects odd number of edges
+WARNING: geodesic which intersects odd number of edges
+WARNING: geodesic which intersects odd number of edges
+WARNING: geodesic which intersects odd number of edges
+WARNING: geodesic which intersects odd number of edges
+    component#, vertices,  edges,  faces, genus, density
+        0         265079  795255  530170    4    11.354
+        Time Triangulation real: 0.91 user: 0.90 sys: 0.01
+NUMERICAL VOLUMES AND AREA
+    Comp. probe_radius SES_volume SES_area)
+       0      1.40    77762.383  23251.789
+    Total ses_volume: 77762.383
+MSMS terminated normally
+Total Time real: 2.23 user: 2.12 sys: 0.05
+WARNING: geodesic which intersects odd number of edges
+WARNING: geodesic which intersects odd number of edges
+WARNING: geodesic which intersects odd number of edges
+WARNING: geodesic which intersects odd number of edges
+WARNING: geodesic which intersects odd number of edges
+WARNING: geodesic which intersects odd number of edges
+WARNING: geodesic which intersects odd number of edges
+WARNING: geodesic which intersects odd number of edges
+WARNING: geodesic which intersects odd number of edges
+WARNING: geodesic which intersects odd number of edges
+WARNING: geodesic which intersects odd number of edges
+WARNING: geodesic which intersects odd number of edges
+WARNING: geodesic which intersects odd number of edges
+WARNING: geodesic which intersects odd number of edges
+WARNING: geodesic which intersects odd number of edges
+WARNING: geodesic which intersects odd number of edges
+WARNING: geodesic which intersects odd number of edges
+WARNING: geodesic which intersects odd number of edges
+WARNING: geodesic which intersects odd number of edges
+    component#, vertices,  edges,  faces, genus, density
+        0         265079  795255  530170    4    11.354
+        Time Triangulation real: 0.91 user: 0.90 sys: 0.01
+NUMERICAL VOLUMES AND AREA
+    Comp. probe_radius SES_volume SES_area)
+       0      1.40    77762.383  23251.789
+    Total ses_volume: 77762.383
+MSMS terminated normally
+Total Time real: 2.23 user: 2.13 sys: 0.04
+WARNING: geodesic which intersects odd number of edges
+WARNING: geodesic which intersects odd number of edges
+WARNING: geodesic which intersects odd number of edges
+WARNING: geodesic which intersects odd number of edges
+WARNING: geodesic which intersects odd number of edges
+WARNING: geodesic which intersects odd number of edges
+WARNING: geodesic which intersects odd number of edges
+WARNING: geodesic which intersects odd number of edges
+WARNING: geodesic which intersects odd number of edges
+WARNING: geodesic which intersects odd number of edges
+WARNING: geodesic which intersects odd number of edges
+WARNING: geodesic which intersects odd number of edges
+WARNING: geodesic which intersects odd number of edges
+WARNING: geodesic which intersects odd number of edges
+WARNING: geodesic which intersects odd number of edges
+WARNING: geodesic which intersects odd number of edges
+WARNING: geodesic which intersects odd number of edges
+WARNING: geodesic which intersects odd number of edges
+WARNING: geodesic which intersects odd number of edges
+    component#, vertices,  edges,  faces, genus, density
+        0         265079  795255  530170    4    11.354
+        Time Triangulation real: 0.91 user: 0.89 sys: 0.01
+NUMERICAL VOLUMES AND AREA
+    Comp. probe_radius SES_volume SES_area)
+       0      1.40    77762.383  23251.789
+    Total ses_volume: 77762.383
+MSMS terminated normally
+Total Time real: 2.28 user: 2.12 sys: 0.08
+WARNING: geodesic which intersects odd number of edges
+WARNING: geodesic which intersects odd number of edges
+WARNING: geodesic which intersects odd number of edges
+WARNING: geodesic which intersects odd number of edges
+WARNING: geodesic which intersects odd number of edges
+WARNING: geodesic which intersects odd number of edges
+WARNING: geodesic which intersects odd number of edges
+WARNING: geodesic which intersects odd number of edges
+WARNING: geodesic which intersects odd number of edges
+WARNING: geodesic which intersects odd number of edges
+WARNING: geodesic which intersects odd number of edges
+WARNING: geodesic which intersects odd number of edges
+WARNING: geodesic which intersects odd number of edges
+WARNING: geodesic which intersects odd number of edges
+WARNING: geodesic which intersects odd number of edges
+WARNING: geodesic which intersects odd number of edges
+WARNING: geodesic which intersects odd number of edges
+WARNING: geodesic which intersects odd number of edges
+WARNING: geodesic which intersects odd number of edges
+    component#, vertices,  edges,  faces, genus, density
+        0         265079  795255  530170    4    11.354
+        Time Triangulation real: 0.93 user: 0.92 sys: 0.01
+NUMERICAL VOLUMES AND AREA
+    Comp. probe_radius SES_volume SES_area)
+       0      1.40    77762.383  23251.789
+    Total ses_volume: 77762.383
+MSMS terminated normally
+Total Time real: 2.30 user: 2.19 sys: 0.06
  # of surfaces=      530170  # of surface points=      265079
  # of surfaces=      530170  # of surface points=      265079
  # of surfaces=      530170  # of surface points=      265079
@@ -2249,42 +2249,38 @@ Total Time real: 2.22 user: 2.13 sys: 0.06
  # of surfaces=      530170  # of surface points=      265079
          129  ugly faces are deleted
          129  ugly faces are deleted
-         129  ugly faces are deleted
-         129  ugly faces are deleted
- total MSMS post-processing time =  0.15638200000000024     
+ total MSMS post-processing time =  0.14960400000000007     
  surface area=   23250.7891    
  NUMBER OF FACES:       530041
- total MSMS post-processing time =  0.15773499999999996     
- surface area=   23250.7891    
- NUMBER OF FACES:       530041
- total MSMS post-processing time =  0.15938700000000017     
- surface area=   23250.7891    
- NUMBER OF FACES:       530041
- total MSMS post-processing time =  0.16047999999999996     
+ total MSMS post-processing time =  0.14891000000000010     
  surface area=   23250.7891    
  NUMBER OF FACES:       530041
          129  ugly faces are deleted
          129  ugly faces are deleted
          129  ugly faces are deleted
- total MSMS post-processing time =  0.15684699999999996     
+         129  ugly faces are deleted
+ total MSMS post-processing time =  0.15708800000000012     
  surface area=   23250.7891    
  NUMBER OF FACES:       530041
- total MSMS post-processing time =  0.15730599999999995     
+ total MSMS post-processing time =  0.15733099999999989     
  surface area=   23250.7891    
  NUMBER OF FACES:       530041
- total MSMS post-processing time =  0.15771500000000005     
+ total MSMS post-processing time =  0.15901100000000001     
+ surface area=   23250.7891    
+ NUMBER OF FACES:       530041
+ total MSMS post-processing time =  0.16024100000000008     
  surface area=   23250.7891    
  NUMBER OF FACES:       530041
          129  ugly faces are deleted
- total MSMS post-processing time =  0.15729899999999986     
+         129  ugly faces are deleted
+ total MSMS post-processing time =  0.15177799999999997     
  surface area=   23250.7891    
  NUMBER OF FACES:       530041
-  
- Creating tree for       530041  particles with max          100  per node...
-  
- Creating tree for       530041  particles with max          100  per node...
+ total MSMS post-processing time =  0.15132799999999991     
+ surface area=   23250.7891    
+ NUMBER OF FACES:       530041
  ===========================================================================
- Setting up right hand side calc time with reduce =    5.1245841979980469                0
+ Setting up right hand side calc time with reduce =    5.1421790122985840                0
   
  Creating tree for       530041  particles with max          100  per node...
   
@@ -2297,22 +2293,26 @@ Total Time real: 2.22 user: 2.13 sys: 0.06
  Creating tree for       530041  particles with max          100  per node...
   
  Creating tree for       530041  particles with max          100  per node...
- Time to create tree (secs):   6.7019000000000162E-002
- it takes    5.3710190000000004      seconds to form the matrix
- Time to create tree (secs):   6.7921000000000120E-002
- it takes    5.3701860000000003      seconds to form the matrix
- Time to create tree (secs):   6.7395000000000316E-002
- it takes    5.3733930000000001      seconds to form the matrix
- Time to create tree (secs):   6.6481000000000456E-002
- it takes    5.3761200000000002      seconds to form the matrix
- Time to create tree (secs):   6.7436999999999969E-002
- it takes    5.2799589999999998      seconds to form the matrix
- Time to create tree (secs):   6.7559000000000147E-002
- it takes    5.2930200000000003      seconds to form the matrix
- Time to create tree (secs):   6.7085000000000505E-002
- it takes    5.2953700000000001      seconds to form the matrix
- Time to create tree (secs):   6.7261000000000237E-002
- it takes    5.2986059999999995      seconds to form the matrix
+  
+ Creating tree for       530041  particles with max          100  per node...
+  
+ Creating tree for       530041  particles with max          100  per node...
+ Time to create tree (secs):   6.7275000000000418E-002
+ it takes    5.3182150000000004      seconds to form the matrix
+ Time to create tree (secs):   6.7747999999999919E-002
+ it takes    5.2689269999999997      seconds to form the matrix
+ Time to create tree (secs):   6.7941000000000251E-002
+ it takes    5.3404059999999998      seconds to form the matrix
+ Time to create tree (secs):   6.7834000000000394E-002
+ it takes    5.3383990000000008      seconds to form the matrix
+ Time to create tree (secs):   6.7065999999999626E-002
+ it takes    5.3196230000000000      seconds to form the matrix
+ Time to create tree (secs):   6.7968999999999724E-002
+ it takes    5.2723309999999994      seconds to form the matrix
+ Time to create tree (secs):   6.7533000000000065E-002
+ it takes    5.3183840000000000      seconds to form the matrix
+ Time to create tree (secs):   6.7794000000000132E-002
+ it takes    5.3173950000000003      seconds to form the matrix
  Begin to call the solver...
  Begin to call the solver...
  Begin to call the solver...
@@ -2321,506 +2321,42 @@ Total Time real: 2.22 user: 2.13 sys: 0.06
  Begin to call the solver...
  Begin to call the solver...
  Begin to call the solver...
- Treecode time =    19.254076957702637                0
- Treecode time =    19.162794113159180                5
- Treecode time =    19.879465103149414                1
- Treecode time =    18.825982809066772                6
- Treecode time =    19.408599138259888                3
- Treecode time =    19.730891942977905                4
- Treecode time =    20.091018915176392                2
- Treecode time =    18.612022876739502                7
-           1 err=   0.22521485921230114     
-           1 err=   0.22521485921230114     
-           1 err=   0.22521485921230114     
-           1 err=   0.22521485921230114     
-           1 err=   0.22521485921230114     
-           1 err=   0.22521485921230114     
-           1 err=   0.22521485921230114     
-           1 err=   0.22521485921230114     
- Treecode time =    18.544102191925049                0
- Treecode time =    17.461187124252319                1
- Treecode time =    18.829902887344360                2
- Treecode time =    18.445698022842407                6
- Treecode time =    18.626833915710449                7
- Treecode time =    18.890891075134277                5
- Treecode time =    17.413436174392700                4
- Treecode time =    18.823096036911011                3
-           2 err=    6.8080051173600484E-002
-           2 err=    6.8080051173600484E-002
-           2 err=    6.8080051173600484E-002
-           2 err=    6.8080051173600484E-002
-           2 err=    6.8080051173600484E-002
-           2 err=    6.8080051173600484E-002
-           2 err=    6.8080051173600484E-002
-           2 err=    6.8080051173600484E-002
- Treecode time =    17.554535865783691                0
- Treecode time =    17.810569047927856                2
- Treecode time =    17.808938026428223                3
- Treecode time =    17.569145917892456                4
- Treecode time =    17.557499170303345                7
- Treecode time =    17.539382934570312                5
- Treecode time =    17.568017005920410                6
- Treecode time =    17.568274974822998                1
-           3 err=    2.6995381025589630E-002
-           3 err=    2.6995381025589630E-002
-           3 err=    2.6995381025589630E-002
-           3 err=    2.6995381025589630E-002
-           3 err=    2.6995381025589630E-002
-           3 err=    2.6995381025589630E-002
-           3 err=    2.6995381025589630E-002
-           3 err=    2.6995381025589630E-002
- Treecode time =    17.501427173614502                0
- Treecode time =    17.567411899566650                1
- Treecode time =    17.784915924072266                2
- Treecode time =    17.793879985809326                3
- Treecode time =    17.474846124649048                6
- Treecode time =    17.557622909545898                4
- Treecode time =    17.468051910400391                5
- Treecode time =    17.485728979110718                7
-           4 err=    1.3138280299602310E-002
-           4 err=    1.3138280299602310E-002
-           4 err=    1.3138280299602310E-002
-           4 err=    1.3138280299602310E-002
-           4 err=    1.3138280299602310E-002
-           4 err=    1.3138280299602310E-002
-           4 err=    1.3138280299602310E-002
-           4 err=    1.3138280299602310E-002
- Treecode time =    17.363970041275024                0
- Treecode time =    17.422813892364502                1
- Treecode time =    17.668615102767944                2
- Treecode time =    17.671490907669067                3
- Treecode time =    17.347975969314575                6
- Treecode time =    17.373659133911133                7
- Treecode time =    17.348623037338257                5
- Treecode time =    17.417122125625610                4
-           5 err=    1.0495035660077565E-002
-           5 err=    1.0495035660077565E-002
-           5 err=    1.0495035660077565E-002
-           5 err=    1.0495035660077565E-002
-           5 err=    1.0495035660077565E-002
-           5 err=    1.0495035660077565E-002
-           5 err=    1.0495035660077565E-002
-           5 err=    1.0495035660077565E-002
- Treecode time =    17.405956983566284                0
- Treecode time =    17.472020149230957                1
- Treecode time =    17.672703027725220                2
- Treecode time =    17.678457021713257                3
- Treecode time =    17.708142042160034                4
- Treecode time =    17.395679950714111                7
- Treecode time =    17.372090816497803                5
- Treecode time =    17.392823934555054                6
-           6 err=    8.6006546895002010E-003
-           6 err=    8.6006546895002010E-003
-           6 err=    8.6006546895002010E-003
-           6 err=    8.6006546895002010E-003
-           6 err=    8.6006546895002010E-003
-           6 err=    8.6006546895002010E-003
-           6 err=    8.6006546895002010E-003
-           6 err=    8.6006546895002010E-003
- Treecode time =    17.343786954879761                0
- Treecode time =    17.407809019088745                1
- Treecode time =    17.660337209701538                2
- Treecode time =    17.662827968597412                3
- Treecode time =    17.334700107574463                5
- Treecode time =    17.330797910690308                6
- Treecode time =    17.362586975097656                7
- Treecode time =    17.579473972320557                4
-           7 err=    5.7651917114047808E-003
-           7 err=    5.7651917114047808E-003
-           7 err=    5.7651917114047808E-003
-           7 err=    5.7651917114047808E-003
-           7 err=    5.7651917114047808E-003
-           7 err=    5.7651917114047808E-003
-           7 err=    5.7651917114047808E-003
-           7 err=    5.7651917114047808E-003
- Treecode time =    17.270719051361084                0
- Treecode time =    17.351081848144531                1
- Treecode time =    17.577126979827881                2
- Treecode time =    17.579017877578735                3
- Treecode time =    17.265585899353027                7
- Treecode time =    17.265096902847290                5
- Treecode time =    17.260013103485107                6
- Treecode time =    17.592658996582031                4
-           8 err=    3.7380566065649155E-003
-           8 err=    3.7380566065649155E-003
-           8 err=    3.7380566065649155E-003
-           8 err=    3.7380566065649155E-003
-           8 err=    3.7380566065649155E-003
-           8 err=    3.7380566065649155E-003
-           8 err=    3.7380566065649155E-003
-           8 err=    3.7380566065649155E-003
- Treecode time =    17.292286872863770                0
- Treecode time =    17.349200963973999                1
- Treecode time =    17.556161880493164                2
- Treecode time =    17.564541101455688                3
- Treecode time =    17.569720029830933                4
- Treecode time =    17.271384000778198                5
- Treecode time =    17.280665159225464                6
- Treecode time =    17.294019937515259                7
-           9 err=    2.3351947113159060E-003
-           9 err=    2.3351947113159060E-003
-           9 err=    2.3351947113159060E-003
-           9 err=    2.3351947113159060E-003
-           9 err=    2.3351947113159060E-003
-           9 err=    2.3351947113159060E-003
-           9 err=    2.3351947113159060E-003
-           9 err=    2.3351947113159060E-003
- Treecode time =    17.326789140701294                0
- Treecode time =    17.390132904052734                1
- Treecode time =    17.633360862731934                2
- Treecode time =    17.637382984161377                3
- Treecode time =    17.319789886474609                5
- Treecode time =    17.314335107803345                6
- Treecode time =    17.343274116516113                7
- Treecode time =    17.592753887176514                4
-          10 err=    1.8571767314776721E-003
-          10 err=    1.8571767314776721E-003
-          10 err=    1.8571767314776721E-003
-          10 err=    1.8571767314776721E-003
-          10 err=    1.8571767314776721E-003
-          10 err=    1.8571767314776721E-003
-          10 err=    1.8571767314776721E-003
-          10 err=    1.8571767314776721E-003
- Treecode time =    17.271765947341919                0
- Treecode time =    17.316709995269775                1
- Treecode time =    17.564532995223999                2
- Treecode time =    17.566406011581421                3
- Treecode time =    17.413562059402466                5
- Treecode time =    17.274624109268188                6
- Treecode time =    17.270094156265259                7
- Treecode time =    17.585921049118042                4
-           1 err=    1.3058958156851284E-003
-           1 err=    1.3058958156851284E-003
-           1 err=    1.3058958156851284E-003
-           1 err=    1.3058958156851284E-003
-           1 err=    1.3058958156851284E-003
-           1 err=    1.3058958156851284E-003
-           1 err=    1.3058958156851284E-003
-           1 err=    1.3058958156851284E-003
- Treecode time =    17.244690895080566                0
- Treecode time =    17.303610086441040                1
- Treecode time =    17.510239124298096                2
- Treecode time =    17.513352155685425                3
- Treecode time =    17.248862028121948                5
- Treecode time =    17.238899946212769                6
- Treecode time =    17.251441955566406                7
- Treecode time =    17.538052082061768                4
-           2 err=    1.1274139645878077E-003
-           2 err=    1.1274139645878077E-003
-           2 err=    1.1274139645878077E-003
-           2 err=    1.1274139645878077E-003
-           2 err=    1.1274139645878077E-003
-           2 err=    1.1274139645878077E-003
-           2 err=    1.1274139645878077E-003
-           2 err=    1.1274139645878077E-003
- Treecode time =    17.396703958511353                0
- Treecode time =    17.452367067337036                1
- Treecode time =    17.698215961456299                2
- Treecode time =    17.697588920593262                3
- Treecode time =    17.393924951553345                6
- Treecode time =    17.390422105789185                7
- Treecode time =    17.393143177032471                5
- Treecode time =    17.645012855529785                4
-           3 err=    9.6191903381140809E-004
-           3 err=    9.6191903381140809E-004
-           3 err=    9.6191903381140809E-004
-           3 err=    9.6191903381140809E-004
-           3 err=    9.6191903381140809E-004
-           3 err=    9.6191903381140809E-004
-           3 err=    9.6191903381140809E-004
-           3 err=    9.6191903381140809E-004
- Treecode time =    17.254806041717529                0
- Treecode time =    17.308377981185913                1
- Treecode time =    17.543723106384277                2
- Treecode time =    17.542990922927856                3
- Treecode time =    17.267613172531128                5
- Treecode time =    17.238430023193359                6
- Treecode time =    17.245960950851440                7
- Treecode time =    17.564253091812134                4
-           4 err=    6.7401557507741432E-004
-           4 err=    6.7401557507741432E-004
-           4 err=    6.7401557507741432E-004
-           4 err=    6.7401557507741432E-004
-           4 err=    6.7401557507741432E-004
-           4 err=    6.7401557507741432E-004
-           4 err=    6.7401557507741432E-004
-           4 err=    6.7401557507741432E-004
- Treecode time =    17.254423141479492                0
- Treecode time =    17.518956899642944                2
- Treecode time =    17.521247148513794                3
- Treecode time =    17.310543060302734                1
- Treecode time =    17.250790119171143                5
- Treecode time =    17.570996999740601                4
- Treecode time =    17.249596118927002                7
- Treecode time =    17.248456954956055                6
-           5 err=    5.8330467312343024E-004
-           5 err=    5.8330467312343024E-004
-           5 err=    5.8330467312343024E-004
-           5 err=    5.8330467312343024E-004
-           5 err=    5.8330467312343024E-004
-           5 err=    5.8330467312343024E-004
-           5 err=    5.8330467312343024E-004
-           5 err=    5.8330467312343024E-004
- Treecode time =    17.285215854644775                0
- Treecode time =    17.345196962356567                1
- Treecode time =    17.596210956573486                2
- Treecode time =    17.597294807434082                3
- Treecode time =    17.285773992538452                5
- Treecode time =    17.285359859466553                7
- Treecode time =    17.296540021896362                6
- Treecode time =    17.516273021697998                4
-           6 err=    4.9357663213524098E-004
-           6 err=    4.9357663213524098E-004
-           6 err=    4.9357663213524098E-004
-           6 err=    4.9357663213524098E-004
-           6 err=    4.9357663213524098E-004
-           6 err=    4.9357663213524098E-004
-           6 err=    4.9357663213524098E-004
-           6 err=    4.9357663213524098E-004
- Treecode time =    17.248281002044678                0
- Treecode time =    17.547419786453247                2
- Treecode time =    17.545907020568848                3
- Treecode time =    17.320269823074341                1
- Treecode time =    17.244916915893555                6
- Treecode time =    17.257966041564941                5
- Treecode time =    17.249934196472168                7
- Treecode time =    17.572184085845947                4
-           7 err=    3.9679011759488132E-004
-           7 err=    3.9679011759488132E-004
-           7 err=    3.9679011759488132E-004
-           7 err=    3.9679011759488132E-004
-           7 err=    3.9679011759488132E-004
-           7 err=    3.9679011759488132E-004
-           7 err=    3.9679011759488132E-004
-           7 err=    3.9679011759488132E-004
- Treecode time =    17.266748905181885                0
- Treecode time =    17.322031974792480                1
- Treecode time =    17.537585020065308                2
- Treecode time =    17.539362907409668                3
- Treecode time =    17.269412994384766                5
- Treecode time =    17.266077041625977                6
- Treecode time =    17.258966207504272                7
- Treecode time =    17.590691089630127                4
-           8 err=    3.3826879025946141E-004
-           8 err=    3.3826879025946141E-004
-           8 err=    3.3826879025946141E-004
-           8 err=    3.3826879025946141E-004
-           8 err=    3.3826879025946141E-004
-           8 err=    3.3826879025946141E-004
-           8 err=    3.3826879025946141E-004
-           8 err=    3.3826879025946141E-004
- Treecode time =    17.251520156860352                0
- Treecode time =    17.319893836975098                1
- Treecode time =    17.574100017547607                2
- Treecode time =    17.574722051620483                3
- Treecode time =    17.255043029785156                5
- Treecode time =    17.248687028884888                6
- Treecode time =    17.251126766204834                7
- Treecode time =    17.492106914520264                4
-           9 err=    3.1102814298165145E-004
-           9 err=    3.1102814298165145E-004
-           9 err=    3.1102814298165145E-004
-           9 err=    3.1102814298165145E-004
-           9 err=    3.1102814298165145E-004
-           9 err=    3.1102814298165145E-004
-           9 err=    3.1102814298165145E-004
-           9 err=    3.1102814298165145E-004
- Treecode time =    17.237566947937012                0
- Treecode time =    17.538678884506226                2
- Treecode time =    17.536814928054810                3
- Treecode time =    17.310338020324707                1
- Treecode time =    17.232661008834839                6
- Treecode time =    17.231209039688110                5
- Treecode time =    17.242135047912598                7
- Treecode time =    17.564204216003418                4
-          10 err=    3.1098454921723386E-004
-          10 err=    3.1098454921723386E-004
-          10 err=    3.1098454921723386E-004
-          10 err=    3.1098454921723386E-004
-          10 err=    3.1098454921723386E-004
-          10 err=    3.1098454921723386E-004
-          10 err=    3.1098454921723386E-004
-          10 err=    3.1098454921723386E-004
- Treecode time =    17.269474983215332                0
- Treecode time =    17.323029994964600                1
- Treecode time =    17.538449048995972                2
- Treecode time =    17.539334058761597                3
- Treecode time =    17.273514032363892                5
- Treecode time =    17.267127037048340                6
- Treecode time =    17.591290950775146                4
- Treecode time =    17.271722078323364                7
-           1 err=    3.1096200251057505E-004
-           1 err=    3.1096200251057505E-004
-           1 err=    3.1096200251057505E-004
-           1 err=    3.1096200251057505E-004
-           1 err=    3.1096200251057505E-004
-           1 err=    3.1096200251057505E-004
-           1 err=    3.1096200251057505E-004
-           1 err=    3.1096200251057505E-004
- Treecode time =    17.272008895874023                0
- Treecode time =    17.344779968261719                1
- Treecode time =    17.590502023696899                2
- Treecode time =    17.592393875122070                3
- Treecode time =    17.507227897644043                4
- Treecode time =    17.275887966156006                5
- Treecode time =    17.281170845031738                6
- Treecode time =    17.277742147445679                7
-           2 err=    3.0603756918899530E-004
-           2 err=    3.0603756918899530E-004
-           2 err=    3.0603756918899530E-004
-           2 err=    3.0603756918899530E-004
-           2 err=    3.0603756918899530E-004
-           2 err=    3.0603756918899530E-004
-           2 err=    3.0603756918899530E-004
-           2 err=    3.0603756918899530E-004
- Treecode time =    17.256807804107666                0
- Treecode time =    17.552428007125854                2
- Treecode time =    17.550670146942139                3
- Treecode time =    17.314323902130127                1
- Treecode time =    17.257688999176025                7
- Treecode time =    17.259597063064575                5
- Treecode time =    17.242737054824829                6
- Treecode time =    17.580206155776978                4
-           3 err=    2.9760486065692656E-004
-           3 err=    2.9760486065692656E-004
-           3 err=    2.9760486065692656E-004
-           3 err=    2.9760486065692656E-004
-           3 err=    2.9760486065692656E-004
-           3 err=    2.9760486065692656E-004
-           3 err=    2.9760486065692656E-004
-           3 err=    2.9760486065692656E-004
- Treecode time =    17.277292966842651                0
- Treecode time =    17.314685821533203                1
- Treecode time =    17.539811849594116                2
- Treecode time =    17.540493011474609                3
- Treecode time =    17.275264024734497                5
- Treecode time =    17.274693965911865                6
- Treecode time =    17.274484872817993                7
- Treecode time =    17.593265056610107                4
-           4 err=    2.9044860782414909E-004
-           4 err=    2.9044860782414909E-004
-           4 err=    2.9044860782414909E-004
-           4 err=    2.9044860782414909E-004
-           4 err=    2.9044860782414909E-004
-           4 err=    2.9044860782414909E-004
-           4 err=    2.9044860782414909E-004
-           4 err=    2.9044860782414909E-004
- Treecode time =    17.255004167556763                0
- Treecode time =    17.322601079940796                1
- Treecode time =    17.569552898406982                2
- Treecode time =    17.570959091186523                3
- Treecode time =    17.260699033737183                5
- Treecode time =    17.257086038589478                6
- Treecode time =    17.267697095870972                7
- Treecode time =    17.550504922866821                4
-           5 err=    2.6994468381319692E-004
-           5 err=    2.6994468381319692E-004
-           5 err=    2.6994468381319692E-004
-           5 err=    2.6994468381319692E-004
-           5 err=    2.6994468381319692E-004
-           5 err=    2.6994468381319692E-004
-           5 err=    2.6994468381319692E-004
-           5 err=    2.6994468381319692E-004
- Treecode time =    17.254534959793091                0
- Treecode time =    17.314614057540894                1
- Treecode time =    17.572017192840576                2
- Treecode time =    17.567876815795898                3
- Treecode time =    17.256597042083740                5
- Treecode time =    17.255592107772827                6
- Treecode time =    17.272907018661499                7
- Treecode time =    17.515619039535522                4
-           6 err=    2.3110838058061441E-004
-           6 err=    2.3110838058061441E-004
-           6 err=    2.3110838058061441E-004
-           6 err=    2.3110838058061441E-004
-           6 err=    2.3110838058061441E-004
-           6 err=    2.3110838058061441E-004
-           6 err=    2.3110838058061441E-004
-           6 err=    2.3110838058061441E-004
- Treecode time =    17.261111974716187                0
- Treecode time =    17.502599954605103                2
- Treecode time =    17.502201795578003                3
- Treecode time =    17.318552017211914                1
- Treecode time =    17.582666873931885                4
- Treecode time =    17.263579130172729                5
- Treecode time =    17.258322000503540                6
- Treecode time =    17.257302999496460                7
-           7 err=    1.7475933146594676E-004
-           7 err=    1.7475933146594676E-004
-           7 err=    1.7475933146594676E-004
-           7 err=    1.7475933146594676E-004
-           7 err=    1.7475933146594676E-004
-           7 err=    1.7475933146594676E-004
-           7 err=    1.7475933146594676E-004
-           7 err=    1.7475933146594676E-004
- Treecode time =    17.273691892623901                0
- Treecode time =    17.347030878067017                1
- Treecode time =    17.600819110870361                2
- Treecode time =    17.601571083068848                3
- Treecode time =    17.260724067687988                5
- Treecode time =    17.269633054733276                6
- Treecode time =    17.273158073425293                7
- Treecode time =    17.580758094787598                4
-           8 err=    1.4611929792150745E-004
-           8 err=    1.4611929792150745E-004
-           8 err=    1.4611929792150745E-004
-           8 err=    1.4611929792150745E-004
-           8 err=    1.4611929792150745E-004
-           8 err=    1.4611929792150745E-004
-           8 err=    1.4611929792150745E-004
-           8 err=    1.4611929792150745E-004
- Treecode time =    17.240478038787842                0
- Treecode time =    17.318552970886230                1
- Treecode time =    17.582978010177612                2
- Treecode time =    17.581918001174927                3
- Treecode time =    17.514412164688110                4
- Treecode time =    17.244243860244751                5
- Treecode time =    17.241919994354248                6
- Treecode time =    17.262454032897949                7
-           9 err=    1.2025925769222161E-004
-           9 err=    1.2025925769222161E-004
-           9 err=    1.2025925769222161E-004
-           9 err=    1.2025925769222161E-004
-           9 err=    1.2025925769222161E-004
-           9 err=    1.2025925769222161E-004
-           9 err=    1.2025925769222161E-004
-           9 err=    1.2025925769222161E-004
- Treecode time =    17.257766962051392                0
- Treecode time =    17.314585924148560                1
- Treecode time =    17.492621183395386                2
- Treecode time =    17.487387180328369                3
- Treecode time =    17.253867864608765                5
- Treecode time =    17.254776954650879                6
- Treecode time =    17.250916957855225                7
- Treecode time =    17.580490112304688                4
-          10 err=    1.1014119004373632E-004
-          10 err=    1.1014119004373632E-004
-          10 err=    1.1014119004373632E-004
-          10 err=    1.1014119004373632E-004
-          10 err=    1.1014119004373632E-004
-          10 err=    1.1014119004373632E-004
-          10 err=    1.1014119004373632E-004
-          10 err=    1.1014119004373632E-004
- Treecode time =    17.359424829483032                0
- Treecode time =    17.430515050888062                1
- Treecode time =    17.684731960296631                2
- Treecode time =    17.685506820678711                3
- Treecode time =    17.358936071395874                5
- Treecode time =    17.357184886932373                6
- Treecode time =    17.358952045440674                7
- Treecode time =    17.665969133377075                4
- err=   9.7721797282410077E-005 ierr=           0 iter=          31
- Solvation Energy =  -6020.2514373316608     
- Solvation energy calc time =    18.002403020858765                0
+ Treecode time =   0.85050892829895020                1
+ Treecode time =   0.71970701217651367                3
+ Treecode time =   0.39961194992065430                4
+ Treecode time =    3.0425031185150146                6
+ Treecode time =    2.3355729579925537                7
+ Treecode time =    2.9331030845642090                0
+ Treecode time =   0.39900207519531250                2
+ Treecode time =    2.1909010410308838                5
+           1 err=    2.5976349089922852E-003
+           1 err=    2.5976349089922852E-003
+           1 err=    2.5976349089922852E-003
+           1 err=    2.5976349089922852E-003
+           1 err=    2.5976349089922852E-003
+           1 err=    2.5976349089922852E-003
+           1 err=    2.5976349089922852E-003
+           1 err=    2.5976349089922852E-003
+ Treecode time =    1.2677259445190430                0
+ Treecode time =   0.44000983238220215                2
+ Treecode time =   0.24565005302429199                3
+ Treecode time =   0.99311900138854980                4
+ Treecode time =    1.2659869194030762                5
+ Treecode time =    1.2526929378509521                6
+ Treecode time =    1.2059500217437744                7
+ Treecode time =    1.0105419158935547                1
+ err=   4.1538101569953133E-005 ierr=           0 iter=           2
+ Solvation Energy =  -8670.4060636522117     
+ Solvation energy calc time =    17.421434879302979                0
  Error deallocating xtemp, ind_vert, vert_ptl, xyz_temp
  Error deallocating xtemp, ind_vert, vert_ptl, xyz_temp
  Error deallocating xtemp, ind_vert, vert_ptl, xyz_temp
  Error deallocating xtemp, ind_vert, vert_ptl, xyz_temp
- setup cpu=   1.90397406    
- solving cpu=   614.054382    
- cpu for computing solvation energy=   21.2102356    
- Total cpu=    637.168579    
  Error deallocating xtemp, ind_vert, vert_ptl, xyz_temp
+ setup cpu=   1.83016706    
+ solving cpu=   40.1273346    
+ cpu for computing solvation energy=   20.4073200    
+ Total cpu=    62.3648224    
  Error deallocating xtemp, ind_vert, vert_ptl, xyz_temp
  Error deallocating xtemp, ind_vert, vert_ptl, xyz_temp
  Error deallocating xtemp, ind_vert, vert_ptl, xyz_temp

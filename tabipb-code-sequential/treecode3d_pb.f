@@ -1231,10 +1231,10 @@ C%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 C		print *,'cpu time for one p-c intercation: ',i,real(time2-time1)
 	ENDDO
       
-     
       call MPI_Allreduce(mytpoten, final_tpoten, 2*numpars, 
      & MPI_REAL8, MPI_SUM, MPI_COMM_WORLD, ierr)
-	
+	!print *, mytpoten
+
 	
       tpoten = final_tpoten
 

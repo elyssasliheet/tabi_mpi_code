@@ -1,0 +1,92 @@
+ Starting MPI with     1 processes.
+WARNING: atoms 473 is completely inside atom 471
+WARNING: atoms 472 is completely inside atom 471
+WARNING: atoms 475 is completely inside atom 474
+WARNING: atoms 476 is completely inside atom 474
+WARNING: atoms 936 is completely inside atom 934
+WARNING: atoms 935 is completely inside atom 934
+WARNING: atoms 2059 is completely inside atom 2058
+WARNING: atoms 2060 is completely inside atom 2058
+WARNING: atoms 2061 is completely inside atom 2058
+WARNING: atoms 1117 is completely inside atom 1116
+WARNING: atoms 1647 is completely inside atom 1644
+WARNING: atoms 1646 is completely inside atom 1644
+WARNING: atoms 1645 is completely inside atom 1644
+MSMS 2.6.1 started on b080
+Copyright M.F. Sanner (1994)
+Compilation flags -O2 -DVERBOSE -DTIMING
+INPUT  test_proteins/1a63.xyzr 2065 spheres 0 collision only, radii  0.225 to  2.275
+PARAM  Probe_radius  1.400 density  5.000 hdensity  3.000
+REDUCED SURFACE ...
+    RS component 0 identified 367 366 360
+    0 free edge(s) found in component 0
+    RS component  #faces  #edges #free_edges  #vertices   genus
+         0        2262     3393          0        984      74.5
+    Time Reduced Surface real: 0.04 user: 0.04 sys: 0.00
+ANALYTICAL SOLVENT EXCLUDED SURFACE...
+    Component   0
+        Time Surface real: 0.01 user: 0.00 sys: 0.00
+        Time Singularities real: 0.00 user: 0.00 sys: 0.00
+    SES comp.  #fac.  #edg. #s_edg. #vert. #s_vert. R_h C_h genus
+         0     6904  13894    126    6992      206   0   0    0
+ANALYTICAL SURFACE AREA :
+    Comp. probe_radius,   reent,    toric,   contact    SES       SAS
+      0       1.400    1579.307  2816.573  2607.352  7003.231  8515.815
+TRIANGULATION...
+    Component 0
+WARNING: geodesic which intersects odd number of edges
+WARNING: geodesic which intersects odd number of edges
+    component#, vertices,  edges,  faces, genus, density
+        0          35011  105027   70018    0     4.999
+        Time Triangulation real: 0.12 user: 0.11 sys: 0.00
+NUMERICAL VOLUMES AND AREA
+    Comp. probe_radius SES_volume SES_area)
+       0      1.40    18100.553   6938.131
+    Total ses_volume: 18100.553
+MSMS terminated normally
+Total Time real: 0.28 user: 0.25 sys: 0.01
+ # of surfaces=       70018  # of surface points=       35011
+          49  ugly faces are deleted
+ total MSMS post-processing time =   1.1452999999999991E-002
+ surface area=   6938.28711    
+ NUMBER OF FACES:        69969
+ ===========================================================================
+ Setting up right hand side calc time with reduce =    1.1495451927185059                0
+  
+ Creating tree for        69969  particles with max          100  per node...
+ Time to create tree (secs):   7.3150000000001825E-003
+ it takes    1.1725909999999999      seconds to form the matrix
+ Begin to call the solver...
+ Treecode time =    10.783246994018555                0
+           1 err=   0.22724124202764553     
+ Treecode time =    10.793138027191162                0
+           2 err=    6.1804502401602457E-002
+ Treecode time =    10.780714988708496                0
+           3 err=    2.3094154612754960E-002
+ Treecode time =    10.773351907730103                0
+           4 err=    1.0167203623101889E-002
+ Treecode time =    10.777642965316772                0
+           5 err=    6.2193498727016773E-003
+ Treecode time =    10.766686201095581                0
+           6 err=    5.0786365344743702E-003
+ Treecode time =    10.773271083831787                0
+           7 err=    3.1627525633980396E-003
+ Treecode time =    10.784676074981689                0
+           8 err=    1.8271091152153726E-003
+ Treecode time =    10.772893905639648                0
+           9 err=    9.1512303633132163E-004
+ Treecode time =    10.773766994476318                0
+          10 err=    3.9430241322474670E-004
+ Treecode time =    10.772711038589478                0
+           1 err=    2.0609527351035073E-004
+ Treecode time =    10.770669937133789                0
+           2 err=    1.1503750963551984E-004
+ Treecode time =    10.796810150146484                0
+ err=   6.0111045402007106E-005 ierr=           0 iter=          13
+ Solvation Energy =  -2441.5376190604675     
+ Solvation energy calc time =    3.9581608772277832                0
+ Error deallocating xtemp, ind_vert, vert_ptl, xyz_temp
+ setup cpu=  0.220363006    
+ solving cpu=   144.182724    
+ cpu for computing solvation energy=   4.29165506    
+ Total cpu=    148.694748    

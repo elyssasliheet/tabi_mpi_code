@@ -687,7 +687,7 @@ C     .. External Subroutines ..
 C     .. Intrinsic Functions ..
       INTRINSIC SQRT
 C***FIRST EXECUTABLE STATEMENT  DGMRES
-C      print *,'Entering DGMRES' 
+C      print *,'Entering DGMRES'
       IERR = 0
 C   ------------------------------------------------------------------
 C         Load method parameters with user values or defaults.
@@ -703,16 +703,16 @@ C   ------------------------------------------------------------------
 C      print *,' MAXL= ',MAXL, 'N= ',N, ' KMP= ', KMP, 'JSCAL=', JSCAL
 C      print *,' JPRE= ',JPRE, 'ITOL=', ITOL
 C         Check for valid value of ITOL.
-      
+
       IF( (ITOL.LT.0) .OR. ((ITOL.GT.3).AND.(ITOL.NE.11)) ) GOTO 650
 C         Check for consistent values of ITOL and JPRE.
-      
-      
+
+
       IF( ITOL.EQ.1 .AND. JPRE.LT.0 ) GOTO 650
-      
+
       IF( ITOL.EQ.2 .AND. JPRE.GE.0 ) GOTO 650
-      
-      
+
+
       NRMAX = IGWK(5)
       !print *,'NRMAX= ',NRMAX
       IF( NRMAX.EQ.0 ) NRMAX = 10
@@ -740,18 +740,19 @@ C   ------------------------------------------------------------------
       LW = LDL + N
       LXL = LW + N
       LZ = LXL + N
-      
+
 C
 C         Load IGWK(6) with required minimum length of the RGWK array.
       IGWK(6) = LZ + N - 1
-      
+
       IF( LZ+N-1.GT.LRGW ) GOTO 640
-      
+
 C   ------------------------------------------------------------------
 C         Calculate scaled-preconditioned norm of RHS vector b.
 C   ------------------------------------------------------------------
 C      print *, 'Calculate scaled-preconditioned norm of RHS vector b'
       IF (JPRE .LT. 0) THEN
+C        print *,"prec1"
          CALL MSOLVE(N, B, RGWK(LR), RWORK, IWORK)
          NMS = NMS + 1
       ELSE
@@ -1668,6 +1669,7 @@ C         Apply scaling to R0 if JSCAL = 2 or 3.
 C   -------------------------------------------------------------------
       IF ((JPRE .LT. 0) .AND.(NRSTS .EQ. 0)) THEN
          CALL DCOPY(N, R0, 1, WK, 1)
+C         print *,'prec2'
          CALL MSOLVE(N, WK, R0, RPAR, IPAR)
          NMSL = NMSL + 1
       ENDIF
@@ -1682,7 +1684,7 @@ C   -------------------------------------------------------------------
       ENDIF
       R0NRM = DNRM2(N, V, 1)
       ITER = NRSTS*MAXL
-	
+
 C
 C         Call stopping routine ISDGMR.
 C
@@ -1691,7 +1693,7 @@ C
      $    RPAR, IPAR, R0NRM, BNRM, SR, SZ, JSCAL,
      $    KMP, LGMR, MAXL, MAXLP1, V, Q, SNORMW, PROD, R0NRM,
      $    HES, JPRE) .NE. 0) RETURN
-      
+
 	TEM = 1.0D0/R0NRM
       CALL DSCAL(N, TEM, V(1,1), 1)
 C
@@ -1726,6 +1728,7 @@ C   -------------------------------------------------------------------
            CALL DCOPY(N, V(1,LL), 1, WK, 1)
         ENDIF
         IF (JPRE .GT. 0) THEN
+C           print *,'prec3'
            CALL MSOLVE(N, WK, Z, RPAR, IPAR)
            NMSL = NMSL + 1
            CALL MATVEC(N, Z, V(1,LL+1))
@@ -1733,6 +1736,7 @@ C   -------------------------------------------------------------------
            CALL MATVEC(N, WK, V(1,LL+1))
         ENDIF
         IF (JPRE .LT. 0) THEN
+C           print *,'prec4'
            CALL DCOPY(N, V(1,LL+1), 1, WK, 1)
            CALL MSOLVE(N,WK,V(1,LL+1),RPAR,IPAR)
            NMSL = NMSL + 1
@@ -1849,6 +1853,7 @@ C   -------------------------------------------------------------------
  240     CONTINUE
       ENDIF
       IF (JPRE .GT. 0) THEN
+C         print *,'prec6'
          CALL DCOPY(N, Z, 1, WK, 1)
          CALL MSOLVE(N, WK, Z, RPAR, IPAR)
          NMSL = NMSL + 1
@@ -2225,6 +2230,7 @@ C***FIRST EXECUTABLE STATEMENT  DXLCAL
  40      CONTINUE
       ENDIF
       IF (JPRE .GT. 0) THEN
+C         print *,'prec5'
          CALL DCOPY(N, ZL, 1, WK, 1)
          CALL MSOLVE(N, WK, ZL, RPAR, IPAR)
          NMSL = NMSL + 1
@@ -2237,7 +2243,7 @@ C         calculate XL from X and ZL.
 C------------- LAST LINE OF DXLCAL FOLLOWS ----------------------------
       END
 *DECK ISDGMR
-      INTEGER FUNCTION ISDGMR (N, B, X, XL, 
+      INTEGER FUNCTION ISDGMR (N, B, X, XL,
      +   MSOLVE, NMSL, ITOL, TOL, ITMAX, ITER, ERR, IUNIT, R, Z, DZ,
      +   RWORK, IWORK, RNRM, BNRM, SB, SX, JSCAL, KMP, LGMR, MAXL,
      +   MAXLP1, V, Q, SNORMW, PROD, R0NRM, HES, JPRE)
@@ -2552,6 +2558,7 @@ C
 C         err = Max |(Minv*Residual)(i)/x(i)|
 C         When JPRE .lt. 0, R already contains Minv*Residual.
             IF ( JPRE.GT.0 ) THEN
+C               print *,'prec7'
                CALL MSOLVE(N, R, DZ, RWORK,
      $              IWORK)
                NMSL = NMSL + 1
@@ -2568,7 +2575,7 @@ C
 !##################################
 C            FUZZ = D1MACH(1)
             FUZZ=1.d-20
-!##################################            
+!##################################
             IELMAX = 1
             RATMAX = ABS(DZ(1))/MAX(ABS(X(1)),FUZZ)
             DO 25 I = 2, N
@@ -2641,4 +2648,3 @@ C
      $     ' |R(IELMAX)/X(IELMAX)| = ',D12.5)
 C------------- LAST LINE OF ISDGMR FOLLOWS ----------------------------
       END
-

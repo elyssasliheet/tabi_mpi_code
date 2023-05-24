@@ -1,0 +1,11 @@
+#!/bin/bash
+#SBATCH -J test_1_precond        # job name to display in squeue
+#SBATCH -o test_1_precond.txt     # standard output file
+#SBATCH -n 1                            # requested MPI tasks
+#SBATCH -p standard-mem-s               # requested partition
+#SBATCH -t 180                           # maximum runtime in minutes
+#SBATCH --exclusive                     # do not share nodes
+#SBATCH --mail-user esliheet@smu.edu
+#SBATCH --mail-type=all
+
+srun ./tabipb.exe

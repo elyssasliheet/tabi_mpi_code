@@ -702,18 +702,22 @@ do i=local_beg, local_end
     enddo
 enddo
 
-call MPI_Reduce(mybvct, bvct, 2*numpars, MPI_REAL8, MPI_SUM, 0, MPI_COMM_WORLD, ierr)
+call MPI_Allreduce(mybvct, bvct, 2*numpars, MPI_REAL8, MPI_SUM, MPI_COMM_WORLD, ierr)
+
+
+!call MPI_Reduce(mybvct, bvct, 2*numpars, MPI_REAL8, MPI_SUM, 0, MPI_COMM_WORLD, ierr)
 
 !bvct = bvct/eps0
 
-if (myid==0) then
-    do isrc=1,numprocs-1
-        call MPI_SEND(bvct,2*numpars,MPI_REAL8,isrc,203,MPI_COMM_WORLD,ierr)
-    enddo
-else
-    call MPI_RECV(bvct,2*numpars,MPI_REAL8,0,203,MPI_COMM_WORLD,status,ierr)
-endif
+!if (myid==0) then
+!    do isrc=1,numprocs-1
+!        call MPI_SEND(bvct,2*numpars,MPI_REAL8,isrc,203,MPI_COMM_WORLD,ierr)
+!    enddo
+!else
+!    call MPI_RECV(bvct,2*numpars,MPI_REAL8,0,203,MPI_COMM_WORLD,status,ierr)
+!endif
 
+!print *, bvct
 ! stop timer
 ftime = MPI_Wtime();
 runtime = ftime-stime
@@ -722,69 +726,6 @@ if (myid == 0) then
     print *, "Setting up right hand side calc time with reduce = ", runtime, myid
 endif
 
-end subroutine
-
-subroutine form_matrix2
-use molecule
-use comdata
-use treecode
-implicit double precision(a-h,o-z)
-integer idx(3), istag, NGR
-real*8 r0(3), v0(3),v(3,3), r(3,3), r1(3), v1(3), uv(2,10), x10(3,10),v10(3,10),rr(3)
-
-common // pi,one_over_4pi
-
-! tr_xyz: The position of the particles on surface
-! tr_q:	  The normal direction at the particle location
-! bvct:	  The right hand side of the pb equation in BIM form
-! xvct:	  The vector composed of potential and its normal derivative
-! tchg:	  Charges on Target particles
-! schg:   Charges on Source particles
-! tr_area: the triangular area of each element
-
-allocate(tr_xyz(3,nface),tr_q(3,nface), bvct(2*nface), xvct(2*nface))
-allocate(tchg(nface,16,2),schg(nface,16,2),tr_area(nface))
-
-tr_xyz=0.d0;	tr_q=0.d0;	bvct=0.d0;	xvct=0.d0
-tchg=0.d0;		schg=0.d0;	tr_area=0.d0
-
-print *, 'The number of faces is:', nface
-do i=1,nface    ! for phi on each element
-    idx=nvert(1:3,i) ! vertices index of the specific triangle
-    r0=0.d0;    v0=0.d0
-    do k=1,3 
-        r0=r0+1.d0/3.d0*sptpos(1:3,idx(k))	!centriod
-        v0=v0+1.d0/3.d0*sptnrm(1:3,idx(k))	
-	    r(:,k)=sptpos(1:3,idx(k))
-	    v(:,k)=sptnrm(1:3,idx(k))
-    enddo
-
-    ! normalize the midpoint v0
-    v0=v0/sqrt(dot_product(v0,v0))
-	
-    tr_xyz(:,i)=r0			! Get the position of particles
-    tr_q(:,i)=v0			! Get the normal of the paricles, acting as charge in treecode
-    
-    aa=sqrt(dot_product(r(:,1)-r(:,2),r(:,1)-r(:,2)))
-    bb=sqrt(dot_product(r(:,1)-r(:,3),r(:,1)-r(:,3)))
-    cc=sqrt(dot_product(r(:,2)-r(:,3),r(:,2)-r(:,3)))
-    tr_area(i)=triangle_area(aa,bb,cc)
-    							
-    ! setup the right hand side of the system of equations
-    do j=1,nchr ! for each atom
-
-        rr=chrpos(1:3,j)
-        rs=sqrt(dot_product(rr-r0,rr-r0))
-        G0=1.d0/(4.d0*pi*rs)
-        cos_theta=dot_product(v0,rr-r0)/rs
-        G1=cos_theta/rs**2/4.d0/pi
-    
-        bvct(i)=bvct(i)+atmchr(j)*G0
-	bvct(nface+i)=bvct(nface+i)+atmchr(j)*G1
-    enddo
-    
-enddo
-bvct = bvct/eps0
 end subroutine
 
 !----------------------------------------------------------------------

@@ -1,0 +1,12 @@
+#!/bin/bash
+#SBATCH -J test_64_precond        # job name to display in squeue
+#SBATCH -o test_64_precond.txt     # standard output file
+#SBATCH -N 2                            # requested nodes
+#SBATCH --ntasks-per-node=32            # task load per node
+#SBATCH -p standard-mem-s --mem=250G              # requested partition
+#SBATCH -t 180                           # maximum runtime in minutes
+#SBATCH --exclusive                     # do not share nodes
+#SBATCH --mail-user esliheet@smu.edu
+#SBATCH --mail-type=all
+
+srun ./tabipb.exe

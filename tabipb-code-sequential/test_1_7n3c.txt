@@ -1,5 +1,5 @@
  Starting MPI with     1 processes.
-MSMS 2.6.1 started on b005
+MSMS 2.6.1 started on b019
 Copyright M.F. Sanner (1994)
 Compilation flags -O2 -DVERBOSE -DTIMING
 Atom 85 ignored, radius = 0.000000
@@ -204,7 +204,7 @@ REDUCED SURFACE ...
     0 free edge(s) found in component 0
     RS component  #faces  #edges #free_edges  #vertices   genus
          0        6918    10377          0       3140      160.5
-    Time Reduced Surface real: 0.15 user: 0.15 sys: 0.01
+    Time Reduced Surface real: 0.14 user: 0.13 sys: 0.01
 ANALYTICAL SOLVENT EXCLUDED SURFACE...
     Component   0
         Time Surface real: 0.02 user: 0.01 sys: 0.00
@@ -221,10 +221,10 @@ REDUCED SURFACE ...
     0 free edge(s) found in component 0
     RS component  #faces  #edges #free_edges  #vertices   genus
          0        6916    10374          0       3140      160
-    Time Reduced Surface real: 0.15 user: 0.15 sys: 0.00
+    Time Reduced Surface real: 0.14 user: 0.14 sys: 0.00
     Component   0
-        Time Surface real: 0.01 user: 0.02 sys: 0.00
-        Time Singularities real: 0.00 user: 0.00 sys: 0.00
+        Time Surface real: 0.02 user: 0.01 sys: 0.00
+        Time Singularities real: 0.00 user: 0.01 sys: 0.00
     SES comp.  #fac.  #edg. #s_edg. #vert. #s_vert. R_h C_h genus
          0    21118  42600    410   21476      714   0   0    4
 ANALYTICAL SURFACE AREA :
@@ -272,92 +272,18 @@ WARNING: geodesic which intersects odd number of edges
 WARNING: geodesic which intersects odd number of edges
     component#, vertices,  edges,  faces, genus, density
         0         265079  795255  530170    4    11.354
-        Time Triangulation real: 0.89 user: 0.88 sys: 0.02
+        Time Triangulation real: 0.82 user: 0.80 sys: 0.02
 NUMERICAL VOLUMES AND AREA
     Comp. probe_radius SES_volume SES_area)
        0      1.40    77762.383  23251.789
     Total ses_volume: 77762.383
 MSMS terminated normally
-Total Time real: 2.11 user: 1.97 sys: 0.07
+Total Time real: 1.96 user: 1.81 sys: 0.07
  # of surfaces=      530170  # of surface points=      265079
          129  ugly faces are deleted
- total MSMS post-processing time =  0.13612899999999994     
+ total MSMS post-processing time =  0.13716499999999998     
  surface area=   23250.7891    
  NUMBER OF FACES:       530041
- ===========================================================================
- Setting up right hand side calc time with reduce =    36.255575895309448                0
-  
- Creating tree for       530041  particles with max          100  per node...
- Time to create tree (secs):   6.2055000000000859E-002
- it takes    36.418758000000004      seconds to form the matrix
- Begin to call the solver...
- Treecode time =    117.60859084129333                0
-           1 err=   0.22521485921230114     
- Treecode time =    117.76983809471130                0
-           2 err=    6.8080051173600484E-002
- Treecode time =    117.57978701591492                0
-           3 err=    2.6995381025589630E-002
- Treecode time =    117.65752506256104                0
-           4 err=    1.3138280299602310E-002
- Treecode time =    117.60096716880798                0
-           5 err=    1.0495035660077565E-002
- Treecode time =    117.59522986412048                0
-           6 err=    8.6006546895002010E-003
- Treecode time =    117.59055089950562                0
-           7 err=    5.7651917114047808E-003
- Treecode time =    117.60575580596924                0
-           8 err=    3.7380566065649155E-003
- Treecode time =    117.57677602767944                0
-           9 err=    2.3351947113159060E-003
- Treecode time =    117.63965606689453                0
-          10 err=    1.8571767314776721E-003
- Treecode time =    117.53780388832092                0
-           1 err=    1.3058958156851284E-003
- Treecode time =    117.55577802658081                0
-           2 err=    1.1274139645878077E-003
- Treecode time =    117.57371783256531                0
-           3 err=    9.6191903381140809E-004
- Treecode time =    117.58448600769043                0
-           4 err=    6.7401557507741432E-004
- Treecode time =    117.80263209342957                0
-           5 err=    5.8330467312343024E-004
- Treecode time =    118.20743703842163                0
-           6 err=    4.9357663213524098E-004
- Treecode time =    117.55164003372192                0
-           7 err=    3.9679011759488132E-004
- Treecode time =    117.52456498146057                0
-           8 err=    3.3826879025946141E-004
- Treecode time =    117.51576709747314                0
-           9 err=    3.1102814298165145E-004
- Treecode time =    117.51910996437073                0
-          10 err=    3.1098454921723386E-004
- Treecode time =    117.53484702110291                0
-           1 err=    3.1096200251057505E-004
- Treecode time =    117.51809501647949                0
-           2 err=    3.0603756918899530E-004
- Treecode time =    117.52918887138367                0
-           3 err=    2.9760486065692656E-004
- Treecode time =    117.55109715461731                0
-           4 err=    2.9044860782414909E-004
- Treecode time =    117.52569890022278                0
-           5 err=    2.6994468381319692E-004
- Treecode time =    117.52496099472046                0
-           6 err=    2.3110838058061441E-004
- Treecode time =    117.48227500915527                0
-           7 err=    1.7475933146594676E-004
- Treecode time =    117.47665596008301                0
-           8 err=    1.4611929792150745E-004
- Treecode time =    117.52867698669434                0
-           9 err=    1.2025925769222161E-004
- Treecode time =    117.53447198867798                0
-          10 err=    1.1014119004373632E-004
- Treecode time =    117.53071498870850                0
- err=   9.7721797282410077E-005 ierr=           0 iter=          31
- Solvation Energy =  -6020.2514373317108     
- Solvation energy calc time =    123.32814407348633                0
- Total CPU time with MPI timer =    3869.9695069789886                0
- Error deallocating xtemp, ind_vert, vert_ptl, xyz_temp
- setup cpu=   1.67025101    
- solving cpu=   3742.67969    
- cpu for computing solvation energy=   125.934280    
- Total cpu=    3870.28418    
+srun: Job step aborted: Waiting up to 32 seconds for job step to finish.
+slurmstepd: error: *** JOB 44460160 ON b019 CANCELLED AT 2023-05-10T11:27:34 ***
+slurmstepd: error: *** STEP 44460160.0 ON b019 CANCELLED AT 2023-05-10T11:27:34 ***
