@@ -1178,13 +1178,18 @@ C      REAL(KIND=r8),DIMENSION(numpars),INTENT(INOUT) :: tpoten
 	REAL*8 :: mytpoten(2*numpars)
       
 C local variables
-
+      character(len=1024) :: filename
+      character(len=8) :: fmt 
+      character(len=3) :: x1
       INTEGER :: i,j,ikp,indx,kkk(3)
       REAL*8 :: peng(2),tempx,temp_area,sL(4),tpoten_old(2*numpars)
       REAL*8 :: pt_comp(numpars,16,2), kapa,time1,time2,tempq(16,2)
       REAL*8 :: pre1,pre2
       REAL*8 :: stime, ftime, runtime, stime_utilities, runtime_util
-      
+      REAL*8 :: treecode_times(numprocs)
+      REAL*8 :: my_treecode_time(numprocs)
+      logical :: exist
+
 C MPI variables
 
       INTEGER :: ierr,status(MPI_STATUS_SIZE),id,mod
@@ -1192,6 +1197,8 @@ C MPI variables
       INTEGER :: tag=99
       
 
+      my_treecode_time = 0.d0
+      treecode_times = 0.d0
       pre1=0.5d0*(1.d0+eps)
       pre2=0.5d0*(1.d0+1.d0/eps)
       mytpoten = 0.d0
@@ -1233,21 +1240,35 @@ C		print *,'cpu time for one p-c intercation: ',i,real(time2-time1)
       
       call MPI_Allreduce(mytpoten, final_tpoten, 2*numpars, 
      & MPI_REAL8, MPI_SUM, MPI_COMM_WORLD, ierr)
-	!print *, mytpoten
-
 	
       tpoten = final_tpoten
 
-      !stop timer once all CPUs are done
-      !call MPI_Barrier(MPI_COMM_WORLD)
       ftime = MPI_Wtime();
       runtime = ftime-stime
-      !runtime_util = ftime - stime_utilities 
 
-      !if (myid == 0) then
       print *, "Treecode time = ", runtime, myid
-      !print *, "Treecode time with utilities = ", runtime_util
-      !endif
+    
+
+      ! Output runtimes to a file
+      write (x1,'(I3.3)') numprocs ! converting integer to string using a 'internal file'
+      filename='test_scripts/treecode_times_'//trim(x1)//'.txt'
+      inquire(file=filename, exist=exist)
+      if (myid == 0) then
+            if (exist) then
+                  open(12, file=filename, status="old", action="write")
+            else
+                  open(12, file=filename, status="new", action="write")
+            endif
+      endif
+
+      my_treecode_time(int(myid)+1) = runtime
+      call MPI_Allreduce(my_treecode_time, treecode_times, numprocs, 
+     & MPI_REAL8, MPI_SUM, MPI_COMM_WORLD, ierr)
+      
+      if (myid == 0) then
+            write(1,*) treecode_times
+            print*, "treecode_times: ", treecode_times
+      endif
 
 
 C########################################################
