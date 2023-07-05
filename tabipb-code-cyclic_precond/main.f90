@@ -1,6 +1,10 @@
-! This program solves poisson-boltzmann equation using a treecode-accelerated boundary integral Poisson-Boltzmann solver for electrostatics of solvated biomolecules based on the paper by Weihua Geng and Robert Krasny in the Journal of Computational Physics (2013)
-! This program is also parallelized with MPI and utilizes a preconditioner.
+! This program solves poisson-boltzmann equation using a
+! treecode-accelerated boundary integral Poisson-Boltzmann solver 
+! for electrostatics of solvated biomolecules based on the paper
+! by Weihua Geng and Robert Krasny in the Journal of Computational Physics (2013).
+! This program is cyclically parallelized with MPI and utilizes a preconditioner.
 ! Elyssa Sliheet 
+
 program TABIPB 
 use molecule
 use comdata
@@ -65,7 +69,14 @@ READ(101,*,IOSTAT = MEOF) fhead, maxparnode
 READ(101,*,IOSTAT = MEOF) fhead, theta
 close(101)
 
-!Other parameters
+! Print out usrdata info
+
+if (myid == 0) then
+    print *, "PDB ID: ", fname
+    print *, "Density: ", den
+endif
+
+! Other parameters
 pi=acos(-1.d0)
 one_over_4pi=0.25d0/pi
 kappa2=8.430325455*bulk_strength/eps1     !kappa2 in 300K
@@ -77,26 +88,36 @@ call cpu_time(cpu1)
 
 call readin
 
-print *,'Begin to form right hand side vector b'
+if (myid == 0) then
+    print *,'Begin to form right hand side vector b'
+endif
 
 call cpu_time(cpu2)
 
 ! form right hand side vector b
 numpars=nface
 
-print *, "NUMBER OF FACES: ", nface
+if (myid == 0) then
+    print *, "NUMBER OF FACES IN TRIANGULARIZATION: ", nface
+endif
 
 call form_matrix
 
-print *,'Begin to initialize treecode...'
+if (myid == 0) then
+    print *,'Begin to initialize treecode...'
+endif
+
 call treecode_initialization
 
-call cpu_time(cpu23)
-print *,'it takes ',cpu23-cpu2,'seconds to form the matrix'
+!call cpu_time(cpu23)
+!print *,'it takes ',cpu23-cpu2,'seconds to form the matrix'
 
 ! To solve by GMRES
 ndim=2*nface
-print *,'Begin to allocate varibles for the solver...'
+
+if (myid == 0) then
+    print *,'Begin to allocate varibles for the solver...'
+endif
 
 allocate(sb(ndim),sx(ndim),STAT=jerr)
 if (jerr .ne. 0) then
@@ -129,7 +150,10 @@ endif
 RGWK=0.d0;	IGWK=0; RWORK=0.d0;	IWORK=0
 IGWK(1:7)=(/MAXL, MAXL, JSCAL, JPRE, NRMAX, MLWK, NMS/)
 
-print *,'Begin to call the solver...'
+if (myid == 0) then
+    print *,'Begin to call the solver...'
+endif
+
 call DGMRES(ndim, bvct, xvct, MATVEC, MSOLVEprec, ITOL, TOL, ITMAX, & 
 				ITER, ERR, IERR, 0, SB, SX, RGWK, LRGW, IGWK, LIGW, RWORK, IWORK)
 
@@ -198,7 +222,6 @@ runtime = f_time-s_time
 ! output computed value and runtime
 if (myid == 0) then
     print *, 'Solvation Energy =', se_total
-    !print *,'Discretization Error=', (se_total-soleng_exa)
     print *, "Solvation energy calc time = ", runtime, myid
 endif
 
@@ -270,7 +293,6 @@ end program TABIPB
 
 !###########################################################################
 !---------------------------------------------------------------------
-
 ! This subroutine outputs the data to a file called surface_potential.dat
 subroutine output_potential_centroid
 use comdata
