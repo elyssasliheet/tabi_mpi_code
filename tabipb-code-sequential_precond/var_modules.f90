@@ -48,6 +48,7 @@ module treecode
 ! runtime parameters
 
       INTEGER :: numpars,order,maxparnode,iflag,forcedim
+!      INTEGER :: nleafmax
       
       !REAL(KIND=r8) :: theta 
       real*8 :: theta
@@ -69,6 +70,7 @@ module treecode
       REAL*8 :: t1,abserr,relerr,absinf_err,relinf_err
       REAL*8,DIMENSION(3) :: f_inferr,f_relinferr,t
 
+!      integer, dimension(:), allocatable:: ibeg_vals, nrow_vals
 
       real*8, dimension(:), allocatable:: tr_area
       real*8, dimension(:,:), allocatable:: tr_xyz, tr_q

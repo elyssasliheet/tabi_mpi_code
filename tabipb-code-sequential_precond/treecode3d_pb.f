@@ -13,7 +13,7 @@ C global variables for taylor expansions
 
 C global variables to track tree levels 
  
-      INTEGER :: minlevel,maxlevel
+      INTEGER :: minlevel,maxlevel,nleaf
       
 C global variables used when computing potential/force
 
@@ -150,6 +150,7 @@ C of the particle in P, thus defining the box.
 C
       TYPE(tnode),POINTER :: p
       INTEGER,INTENT(IN) :: ibeg,iend,level,maxparnode,numpars
+
       REAL(KIND=r8),DIMENSION(numpars),INTENT(INOUT) :: x,y,z,q
       REAL(KIND=r8),DIMENSION(6),INTENT(IN) :: xyzmm
 
@@ -222,7 +223,7 @@ C set particle limits, tree level of node, and nullify children pointers
       END DO
 
       IF (p%numpar .GT. maxparnode) THEN
-C
+C then we need to keep on dividing, otherwise youre at the leaf
 C set IND array to 0 and then call PARTITION routine.  IND array holds indices
 C of the eight new subregions. Also, setup XYZMMS array in case SHRINK=1
 C
@@ -267,13 +268,16 @@ C
                lxyzmm=xyzmms(:,i)
                CALL CREATE_TREE(p%child(p%num_children)%p_to_tnode,
      &                          ind(i,1),ind(i,2),x,y,z,q,
-     &                          maxparnode,lxyzmm,loclev,numpars)
+     &                          maxparnode,lxyzmm,loclev,
+     &                          numpars)
             END IF
          END DO
       ELSE
+         nleaf = nleaf + 1
          IF (level .LT. minlevel) THEN
             minlevel=level
          END IF
+
       END IF   
 
       END SUBROUTINE CREATE_TREE      
@@ -1041,13 +1045,12 @@ C#############################################
 
 CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
       SUBROUTINE CLEANUP(p)
-      IMPLICIT NONE
+      IMPLICIT NONE    
 C
 C CLEANUP deallocates allocated global variables and then
 C calls recursive routine REMOVE_NODE to delete the tree.
 C
       TYPE(tnode),POINTER :: p      
-
 C local variables
   
       INTEGER :: err
@@ -1179,23 +1182,27 @@ C ##############################################################################
       endif
       END SUBROUTINE
 
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
-CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
       SUBROUTINE LEAFMATVECpara(p, Nt2, rhs, sol, kappa, eps)
       USE treecode
+      use MPI_var
+      
       IMPLICIT NONE
+      include 'mpif.h'
 
       INTEGER :: Nt2, N, idx, ibeg, iend, i, j, nrow, nrow2, w
       INTEGER :: matidx1, matidx2, matidx3, matidx4
       INTEGER :: inc, ierr
-      INTEGER :: nleaf, nleafmax, counter
+      INTEGER :: counter
+      INTEGER :: l_beg, l_end, local_nleaf
 
       INTEGER, DIMENSION(:), ALLOCATABLE :: ipiv
       INTEGER, DIMENSION(:), ALLOCATABLE :: ibeg_vals, nrow_vals
 
       TYPE(tnode),POINTER :: p
-      REAL(KIND=r8),DIMENSION(Nt2) :: rhs, sol
-      REAL*8 :: kappa, eps
+      REAL(KIND=r8),DIMENSION(Nt2) :: rhs, mysol, sol
+      REAL*8 :: kappa, eps, stime, ftime, runtime
       REAL*8 :: pre1, pre2, tarxyz(3), tarcha(3),tempx, temp_area
       REAL*8, DIMENSION(:), ALLOCATABLE :: matrixA, r2s
 
@@ -1218,61 +1225,46 @@ C       the size of input Nt2 is twice of N's
       idx = 1;
       ibeg = 0;
       iend = 0;
-      nleaf = 0;
-      counter = 1;
-      nleafmax = numpars / maxparnode;
-      print*, "nleafmax", nleafmax
-
-      ALLOCATE(ibeg_vals(1879),STAT=ierr)
-      ALLOCATE(nrow_vals(1879),STAT=ierr)
+      counter = 0;
+     
+      ALLOCATE(ibeg_vals(nleaf),nrow_vals(nleaf),STAT=ierr)
+      ibeg_vals = 0; nrow_vals=0;
+      mysol=0.d0;
+      sol=0.d0;
 
       DO WHILE ( idx .LE. N )
             CALL LEAFLENGTH(p, idx, ibeg, iend, nrow)
-            
+            counter = counter + 1
+
             ibeg_vals(counter) = ibeg
             nrow_vals(counter) = nrow
 
-            !iend = ibeg + nrow + 1
-            idx = iend + 1
-            counter = counter + 1
-            nleaf = nleaf + nrow
-            !print*, "ibeg_vals: ", ibeg_vals
-            !print*, "counter: ", counter
-            !print*, "nrow_vals: ", nrow_vals
-            !print*, "idx", idx
-            !print*, "ibeg", ibeg
-            !print*, "iend", iend 
-            !print*, "nrow", nrow
-            !print*, "nleaf", nleaf
+            idx = iend + 1  
       ENDDO
-      print*, "counter: ", counter
-      !print*, "ibeg_vals(1)", ibeg_vals(1)
-      !print*, "nrow_vals ", nrow_vals
 
 C        stop
+      stime = MPI_Wtime();
 
+      local_nleaf=nleaf/numprocs+1
+      if (numprocs==1) local_nleaf=nleaf
+      l_beg=1+myid*local_nleaf
+      l_end=l_beg+local_nleaf-1
+      if (l_end > nleaf) then
+      l_end=nleaf
+      endif
+      
 
-      !DO WHILE ( idx .LE. N )
-      DO w=1,counter
-            print*, "w: ", w
-!            CALL LEAFLENGTH(p, idx, ibeg, iend, nrow) dont need to call this now
+      DO w=l_beg,l_end 
             ibeg = ibeg_vals(w)
-            print*, "ibeg: ", ibeg
             nrow = nrow_vals(w)
-      !      print*, "nrow", nrow
-      !      print*, "nrow_vals(w)", nrow_vals(w)
-            iend = ibeg + nrow + 1
-            print*, "iend: ", iend
+            iend = ibeg + nrow - 1
             nrow2 = 2*nrow
             ALLOCATE(matrixA(nrow2*nrow2),r2s(nrow2),STAT=ierr)
             ALLOCATE(ipiv(nrow2),STAT=ierr)
             matrixA = 0.D0
             r2s(1:nrow)=rhs(ibeg:iend)
             r2s((nrow+1):nrow2)=rhs((ibeg+N):(iend+N))
-            print*, "Here 3"
-            DO i=ibeg,iend
-                  !print*, "ibeg:", ibeg
-                  !print*, "iend:", iend
+            DO i=ibeg,iend 
                   tarxyz(1) = x(i)
                   tarxyz(2) = y(i)
                   tarxyz(3) = z(i)
@@ -1350,317 +1342,33 @@ C        stop
                         matrixA(matidx4)=-(G10-G20/eps)*tr_area(j)
                   ENDDO
             ENDDO
-            print*, "Here 4"
-C!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-C          Anorm1 = 0.D0; AnormInf = 0.D0
-C          tmp_norm1 = 0.D0; tmp_normInf = 0.D0
-C          DO i=1,nrow2
-C            DO j=1,nrow2
-C              tmp_norm1 = tmp_norm1+matrixA((i-1)*nrow2+j)
-C              tmp_normInf = tmp_normInf+matrixA((j-1)*nrow2+i)
-C            ENDDO
-C            print *,tmp_norm1,tmp_normInf
-C            if (Anorm1<tmp_norm1) then
-C              Anorm1=tmp_norm1
-C            endif
-C            if (AnormInf<tmp_normInf) then
-C              AnormInf=tmp_normInf
-C            endif
-C            tmp_norm1 = 0.D0
-C            tmp_normInf = 0.D0
-C          ENDDO
-C          print *,'!!!!!!!!!!!!!!!'
-C          print *,'1-norm:',Anorm1,AnormInf
-C
-C          stop
-C!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-            call dgetrf( nrow2, nrow2, matrixA, nrow2, ipiv, inc );
-            print*, "here 5"
-C!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-C          ALLOCATE(WORK(4*nrow2),iWORK(nrow2), STAT=ierr)
-C          RCOND1 = 0.D0; RCONDInf = 0.D0
-C          call dgecon( '1', nrow2, matrixA, nrow2, Anorm1,
-C     &                 RCOND1, WORK, iWORK, inc );
-C          call dgecon( 'I', nrow2, matrixA, nrow2, Anorm1,
-C     &                 RCONDInf, WORK, iWORK, inc );
-C          print *,'1-norm cond:',RCOND1, 'Inf cond:', RCONDInf
-C          DEALLOCATE(WORK, iWORK)
-C          stop
-C!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+            call dgetrf(nrow2, nrow2, matrixA, nrow2, ipiv, inc );
             call dgetrs( 'N', nrow2, 1, matrixA, nrow2, ipiv,
      &                 r2s, nrow2, inc );
-            print*, "here 6"
+       
 
-            sol(ibeg:iend)=r2s(1:nrow)
-            print*, "here 7"
+            mysol(ibeg:iend)=r2s(1:nrow)
+            mysol((ibeg+N):(iend+N))=r2s((nrow+1):nrow2)
 
-            sol((ibeg+N):(iend+N))=r2s((nrow+1):nrow2)
-            print*, "here 8"
-
-!            idx = iend + 1
-!            DEALLOCATE(ipiv,matrixA,r2s)
-            print*, "here 9"
-
-C          print *,N,iend
-
-
+            DEALLOCATE(ipiv,matrixA,r2s)
+          
       ENDDO
+
+    
+      call MPI_Allreduce(mysol, sol, 2*numpars, 
+     & MPI_REAL8, MPI_SUM, MPI_COMM_WORLD, ierr)
+      
+      DEALLOCATE(ibeg_vals,nrow_vals,STAT=ierr)
+
+      ! stop timer
+      ftime = MPI_Wtime();
+      runtime = ftime-stime
+      print *, "Preconditioner Time = ", runtime, myid
 
       END SUBROUTINE LEAFMATVECpara
 
-
-C!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-
-      SUBROUTINE LEAFMATVEC(p, Nt2, rhs, sol, kappa, eps)
-      USE treecode
-      IMPLICIT NONE
-
-      INTEGER :: Nt2, N, idx, ibeg, iend, i, j, nrow, nrow2
-      INTEGER :: matidx1, matidx2, matidx3, matidx4
-      INTEGER :: inc, ierr
-      INTEGER :: nleaf, nleafmax, counter
-
-      INTEGER, DIMENSION(:), ALLOCATABLE :: ipiv
-      TYPE(tnode),POINTER :: p
-      REAL(KIND=r8),DIMENSION(Nt2) :: rhs, sol
-      REAL*8 :: kappa, eps
-      REAL*8 :: pre1, pre2, tarxyz(3), tarcha(3),tempx, temp_area
-      REAL*8, DIMENSION(:), ALLOCATABLE :: matrixA, r2s
-      REAL*8, DIMENSION(:), ALLOCATABLE :: ibeg_vals, nrow_vals
-
-      real*8 :: r(3),v(3),pi,rs,cos_theta,cos_theta0,kappa_rs
-      real*8 :: G0,Gk,G10,G20,G1,G2,G3,G4,one_over_4pi,exp_kappa_rs
-  	real*8 :: tp1,tp2,tp3,b(2)
-C!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-      real*8 :: Anorm1, AnormInf, tmp_norm1, tmp_normInf
-      real*8 :: RCOND1, RCONDInf
-      real(KIND=r8),DIMENSION(:),ALLOCATABLE :: WORK
-      INTEGER, DIMENSION(:), ALLOCATABLE :: iWORK
-C!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-      common // pi,one_over_4pi
-
-C       the size of input Nt2 is twice of N's
-      N = Nt2/2;
-      pre1=0.5d0*(1.d0+eps)
-      pre2=0.5d0*(1.d0+1.d0/eps)
-
-      idx = 1;
-      ibeg = 0;
-      iend = 0;
-      nleaf = 0;
-      counter = 1;
-      nleafmax = numpars / maxparnode;
-      print*, "nleafmax", nleafmax
       
-      DO WHILE ( idx .LE. N )
-      !DO idx=1,N
-            CALL LEAFLENGTH(p, idx, ibeg, iend, nrow)
-            nrow2 = 2*nrow
-            ALLOCATE(matrixA(nrow2*nrow2),r2s(nrow2),STAT=ierr)
-            ALLOCATE(ipiv(nrow2),STAT=ierr)
-            matrixA = 0.D0
-            r2s(1:nrow)=rhs(ibeg:iend)
-            r2s((nrow+1):nrow2)=rhs((ibeg+N):(iend+N))
-            !print*, ibeg, iend
-            counter = counter + 1
-            DO i=ibeg,iend
-                  tarxyz(1) = x(i)
-                  tarxyz(2) = y(i)
-                  tarxyz(3) = z(i)
-                  tarcha = tr_q(:,i)
-
-                  DO j=ibeg,i-1
-                        r=(/x(j),y(j),z(j)/)
-                        v=tr_q(:,j)
-
-                        rs=sqrt(dot_product(r-tarxyz,r-tarxyz))
-                        G0=one_over_4pi/rs
-                        kappa_rs=kappa*rs
-                        exp_kappa_rs=exp(-kappa_rs)
-                        Gk=exp_kappa_rs*G0
-
-                        cos_theta=dot_product(v,r-tarxyz)/rs
-                        cos_theta0=dot_product(tarcha,r-tarxyz)/rs
-
-                        tp1=G0/rs
-                        tp2=(1.d0+kappa_rs)*exp_kappa_rs
-
-                        G10=cos_theta0*tp1
-                        G20=tp2*G10
-
-                        G1=cos_theta*tp1
-                        G2=tp2*G1
-                        G3=(dot_product(tarcha,v)-3.d0*cos_theta0
-     &                  *cos_theta)/rs*tp1
-                        G4=tp2*G3-kappa**2*cos_theta0*cos_theta*Gk
-
-                        matidx1=(j-ibeg)*nrow2+i-ibeg+1
-                        matidx2=(j-ibeg)*nrow2+i-ibeg+nrow+1
-                        matidx3=(j-ibeg+nrow)*nrow2+i-ibeg+1
-                        matidx4=(j-ibeg+nrow)*nrow2+i-ibeg+nrow+1
-                        matrixA(matidx1)=-(G1-eps*G2)*tr_area(j)
-                        matrixA(matidx2)=-(G0-Gk)*tr_area(j)
-                        matrixA(matidx3)=-(G4-G3)*tr_area(j)
-                        matrixA(matidx4)=-(G10-G20/eps)*tr_area(j)
-                  ENDDO
-
-                  matrixA((i-ibeg)*(nrow2+1)+1)=pre1
-                  matrixA((i-ibeg+nrow)*(nrow2+1)+1)=pre2
-
-                  DO j=i+1,iend
-                        r=(/x(j),y(j),z(j)/)
-                        v=tr_q(:,j)
-
-                        rs=sqrt(dot_product(r-tarxyz,r-tarxyz))
-                        G0=one_over_4pi/rs
-                        kappa_rs=kappa*rs
-                        exp_kappa_rs=exp(-kappa_rs)
-                        Gk=exp_kappa_rs*G0
-
-                        cos_theta=dot_product(v,r-tarxyz)/rs
-                        cos_theta0=dot_product(tarcha,r-tarxyz)/rs
-
-                        tp1=G0/rs
-                        tp2=(1.d0+kappa_rs)*exp_kappa_rs
-
-                        G10=cos_theta0*tp1
-                        G20=tp2*G10
-
-                        G1=cos_theta*tp1
-                        G2=tp2*G1
-                        G3=(dot_product(tarcha,v)-3.d0*cos_theta0
-     &                  *cos_theta)/rs*tp1
-                        G4=tp2*G3-kappa**2*cos_theta0*cos_theta*Gk
-
-                        matidx1=(j-ibeg)*nrow2+i-ibeg+1
-                        matidx2=(j-ibeg)*nrow2+i-ibeg+nrow+1
-                        matidx3=(j-ibeg+nrow)*nrow2+i-ibeg+1
-                        matidx4=(j-ibeg+nrow)*nrow2+i-ibeg+nrow+1
-                        matrixA(matidx1)=-(G1-eps*G2)*tr_area(j)
-                        matrixA(matidx2)=-(G0-Gk)*tr_area(j)
-                        matrixA(matidx3)=-(G4-G3)*tr_area(j)
-                        matrixA(matidx4)=-(G10-G20/eps)*tr_area(j)
-                  ENDDO
-            ENDDO
-
-C!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-C          Anorm1 = 0.D0; AnormInf = 0.D0
-C          tmp_norm1 = 0.D0; tmp_normInf = 0.D0
-C          DO i=1,nrow2
-C            DO j=1,nrow2
-C              tmp_norm1 = tmp_norm1+matrixA((i-1)*nrow2+j)
-C              tmp_normInf = tmp_normInf+matrixA((j-1)*nrow2+i)
-C            ENDDO
-C            print *,tmp_norm1,tmp_normInf
-C            if (Anorm1<tmp_norm1) then
-C              Anorm1=tmp_norm1
-C            endif
-C            if (AnormInf<tmp_normInf) then
-C              AnormInf=tmp_normInf
-C            endif
-C            tmp_norm1 = 0.D0
-C            tmp_normInf = 0.D0
-C          ENDDO
-C          print *,'!!!!!!!!!!!!!!!'
-C          print *,'1-norm:',Anorm1,AnormInf
-C
-C          stop
-C!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-            call dgetrf( nrow2, nrow2, matrixA, nrow2, ipiv, inc );
-C!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-C          ALLOCATE(WORK(4*nrow2),iWORK(nrow2), STAT=ierr)
-C          RCOND1 = 0.D0; RCONDInf = 0.D0
-C          call dgecon( '1', nrow2, matrixA, nrow2, Anorm1,
-C     &                 RCOND1, WORK, iWORK, inc );
-C          call dgecon( 'I', nrow2, matrixA, nrow2, Anorm1,
-C     &                 RCONDInf, WORK, iWORK, inc );
-C          print *,'1-norm cond:',RCOND1, 'Inf cond:', RCONDInf
-C          DEALLOCATE(WORK, iWORK)
-C          stop
-C!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-            call dgetrs( 'N', nrow2, 1, matrixA, nrow2, ipiv,
-     &                 r2s, nrow2, inc );
-
-            sol(ibeg:iend)=r2s(1:nrow)
-            sol((ibeg+N):(iend+N))=r2s((nrow+1):nrow2)
-            idx = iend + 1
-            DEALLOCATE(ipiv,matrixA,r2s)
-C          print *,N,iend
-
-      ENDDO
-      print*, "counter", counter
-
-C        stop
-
-      END SUBROUTINE LEAFMATVEC
-
-!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-
-
-      RECURSIVE SUBROUTINE COMPP_TREE_prec(p,peng,x,y,z,q,tpoten,
-     &  kappa,theta,numpars,kk,eps,tempq,der_cof,idx)
-      IMPLICIT NONE
-
-      INTEGER,INTENT(IN) :: numpars,kk(3,16),idx
-      TYPE(tnode),POINTER :: p
-      REAL(KIND=r8),INTENT(INOUT) :: peng(2)
-      REAL(KIND=r8),DIMENSION(numpars),INTENT(IN) :: x,y,z
-      REAL(KIND=r8),DIMENSION(numpars,16,2),INTENT(IN) :: q
-      REAL(KIND=r8),DIMENSION(2*numpars),INTENT(IN) :: tpoten
-      REAL(KIND=r8),INTENT(IN):: kappa,theta,eps,tempq(16,2)
-      REAL(KIND=r8),INTENT(IN)::
-     &  der_cof(0:torder2,0:torder2,0:torder2,16)
-
-C local variables
-
-      REAL(KIND=r8) :: tx,ty,tz,dist,penglocal(2),kapa(2)
-      REAL(kind=r8) :: SL(4),pt_comp(16,2)
-      INTEGER :: i,j,k,ijk(3),ikp,indx,err
-
-C determine DISTSQ for MAC test
-      tx=p%x_mid-tarpos(1)
-      ty=p%y_mid-tarpos(2)
-      tz=p%z_mid-tarpos(3)
-      dist=SQRT(tx*tx+ty*ty+tz*tz)
-
-C intialize potential energy and force
-      peng=0.0_r8
-
-C If MAC is accepted and there is more than 1 particle in the
-C box use the expansion for the approximation.
-	!print *,p%radius,dist*theta,p%numpar
-	!pause
-C        print *,p%radius,dist*theta
-      IF ((p%radius .LT. dist*theta) .AND.
-     &    (p%numpar .GT. 40)) THEN
-          peng=0.0
-C#####################################################################
-      ELSE
-
-C If MAC fails check to see if there are children. If not, perform direct
-C calculation.  If there are children, call routine recursively for each.
-C
-            IF (p%num_children .EQ. 0) THEN
-                  IF (p%ibeg .LE. idx .AND. p%iend .GE. idx) THEN
-C                 print *,p%ibeg,p%iend
-                  CALL COMPP_DIRECT_PB(penglocal,p%ibeg,p%iend,
-     &                        x,y,z,tpoten,kappa,numpars,eps)
-                  ELSE
-                        penglocal=0.D0
-                  ENDIF
-                        peng=penglocal
-            ELSE
-                  DO i=1,p%num_children
-                        CALL COMPP_TREE_prec(p%child(i)%p_to_tnode,
-     &  penglocal,x,y,z,q,tpoten,kappa,theta,
-     &  numpars,kk,eps,tempq,der_cof,idx)
-                        peng=peng+penglocal
-                  END DO
-            END IF
-      END IF
-
-      RETURN
-      END SUBROUTINE COMPP_TREE_prec
 CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
 
       SUBROUTINE TREE_COMPP_PB(p,kappa,eps,tpoten,final_tpoten)
@@ -1683,20 +1391,26 @@ C      REAL(KIND=r8),DIMENSION(numpars),INTENT(INOUT) :: tpoten
 	REAL*8 :: mytpoten(2*numpars)
       
 C local variables
-
+      character(len=1024) :: filename
+      character(len=8) :: fmt 
+      character(len=3) :: x1 
       INTEGER :: i,j,ikp,indx,kkk(3)
       REAL*8 :: peng(2),tempx,temp_area,sL(4),tpoten_old(2*numpars)
       REAL*8 :: pt_comp(numpars,16,2), kapa,time1,time2,tempq(16,2)
       REAL*8 :: pre1,pre2
       REAL*8 :: stime, ftime, runtime, stime_utilities, runtime_util
-      
+      REAL*8 :: treecode_times(numprocs)
+      REAL*8 :: my_treecode_time(numprocs)
+      logical :: exist
+
 C MPI variables
 
       INTEGER :: ierr,status(MPI_STATUS_SIZE),id,mod
       INTEGER :: isrc,idest,ie
       INTEGER :: tag=99
       
-
+      my_treecode_time = 0.d0
+      treecode_times = 0.d0
       pre1=0.5d0*(1.d0+eps)
       pre2=0.5d0*(1.d0+1.d0/eps)
       mytpoten = 0.d0
@@ -1736,32 +1450,42 @@ C%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
             x(i)=tempx
             tr_area(i)=temp_area
 C%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-C		print *,'cpu time for one p-c intercation: ',i,real(time2-time1)
 	ENDDO
       
      
       call MPI_Allreduce(mytpoten, final_tpoten, 2*numpars, 
      & MPI_REAL8, MPI_SUM, MPI_COMM_WORLD, ierr)
 	!print *, mytpoten
-
 	
       tpoten = final_tpoten
 
-      !stop timer once all CPUs are done
-      !call MPI_Barrier(MPI_COMM_WORLD)
       ftime = MPI_Wtime();
       runtime = ftime-stime
-      !runtime_util = ftime - stime_utilities 
-
-      !if (myid == 0) then
+     
       print *, "Treecode time = ", runtime, myid
-      !print *, "Treecode time with utilities = ", runtime_util
-      !endif
 
 
-C########################################################
-        
-C########################################################
+      ! Output runtimes to a file
+      write (x1,'(I3.3)') numprocs ! converting integer to string using a 'internal file'
+      filename='test_scripts/treecode_times_'//trim(x1)//'.txt'
+      inquire(file=filename, exist=exist)
+      if (myid == 0) then
+            if (exist) then
+                  open(12, file=filename, status="old", action="write")
+            else
+                  open(12, file=filename, status="new", action="write")
+            endif
+      endif
+
+      my_treecode_time(int(myid)+1) = runtime
+      call MPI_Allreduce(my_treecode_time, treecode_times, numprocs, 
+     & MPI_REAL8, MPI_SUM, MPI_COMM_WORLD, ierr)
+      
+      if (myid == 0) then
+            write(1,*) treecode_times
+            print*, "treecode_times: ", treecode_times
+      endif
+ 
 
       RETURN
       END SUBROUTINE TREE_COMPP_PB
