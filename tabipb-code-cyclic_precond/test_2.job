@@ -1,10 +1,11 @@
 #!/bin/bash
 #SBATCH -J test_2        # job name to display in squeue
-#SBATCH -o test_2_dens20_cyc.txt     # standard output file
+#SBATCH -o test_2.txt     # standard output file
 #SBATCH -n 2                            # requested MPI tasks
-#SBATCH -p standard-mem-s               # requested partition
+#SBATCH -p standard-s               # requested partition
 #SBATCH -t 10                            # maximum runtime in minutes
 #SBATCH --exclusive                     # do not share nodes
+#SBATCH --mem=256GB
 #SBATCH --mail-user esliheet@smu.edu
 #SBATCH --mail-type=all
 

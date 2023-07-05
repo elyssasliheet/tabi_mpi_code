@@ -1,0 +1,56 @@
+ Starting MPI with     1 processes.
+sh: line 1: msms: command not found
+ # of surfaces=       70018  # of surface points=       35011
+          49  ugly faces are deleted
+ total MSMS post-processing time =   9.4229999999999869E-003
+ surface area=   6938.28711    
+ Begin to form right hand side vector b
+ NUMBER OF FACES:        69969
+ ===========================================================================
+ Setting up right hand side calc time with reduce =    1.1802561346557923                0
+ Begin to initialize treecode...
+  
+ Creating tree for        69969  particles with max          100  per node...
+ Time to create tree (secs):   4.2679999999999385E-003
+ it takes    1.2056950000000000      seconds to form the matrix
+ Begin to allocate varibles for the solver...
+ Begin to call the solver...
+ precond  0.20483999999999991     
+ precond  0.20802200000000015     
+ Treecode time =    8.0582316167710815                0
+ precond  0.20479300000000045     
+           1 err=   0.21764967863023213     
+ Treecode time =    8.0645888203289360                0
+ precond  0.20467299999999966     
+           2 err=    5.6577776304737704E-002
+ Treecode time =    8.0519256141851656                0
+ precond  0.20452999999999832     
+           3 err=    2.0403724560351263E-002
+ Treecode time =    8.0660556786751840                0
+ precond  0.20449400000000395     
+           4 err=    8.8272856503597268E-003
+ Treecode time =    8.0593015775666572                0
+ precond  0.20458700000000363     
+           5 err=    4.0883141463599710E-003
+ Treecode time =    8.0614604595466517                0
+ precond  0.20477600000000251     
+           6 err=    2.2250900455999855E-003
+ Treecode time =    8.0527249297010712                0
+ precond  0.20434700000000561     
+           7 err=    9.5979901990635207E-004
+ Treecode time =    8.0672010711277835                0
+ precond  0.20481999999999800     
+           8 err=    3.6947162583135875E-004
+ Treecode time =    8.0565561339899432                0
+ precond  0.20444599999999014     
+           9 err=    1.4647490879051258E-004
+ Treecode time =    8.0497124111570884                0
+ precond  0.20438499999998783     
+ err=   6.0696497011528629E-005 ierr=           0 iter=          10
+ Solvation Energy =  -2441.6394200209215     
+ Solvation energy calc time =    1.7665343024709728                0
+ Error deallocating xtemp, ind_vert, vert_ptl, xyz_temp
+ setup cpu=  0.142754003    
+ solving cpu=   86.0578003    
+ cpu for computing solvation energy=   2.02478600    
+ Total cpu=    88.2253418    

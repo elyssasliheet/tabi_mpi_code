@@ -1,7 +1,6 @@
-! This program solves poisson-boltzmann equation using a treecode-accelerated boundary integral Poisson-Boltzmann solver for electrostatucs of solvated biomolecules based on the paper by Weihua Geng and Rovery Krasny in the Journal of Computational Physics (2013)
+! This program solves poisson-boltzmann equation using a treecode-accelerated boundary integral Poisson-Boltzmann solver for electrostatics of solvated biomolecules based on the paper by Weihua Geng and Robert Krasny in the Journal of Computational Physics (2013)
+! This program is also parallelized with MPI and utilizes a preconditioner.
 ! Elyssa Sliheet 
-! Math6370 Parallel Scientific Computing
-! MPI Version
 program TABIPB 
 use molecule
 use comdata
@@ -9,6 +8,7 @@ use bicg
 use treecode
 use treecode3d_procedures
 use MPI_var
+
 !use mpi
 implicit double precision(a-h,o-z)
 real*8 r0(3), Pxyz(3), err_surf(10,6), err_reaction(10,6), err_reaction_rel(10,6)
@@ -17,7 +17,7 @@ real*8 pe_local,H1,H2,r(3),v(3),s(3)
 real*8 kappa_rs
 
 character(100) fhead
-external MATVEC, MSOLVE
+external MATVEC, MSOLVE, MSOLVEprec
 common // pi,one_over_4pi
 
 include 'mpif.h'
@@ -39,7 +39,6 @@ if (ierr /= 0) then
     write(0,*) ' error in MPI_Comm_rank =',ierr
     call MPI_Abort(MPI_COMM_WORLD, 1, ierr)
 endif
-
 
 if (myid == 0) then
     print '(A,i5,A)', ' Starting MPI with ', numprocs,' processes.'
@@ -76,13 +75,9 @@ eps=eps1/eps0;
 
 call cpu_time(cpu1)
 
-! read in data from discretization
-!call readin(idens,ichrpos)
 call readin
 
-!print*,'=============================================================================='
-!print*,'STARTING COMPUTATION'
-!print *,'Begin to form right hand side vector b'
+print *,'Begin to form right hand side vector b'
 
 call cpu_time(cpu2)
 
@@ -91,9 +86,9 @@ numpars=nface
 
 print *, "NUMBER OF FACES: ", nface
 
-call form_matrix_gather
+call form_matrix
 
-!print *,'Begin to initialize treecode...'
+print *,'Begin to initialize treecode...'
 call treecode_initialization
 
 call cpu_time(cpu23)
@@ -101,7 +96,7 @@ print *,'it takes ',cpu23-cpu2,'seconds to form the matrix'
 
 ! To solve by GMRES
 ndim=2*nface
-!print *,'Begin to allocate varibles for the solver...'
+print *,'Begin to allocate varibles for the solver...'
 
 allocate(sb(ndim),sx(ndim),STAT=jerr)
 if (jerr .ne. 0) then
@@ -135,7 +130,7 @@ RGWK=0.d0;	IGWK=0; RWORK=0.d0;	IWORK=0
 IGWK(1:7)=(/MAXL, MAXL, JSCAL, JPRE, NRMAX, MLWK, NMS/)
 
 print *,'Begin to call the solver...'
-call DGMRES(ndim, bvct, xvct, MATVEC, MSOLVE, ITOL, TOL, ITMAX, & 
+call DGMRES(ndim, bvct, xvct, MATVEC, MSOLVEprec, ITOL, TOL, ITMAX, & 
 				ITER, ERR, IERR, 0, SB, SX, RGWK, LRGW, IGWK, LIGW, RWORK, IWORK)
 
 if (myid == 0) then
@@ -144,27 +139,14 @@ endif
 
 call cpu_time(cpu3)
 
-! Calculate the error of potential at a specific point
-soleng_exa=-2374.64d0;
-
-!print *,'Solvation energy=' ,soleng
-if (myid == 0) then
-    print *,'Exact Solvation energy=', soleng_exa
-endif 
 !!!!!! MPI !!!!!!
-
 local_numpars=numpars/numprocs+1
-!print *, "local_numpars = ", local_numpars
-
 if (numprocs==1) local_numpars=numpars
 local_beg=1+myid*local_numpars
 local_end=local_beg+local_numpars-1
 if (local_end > numpars) then
     local_end=numpars
 endif
-
-!print *, "local_beg = ", local_beg
-!print *, "local_end = ", local_end
 
 !Compute solvation energy in a parallel way
 se_local=0.d0;
@@ -200,14 +182,16 @@ do iatm=1,nchr
     se_local=se_local+ptl_local*atmchr(iatm)
 enddo
 
-! root node collects result with Reduce
+! root node collects result with MPI_Reduce
 call MPI_Reduce(se_local, se_total, 1, MPI_DOUBLE_PRECISION, MPI_SUM, &
                 0, MPI_COMM_WORLD, ierr)
 if (ierr /= 0) then
     write(0,*) ' error in MPI_Reduce =',ierr
     call MPI_Abort(MPI_COMM_WORLD, 1, ierr)
 endif
+
 se_total = se_total*0.5d0*para*4*pi
+
 ! stop timer
 f_time = MPI_Wtime();
 runtime = f_time-s_time
@@ -218,10 +202,8 @@ if (myid == 0) then
     print *, "Solvation energy calc time = ", runtime, myid
 endif
 
-
-
 call MPI_FINALIZE
-!print *,'Outputting data to file called surface_potential.dat'
+
 !output data to file
 call output_potential_centroid   
 
@@ -233,6 +215,7 @@ if (myid == 0) then
     print *,'cpu for computing solvation energy=',real(cpu4-cpu3)
     print *,'Total cpu= ', real(cpu4-cpu1)
 endif
+
 !---------------------------------------------------------------------
 ! deallocate memory
 deallocate(bvct, xvct, stat=ierr)
@@ -286,7 +269,8 @@ END IF
 end program TABIPB 
 
 !###########################################################################
-!---------------------------------------------------------------------------
+!---------------------------------------------------------------------
+
 ! This subroutine outputs the data to a file called surface_potential.dat
 subroutine output_potential_centroid
 use comdata
@@ -321,6 +305,7 @@ end
 
 !#####################################################################
 !---------------------------------------------------------------------
+
 subroutine treecode_initialization
 use molecule
 use bicg
@@ -487,132 +472,29 @@ Z(1:N/2)=R(1:N/2)/scale1
 Z((N/2+1):N)=R((N/2+1):N)/scale2
 end subroutine
 
-!-----------------------------------
-! input the data into the matrix
-subroutine form_matrix
+
+subroutine MSOLVEprec(N, R, Z, NELT, IA, JA, A, ISYM, RWORK, IWORK)
+!Where N is the number of unknowns, R is the right-hand side
+!vector and Z is the solution upon return.  NELT, IA, JA, A and
+!ISYM are defined as below.  RPAR is a double precision array
+!that can be used to pass necessary preconditioning information
+!and/or workspace to MSOLVE.  IPAR is an integer work array
+!for the same purpose as RPAR.
 use molecule
-use comdata
-use treecode
-use MPI_var
+use treecode3d_procedures
+!use treecode
+
 implicit double precision(a-h,o-z)
-include 'mpif.h'
-integer idx(3), istag, NGR
-real*8 r0(3), v0(3),v(3,3), r(3,3), r1(3), v1(3), uv(2,10), x10(3,10),v10(3,10),rr(3)
-common // pi,one_over_4pi
-! tr_xyz: The position of the particles on surface
-! tr_q:	  The normal direction at the particle location
-! bvct:	  The right hand side of the pb equation in BIM form
-! xvct:	  The vector composed of potential and its normal derivative
-! tchg:	  Charges on Target particles
-! schg:   Charges on Source particles
-! tr_area: the triangular area of each element
-!print*, 'IN form_matrix subroutine!'
-allocate(tr_xyz(3,nface),tr_q(3,nface),bvct(2*nface),mybvct(2*nface),xvct(2*nface))
-allocate(tchg(nface,16,2),schg(nface,16,2),tr_area(nface))
-!print*, 'NUMPROCS 2: ', numprocs
+integer N
+real*8 R(N),Z(N)
 
-tr_xyz=0.d0;	tr_q=0.d0;	bvct=0.d0;	xvct=0.d0
-tchg=0.d0;		schg=0.d0;	tr_area=0.d0
-mybvct=0.d0
-
-!MPI configuration
-if (myid == 0) then
-    print*, 'numpars: ', numpars
-endif
-!print*, 'numprocs: ', numprocs
-
-local_numpars=numpars/numprocs+1
-if (numprocs==1) local_numpars=numpars
-local_beg=1+myid*local_numpars
-local_end=local_beg+local_numpars-1
-if (local_end > numpars) then
-    local_end=numpars
-endif
-!print*, 'local_beg: ', local_beg
-!print*, 'local_end: ', local_end
-!print*, 'local_numpars: ', local_numpars
-stime = MPI_Wtime();
-
-do i=1,nface    ! for phi on each element
-    idx=nvert(1:3,i) ! vertices index of the specific triangle
-    r0=0.d0;    v0=0.d0
-    do k=1,3 
-        r0=r0+1.d0/3.d0*sptpos(1:3,idx(k))	!centriod
-        v0=v0+1.d0/3.d0*sptnrm(1:3,idx(k))	
-	    r(:,k)=sptpos(1:3,idx(k))
-	    v(:,k)=sptnrm(1:3,idx(k))
-    enddo
-
-    ! normalize the midpoint v0
-    v0=v0/sqrt(dot_product(v0,v0))
-	
-    tr_xyz(:,i)=r0			! Get the position of particles
-    tr_q(:,i)=v0			! Get the normal of the paricles, acting as charge in treecode
-    
-    aa=sqrt(dot_product(r(:,1)-r(:,2),r(:,1)-r(:,2)))
-    bb=sqrt(dot_product(r(:,1)-r(:,3),r(:,1)-r(:,3)))
-    cc=sqrt(dot_product(r(:,2)-r(:,3),r(:,2)-r(:,3)))
-    tr_area(i)=triangle_area(aa,bb,cc)
-enddo
-
-!print *, "done with first loop", myid
-! let each process fill part of the vector
-do i=local_beg, local_end    							
-    ! setup the right hand side of the system of equations
-    r0=tr_xyz(:,i)
-    v0=tr_q(:,i) 
-    do j=1,nchr ! for each atom
-        rr=chrpos(1:3,j)
-        rs=sqrt(dot_product(rr-r0,rr-r0))
-        G0=1.d0/(4.d0*pi*rs)
-        cos_theta=dot_product(v0,rr-r0)/rs
-        G1=cos_theta/rs**2/4.d0/pi
-    
-        bvct(i)=bvct(i)+atmchr(j)*G0
-	    bvct(nface+i)=bvct(nface+i)+atmchr(j)*G1
-    enddo
-enddo
-!print *, "done with second loop"
-
-!call MPI_Reduce(mybvct, bvct, 2*numpars, MPI_REAL8, MPI_SUM, 0, MPI_COMM_WORLD, ierr)
-!if (ierr /= 0) then
-!     write(0,*) ' error in MPI_Reduce =',ierr
-!     call MPI_Abort(MPI_COMM_WORLD, 1, ierr)
-!endif
-
-!step 1, update cpu0 from all other cpus
-if (myid==0) then
-    do isrc=1,numprocs-1
-        istart=1+isrc*local_numpars
-        call MPI_RECV(bvct(istart),local_numpars,MPI_REAL8,isrc,201,MPI_COMM_WORLD,status,ierr)
-        call MPI_RECV(bvct(istart+numpars),local_numpars,MPI_REAL8,isrc,202,MPI_COMM_WORLD,status,ierr)
-    enddo
-else
-    local_temp=local_end-local_beg+1
-    call MPI_SEND(bvct(local_beg),local_temp,MPI_REAL8,0,201,MPI_COMM_WORLD,ierr)
-    call MPI_SEND(bvct(local_beg+numpars),local_temp,MPI_REAL8,0,202,MPI_COMM_WORLD,ierr)
-
-endif
-
-!step 2, update all other cpus from cpu0
-if (myid==0) then
-    do isrc=1,numprocs-1
-        call MPI_SEND(bvct,2*numpars,MPI_REAL8,isrc,203,MPI_COMM_WORLD,ierr)
-    enddo
-else
-    call MPI_RECV(bvct,2*numpars,MPI_REAL8,0,203,MPI_COMM_WORLD,status,ierr)
-endif
-bvct = bvct/eps0
-! stop timer
-ftime = MPI_Wtime();
-runtime = ftime-stime
-if (myid == 0) then     
-    print *, "Setting up right hand side calc time = ", runtime, myid
-endif
-
+call cpu_time(cpu1)
+call leafmatvecpara(troot, N, R, Z, kappa, eps);
+call cpu_time(cpu2)
+!print *,'precond',cpu2-cpu1
 end subroutine
 
-subroutine form_matrix_gather
+subroutine form_matrix
 use molecule
 use comdata
 use treecode
@@ -694,17 +576,7 @@ do i=local_beg, local_end
     enddo
 enddo
 
-call MPI_Reduce(mybvct, bvct, 2*numpars, MPI_REAL8, MPI_SUM, 0, MPI_COMM_WORLD, ierr)
-
-!bvct = bvct/eps0
-
-if (myid==0) then
-    do isrc=1,numprocs-1
-        call MPI_SEND(bvct,2*numpars,MPI_REAL8,isrc,203,MPI_COMM_WORLD,ierr)
-    enddo
-else
-    call MPI_RECV(bvct,2*numpars,MPI_REAL8,0,203,MPI_COMM_WORLD,status,ierr)
-endif
+call MPI_Allreduce(mybvct, bvct, 2*numpars, MPI_REAL8, MPI_SUM, MPI_COMM_WORLD, ierr)
 
 ! stop timer
 ftime = MPI_Wtime();
@@ -714,69 +586,6 @@ if (myid == 0) then
     print *, "Setting up right hand side calc time with reduce = ", runtime, myid
 endif
 
-end subroutine
-
-subroutine form_matrix2
-use molecule
-use comdata
-use treecode
-implicit double precision(a-h,o-z)
-integer idx(3), istag, NGR
-real*8 r0(3), v0(3),v(3,3), r(3,3), r1(3), v1(3), uv(2,10), x10(3,10),v10(3,10),rr(3)
-
-common // pi,one_over_4pi
-
-! tr_xyz: The position of the particles on surface
-! tr_q:	  The normal direction at the particle location
-! bvct:	  The right hand side of the pb equation in BIM form
-! xvct:	  The vector composed of potential and its normal derivative
-! tchg:	  Charges on Target particles
-! schg:   Charges on Source particles
-! tr_area: the triangular area of each element
-
-allocate(tr_xyz(3,nface),tr_q(3,nface), bvct(2*nface), xvct(2*nface))
-allocate(tchg(nface,16,2),schg(nface,16,2),tr_area(nface))
-
-tr_xyz=0.d0;	tr_q=0.d0;	bvct=0.d0;	xvct=0.d0
-tchg=0.d0;		schg=0.d0;	tr_area=0.d0
-
-print *, 'The number of faces is:', nface
-do i=1,nface    ! for phi on each element
-    idx=nvert(1:3,i) ! vertices index of the specific triangle
-    r0=0.d0;    v0=0.d0
-    do k=1,3 
-        r0=r0+1.d0/3.d0*sptpos(1:3,idx(k))	!centriod
-        v0=v0+1.d0/3.d0*sptnrm(1:3,idx(k))	
-	    r(:,k)=sptpos(1:3,idx(k))
-	    v(:,k)=sptnrm(1:3,idx(k))
-    enddo
-
-    ! normalize the midpoint v0
-    v0=v0/sqrt(dot_product(v0,v0))
-	
-    tr_xyz(:,i)=r0			! Get the position of particles
-    tr_q(:,i)=v0			! Get the normal of the paricles, acting as charge in treecode
-    
-    aa=sqrt(dot_product(r(:,1)-r(:,2),r(:,1)-r(:,2)))
-    bb=sqrt(dot_product(r(:,1)-r(:,3),r(:,1)-r(:,3)))
-    cc=sqrt(dot_product(r(:,2)-r(:,3),r(:,2)-r(:,3)))
-    tr_area(i)=triangle_area(aa,bb,cc)
-    							
-    ! setup the right hand side of the system of equations
-    do j=1,nchr ! for each atom
-
-        rr=chrpos(1:3,j)
-        rs=sqrt(dot_product(rr-r0,rr-r0))
-        G0=1.d0/(4.d0*pi*rs)
-        cos_theta=dot_product(v0,rr-r0)/rs
-        G1=cos_theta/rs**2/4.d0/pi
-    
-        bvct(i)=bvct(i)+atmchr(j)*G0
-	bvct(nface+i)=bvct(nface+i)+atmchr(j)*G1
-    enddo
-    
-enddo
-bvct = bvct/eps0
 end subroutine
 
 !----------------------------------------------------------------------

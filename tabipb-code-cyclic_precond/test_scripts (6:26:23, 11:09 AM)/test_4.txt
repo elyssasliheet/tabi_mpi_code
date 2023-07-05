@@ -1,0 +1,386 @@
+ Starting MPI with     4 processes.
+WARNING: atoms 473 is completely inside atom 471
+WARNING: atoms 472 is completely inside atom 471
+WARNING: atoms 475 is completely inside atom 474
+WARNING: atoms 476 is completely inside atom 474
+WARNING: atoms 936 is completely inside atom 934
+WARNING: atoms 935 is completely inside atom 934
+WARNING: atoms 2059 is completely inside atom 2058
+WARNING: atoms 2060 is completely inside atom 2058
+WARNING: atoms 2061 is completely inside atom 2058
+WARNING: atoms 1117 is completely inside atom 1116
+WARNING: atoms 1647 is completely inside atom 1644
+WARNING: atoms 1646 is completely inside atom 1644
+WARNING: atoms 1645 is completely inside atom 1644
+WARNING: atoms 473 is completely inside atom 471
+WARNING: atoms 472 is completely inside atom 471
+WARNING: atoms 473 is completely inside atom 471
+WARNING: atoms 472 is completely inside atom 471
+WARNING: atoms 475 is completely inside atom 474
+WARNING: atoms 476 is completely inside atom 474
+WARNING: atoms 475 is completely inside atom 474
+WARNING: atoms 476 is completely inside atom 474
+WARNING: atoms 473 is completely inside atom 471
+WARNING: atoms 472 is completely inside atom 471
+WARNING: atoms 475 is completely inside atom 474
+WARNING: atoms 476 is completely inside atom 474
+WARNING: atoms 936 is completely inside atom 934
+WARNING: atoms 935 is completely inside atom 934
+WARNING: atoms 936 is completely inside atom 934
+WARNING: atoms 935 is completely inside atom 934
+WARNING: atoms 936 is completely inside atom 934
+WARNING: atoms 935 is completely inside atom 934
+WARNING: atoms 2059 is completely inside atom 2058
+WARNING: atoms 2060 is completely inside atom 2058
+WARNING: atoms 2061 is completely inside atom 2058
+WARNING: atoms 2059 is completely inside atom 2058
+WARNING: atoms 2060 is completely inside atom 2058
+WARNING: atoms 2061 is completely inside atom 2058
+WARNING: atoms 1117 is completely inside atom 1116
+WARNING: atoms 1117 is completely inside atom 1116
+WARNING: atoms 1647 is completely inside atom 1644
+WARNING: atoms 1646 is completely inside atom 1644
+WARNING: atoms 1645 is completely inside atom 1644
+WARNING: atoms 1647 is completely inside atom 1644
+WARNING: atoms 1646 is completely inside atom 1644
+WARNING: atoms 1645 is completely inside atom 1644
+WARNING: atoms 2059 is completely inside atom 2058
+WARNING: atoms 2060 is completely inside atom 2058
+WARNING: atoms 2061 is completely inside atom 2058
+WARNING: atoms 1117 is completely inside atom 1116
+WARNING: atoms 1647 is completely inside atom 1644
+WARNING: atoms 1646 is completely inside atom 1644
+WARNING: atoms 1645 is completely inside atom 1644
+MSMS 2.6.1 started on c017
+Copyright M.F. Sanner (1994)
+Compilation flags -O2 -DVERBOSE -DTIMING
+INPUT  test_proteins/1a63.xyzr 2065 spheres 0 collision only, radii  0.225 to  2.275
+PARAM  Probe_radius  1.400 density  5.000 hdensity  3.000
+REDUCED SURFACE ...
+    RS component 0 identified 367 366 360
+    0 free edge(s) found in component 0
+    RS component  #faces  #edges #free_edges  #vertices   genus
+         0        2262     3393          0        984      74.5
+    Time Reduced Surface real: 0.03 user: 0.03 sys: 0.00
+ANALYTICAL SOLVENT EXCLUDED SURFACE...
+    Component   0
+        Time Surface real: 0.01 user: 0.00 sys: 0.00
+        Time Singularities real: 0.00 user: 0.00 sys: 0.00
+    SES comp.  #fac.  #edg. #s_edg. #vert. #s_vert. R_h C_h genus
+         0     6904  13894    126    6992      206   0   0    0
+ANALYTICAL SURFACE AREA :
+    Comp. probe_radius,   reent,    toric,   contact    SES       SAS
+      0       1.400    1579.307  2816.573  2607.352  7003.231  8515.815
+TRIANGULATION...
+    Component 0
+WARNING: geodesic which intersects odd number of edges
+WARNING: geodesic which intersects odd number of edges
+    component#, vertices,  edges,  faces, genus, density
+        0          35011  105027   70018    0     4.999
+        Time Triangulation real: 0.08 user: 0.08 sys: 0.00
+NUMERICAL VOLUMES AND AREA
+    Comp. probe_radius SES_volume SES_area)
+       0      1.40    18100.553   6938.130
+    Total ses_volume: 18100.553
+MSMS terminated normally
+Total Time real: 0.21 user: 0.18 sys: 0.01
+MSMS 2.6.1 started on c017
+Copyright M.F. Sanner (1994)
+Compilation flags -O2 -DVERBOSE -DTIMING
+INPUT  test_proteins/1a63.xyzr 2065 spheres 0 collision only, radii  0.225 to  2.275
+PARAM  Probe_radius  1.400 density  5.000 hdensity  3.000
+REDUCED SURFACE ...
+    RS component 0 identified 367 366 360
+    0 free edge(s) found in component 0
+    RS component  #faces  #edges #free_edges  #vertices   genus
+         0        2262     3393          0        984      74.5
+    Time Reduced Surface real: 0.04 user: 0.03 sys: 0.00
+ANALYTICAL SOLVENT EXCLUDED SURFACE...
+    Component   0
+        Time Surface real: 0.00 user: 0.01 sys: 0.00
+        Time Singularities real: 0.00 user: 0.00 sys: 0.00
+    SES comp.  #fac.  #edg. #s_edg. #vert. #s_vert. R_h C_h genus
+         0     6904  13894    126    6992      206   0   0    0
+ANALYTICAL SURFACE AREA :
+    Comp. probe_radius,   reent,    toric,   contact    SES       SAS
+      0       1.400    1579.307  2816.573  2607.352  7003.231  8515.815
+TRIANGULATION...
+    Component 0
+WARNING: geodesic which intersects odd number of edges
+WARNING: geodesic which intersects odd number of edges
+    component#, vertices,  edges,  faces, genus, density
+        0          35011  105027   70018    0     4.999
+        Time Triangulation real: 0.08 user: 0.08 sys: 0.00
+NUMERICAL VOLUMES AND AREA
+    Comp. probe_radius SES_volume SES_area)
+       0      1.40    18100.553   6938.130
+    Total ses_volume: 18100.553
+MSMS terminated normally
+Total Time real: 0.20 user: 0.17 sys: 0.01
+MSMS 2.6.1 started on c017
+Copyright M.F. Sanner (1994)
+Compilation flags -O2 -DVERBOSE -DTIMING
+INPUT  test_proteins/1a63.xyzr 2065 spheres 0 collision only, radii  0.225 to  2.275
+PARAM  Probe_radius  1.400 density  5.000 hdensity  3.000
+REDUCED SURFACE ...
+    RS component 0 identified 367 366 360
+    0 free edge(s) found in component 0
+    RS component  #faces  #edges #free_edges  #vertices   genus
+         0        2262     3393          0        984      74.5
+    Time Reduced Surface real: 0.04 user: 0.04 sys: 0.00
+ANALYTICAL SOLVENT EXCLUDED SURFACE...
+    Component   0
+        Time Surface real: 0.00 user: 0.00 sys: 0.00
+        Time Singularities real: 0.00 user: 0.00 sys: 0.00
+    SES comp.  #fac.  #edg. #s_edg. #vert. #s_vert. R_h C_h genus
+         0     6904  13894    126    6992      206   0   0    0
+ANALYTICAL SURFACE AREA :
+    Comp. probe_radius,   reent,    toric,   contact    SES       SAS
+      0       1.400    1579.307  2816.573  2607.352  7003.231  8515.815
+TRIANGULATION...
+    Component 0
+WARNING: geodesic which intersects odd number of edges
+WARNING: geodesic which intersects odd number of edges
+    component#, vertices,  edges,  faces, genus, density
+        0          35011  105027   70018    0     4.999
+        Time Triangulation real: 0.08 user: 0.08 sys: 0.00
+NUMERICAL VOLUMES AND AREA
+    Comp. probe_radius SES_volume SES_area)
+       0      1.40    18100.553   6938.130
+    Total ses_volume: 18100.553
+MSMS terminated normally
+Total Time real: 0.20 user: 0.17 sys: 0.01
+MSMS 2.6.1 started on c017
+Copyright M.F. Sanner (1994)
+Compilation flags -O2 -DVERBOSE -DTIMING
+INPUT  test_proteins/1a63.xyzr 2065 spheres 0 collision only, radii  0.225 to  2.275
+PARAM  Probe_radius  1.400 density  5.000 hdensity  3.000
+REDUCED SURFACE ...
+    RS component 0 identified 367 366 360
+    0 free edge(s) found in component 0
+    RS component  #faces  #edges #free_edges  #vertices   genus
+         0        2262     3393          0        984      74.5
+    Time Reduced Surface real: 0.04 user: 0.04 sys: 0.00
+ANALYTICAL SOLVENT EXCLUDED SURFACE...
+    Component   0
+        Time Surface real: 0.00 user: 0.00 sys: 0.00
+        Time Singularities real: 0.00 user: 0.00 sys: 0.00
+    SES comp.  #fac.  #edg. #s_edg. #vert. #s_vert. R_h C_h genus
+         0     6904  13894    126    6992      206   0   0    0
+ANALYTICAL SURFACE AREA :
+    Comp. probe_radius,   reent,    toric,   contact    SES       SAS
+      0       1.400    1579.307  2816.573  2607.352  7003.231  8515.815
+TRIANGULATION...
+    Component 0
+WARNING: geodesic which intersects odd number of edges
+WARNING: geodesic which intersects odd number of edges
+    component#, vertices,  edges,  faces, genus, density
+        0          35011  105027   70018    0     4.999
+        Time Triangulation real: 0.08 user: 0.08 sys: 0.00
+NUMERICAL VOLUMES AND AREA
+    Comp. probe_radius SES_volume SES_area)
+       0      1.40    18100.553   6938.130
+    Total ses_volume: 18100.553
+MSMS terminated normally
+Total Time real: 0.20 user: 0.16 sys: 0.02
+ # of surfaces=       70018  # of surface points=       35011
+          49  ugly faces are deleted
+ total MSMS post-processing time =   1.0895999999999989E-002
+ surface area=   6938.28711    
+ Begin to form right hand side vector b
+ NUMBER OF FACES:        69969
+ # of surfaces=       70018  # of surface points=       35011
+ # of surfaces=       70018  # of surface points=       35011
+ # of surfaces=       70018  # of surface points=       35011
+          49  ugly faces are deleted
+ total MSMS post-processing time =   9.2369999999999952E-003
+ surface area=   6938.28711    
+ Begin to form right hand side vector b
+ NUMBER OF FACES:        69969
+          49  ugly faces are deleted
+ total MSMS post-processing time =   9.3390000000000140E-003
+ surface area=   6938.28711    
+ Begin to form right hand side vector b
+ NUMBER OF FACES:        69969
+          49  ugly faces are deleted
+ total MSMS post-processing time =   9.4210000000000127E-003
+ surface area=   6938.28711    
+ Begin to form right hand side vector b
+ NUMBER OF FACES:        69969
+ Begin to initialize treecode...
+ ===========================================================================
+ Setting up right hand side calc time with reduce =   0.30493312433827668                0
+ Begin to initialize treecode...
+ Begin to initialize treecode...
+ Begin to initialize treecode...
+  
+ Creating tree for        69969  particles with max          100  per node...
+  
+ Creating tree for        69969  particles with max          100  per node...
+  
+ Creating tree for        69969  particles with max          100  per node...
+  
+ Creating tree for        69969  particles with max          100  per node...
+ Time to create tree (secs):   4.0209999999999413E-003
+ it takes   0.33870000000000000      seconds to form the matrix
+ Begin to allocate varibles for the solver...
+ Time to create tree (secs):   4.0200000000000236E-003
+ it takes   0.31860399999999994      seconds to form the matrix
+ Begin to allocate varibles for the solver...
+ Time to create tree (secs):   4.2550000000000088E-003
+ it takes   0.32238299999999998      seconds to form the matrix
+ Begin to allocate varibles for the solver...
+ Time to create tree (secs):   4.3520000000000225E-003
+ it takes   0.32156300000000004      seconds to form the matrix
+ Begin to allocate varibles for the solver...
+ Begin to call the solver...
+ Begin to call the solver...
+ Begin to call the solver...
+ Begin to call the solver...
+ Preconditioner Time =    7.3189944494515657E-002           0
+ ==============================================
+ Preconditioner Time =    7.3114311788231134E-002           1
+ Preconditioner Time =    7.3520493810065091E-002           2
+ Preconditioner Time =    7.3528726468794048E-002           3
+ Preconditioner Time =    7.1729855495505035E-002           0
+ ==============================================
+ Preconditioner Time =    7.1749858907423913E-002           1
+ Preconditioner Time =    7.1734223281964660E-002           2
+ Preconditioner Time =    7.1760325809009373E-002           3
+ Treecode time =    2.0446617595152929                0
+ Treecode time =    2.0410516979172826                2
+ Treecode time =    2.0413855871884152                3
+ Treecode time =    2.0437617731513456                1
+ Preconditioner Time =    7.4021311476826668E-002           0
+ ==============================================
+ Preconditioner Time =    7.3654270963743329E-002           1
+ Preconditioner Time =    7.4173644999973476E-002           2
+ Preconditioner Time =    7.4183888151310384E-002           3
+           1 err=   0.21764967863023213     
+           1 err=   0.21764967863023213     
+           1 err=   0.21764967863023213     
+           1 err=   0.21764967863023213     
+ Treecode time =    2.0434750756248832                0
+ Treecode time =    2.0430702314479277                1
+ Treecode time =    2.0393076579784974                2
+ Treecode time =    2.0416179513558745                3
+ Preconditioner Time =    7.4112813337706029E-002           0
+ ==============================================
+ Preconditioner Time =    7.4169299099594355E-002           1
+ Preconditioner Time =    7.4151034466922283E-002           2
+ Preconditioner Time =    7.4327640468254685E-002           3
+           2 err=    5.6577776304737704E-002
+           2 err=    5.6577776304737704E-002
+           2 err=    5.6577776304737704E-002
+           2 err=    5.6577776304737704E-002
+ Treecode time =    2.0433444826630875                0
+ Treecode time =    2.0402337337145582                2
+ Treecode time =    2.0401895463000983                3
+ Treecode time =    2.0438077539438382                1
+ Preconditioner Time =    7.4057992198504508E-002           0
+ ==============================================
+ Preconditioner Time =    7.3456367244943976E-002           1
+ Preconditioner Time =    7.4067515903152525E-002           3
+ Preconditioner Time =    7.4073633411899209E-002           2
+           3 err=    2.0403724560351263E-002
+           3 err=    2.0403724560351263E-002
+           3 err=    2.0403724560351263E-002
+           3 err=    2.0403724560351263E-002
+ Treecode time =    2.0373302317457274                0
+ Treecode time =    2.0338551948079839                2
+ Treecode time =    2.0373963374877349                1
+ Treecode time =    2.0363825494423509                3
+ Preconditioner Time =    7.3717725463211536E-002           0
+ ==============================================
+ Preconditioner Time =    7.3338805697858334E-002           1
+ Preconditioner Time =    7.4045292916707695E-002           2
+ Preconditioner Time =    7.3538916883990169E-002           3
+           4 err=    8.8272856503597268E-003
+           4 err=    8.8272856503597268E-003
+           4 err=    8.8272856503597268E-003
+           4 err=    8.8272856503597268E-003
+ Treecode time =    2.0343909423099831                0
+ Treecode time =    2.0319827379425988                1
+ Treecode time =    2.0310782375745475                2
+ Treecode time =    2.0341070096474141                3
+ Preconditioner Time =    7.3908129241317511E-002           0
+ ==============================================
+ Preconditioner Time =    7.3898994480259717E-002           1
+ Preconditioner Time =    7.3635795852169394E-002           2
+ Preconditioner Time =    7.3745439993217587E-002           3
+           5 err=    4.0883141463599710E-003
+           5 err=    4.0883141463599710E-003
+           5 err=    4.0883141463599710E-003
+           5 err=    4.0883141463599710E-003
+ Treecode time =    2.0360616660909727                0
+ Treecode time =    2.0362302883295342                1
+ Treecode time =    2.0336140710860491                2
+ Treecode time =    2.0356200264068320                3
+ Preconditioner Time =    7.3481540661305189E-002           0
+ ==============================================
+ Preconditioner Time =    7.3229613713920116E-002           1
+ Preconditioner Time =    7.3214561096392572E-002           3
+ Preconditioner Time =    7.4102743761613965E-002           2
+           6 err=    2.2250900455999855E-003
+           6 err=    2.2250900455999855E-003
+           6 err=    2.2250900455999855E-003
+           6 err=    2.2250900455999855E-003
+ Treecode time =    2.0337838202249259                0
+ Treecode time =    2.0323320437455550                1
+ Treecode time =    2.0318027293542400                3
+ Treecode time =    2.0292950170114636                2
+ Preconditioner Time =    7.4203465366736054E-002           0
+ ==============================================
+ Preconditioner Time =    7.3983946233056486E-002           1
+ Preconditioner Time =    7.3898680158890784E-002           2
+ Preconditioner Time =    7.4104696628637612E-002           3
+           7 err=    9.5979901990635207E-004
+           7 err=    9.5979901990635207E-004
+           7 err=    9.5979901990635207E-004
+           7 err=    9.5979901990635207E-004
+ Treecode time =    2.0345838461071253                0
+ Treecode time =    2.0306477503618225                2
+ Treecode time =    2.0335821245098487                1
+ Treecode time =    2.0335052191512659                3
+ Preconditioner Time =    7.4294056976214051E-002           0
+ ==============================================
+ Preconditioner Time =    7.3603350087068975E-002           1
+ Preconditioner Time =    7.4143994250334799E-002           2
+ Preconditioner Time =    7.3628918500617146E-002           3
+           8 err=    3.6947162583135875E-004
+           8 err=    3.6947162583135875E-004
+           8 err=    3.6947162583135875E-004
+           8 err=    3.6947162583135875E-004
+ Treecode time =    2.0413597129518166                0
+ Treecode time =    2.0399532100418583                1
+ Treecode time =    2.0379658751189709                2
+ Treecode time =    2.0386480789165944                3
+ Preconditioner Time =    7.3786126798950136E-002           0
+ ==============================================
+ Preconditioner Time =    7.3926885263063014E-002           1
+ Preconditioner Time =    7.4096603668294847E-002           2
+ Preconditioner Time =    7.3984574526548386E-002           3
+           9 err=    1.4647490879051258E-004
+           9 err=    1.4647490879051258E-004
+           9 err=    1.4647490879051258E-004
+           9 err=    1.4647490879051258E-004
+ Treecode time =    2.0340615459717810                0
+ Treecode time =    2.0339134900132194                1
+ Treecode time =    2.0336176108103245                3
+ Treecode time =    2.0290804036194459                2
+ Preconditioner Time =    7.4841717840172350E-002           0
+ ==============================================
+ Preconditioner Time =    7.4306211550720036E-002           1
+ Preconditioner Time =    7.4064843007363379E-002           2
+ Preconditioner Time =    7.4301980086602271E-002           3
+ err=   6.0696497011528629E-005 ierr=           0 iter=          10
+ Solvation Energy =  -2441.6394200209293     
+ Solvation energy calc time =   0.44277212175074965                0
+ Error deallocating xtemp, ind_vert, vert_ptl, xyz_temp
+ setup cpu=  0.172842994    
+ solving cpu=   22.6786518    
+ cpu for computing solvation energy=  0.708805025    
+ Total cpu=    23.5603008    
+ Error deallocating xtemp, ind_vert, vert_ptl, xyz_temp
+ Error deallocating xtemp, ind_vert, vert_ptl, xyz_temp
+ Error deallocating xtemp, ind_vert, vert_ptl, xyz_temp
