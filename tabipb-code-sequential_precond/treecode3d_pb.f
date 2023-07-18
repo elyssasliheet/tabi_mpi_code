@@ -1431,25 +1431,17 @@ C MPI variables
 		peng_old(1)=tpoten_old(i)
 		peng_old(2)=tpoten_old(i+numpars)
 		peng=0.d0
-C%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 C Remove the singularities 
             tempx=x(i)
             temp_area=tr_area(i)
             x(i)=x(i)+100.123456789d0
             tr_area(i)=0.d0
-C%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-C		CALL COMPP_TREE_prec(p,peng,x,y,z,schg,tpoten_old,
-C     &		kappa,theta,numpars,kk,eps,tempq,der_cof,i)
-
 		CALL COMPP_TREE(p,peng,x,y,z,schg,tpoten_old,
      &		kappa,theta,numpars,kk,eps,tempq,der_cof)
 		mytpoten(i)=pre1*peng_old(1)-peng(1)
 		mytpoten(numpars+i)=pre2*peng_old(2)-peng(2)
-C		call cpu_time(time2)
-C%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
             x(i)=tempx
             tr_area(i)=temp_area
-C%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 	ENDDO
       
      
@@ -1462,7 +1454,7 @@ C%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
       ftime = MPI_Wtime();
       runtime = ftime-stime
      
-      print *, "Treecode time = ", runtime, myid
+      !print *, "Treecode time = ", runtime, myid
 
 
       ! Output runtimes to a file
@@ -1477,12 +1469,14 @@ C%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
             endif
       endif
 
+      print *, "Treecode time = ", runtime, myid
+
       my_treecode_time(int(myid)+1) = runtime
       call MPI_Allreduce(my_treecode_time, treecode_times, numprocs, 
      & MPI_REAL8, MPI_SUM, MPI_COMM_WORLD, ierr)
       
       if (myid == 0) then
-            write(1,*) treecode_times
+            write(12,*) treecode_times
             print*, "treecode_times: ", treecode_times
       endif
  
