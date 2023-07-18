@@ -1204,11 +1204,9 @@ C MPI variables
       mytpoten = 0.d0
       final_tpoten = 0.d0
       tpoten_old=tpoten
-      !stime_utilities = MPI_Wtime();
       call pb_kernel(tpoten_old)
       call comp_ms_all(p,1)
      
-      !mod = mod(numpars,numprocs);
       ie = numpars/numprocs;
       stime = MPI_Wtime();
       DO i=1,(ie+1)
@@ -1235,7 +1233,6 @@ C Remove the singularities
                   tr_area(id)=temp_area
             endif
 	ENDDO
-
       
       call MPI_Allreduce(mytpoten, final_tpoten, 2*numpars, 
      & MPI_REAL8, MPI_SUM, MPI_COMM_WORLD, ierr)
@@ -1245,7 +1242,7 @@ C Remove the singularities
       ftime = MPI_Wtime();
       runtime = ftime-stime
       print *, "Treecode time = ", runtime, myid
-     
+
       ! Output runtimes to a file
       write (x1,'(I3.3)') numprocs ! converting integer to string using a 'internal file'
       filename='test_scripts/treecode_times_'//trim(x1)//'.txt'

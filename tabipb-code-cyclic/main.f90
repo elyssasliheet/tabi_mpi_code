@@ -18,11 +18,22 @@ real*8 pi,one_over_4pi, center(3), kappa2
 real*8 pe_local,H1,H2,r(3),v(3),s(3)
 real*8 kappa_rs
 
+
 character(100) fhead
 external MATVEC, MSOLVE
 common // pi,one_over_4pi
 
 include 'mpif.h'
+
+character(8)  :: date
+character(10) :: time
+character(5)  :: zone
+integer,dimension(8) :: values
+! using keyword arguments
+call date_and_time(date,time,zone,values)
+call date_and_time(DATE=date,ZONE=zone)
+call date_and_time(TIME=time)
+call date_and_time(VALUES=values)
 
 ! intialize MPI
 call MPI_Init(ierr)
@@ -45,7 +56,10 @@ endif
 
 if (myid == 0) then
     print '(A,i5,A)', ' Starting MPI with ', numprocs,' processes.'
+    print '(a,2x,a,2x,a)', date, time, zone
+    print '(8i5)', values
 endif
+
 
 ! PARAMETERS: (read from usrdata.in file)
 ! fname : PDB ID for protein

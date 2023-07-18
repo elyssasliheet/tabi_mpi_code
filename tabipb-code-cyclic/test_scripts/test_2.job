@@ -5,7 +5,7 @@
 #SBATCH -p standard-s               # requested partition
 #SBATCH -t 180                           # maximum runtime in minutes
 #SBATCH --exclusive                     # do not share nodes
-#SBATCH --mem 256
+#SBATCH --mem 256GB
 #SBATCH --mail-user esliheet@smu.edu
 #SBATCH --mail-type=all
 
