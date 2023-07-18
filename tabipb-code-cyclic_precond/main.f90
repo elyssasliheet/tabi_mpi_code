@@ -510,10 +510,9 @@ implicit double precision(a-h,o-z)
 integer N
 real*8 R(N),Z(N)
 
-call cpu_time(cpu1)
+!call cpu_time(cpu1)
 call leafmatvecpara(troot, N, R, Z, kappa, eps);
-call cpu_time(cpu2)
-!print *,'precond',cpu2-cpu1
+!call cpu_time(cpu2)
 end subroutine
 
 subroutine form_matrix

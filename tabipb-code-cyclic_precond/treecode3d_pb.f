@@ -1479,12 +1479,10 @@ C Remove the singularities
      & MPI_REAL8, MPI_SUM, MPI_COMM_WORLD, ierr)
       
       if (myid == 0) then
-            write(1,*) treecode_times
+            write(12,*) treecode_times
             print*, "treecode_times: ", treecode_times
       endif
  
-C########################################################
-
       RETURN
       END SUBROUTINE TREE_COMPP_PB
 
