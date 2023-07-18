@@ -9,4 +9,4 @@
 #SBATCH --mail-user esliheet@smu.edu
 #SBATCH --mail-type=all
 
-mpirun ./tabipb.exe
+mpiexec ./tabipb.exe

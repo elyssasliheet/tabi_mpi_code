@@ -26,6 +26,17 @@ common // pi,one_over_4pi
 
 include 'mpif.h'
 
+
+character(8)  :: date
+character(10) :: time
+character(5)  :: zone
+integer,dimension(8) :: values
+! using keyword arguments
+call date_and_time(date,time,zone,values)
+call date_and_time(DATE=date,ZONE=zone)
+call date_and_time(TIME=time)
+call date_and_time(VALUES=values)
+
 ! intialize MPI
 call MPI_Init(ierr)
 if (ierr /= 0) then
@@ -49,6 +60,8 @@ start_timer = MPI_Wtime();
 
 if (myid == 0) then
     print '(A,i5,A)', ' Starting MPI with ', numprocs,' processes.'
+    print '(a,2x,a,2x,a)', date, time, zone
+    print '(8i5)', values
 endif
 
 ! PARAMETERS: (read from usrdata.in file)

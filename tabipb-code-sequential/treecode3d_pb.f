@@ -1204,8 +1204,6 @@ C MPI variables
       mytpoten = 0.d0
       final_tpoten = 0.d0
       tpoten_old=tpoten
-
-      !stime_utilities = MPI_Wtime();
       call pb_kernel(tpoten_old)
       call comp_ms_all(p,1)
 
@@ -1230,12 +1228,8 @@ C%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
      &		kappa,theta,numpars,kk,eps,tempq,der_cof)
 		mytpoten(i)=pre1*peng_old(1)-peng(1)
 		mytpoten(numpars+i)=pre2*peng_old(2)-peng(2)
-C		call cpu_time(time2)
-C%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
             x(i)=tempx
             tr_area(i)=temp_area
-C%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-C		print *,'cpu time for one p-c intercation: ',i,real(time2-time1)
 	ENDDO
       
       call MPI_Allreduce(mytpoten, final_tpoten, 2*numpars, 
@@ -1245,9 +1239,7 @@ C		print *,'cpu time for one p-c intercation: ',i,real(time2-time1)
 
       ftime = MPI_Wtime();
       runtime = ftime-stime
-
       print *, "Treecode time = ", runtime, myid
-    
 
       ! Output runtimes to a file
       write (x1,'(I3.3)') numprocs ! converting integer to string using a 'internal file'
@@ -1261,12 +1253,13 @@ C		print *,'cpu time for one p-c intercation: ',i,real(time2-time1)
             endif
       endif
 
+
       my_treecode_time(int(myid)+1) = runtime
       call MPI_Allreduce(my_treecode_time, treecode_times, numprocs, 
      & MPI_REAL8, MPI_SUM, MPI_COMM_WORLD, ierr)
       
       if (myid == 0) then
-            write(1,*) treecode_times
+            write(12,*) treecode_times
             print*, "treecode_times: ", treecode_times
       endif
 
