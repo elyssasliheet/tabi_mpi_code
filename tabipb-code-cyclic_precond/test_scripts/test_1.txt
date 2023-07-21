@@ -1,7 +1,7 @@
  Starting MPI with     1 processes.
  PDB ID: 7n3c                                                                                                
  Density: 12                                                                                                  
-MSMS 2.6.1 started on c108
+MSMS 2.6.1 started on c109
 Copyright M.F. Sanner (1994)
 Compilation flags -O2 -DVERBOSE -DTIMING
 Atom 85 ignored, radius = 0.000000
@@ -208,10 +208,10 @@ REDUCED SURFACE ...
     0 free edge(s) found in component 0
     RS component  #faces  #edges #free_edges  #vertices   genus
          0        6930    10395          0       3145      161
-    Time Reduced Surface real: 0.10 user: 0.10 sys: 0.00
+    Time Reduced Surface real: 0.11 user: 0.10 sys: 0.00
 ANALYTICAL SOLVENT EXCLUDED SURFACE...
     Component   0
-        Time Surface real: 0.01 user: 0.00 sys: 0.01
+        Time Surface real: 0.00 user: 0.01 sys: 0.01
 ordonne_aretes: No cycle in face 3726 (nba=-4)
 ordonne_aretes: No cycle in face 3728 (nba=-3)
  2 faces with problems
@@ -283,103 +283,103 @@ NUMERICAL VOLUMES AND AREA
        0      1.40    77739.094  23243.463
     Total ses_volume: 77739.094
 MSMS terminated normally
-Total Time real: 1.34 user: 1.22 sys: 0.03
+Total Time real: 1.32 user: 1.21 sys: 0.04
  # of surfaces=      530040  # of surface points=      265014
          129  ugly faces are deleted
- total MSMS post-processing time =  0.14658300000000002     
+ total MSMS post-processing time =  0.14473599999999998     
  surface area=   23242.4199    
  Begin to form right hand side vector b
  NUMBER OF FACES IN TRIANGULARIZATION:       529911
  ===========================================================================
- Setting up right hand side calc time with reduce =    37.115140307694674                0
+ Setting up right hand side calc time with reduce =    37.113233325071633                0
  Begin to initialize treecode...
   
  Creating tree for       529911  particles with max          100  per node...
- Time to create tree (secs):   4.4342999999997801E-002
+ Time to create tree (secs):   4.6282999999995411E-002
  Begin to allocate varibles for the solver...
  Begin to call the solver...
- Preconditioner Time =    1.8499860661104321                0
- Preconditioner Time =    1.8460749550722539                0
- Treecode time =    89.600609029643238                0
- treecode_times:    89.600609029643238     
- Preconditioner Time =    1.8509094328619540                0
+ Preconditioner Time =    1.8539297147653997                0
+ Preconditioner Time =    1.8468822338618338                0
+ Treecode time =    89.567342010792345                0
+ treecode_times:    89.567342010792345     
+ Preconditioner Time =    1.8520794925279915                0
            1 err=   0.22055335314635716     
- Treecode time =    89.558993992395699                0
- treecode_times:    89.558993992395699     
- Preconditioner Time =    1.8504896941594779                0
+ Treecode time =    89.523935214616358                0
+ treecode_times:    89.523935214616358     
+ Preconditioner Time =    1.8513116752728820                0
            2 err=    6.9766394678246496E-002
- Treecode time =    89.522267471998930                0
- treecode_times:    89.522267471998930     
- Preconditioner Time =    1.8499937457963824                0
+ Treecode time =    89.493270071223378                0
+ treecode_times:    89.493270071223378     
+ Preconditioner Time =    1.8511574221774936                0
            3 err=    3.8102390797026153E-002
- Treecode time =    89.509257954079658                0
- treecode_times:    89.509257954079658     
- Preconditioner Time =    1.8516721464693546                0
+ Treecode time =    89.500822533853352                0
+ treecode_times:    89.500822533853352     
+ Preconditioner Time =    1.8522237557917833                0
            4 err=    2.8789673100230367E-002
- Treecode time =    89.495089055970311                0
- treecode_times:    89.495089055970311     
- Preconditioner Time =    1.8504332341253757                0
+ Treecode time =    89.460372156929225                0
+ treecode_times:    89.460372156929225     
+ Preconditioner Time =    1.8517666650004685                0
            5 err=    1.5485265473671609E-002
- Treecode time =    89.614846179261804                0
- treecode_times:    89.614846179261804     
- Preconditioner Time =    1.8509956337511539                0
+ Treecode time =    89.506092005874962                0
+ treecode_times:    89.506092005874962     
+ Preconditioner Time =    1.8506290097720921                0
            6 err=    4.2819057024655344E-003
- Treecode time =    89.534164618700743                0
- treecode_times:    89.534164618700743     
- Preconditioner Time =    1.8509428040124476                0
+ Treecode time =    89.557086785323918                0
+ treecode_times:    89.557086785323918     
+ Preconditioner Time =    1.8531508878804743                0
            7 err=    2.2152837996437290E-003
- Treecode time =    89.528987194877118                0
- treecode_times:    89.528987194877118     
- Preconditioner Time =    1.8500646166503429                0
+ Treecode time =    89.474641583859921                0
+ treecode_times:    89.474641583859921     
+ Preconditioner Time =    1.8515431005507708                0
            8 err=    1.4098946586547814E-003
- Treecode time =    89.564325447659940                0
- treecode_times:    89.564325447659940     
- Preconditioner Time =    1.8496580007486045                0
+ Treecode time =    89.531032957602292                0
+ treecode_times:    89.531032957602292     
+ Preconditioner Time =    1.8508492754772305                0
            9 err=    7.3416133627037200E-004
- Treecode time =    89.580178687348962                0
- treecode_times:    89.580178687348962     
- Preconditioner Time =    1.8521526656113565                0
+ Treecode time =    89.451238497626036                0
+ treecode_times:    89.451238497626036     
+ Preconditioner Time =    1.8522136569954455                0
           10 err=    3.6440436878555567E-004
- Treecode time =    89.596531745046377                0
- treecode_times:    89.596531745046377     
- Preconditioner Time =    1.8493645642884076                0
+ Treecode time =    89.555514719337225                0
+ treecode_times:    89.555514719337225     
+ Preconditioner Time =    1.8506210497580469                0
            1 err=    3.3142787912753289E-004
- Treecode time =    89.605203553568572                0
- treecode_times:    89.605203553568572     
- Preconditioner Time =    1.8512941203080118                0
+ Treecode time =    89.484660554211587                0
+ treecode_times:    89.484660554211587     
+ Preconditioner Time =    1.8520795525982976                0
            2 err=    2.9421758387988302E-004
- Treecode time =    89.538049608934671                0
- treecode_times:    89.538049608934671     
- Preconditioner Time =    1.8511384869925678                0
+ Treecode time =    89.537540207151324                0
+ treecode_times:    89.537540207151324     
+ Preconditioner Time =    1.8513039452955127                0
            3 err=    2.9304692835953235E-004
- Treecode time =    89.554822115227580                0
- treecode_times:    89.554822115227580     
- Preconditioner Time =    1.8499513752758503                0
+ Treecode time =    89.500756342895329                0
+ treecode_times:    89.500756342895329     
+ Preconditioner Time =    1.8511951533146203                0
            4 err=    2.8983519446921222E-004
- Treecode time =    89.495803039520979                0
- treecode_times:    89.495803039520979     
- Preconditioner Time =    1.8516510259360075                0
+ Treecode time =    89.513889863621444                0
+ treecode_times:    89.513889863621444     
+ Preconditioner Time =    1.8523433897644281                0
            5 err=    2.4402772705317121E-004
- Treecode time =    89.467270449269563                0
- treecode_times:    89.467270449269563     
- Preconditioner Time =    1.8502478008158505                0
+ Treecode time =    89.544581288471818                0
+ treecode_times:    89.544581288471818     
+ Preconditioner Time =    1.8517669355496764                0
            6 err=    1.8619048757677020E-004
- Treecode time =    89.515171591658145                0
- treecode_times:    89.515171591658145     
- Preconditioner Time =    1.8498061420395970                0
+ Treecode time =    89.567222737707198                0
+ treecode_times:    89.567222737707198     
+ Preconditioner Time =    1.8508998560719192                0
            7 err=    1.5364533255906917E-004
- Treecode time =    89.525243936572224                0
- treecode_times:    89.525243936572224     
- Preconditioner Time =    1.8517058771103621                0
+ Treecode time =    89.549102932680398                0
+ treecode_times:    89.549102932680398     
+ Preconditioner Time =    1.8523325584828854                0
            8 err=    1.1420770985011842E-004
- Treecode time =    89.566896804608405                0
- treecode_times:    89.566896804608405     
- Preconditioner Time =    1.8492095815017819                0
+ Treecode time =    89.553035571705550                0
+ treecode_times:    89.553035571705550     
+ Preconditioner Time =    1.8514219177886844                0
  err=   8.5708234236730137E-005 ierr=           0 iter=          19
  Solvation Energy =  -7018.5118877022705     
- Solvation energy calc time =    56.684569069184363                0
+ Solvation energy calc time =    56.851877901703119                0
  Error deallocating xtemp, ind_vert, vert_ptl, xyz_temp
- setup cpu=   1.06854296    
- solving cpu=   1815.27380    
- cpu for computing solvation energy=   58.5239449    
- Total cpu=    1874.86621    
+ setup cpu=   1.10831702    
+ solving cpu=   1814.89868    
+ cpu for computing solvation energy=   58.7063332    
+ Total cpu=    1874.71338    
