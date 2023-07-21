@@ -1232,13 +1232,14 @@ C%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
             tr_area(i)=temp_area
 	ENDDO
       
+
+      ftime = MPI_Wtime();
+      runtime = ftime-stime
       call MPI_Allreduce(mytpoten, final_tpoten, 2*numpars, 
      & MPI_REAL8, MPI_SUM, MPI_COMM_WORLD, ierr)
 	
       tpoten = final_tpoten
 
-      ftime = MPI_Wtime();
-      runtime = ftime-stime
       print *, "Treecode time = ", runtime, myid
 
       ! Output runtimes to a file
