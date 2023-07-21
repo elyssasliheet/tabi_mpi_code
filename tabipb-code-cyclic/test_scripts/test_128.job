@@ -1,7 +1,8 @@
 #!/bin/bash
 #SBATCH -J test_128__cyclic        # job name to display in squeue
 #SBATCH -o test_scripts/test_128.txt     # standard output file
-#SBATCH -n 128                           # requested MPI tasks
+#SBATCH -N 2                            # requested nodes
+#SBATCH --ntasks-per-node=64           # task load per node
 #SBATCH -p standard-s               # requested partition
 #SBATCH -t 180                           # maximum runtime in minutes
 #SBATCH --exclusive                     # do not share nodes

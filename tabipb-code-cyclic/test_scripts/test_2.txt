@@ -1,9 +1,9 @@
  Starting MPI with     2 processes.
-20230717  163456.532  -0500
- 2023    7   17 -300   16   34   56  532
+20230720  081326.021  -0500
+ 2023    7   20 -300    8   13   26   21
  PDB ID: 7n3c                                                                                                
  Density: 12                                                                                                  
-MSMS 2.6.1 started on c018
+MSMS 2.6.1 started on c070
 Copyright M.F. Sanner (1994)
 Compilation flags -O2 -DVERBOSE -DTIMING
 Atom 85 ignored, radius = 0.000000
@@ -114,7 +114,7 @@ Atom 6164 ignored, radius = 0.000000
 Atom 6223 ignored, radius = 0.000000
 Atom 6328 ignored, radius = 0.000000
 Atom 6346 ignored, radius = 0.000000
-Atom 6364 ignorMSMS 2.6.1 started on c018
+Atom 6364 ignorMSMS 2.6.1 started on c070
 Copyright M.F. Sanner (1994)
 Compilation flags -O2 -DVERBOSE -DTIMING
 Atom 85 ignored, radius = 0.000000
@@ -250,13 +250,13 @@ WARNING: atoms 1267 is completely inside atom 1266
 WARNING: atoms 331 is completely inside atom 320
 WARNING: atoms 332 is completely inside atom 320
 WARNING: atoms 333 is completely inside atom 320
-WARNING: atoms 1822 is completely inside atom 1821
-WARNING: atoms 1823 is completely inside atom 1821
 WARNING: atoms 1268 is completely inside atom 1266
 WARNING: atoms 1267 is completely inside atom 1266
 WARNING: atoms 331 is completely inside atom 320
 WARNING: atoms 332 is completely inside atom 320
 WARNING: atoms 333 is completely inside atom 320
+WARNING: atoms 1822 is completely inside atom 1821
+WARNING: atoms 1823 is completely inside atom 1821
 WARNING: atoms 1822 is completely inside atom 1821
 WARNING: atoms 1823 is completely inside atom 1821
 WARNING: atoms 7801 is completely inside atom 7789
@@ -300,13 +300,13 @@ WARNING: atoms 1267 is completely inside atom 1266
 WARNING: atoms 331 is completely inside atom 320
 WARNING: atoms 332 is completely inside atom 320
 WARNING: atoms 333 is completely inside atom 320
-WARNING: atoms 1822 is completely inside atom 1821
-WARNING: atoms 1823 is completely inside atom 1821
 WARNING: atoms 1268 is completely inside atom 1266
 WARNING: atoms 1267 is completely inside atom 1266
 WARNING: atoms 331 is completely inside atom 320
 WARNING: atoms 332 is completely inside atom 320
 WARNING: atoms 333 is completely inside atom 320
+WARNING: atoms 1822 is completely inside atom 1821
+WARNING: atoms 1823 is completely inside atom 1821
 WARNING: atoms 1822 is completely inside atom 1821
 WARNING: atoms 1823 is completely inside atom 1821
 WARNING: atoms 7801 is completely inside atom 7789
@@ -374,7 +374,7 @@ REDUCED SURFACE ...
     Time Reduced Surface real: 0.11 user: 0.10 sys: 0.00
 ANALYTICAL SOLVENT EXCLUDED SURFACE...
     Component   0
-        Time Surface real: 0.01 user: 0.01 sys: 0.00
+        Time Surface real: 0.01 user: 0.00 sys: 0.00
 ordonne_aretes: No cycle in face 3726 (nba=-4)
 ordonne_aretes: No cycle in face 3728 (nba=-3)
  2 faces with problems
@@ -390,8 +390,8 @@ REDUCED SURFACE ...
          0        6928    10392          0       3145      160.5
     Time Reduced Surface real: 0.11 user: 0.11 sys: 0.00
     Component   0
-        Time Surface real: 0.00 user: 0.00 sys: 0.00
-        Time Singularities real: 0.01 user: 0.01 sys: 0.00
+        Time Surface real: 0.00 user: 0.01 sys: 0.00
+        Time Singularities real: 0.00 user: 0.00 sys: 0.00
     SES comp.  #fac.  #edg. #s_edg. #vert. #s_vert. R_h C_h genus
          0    21156  42678    412   21516      718   0   0    4
 ANALYTICAL SURFACE AREA :
@@ -466,7 +466,7 @@ REDUCED SURFACE ...
     Time Reduced Surface real: 0.11 user: 0.11 sys: 0.00
 ANALYTICAL SOLVENT EXCLUDED SURFACE...
     Component   0
-        Time Surface real: 0.01 user: 0.01 sys: 0.01
+        Time Surface real: 0.01 user: 0.00 sys: 0.00
 ordonne_aretes: No cycle in face 3726 (nba=-4)
 ordonne_aretes: No cycle in face 3728 (nba=-3)
  2 faces with problems
@@ -482,8 +482,8 @@ REDUCED SURFACE ...
          0        6928    10392          0       3145      160.5
     Time Reduced Surface real: 0.11 user: 0.11 sys: 0.00
     Component   0
-        Time Surface real: 0.00 user: 0.01 sys: 0.00
-        Time Singularities real: 0.01 user: 0.00 sys: 0.00
+        Time Surface real: 0.01 user: 0.00 sys: 0.00
+        Time Singularities real: 0.00 user: 0.01 sys: 0.00
     SES comp.  #fac.  #edg. #s_edg. #vert. #s_vert. R_h C_h genus
          0    21156  42678    412   21516      718   0   0    4
 ANALYTICAL SURFACE AREA :
@@ -532,13 +532,13 @@ WARNING: geodesic which intersects odd number of edges
 WARNING: geodesic which intersects odd number of edges
     component#, vertices,  edges,  faces, genus, density
         0         265014  795060  530040    4    11.355
-        Time Triangulation real: 0.58 user: 0.57 sys: 0.00
+        Time Triangulation real: 0.59 user: 0.57 sys: 0.01
 NUMERICAL VOLUMES AND AREA
     Comp. probe_radius SES_volume SES_area)
        0      1.40    77739.094  23243.463
     Total ses_volume: 77739.094
 MSMS terminated normally
-Total Time real: 1.34 user: 1.22 sys: 0.07
+Total Time real: 1.34 user: 1.23 sys: 0.05
 intersects odd number of edges
 WARNING: geodesic which intersects odd number of edges
 WARNING: geodesic which intersects odd number of edges
@@ -562,193 +562,193 @@ WARNING: geodesic which intersects odd number of edges
 WARNING: geodesic which intersects odd number of edges
     component#, vertices,  edges,  faces, genus, density
         0         265014  795060  530040    4    11.355
-        Time Triangulation real: 0.58 user: 0.57 sys: 0.02
+        Time Triangulation real: 0.58 user: 0.58 sys: 0.01
 NUMERICAL VOLUMES AND AREA
     Comp. probe_radius SES_volume SES_area)
        0      1.40    77739.094  23243.463
     Total ses_volume: 77739.094
 MSMS terminated normally
-Total Time real: 1.34 user: 1.23 sys: 0.06
+Total Time real: 1.34 user: 1.21 sys: 0.07
  # of surfaces=      530040  # of surface points=      265014
  # of surfaces=      530040  # of surface points=      265014
          129  ugly faces are deleted
- total MSMS post-processing time =  0.13284100000000021     
+ total MSMS post-processing time =  0.13234900000000005     
  surface area=   23242.4199    
  Begin to form right hand side vector b
  NUMBER OF FACES IN TRIANGULARIZATION:       529911
          129  ugly faces are deleted
- total MSMS post-processing time =  0.13837499999999991     
+ total MSMS post-processing time =  0.14267200000000013     
  surface area=   23242.4199    
  ===========================================================================
- Setting up right hand side calc time with reduce =    18.638677684124559                0
+ Setting up right hand side calc time with reduce =    18.639511247631162                0
  Begin to initialize treecode...
   
  Creating tree for       529911  particles with max          100  per node...
   
  Creating tree for       529911  particles with max          100  per node...
- Time to create tree (secs):   4.2093999999998744E-002
+ Time to create tree (secs):   4.4871999999998025E-002
  Begin to allocate varibles for the solver...
- Time to create tree (secs):   4.3287000000002962E-002
+ Time to create tree (secs):   4.5147000000000048E-002
  Begin to call the solver...
- Treecode time =    44.877576454542577                1
- Treecode time =    44.900018759071827                0
- treecode_times:    44.900018759071827        44.877576454542577     
+ Treecode time =    44.874718059320003                0
+ Treecode time =    45.101210663560778                1
+ treecode_times:    44.874718059320003        45.101210663560778     
            1 err=   0.23053165726243161     
            1 err=   0.23053165726243161     
- Treecode time =    44.846962103154510                1
- Treecode time =    44.879185973200947                0
- treecode_times:    44.879185973200947        44.846962103154510     
+ Treecode time =    44.820602630730718                0
+ Treecode time =    45.048328749369830                1
+ treecode_times:    44.820602630730718        45.048328749369830     
            2 err=    7.6954416287407262E-002
            2 err=    7.6954416287407262E-002
- Treecode time =    44.819061459507793                1
- Treecode time =    44.828040166758001                0
- treecode_times:    44.828040166758001        44.819061459507793     
+ Treecode time =    44.994470888283104                1
+ Treecode time =    44.861305143684149                0
+ treecode_times:    44.861305143684149        44.994470888283104     
            3 err=    3.4457793434770845E-002
            3 err=    3.4457793434770845E-002
- Treecode time =    44.838012073189020                1
- Treecode time =    44.862460524775088                0
- treecode_times:    44.862460524775088        44.838012073189020     
+ Treecode time =    45.021732504945248                1
+ Treecode time =    44.794253279455006                0
+ treecode_times:    44.794253279455006        45.021732504945248     
            4 err=    1.7847374280400997E-002
            4 err=    1.7847374280400997E-002
- Treecode time =    44.822274597361684                1
- Treecode time =    44.845314176753163                0
- treecode_times:    44.845314176753163        44.822274597361684     
+ Treecode time =    44.825930826831609                0
+ Treecode time =    45.031762667931616                1
+ treecode_times:    44.825930826831609        45.031762667931616     
            5 err=    1.4084097964387693E-002
            5 err=    1.4084097964387693E-002
- Treecode time =    44.845529871992767                0
- Treecode time =    44.822573244571686                1
- treecode_times:    44.845529871992767        44.822573244571686     
+ Treecode time =    44.992740442045033                1
+ Treecode time =    44.841837866231799                0
+ treecode_times:    44.841837866231799        44.992740442045033     
            6 err=    1.1820204697169323E-002
            6 err=    1.1820204697169323E-002
- Treecode time =    44.863991845864803                1
- Treecode time =    44.880971121136099                0
- treecode_times:    44.880971121136099        44.863991845864803     
+ Treecode time =    44.766320231836289                0
+ Treecode time =    45.026273164432496                1
+ treecode_times:    44.766320231836289        45.026273164432496     
            7 err=    8.3037313301992620E-003
            7 err=    8.3037313301992620E-003
- Treecode time =    44.859748047776520                0
- Treecode time =    44.836011209525168                1
- treecode_times:    44.859748047776520        44.836011209525168     
+ Treecode time =    44.822564140893519                0
+ Treecode time =    45.017494887113571                1
+ treecode_times:    44.822564140893519        45.017494887113571     
            8 err=    5.3054432342558022E-003
            8 err=    5.3054432342558022E-003
- Treecode time =    44.911063188686967                0
- Treecode time =    44.887354522943497                1
- treecode_times:    44.911063188686967        44.887354522943497     
+ Treecode time =    44.926035363692790                0
+ Treecode time =    45.062753640115261                1
+ treecode_times:    44.926035363692790        45.062753640115261     
            9 err=    3.1961923880152033E-003
            9 err=    3.1961923880152033E-003
- Treecode time =    44.818348113913089                1
- Treecode time =    44.843680592719465                0
- treecode_times:    44.843680592719465        44.818348113913089     
+ Treecode time =    44.777115334756672                0
+ Treecode time =    45.003015734720975                1
+ treecode_times:    44.777115334756672        45.003015734720975     
           10 err=    2.3435537475291171E-003
           10 err=    2.3435537475291171E-003
- Treecode time =    44.841367043089122                1
- Treecode time =    44.862336222548038                0
- treecode_times:    44.862336222548038        44.841367043089122     
+ Treecode time =    44.873101391829550                0
+ Treecode time =    44.963099254760891                1
+ treecode_times:    44.873101391829550        44.963099254760891     
            1 err=    1.6501493956041446E-003
            1 err=    1.6501493956041446E-003
- Treecode time =    44.828128042630851                1
- Treecode time =    44.854829696007073                0
- treecode_times:    44.854829696007073        44.828128042630851     
+ Treecode time =    44.810353830456734                0
+ Treecode time =    45.004256330896169                1
+ treecode_times:    44.810353830456734        45.004256330896169     
            2 err=    1.4128110035490284E-003
            2 err=    1.4128110035490284E-003
- Treecode time =    44.794035336468369                1
- Treecode time =    44.820812046062201                0
- treecode_times:    44.820812046062201        44.794035336468369     
+ Treecode time =    44.766920214053243                0
+ Treecode time =    44.970049984287471                1
+ treecode_times:    44.766920214053243        44.970049984287471     
            3 err=    1.1916360252886705E-003
            3 err=    1.1916360252886705E-003
- Treecode time =    44.874055819120258                1
- Treecode time =    44.903309737332165                0
- treecode_times:    44.903309737332165        44.874055819120258     
+ Treecode time =    44.813205253798515                0
+ Treecode time =    45.006814971100539                1
+ treecode_times:    44.813205253798515        45.006814971100539     
            4 err=    8.7675893127767330E-004
            4 err=    8.7675893127767330E-004
- Treecode time =    44.865056357346475                1
- Treecode time =    44.893191336188465                0
- treecode_times:    44.893191336188465        44.865056357346475     
+ Treecode time =    45.029231967404485                1
+ Treecode time =    44.849802915472537                0
+ treecode_times:    44.849802915472537        45.029231967404485     
            5 err=    7.6344388581722474E-004
            5 err=    7.6344388581722474E-004
- Treecode time =    44.791059793438762                1
- Treecode time =    44.818847234360874                0
- treecode_times:    44.818847234360874        44.791059793438762     
+ Treecode time =    44.776405430864543                0
+ Treecode time =    45.008093027397990                1
+ treecode_times:    44.776405430864543        45.008093027397990     
            6 err=    6.7358448966475500E-004
            6 err=    6.7358448966475500E-004
- Treecode time =    44.866716603282839                1
- Treecode time =    44.887601980008185                0
- treecode_times:    44.887601980008185        44.866716603282839     
+ Treecode time =    45.013125577941537                1
+ Treecode time =    44.786412132438272                0
+ treecode_times:    44.786412132438272        45.013125577941537     
            7 err=    5.6546687177248464E-004
            7 err=    5.6546687177248464E-004
- Treecode time =    44.833793367259204                0
- Treecode time =    44.808384572621435                1
- treecode_times:    44.833793367259204        44.808384572621435     
+ Treecode time =    44.797880367841572                0
+ Treecode time =    45.045503496192396                1
+ treecode_times:    44.797880367841572        45.045503496192396     
            8 err=    5.0845875546857056E-004
            8 err=    5.0845875546857056E-004
- Treecode time =    44.896353074349463                1
- Treecode time =    44.925050782039762                0
- treecode_times:    44.925050782039762        44.896353074349463     
+ Treecode time =    44.822229309473187                0
+ Treecode time =    45.015272007323802                1
+ treecode_times:    44.822229309473187        45.015272007323802     
            9 err=    4.8844675761521646E-004
            9 err=    4.8844675761521646E-004
- Treecode time =    44.890741884242743                1
- Treecode time =    44.912950847763568                0
- treecode_times:    44.912950847763568        44.890741884242743     
+ Treecode time =    44.842716700863093                0
+ Treecode time =    44.978779830969870                1
+ treecode_times:    44.842716700863093        44.978779830969870     
           10 err=    4.8644357370798409E-004
           10 err=    4.8644357370798409E-004
- Treecode time =    44.834816424176097                1
- Treecode time =    44.859658986330032                0
- treecode_times:    44.859658986330032        44.834816424176097     
+ Treecode time =    44.818615871481597                0
+ Treecode time =    45.025104109663516                1
+ treecode_times:    44.818615871481597        45.025104109663516     
            1 err=    4.8514392380829977E-004
            1 err=    4.8514392380829977E-004
- Treecode time =    44.946206224616617                1
- Treecode time =    44.956027016974986                0
- treecode_times:    44.956027016974986        44.946206224616617     
+ Treecode time =    44.921554931905121                0
+ Treecode time =    45.049201602116227                1
+ treecode_times:    44.921554931905121        45.049201602116227     
            2 err=    4.8132056602841861E-004
            2 err=    4.8132056602841861E-004
- Treecode time =    44.871252258308232                0
- Treecode time =    44.845821029040962                1
- treecode_times:    44.871252258308232        44.845821029040962     
+ Treecode time =    44.795629767235368                0
+ Treecode time =    45.087829336524010                1
+ treecode_times:    44.795629767235368        45.087829336524010     
            3 err=    4.7372494814918039E-004
            3 err=    4.7372494814918039E-004
- Treecode time =    44.861143755260855                1
- Treecode time =    44.882774008437991                0
- treecode_times:    44.882774008437991        44.861143755260855     
+ Treecode time =    44.903439832385629                0
+ Treecode time =    45.053215639200062                1
+ treecode_times:    44.903439832385629        45.053215639200062     
            4 err=    4.6515937226084350E-004
            4 err=    4.6515937226084350E-004
- Treecode time =    44.913599970750511                1
- Treecode time =    44.929136266466230                0
- treecode_times:    44.929136266466230        44.913599970750511     
+ Treecode time =    44.836482380051166                0
+ Treecode time =    45.019395384937525                1
+ treecode_times:    44.836482380051166        45.019395384937525     
            5 err=    4.3280951590988278E-004
            5 err=    4.3280951590988278E-004
- Treecode time =    44.845490100327879                0
- Treecode time =    44.827179762069136                1
- treecode_times:    44.845490100327879        44.827179762069136     
+ Treecode time =    45.040871236473322                1
+ Treecode time =    44.816165039315820                0
+ treecode_times:    44.816165039315820        45.040871236473322     
            6 err=    3.4483994232024088E-004
            6 err=    3.4483994232024088E-004
- Treecode time =    44.896528916433454                0
- Treecode time =    44.876292157452554                1
- treecode_times:    44.896528916433454        44.876292157452554     
+ Treecode time =    45.043036306276917                1
+ Treecode time =    44.857094531878829                0
+ treecode_times:    44.857094531878829        45.043036306276917     
            7 err=    2.4699601398355436E-004
            7 err=    2.4699601398355436E-004
- Treecode time =    44.902263536117971                0
- Treecode time =    44.879975035786629                1
- treecode_times:    44.902263536117971        44.879975035786629     
+ Treecode time =    44.811722296755761                0
+ Treecode time =    45.010189956054091                1
+ treecode_times:    44.811722296755761        45.010189956054091     
            8 err=    1.9376143912087712E-004
            8 err=    1.9376143912087712E-004
- Treecode time =    44.848194278776646                1
- Treecode time =    44.862549176439643                0
- treecode_times:    44.862549176439643        44.848194278776646     
+ Treecode time =    45.015672549139708                1
+ Treecode time =    44.873099691700190                0
+ treecode_times:    44.873099691700190        45.015672549139708     
            9 err=    1.3440744865056856E-004
            9 err=    1.3440744865056856E-004
- Treecode time =    44.882470998447388                1
- Treecode time =    44.902065601199865                0
- treecode_times:    44.902065601199865        44.882470998447388     
+ Treecode time =    44.836836321279407                0
+ Treecode time =    45.001412708312273                1
+ treecode_times:    44.836836321279407        45.001412708312273     
           10 err=    1.0904661465935386E-004
           10 err=    1.0904661465935386E-004
- Treecode time =    44.818619099445641                1
- Treecode time =    44.834350639022887                0
- treecode_times:    44.834350639022887        44.818619099445641     
+ Treecode time =    44.824056897778064                0
+ Treecode time =    45.004086229018867                1
+ treecode_times:    44.824056897778064        45.004086229018867     
  err=   9.2418213747092002E-005 ierr=           0 iter=          31
  Solvation Energy =  -7018.2828017283409     
- Solvation energy calc time =    28.408399251755327                0
+ Solvation energy calc time =    28.404676227830350                0
  Error deallocating xtemp, ind_vert, vert_ptl, xyz_temp
- setup cpu=   1.14016700    
- solving cpu=   1441.37708    
- cpu for computing solvation energy=   30.3050632    
- Total cpu=    1472.82227    
+ setup cpu=   1.11616898    
+ solving cpu=   1447.20264    
+ cpu for computing solvation energy=   30.2876205    
+ Total cpu=    1478.60645    
  Error deallocating xtemp, ind_vert, vert_ptl, xyz_temp
