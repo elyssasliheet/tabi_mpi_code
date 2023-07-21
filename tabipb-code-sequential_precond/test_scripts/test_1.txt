@@ -1,7 +1,7 @@
  Starting MPI with     1 processes.
  PDB ID: 7n3c                                                                                                
  Density: 12                                                                                                  
-MSMS 2.6.1 started on c025
+MSMS 2.6.1 started on c043
 Copyright M.F. Sanner (1994)
 Compilation flags -O2 -DVERBOSE -DTIMING
 Atom 85 ignored, radius = 0.000000
@@ -225,10 +225,10 @@ REDUCED SURFACE ...
     0 free edge(s) found in component 0
     RS component  #faces  #edges #free_edges  #vertices   genus
          0        6928    10392          0       3145      160.5
-    Time Reduced Surface real: 0.11 user: 0.11 sys: 0.00
+    Time Reduced Surface real: 0.12 user: 0.11 sys: 0.00
     Component   0
-        Time Surface real: 0.00 user: 0.01 sys: 0.00
-        Time Singularities real: 0.01 user: 0.00 sys: 0.00
+        Time Surface real: 0.00 user: 0.00 sys: 0.00
+        Time Singularities real: 0.00 user: 0.01 sys: 0.00
     SES comp.  #fac.  #edg. #s_edg. #vert. #s_vert. R_h C_h genus
          0    21156  42678    412   21516      718   0   0    4
 ANALYTICAL SURFACE AREA :
@@ -277,108 +277,108 @@ WARNING: geodesic which intersects odd number of edges
 WARNING: geodesic which intersects odd number of edges
     component#, vertices,  edges,  faces, genus, density
         0         265014  795060  530040    4    11.355
-        Time Triangulation real: 0.58 user: 0.57 sys: 0.01
+        Time Triangulation real: 0.57 user: 0.57 sys: 0.01
 NUMERICAL VOLUMES AND AREA
     Comp. probe_radius SES_volume SES_area)
        0      1.40    77739.094  23243.463
     Total ses_volume: 77739.094
 MSMS terminated normally
-Total Time real: 1.32 user: 1.21 sys: 0.05
+Total Time real: 1.31 user: 1.19 sys: 0.06
  # of surfaces=      530040  # of surface points=      265014
          129  ugly faces are deleted
- total MSMS post-processing time =  0.13428600000000013     
+ total MSMS post-processing time =  0.13428499999999999     
  surface area=   23242.4199    
  NUMBER OF FACES OF TRIANGULARIZATION:       529911
  ===========================================================================
- Setting up right hand side calc time with reduce =    37.179825482890010                0
+ Setting up right hand side calc time with reduce =    37.170285710599273                0
  Begin to initialize treecode...
   
  Creating tree for       529911  particles with max          100  per node...
  nleafmax:        12762
- Time to create tree (secs):   4.4671000000001015E-002
+ Time to create tree (secs):   4.6630999999997869E-002
  Begin to call the solver...
- Preconditioner Time =    1.8488832106813788                0
- Preconditioner Time =    1.8528516525402665                0
- Treecode time =    89.681631354615092                0
- treecode_times:    89.681631354615092     
- Preconditioner Time =    1.8532008277252316                0
+ Preconditioner Time =    1.8506330330856144                0
+ Preconditioner Time =    1.8457187716849148                0
+ Treecode time =    89.634629134554416                0
+ treecode_times:    89.634629134554416     
+ Preconditioner Time =    1.8506691232323647                0
            1 err=   0.22055335314635716     
- Treecode time =    89.695691764354706                0
- treecode_times:    89.695691764354706     
- Preconditioner Time =    1.8526878799311817                0
+ Treecode time =    89.771623786073178                0
+ treecode_times:    89.771623786073178     
+ Preconditioner Time =    1.8501367536373436                0
            2 err=    6.9766394678246496E-002
- Treecode time =    89.610074886120856                0
- treecode_times:    89.610074886120856     
- Preconditioner Time =    1.8519913787022233                0
+ Treecode time =    89.693675870075822                0
+ treecode_times:    89.693675870075822     
+ Preconditioner Time =    1.8492770274169743                0
            3 err=    3.8102390797026153E-002
- Treecode time =    89.753097620792687                0
- treecode_times:    89.753097620792687     
- Preconditioner Time =    1.8535721236839890                0
+ Treecode time =    89.625723879318684                0
+ treecode_times:    89.625723879318684     
+ Preconditioner Time =    1.8506330624222755                0
            4 err=    2.8789673100230367E-002
- Treecode time =    89.723662050440907                0
- treecode_times:    89.723662050440907     
- Preconditioner Time =    1.8516455236822367                0
+ Treecode time =    89.687613737303764                0
+ treecode_times:    89.687613737303764     
+ Preconditioner Time =    1.8503169366158545                0
            5 err=    1.5485265473671609E-002
- Treecode time =    89.733852989505976                0
- treecode_times:    89.733852989505976     
- Preconditioner Time =    1.8540189708583057                0
+ Treecode time =    89.642991899512708                0
+ treecode_times:    89.642991899512708     
+ Preconditioner Time =    1.8495347620919347                0
            6 err=    4.2819057024655344E-003
- Treecode time =    89.730547357816249                0
- treecode_times:    89.730547357816249     
- Preconditioner Time =    1.8530313554219902                0
+ Treecode time =    89.606813688296825                0
+ treecode_times:    89.606813688296825     
+ Preconditioner Time =    1.8506840737536550                0
            7 err=    2.2152837996437290E-003
- Treecode time =    89.684945075772703                0
- treecode_times:    89.684945075772703     
- Preconditioner Time =    1.8521483424119651                0
+ Treecode time =    89.638721600174904                0
+ treecode_times:    89.638721600174904     
+ Preconditioner Time =    1.8497850969433784                0
            8 err=    1.4098946586547814E-003
- Treecode time =    89.733036826830357                0
- treecode_times:    89.733036826830357     
- Preconditioner Time =    1.8533215802162886                0
+ Treecode time =    89.730527293402702                0
+ treecode_times:    89.730527293402702     
+ Preconditioner Time =    1.8491380750201643                0
            9 err=    7.3416133627037200E-004
- Treecode time =    89.669312391895801                0
- treecode_times:    89.669312391895801     
- Preconditioner Time =    1.8526776805520058                0
+ Treecode time =    89.676197595894337                0
+ treecode_times:    89.676197595894337     
+ Preconditioner Time =    1.8513320661149919                0
           10 err=    3.6440436878555567E-004
- Treecode time =    89.709849024657160                0
- treecode_times:    89.709849024657160     
- Preconditioner Time =    1.8519146577455103                0
+ Treecode time =    89.603112170007080                0
+ treecode_times:    89.603112170007080     
+ Preconditioner Time =    1.8487052069976926                0
            1 err=    3.3142787912753289E-004
- Treecode time =    89.690971769858152                0
- treecode_times:    89.690971769858152     
- Preconditioner Time =    1.8539857701398432                0
+ Treecode time =    89.746237575076520                0
+ treecode_times:    89.746237575076520     
+ Preconditioner Time =    1.8504225788637996                0
            2 err=    2.9421758387988302E-004
- Treecode time =    89.761621343437582                0
- treecode_times:    89.761621343437582     
- Preconditioner Time =    1.8514556712470949                0
+ Treecode time =    89.666547856759280                0
+ treecode_times:    89.666547856759280     
+ Preconditioner Time =    1.8499798006378114                0
            3 err=    2.9304692835953235E-004
- Treecode time =    89.731124607846141                0
- treecode_times:    89.731124607846141     
- Preconditioner Time =    1.8535211128182709                0
+ Treecode time =    89.637296983972192                0
+ treecode_times:    89.637296983972192     
+ Preconditioner Time =    1.8496635146439075                0
            4 err=    2.8983519446921222E-004
- Treecode time =    89.710198240354657                0
- treecode_times:    89.710198240354657     
- Preconditioner Time =    1.8528628228232265                0
+ Treecode time =    89.712863096036017                0
+ treecode_times:    89.712863096036017     
+ Preconditioner Time =    1.8503098371438682                0
            5 err=    2.4402772705317121E-004
- Treecode time =    89.681345119606704                0
- treecode_times:    89.681345119606704     
- Preconditioner Time =    1.8526678793132305                0
+ Treecode time =    89.708760620094836                0
+ treecode_times:    89.708760620094836     
+ Preconditioner Time =    1.8498087078332901                0
            6 err=    1.8619048757677020E-004
- Treecode time =    89.641541998367757                0
- treecode_times:    89.641541998367757     
- Preconditioner Time =    1.8534348621033132                0
+ Treecode time =    89.712610311806202                0
+ treecode_times:    89.712610311806202     
+ Preconditioner Time =    1.8492844677530229                0
            7 err=    1.5364533255906917E-004
- Treecode time =    89.707845073193312                0
- treecode_times:    89.707845073193312     
- Preconditioner Time =    1.8525621076114476                0
+ Treecode time =    89.701832501217723                0
+ treecode_times:    89.701832501217723     
+ Preconditioner Time =    1.8504573991522193                0
            8 err=    1.1420770985011842E-004
- Treecode time =    89.706705575343221                0
- treecode_times:    89.706705575343221     
- Preconditioner Time =    1.8522042026743293                0
+ Treecode time =    89.651048629079014                0
+ treecode_times:    89.651048629079014     
+ Preconditioner Time =    1.8489572717808187                0
  err=   8.5708234236730137E-005 ierr=           0 iter=          19
  Solvation Energy =  -7018.5118877022705     
- Solvation energy calc time =    56.851759949699044                0
+ Solvation energy calc time =    56.835200732573867                0
  Error deallocating xtemp, ind_vert, vert_ptl, xyz_temp
- setup cpu=   1.08027005    
- solving cpu=   1817.71619    
- cpu for computing solvation energy=   58.6984825    
- Total cpu=    1877.49500    
+ setup cpu=   1.04750800    
+ solving cpu=   1817.52295    
+ cpu for computing solvation energy=   58.6909294    
+ Total cpu=    1877.26135    
