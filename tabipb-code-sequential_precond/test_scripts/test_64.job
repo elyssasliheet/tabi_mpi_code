@@ -1,6 +1,6 @@
 #!/bin/bash
 #SBATCH -J test_64       # job name to display in squeue
-#SBATCH -o test_scripts/test_64.txt     # standard output file
+#SBATCH -o test_scripts/test_64txt     # standard output file
 #SBATCH -n 64                           # requested MPI tasks
 #SBATCH -p standard-s               # requested partition
 #SBATCH -t 180                           # maximum runtime in minutes
@@ -9,4 +9,4 @@
 #SBATCH --mail-user esliheet@smu.edu
 #SBATCH --mail-type=all
 
-mpirun ./tabipb.exe
+mpirun ./tabipb.exe 
