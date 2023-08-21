@@ -1,0 +1,3242 @@
+ Starting MPI with    32 processes.
+ PDB ID: 6yi3                                                                                                
+ Density: 31.5                                                                                                
+WARNING: atoms 422 is completely inside atom 410
+WARNING: atoms 421 is completely inside atom 410
+WARNING: atoms 424 is completely inside atom 411
+WARNING: atoms 423 is completely inside atom 411
+WARNING: atoms 1301 is completely inside atom 1299
+WARNING: atoms 1300 is completely inside atom 1299
+WARNING: atoms 422 is completely inside atom 410
+WARNING: atoms 421 is completely inside atom 410
+WARNING: atoms 424 is completely inside atom 411
+WARNING: atoms 423 is completely inside atom 411
+WARNING: atoms 422 is completely inside atom 410
+WARNING: atoms 421 is completely inside atom 410
+WARNING: atoms 424 is completely inside atom 411
+WARNING: atoms 423 is completely inside atom 411
+WARNING: atoms 422 is completely inside atom 410
+WARNING: atoms 421 is completely inside atom 410
+WARNING: atoms 424 is completely inside atom 411
+WARNING: atoms 423 is completely inside atom 411
+WARNING: atoms 422 is completely inside atom 410
+WARNING: atoms 421 is completely inside atom 410
+WARNING: atoms 424 is completely inside atom 411
+WARNING: atoms 423 is completely inside atom 411
+WARNING: atoms 422 is completely inside atom 410
+WARNING: atoms 421 is completely inside atom 410
+WARNING: atoms 422 is completely inside atom 410
+WARNING: atoms 421 is completely inside atom 410
+WARNING: atoms 424 is completely inside atom 411
+WARNING: atoms 423 is completely inside atom 411
+WARNING: atoms 422 is completely inside atom 410
+WARNING: atoms 421 is completely inside atom 410
+WARNING: atoms 424 is completely inside atom 411
+WARNING: atoms 423 is completely inside atom 411
+WARNING: atoms 424 is completely inside atom 411
+WARNING: atoms 423 is completely inside atom 411
+WARNING: atoms 422 is completely inside atom 410
+WARNING: atoms 421 is completely inside atom 410
+WARNING: atoms 424 is completely inside atom 411
+WARNING: atoms 423 is completely inside atom 411
+WARNING: atoms 422 is completely inside atom 410
+WARNING: atoms 421 is completely inside atom 410
+WARNING: atoms 424 is completely inside atom 411
+WARNING: atoms 423 is completely inside atom 411
+WARNING: atoms 422 is completely inside atom 410
+WARNING: atoms 421 is completely inside atom 410
+WARNING: atoms 1301 is completely inside atom 1299
+WARNING: atoms 1300 is completely inside atom 1299
+WARNING: atoms 424 is completely inside atom 411
+WARNING: atoms 423 is completely inside atom 411
+WARNING: atoms 422 is completely inside atom 410
+WARNING: atoms 421 is completely inside atom 410
+WARNING: atoms 424 is completely inside atom 411
+WARNING: atoms 423 is completely inside atom 411
+WARNING: atoms 1301 is completely inside atom 1299
+WARNING: atoms 1300 is completely inside atom 1299
+WARNING: atoms 1301 is completely inside atom 1299
+WARNING: atoms 1300 is completely inside atom 1299
+WARNING: atoms 422 is completely inside atom 410
+WARNING: atoms 421 is completely inside atom 410
+WARNING: atoms 422 is completely inside atom 410
+WARNING: atoms 421 is completely inside atom 410
+WARNING: atoms 424 is completely inside atom 411
+WARNING: atoms 423 is completely inside atom 411
+WARNING: atoms 1855 is completely inside atom 1854
+WARNING: atoms 1856 is completely inside atom 1854
+WARNING: atoms 424 is completely inside atom 411
+WARNING: atoms 423 is completely inside atom 411
+WARNING: atoms 1944 is completely inside atom 1931
+WARNING: atoms 1943 is completely inside atom 1931
+WARNING: atoms 1942 is completely inside atom 1931
+WARNING: atoms 296 is completely inside atom 285
+WARNING: atoms 298 is completely inside atom 285
+WARNING: atoms 297 is completely inside atom 285
+WARNING: atoms 1301 is completely inside atom 1299
+WARNING: atoms 1300 is completely inside atom 1299
+WARNING: atoms 1301 is completely inside atom 1299
+WARNING: atoms 1300 is completely inside atom 1299
+WARNING: atoms 1301 is completely inside atom 1299
+WARNING: atoms 1300 is completely inside atom 1299
+WARNING: atoms 1301 is completely inside atom 1299
+WARNING: atoms 1300 is completely inside atom 1299
+WARNING: atoms 422 is completely inside atom 410
+WARNING: atoms 421 is completely inside atom 410
+WARNING: atoms 424 is completely inside atom 411
+WARNING: atoms 423 is completely inside atom 411
+WARNING: atoms 422 is completely inside atom 410
+WARNING: atoms 421 is completely inside atom 410
+WARNING: atoms 424 is completely inside atom 411
+WARNING: atoms 423 is completely inside atom 411
+WARNING: atoms 710 is completely inside atom 697
+WARNING: atoms 709 is completely inside atom 697
+WARNING: atoms 1301 is completely inside atom 1299
+WARNING: atoms 1300 is completely inside atom 1299
+WARNING: atoms 1301 is completely inside atom 1299
+WARNING: atoms 1300 is completely inside atom 1299
+WARNING: atoms 1301 is completely inside atom 1299
+WARNING: atoms 1300 is completely inside atom 1299
+WARNING: atoms 1301 is completely inside atom 1299
+WARNING: atoms 1300 is completely inside atom 1299
+WARNING: atoms 422 is completely inside atom 410
+WARNING: atoms 421 is completely inside atom 410
+WARNING: atoms 424 is completely inside atom 411
+WARNING: atoms 423 is completely inside atom 411
+WARNING: atoms 1301 is completely inside atom 1299
+WARNING: atoms 1300 is completely inside atom 1299
+WARNING: atoms 1301 is completely inside atom 1299
+WARNING: atoms 1300 is completely inside atom 1299
+WARNING: atoms 1301 is completely inside atom 1299
+WARNING: atoms 1300 is completely inside atom 1299
+WARNING: atoms 1301 is completely inside atom 1299
+WARNING: atoms 1300 is completely inside atom 1299
+WARNING: atoms 422 is completely inside atom 410
+WARNING: atoms 421 is completely inside atom 410
+WARNING: atoms 424 is completely inside atom 411
+WARNING: atoms 423 is completely inside atom 411
+WARNING: atoms 1855 is completely inside atom 1854
+WARNING: atoms 1856 is completely inside atom 1854
+WARNING: atoms 1855 is completely inside atom 1854
+WARNING: atoms 1856 is completely inside atom 1854
+WARNING: atoms 1855 is completely inside atom 1854
+WARNING: atoms 1856 is completely inside atom 1854
+WARNING: atoms 1944 is completely inside atom 1931
+WARNING: atoms 1943 is completely inside atom 1931
+WARNING: atoms 1942 is completely inside atom 1931
+WARNING: atoms 1944 is completely inside atom 1931
+WARNING: atoms 1943 is completely inside atom 1931
+WARNING: atoms 1942 is completely inside atom 1931
+WARNING: atoms 1301 is completely inside atom 1299
+WARNING: atoms 1300 is completely inside atom 1299
+WARNING: atoms 296 is completely inside atom 285
+WARNING: atoms 298 is completely inside atom 285
+WARNING: atoms 297 is completely inside atom 285
+WARNING: atoms 1944 is completely inside atom 1931
+WARNING: atoms 1943 is completely inside atom 1931
+WARNING: atoms 1942 is completely inside atom 1931
+WARNING: atoms 296 is completely inside atom 285
+WARNING: atoms 298 is completely inside atom 285
+WARNING: atoms 297 is completely inside atom 285
+WARNING: atoms 296 is completely inside atom 285
+WARNING: atoms 298 is completely inside atom 285
+WARNING: atoms 297 is completely inside atom 285
+WARNING: atoms 710 is completely inside atom 697
+WARNING: atoms 709 is completely inside atom 697
+WARNING: atoms 779 is completely inside atom 767
+WARNING: atoms 778 is completely inside atom 767
+WARNING: atoms 1855 is completely inside atom 1854
+WARNING: atoms 1856 is completely inside atom 1854
+WARNING: atoms 710 is completely inside atom 697
+WARNING: atoms 709 is completely inside atom 697
+WARNING: atoms 710 is completely inside atom 697
+WARNING: atoms 709 is completely inside atom 697
+WARNING: atoms 1855 is completely inside atom 1854
+WARNING: atoms 1856 is completely inside atom 1854
+WARNING: atoms 1855 is completely inside atom 1854
+WARNING: atoms 1856 is completely inside atom 1854
+WARNING: atoms 1855 is completely inside atom 1854
+WARNING: atoms 1856 is completely inside atom 1854
+WARNING: atoms 1944 is completely inside atom 1931
+WARNING: atoms 1943 is completely inside atom 1931
+WARNING: atoms 1942 is completely inside atom 1931
+WARNING: atoms 1944 is completely inside atom 1931
+WARNING: atoms 1943 is completely inside atom 1931
+WARNING: atoms 1942 is completely inside atom 1931
+WARNING: atoms 1944 is completely inside atom 1931
+WARNING: atoms 1943 is completely inside atom 1931
+WARNING: atoms 1942 is completely inside atom 1931
+WARNING: atoms 1855 is completely inside atom 1854
+WARNING: atoms 1856 is completely inside atom 1854
+WARNING: atoms 422 is completely inside atom 410
+WARNING: atoms 421 is completely inside atom 410
+WARNING: atoms 424 is completely inside atom 411
+WARNING: atoms 423 is completely inside atom 411
+WARNING: atoms 1944 is completely inside atom 1931
+WARNING: atoms 1943 is completely inside atom 1931
+WARNING: atoms 1942 is completely inside atom 1931
+WARNING: atoms 296 is completely inside atom 285
+WARNING: atoms 298 is completely inside atom 285
+WARNING: atoms 297 is completely inside atom 285
+WARNING: atoms 296 is completely inside atom 285
+WARNING: atoms 298 is completely inside atom 285
+WARNING: atoms 297 is completely inside atom 285
+WARNING: atoms 296 is completely inside atom 285
+WARNING: atoms 298 is completely inside atom 285
+WARNING: atoms 297 is completely inside atom 285
+WARNING: atoms 296 is completely inside atom 285
+WARNING: atoms 298 is completely inside atom 285
+WARNING: atoms 297 is completely inside atom 285
+WARNING: atoms 1944 is completely inside atom 1931
+WARNING: atoms 1943 is completely inside atom 1931
+WARNING: atoms 1942 is completely inside atom 1931
+WARNING: atoms 710 is completely inside atom 697
+WARNING: atoms 709 is completely inside atom 697
+WARNING: atoms 2056 is completely inside atom 2044
+WARNING: atoms 2057 is completely inside atom 2044
+WARNING: atoms 1855 is completely inside atom 1854
+WARNING: atoms 1856 is completely inside atom 1854
+WARNING: atoms 1301 is completely inside atom 1299
+WARNING: atoms 1300 is completely inside atom 1299
+WARNING: atoms 710 is completely inside atom 697
+WARNING: atoms 709 is completely inside atom 697
+WARNING: atoms 710 is completely inside atom 697
+WARNING: atoms 709 is completely inside atom 697
+WARNING: atoms 422 is completely inside atom 410
+WARNING: atoms 421 is completely inside atom 410
+WARNING: atoms 424 is completely inside atom 411
+WARNING: atoms 423 is completely inside atom 411
+WARNING: atoms 710 is completely inside atom 697
+WARNING: atoms 709 is completely inside atom 697
+WARNING: atoms 1855 is completely inside atom 1854
+WARNING: atoms 1856 is completely inside atom 1854
+WARNING: atoms 1855 is completely inside atom 1854
+WARNING: atoms 1856 is completely inside atom 1854
+WARNING: atoms 296 is completely inside atom 285
+WARNING: atoms 298 is completely inside atom 285
+WARNING: atoms 297 is completely inside atom 285
+WARNING: atoms 1944 is completely inside atom 1931
+WARNING: atoms 1943 is completely inside atom 1931
+WARNING: atoms 1942 is completely inside atom 1931
+WARNING: atoms 781 is completely inside atom 768
+WARNING: atoms 780 is completely inside atom 768
+WARNING: atoms 1944 is completely inside atom 1931
+WARNING: atoms 1943 is completely inside atom 1931
+WARNING: atoms 1942 is completely inside atom 1931
+WARNING: atoms 710 is completely inside atom 697
+WARNING: atoms 709 is completely inside atom 697
+WARNING: atoms 1855 is completely inside atom 1854
+WARNING: atoms 1856 is completely inside atom 1854
+WARNING: atoms 1855 is completely inside atom 1854
+WARNING: atoms 1856 is completely inside atom 1854
+WARNING: atoms 296 is completely inside atom 285
+WARNING: atoms 298 is completely inside atom 285
+WARNING: atoms 297 is completely inside atom 285
+WARNING: atoms 1944 is completely inside atom 1931
+WARNING: atoms 1943 is completely inside atom 1931
+WARNING: atoms 1942 is completely inside atom 1931
+WARNING: atoms 296 is completely inside atom 285
+WARNING: atoms 298 is completely inside atom 285
+WARNING: atoms 297 is completely inside atom 285
+WARNING: atoms 296 is completely inside atom 285
+WARNING: atoms 298 is completely inside atom 285
+WARNING: atoms 297 is completely inside atom 285
+WARNING: atoms 710 is completely inside atom 697
+WARNING: atoms 709 is completely inside atom 697
+WARNING: atoms 1944 is completely inside atom 1931
+WARNING: atoms 1943 is completely inside atom 1931
+WARNING: atoms 1942 is completely inside atom 1931
+WARNING: atoms 1944 is completely inside atom 1931
+WARNING: atoms 1943 is completely inside atom 1931
+WARNING: atoms 1942 is completely inside atom 1931
+WARNING: atoms 710 is completely inside atom 697
+WARNING: atoms 709 is completely inside atom 697
+WARNING: atoms 710 is completely inside atom 697
+WARNING: atoms 709 is completely inside atom 697
+WARNING: atoms 296 is completely inside atom 285
+WARNING: atoms 298 is completely inside atom 285
+WARNING: atoms 297 is completely inside atom 285
+WARNING: atoms 296 is completely inside atom 285
+WARNING: atoms 298 is completely inside atom 285
+WARNING: atoms 297 is completely inside atom 285
+WARNING: atoms 1855 is completely inside atom 1854
+WARNING: atoms 1856 is completely inside atom 1854
+WARNING: atoms 1855 is completely inside atom 1854
+WARNING: atoms 1856 is completely inside atom 1854
+WARNING: atoms 710 is completely inside atom 697
+WARNING: atoms 709 is completely inside atom 697
+WARNING: atoms 710 is completely inside atom 697
+WARNING: atoms 709 is completely inside atom 697
+WARNING: atoms 422 is completely inside atom 410
+WARNING: atoms 421 is completely inside atom 410
+WARNING: atoms 1944 is completely inside atom 1931
+WARNING: atoms 1943 is completely inside atom 1931
+WARNING: atoms 1942 is completely inside atom 1931
+WARNING: atoms 1301 is completely inside atom 1299
+WARNING: atoms 1300 is completely inside atom 1299
+WARNING: atoms 424 is completely inside atom 411
+WARNING: atoms 423 is completely inside atom 411
+WARNING: atoms 1944 is completely inside atom 1931
+WARNING: atoms 1943 is completely inside atom 1931
+WARNING: atoms 1942 is completely inside atom 1931
+WARNING: atoms 296 is completely inside atom 285
+WARNING: atoms 298 is completely inside atom 285
+WARNING: atoms 297 is completely inside atom 285
+WARNING: atoms 296 is completely inside atom 285
+WARNING: atoms 298 is completely inside atom 285
+WARNING: atoms 297 is completely inside atom 285
+WARNING: atoms 710 is completely inside atom 697
+WARNING: atoms 709 is completely inside atom 697
+WARNING: atoms 710 is completely inside atom 697
+WARNING: atoms 709 is completely inside atom 697
+WARNING: atoms 1301 is completely inside atom 1299
+WARNING: atoms 1300 is completely inside atom 1299
+WARNING: atoms 422 is completely inside atom 410
+WARNING: atoms 421 is completely inside atom 410
+WARNING: atoms 424 is completely inside atom 411
+WARNING: atoms 423 is completely inside atom 411
+WARNING: atoms 422 is completely inside atom 410
+WARNING: atoms 421 is completely inside atom 410
+WARNING: atoms 424 is completely inside atom 411
+WARNING: atoms 423 is completely inside atom 411
+WARNING: atoms 779 is completely inside atom 767
+WARNING: atoms 778 is completely inside atom 767
+WARNING: atoms 779 is completely inside atom 767
+WARNING: atoms 778 is completely inside atom 767
+WARNING: atoms 1855 is completely inside atom 1854
+WARNING: atoms 1856 is completely inside atom 1854
+WARNING: atoms 779 is completely inside atom 767
+WARNING: atoms 778 is completely inside atom 767
+WARNING: atoms 1944 is completely inside atom 1931
+WARNING: atoms 1943 is completely inside atom 1931
+WARNING: atoms 1942 is completely inside atom 1931
+WARNING: atoms 296 is completely inside atom 285
+WARNING: atoms 298 is completely inside atom 285
+WARNING: atoms 297 is completely inside atom 285
+WARNING: atoms 779 is completely inside atom 767
+WARNING: atoms 778 is completely inside atom 767
+WARNING: atoms 710 is completely inside atom 697
+WARNING: atoms 709 is completely inside atom 697
+WARNING: atoms 2056 is completely inside atom 2044
+WARNING: atoms 2057 is completely inside atom 2044
+WARNING: atoms 2056 is completely inside atom 2044
+WARNING: atoms 2057 is completely inside atom 2044
+WARNING: atoms 779 is completely inside atom 767
+WARNING: atoms 778 is completely inside atom 767
+WARNING: atoms 779 is completely inside atom 767
+WARNING: atoms 778 is completely inside atom 767
+WARNING: atoms 6 is completely inside atom 0
+WARNING: atoms 5 is completely inside atom 0
+WARNING: atoms 4 is completely inside atom 0
+WARNING: atoms 2055 is completely inside atom 2043
+WARNING: atoms 2054 is completely inside atom 2043
+WARNING: atoms 779 is completely inside atom 767
+WARNING: atoms 778 is completely inside atom 767
+WARNING: atoms 1301 is completely inside atom 1299
+WARNING: atoms 1300 is completely inside atom 1299
+WARNING: atoms 2056 is completely inside atom 2044
+WARNING: atoms 2057 is completely inside atom 2044
+WARNING: atoms 2079 is completely inside atom 2072
+WARNING: atoms 781 is completely inside atom 768
+WARNING: atoms 780 is completely inside atom 768
+WARNING: atoms 1855 is completely inside atom 1854
+WARNING: atoms 1856 is completely inside atom 1854
+WARNING: atoms 779 is completely inside atom 767
+WARNING: atoms 778 is completely inside atom 767
+WARNING: atoms 781 is completely inside atom 768
+WARNING: atoms 780 is completely inside atom 768
+WARNING: atoms 781 is completely inside atom 768
+WARNING: atoms 780 is completely inside atom 768
+WARNING: atoms 1944 is completely inside atom 1931
+WARNING: atoms 1943 is completely inside atom 1931
+WARNING: atoms 1942 is completely inside atom 1931
+WARNING: atoms 1301 is completely inside atom 1299
+WARNING: atoms 1300 is completely inside atom 1299
+WARNING: atoms 779 is completely inside atom 767
+WARNING: atoms 778 is completely inside atom 767
+WARNING: atoms 1301 is completely inside atom 1299
+WARNING: atoms 1300 is completely inside atom 1299
+WARNING: atoms 2056 is completely inside atom 2044
+WARNING: atoms 2057 is completely inside atom 2044
+WARNING: atoms 779 is completely inside atom 767
+WARNING: atoms 778 is completely inside atom 767
+WARNING: atoms 296 is completely inside atom 285
+WARNING: atoms 298 is completely inside atom 285
+WARNING: atoms 297 is completely inside atom 285
+WARNING: atoms 2056 is completely inside atom 2044
+WARNING: atoms 2057 is completely inside atom 2044
+WARNING: atoms 779 is completely inside atom 767
+WARNING: atoms 778 is completely inside atom 767
+WARNING: atoms 2056 is completely inside atom 2044
+WARNING: atoms 2057 is completely inside atom 2044
+WARNING: atoms 2056 is completely inside atom 2044
+WARNING: atoms 2057 is completely inside atom 2044
+WARNING: atoms 710 is completely inside atom 697
+WARNING: atoms 709 is completely inside atom 697
+WARNING: atoms 779 is completely inside atom 767
+WARNING: atoms 778 is completely inside atom 767
+WARNING: atoms 422 is completely inside atom 410
+WARNING: atoms 421 is completely inside atom 410
+WARNING: atoms 779 is completely inside atom 767
+WARNING: atoms 778 is completely inside atom 767
+WARNING: atoms 781 is completely inside atom 768
+WARNING: atoms 780 is completely inside atom 768
+WARNING: atoms 424 is completely inside atom 411
+WARNING: atoms 423 is completely inside atom 411
+WARNING: atoms 2056 is completely inside atom 2044
+WARNING: atoms 2057 is completely inside atom 2044
+WARNING: atoms 422 is completely inside atom 410
+WARNING: atoms 421 is completely inside atom 410
+WARNING: atoms 781 is completely inside atom 768
+WARNING: atoms 780 is completely inside atom 768
+WARNING: atoms 422 is completely inside atom 410
+WARNING: atoms 421 is completely inside atom 410
+WARNING: atoms 781 is completely inside atom 768
+WARNING: atoms 780 is completely inside atom 768
+WARNING: atoms 781 is completely inside atom 768
+WARNING: atoms 780 is completely inside atom 768
+WARNING: atoms 424 is completely inside atom 411
+WARNING: atoms 423 is completely inside atom 411
+WARNING: atoms 424 is completely inside atom 411
+WARNING: atoms 423 is completely inside atom 411
+WARNING: atoms 2056 is completely inside atom 2044
+WARNING: atoms 2057 is completely inside atom 2044
+WARNING: atoms 781 is completely inside atom 768
+WARNING: atoms 780 is completely inside atom 768
+WARNING: atoms 2056 is completely inside atom 2044
+WARNING: atoms 2057 is completely inside atom 2044
+WARNING: atoms 2056 is completely inside atom 2044
+WARNING: atoms 2057 is completely inside atom 2044
+WARNING: atoms 1855 is completely inside atom 1854
+WARNING: atoms 1856 is completely inside atom 1854
+WARNING: atoms 779 is completely inside atom 767
+WARNING: atoms 778 is completely inside atom 767
+WARNING: atoms 779 is completely inside atom 767
+WARNING: atoms 778 is completely inside atom 767
+WARNING: atoms 781 is completely inside atom 768
+WARNING: atoms 780 is completely inside atom 768
+WARNING: atoms 2056 is completely inside atom 2044
+WARNING: atoms 2057 is completely inside atom 2044
+WARNING: atoms 2056 is completely inside atom 2044
+WARNING: atoms 2057 is completely inside atom 2044
+WARNING: atoms 781 is completely inside atom 768
+WARNING: atoms 780 is completely inside atom 768
+WARNING: atoms 781 is completely inside atom 768
+WARNING: atoms 780 is completely inside atom 768
+WARNING: atoms 1944 is completely inside atom 1931
+WARNING: atoms 1943 is completely inside atom 1931
+WARNING: atoms 1942 is completely inside atom 1931
+WARNING: atoms 1855 is completely inside atom 1854
+WARNING: atoms 1856 is completely inside atom 1854
+WARNING: atoms 296 is completely inside atom 285
+WARNING: atoms 298 is completely inside atom 285
+WARNING: atoms 297 is completely inside atom 285
+WARNING: atoms 781 is completely inside atom 768
+WARNING: atoms 780 is completely inside atom 768
+WARNING: atoms 781 is completely inside atom 768
+WARNING: atoms 780 is completely inside atom 768
+WARNING: atoms 1944 is completely inside atom 1931
+WARNING: atoms 1943 is completely inside atom 1931
+WARNING: atoms 1942 is completely inside atom 1931
+WARNING: atoms 710 is completely inside atom 697
+WARNING: atoms 709 is completely inside atom 697
+WARNING: atoms 296 is completely inside atom 285
+WARNING: atoms 298 is completely inside atom 285
+WARNING: atoms 297 is completely inside atom 285
+WARNING: atoms 2056 is completely inside atom 2044
+WARNING: atoms 2057 is completely inside atom 2044
+WARNING: atoms 2056 is completely inside atom 2044
+WARNING: atoms 2057 is completely inside atom 2044
+WARNING: atoms 710 is completely inside atom 697
+WARNING: atoms 709 is completely inside atom 697
+WARNING: atoms 1301 is completely inside atom 1299
+WARNING: atoms 1300 is completely inside atom 1299
+WARNING: atoms 6 is completely inside atom 0
+WARNING: atoms 5 is completely inside atom 0
+WARNING: atoms 4 is completely inside atom 0
+WARNING: atoms 781 is completely inside atom 768
+WARNING: atoms 780 is completely inside atom 768
+WARNING: atoms 779 is completely inside atom 767
+WARNING: atoms 778 is completely inside atom 767
+WARNING: atoms 6 is completely inside atom 0
+WARNING: atoms 5 is completely inside atom 0
+WARNING: atoms 4 is completely inside atom 0
+WARNING: atoms 2055 is completely inside atom 2043
+WARNING: atoms 2054 is completely inside atom 2043
+WARNING: atoms 2079 is completely inside atom 2072
+WARNING: atoms 781 is completely inside atom 768
+WARNING: atoms 780 is completely inside atom 768
+WARNING: atoms 1301 is completely inside atom 1299
+WARNING: atoms 1300 is completely inside atom 1299
+WARNING: atoms 1301 is completely inside atom 1299
+WARNING: atoms 1300 is completely inside atom 1299
+WARNING: atoms 2055 is completely inside atom 2043
+WARNING: atoms 2054 is completely inside atom 2043
+WARNING: atoms 6 is completely inside atom 0
+WARNING: atoms 5 is completely inside atom 0
+WARNING: atoms 4 is completely inside atom 0
+WARNING: atoms 2055 is completely inside atom 2043
+WARNING: atoms 2054 is completely inside atom 2043
+WARNING: atoms 2079 is completely inside atom 2072
+WARNING: atoms 2079 is completely inside atom 2072
+WARNING: atoms 1855 is completely inside atom 1854
+WARNING: atoms 1856 is completely inside atom 1854
+WARNING: atoms 1944 is completely inside atom 1931
+WARNING: atoms 1943 is completely inside atom 1931
+WARNING: atoms 1942 is completely inside atom 1931
+WARNING: atoms 6 is completely inside atom 0
+WARNING: atoms 5 is completely inside atom 0
+WARNING: atoms 4 is completely inside atom 0
+WARNING: atoms 2056 is completely inside atom 2044
+WARNING: atoms 2057 is completely inside atom 2044
+WARNING: atoms 6 is completely inside atom 0
+WARNING: atoms 5 is completely inside atom 0
+WARNING: atoms 4 is completely inside atom 0
+WARNING: atoms 6 is completely inside atom 0
+WARNING: atoms 5 is completely inside atom 0
+WARNING: atoms 4 is completely inside atom 0
+WARNING: atoms 6 is completely inside atom 0
+WARNING: atoms 5 is completely inside atom 0
+WARNING: atoms 4 is completely inside atom 0
+WARNING: atoms 296 is completely inside atom 285
+WARNING: atoms 298 is completely inside atom 285
+WARNING: atoms 297 is completely inside atom 285
+WARNING: atoms 2055 is completely inside atom 2043
+WARNING: atoms 2054 is completely inside atom 2043
+WARNING: atoms 1855 is completely inside atom 1854
+WARNING: atoms 1856 is completely inside atom 1854
+WARNING: atoms 2079 is completely inside atom 2072
+WARNING: atoms 2055 is completely inside atom 2043
+WARNING: atoms 2054 is completely inside atom 2043
+WARNING: atoms 2055 is completely inside atom 2043
+WARNING: atoms 2054 is completely inside atom 2043
+WARNING: atoms 779 is completely inside atom 767
+WARNING: atoms 778 is completely inside atom 767
+WARNING: atoms 2079 is completely inside atom 2072
+WARNING: atoms 2055 is completely inside atom 2043
+WARNING: atoms 2054 is completely inside atom 2043
+WARNING: atoms 2079 is completely inside atom 2072
+WARNING: atoms 2079 is completely inside atom 2072
+WARNING: atoms 1855 is completely inside atom 1854
+WARNING: atoms 1856 is completely inside atom 1854
+WARNING: atoms 781 is completely inside atom 768
+WARNING: atoms 780 is completely inside atom 768
+WARNING: atoms 710 is completely inside atom 697
+WARNING: atoms 709 is completely inside atom 697
+WARNING: atoms 6 is completely inside atom 0
+WARNING: atoms 5 is completely inside atom 0
+WARNING: atoms 4 is completely inside atom 0
+WARNING: atoms 2055 is completely inside atom 2043
+WARNING: atoms 2054 is completely inside atom 2043
+WARNING: atoms 1944 is completely inside atom 1931
+WARNING: atoms 1943 is completely inside atom 1931
+WARNING: atoms 1942 is completely inside atom 1931
+WARNING: atoms 2079 is completely inside atom 2072
+WARNING: atoms 1944 is completely inside atom 1931
+WARNING: atoms 1943 is completely inside atom 1931
+WARNING: atoms 1942 is completely inside atom 1931
+WARNING: atoms 296 is completely inside atom 285
+WARNING: atoms 298 is completely inside atom 285
+WARNING: atoms 297 is completely inside atom 285
+WARNING: atoms 6 is completely inside atom 0
+WARNING: atoms 5 is completely inside atom 0
+WARNING: atoms 4 is completely inside atom 0
+WARNING: atoms 296 is completely inside atom 285
+WARNING: atoms 298 is completely inside atom 285
+WARNING: atoms 297 is completely inside atom 285
+WARNING: atoms 2055 is completely inside atom 2043
+WARNING: atoms 2054 is completely inside atom 2043
+WARNING: atoms 6 is completely inside atom 0
+WARNING: atoms 5 is completely inside atom 0
+WARNING: atoms 4 is completely inside atom 0
+WARNING: atoms 710 is completely inside atom 697
+WARNING: atoms 709 is completely inside atom 697
+WARNING: atoms 2079 is completely inside atom 2072
+WARNING: atoms 6 is completely inside atom 0
+WARNING: atoms 5 is completely inside atom 0
+WARNING: atoms 4 is completely inside atom 0
+WARNING: atoms 2055 is completely inside atom 2043
+WARNING: atoms 2054 is completely inside atom 2043
+WARNING: atoms 710 is completely inside atom 697
+WARNING: atoms 709 is completely inside atom 697
+WARNING: atoms 2055 is completely inside atom 2043
+WARNING: atoms 2054 is completely inside atom 2043
+WARNING: atoms 2079 is completely inside atom 2072
+WARNING: atoms 2056 is completely inside atom 2044
+WARNING: atoms 2057 is completely inside atom 2044
+WARNING: atoms 2079 is completely inside atom 2072
+WARNING: atoms 6 is completely inside atom 0
+WARNING: atoms 5 is completely inside atom 0
+WARNING: atoms 4 is completely inside atom 0
+WARNING: atoms 6 is completely inside atom 0
+WARNING: atoms 5 is completely inside atom 0
+WARNING: atoms 4 is completely inside atom 0
+WARNING: atoms 2055 is completely inside atom 2043
+WARNING: atoms 2054 is completely inside atom 2043
+WARNING: atoms 2079 is completely inside atom 2072
+WARNING: atoms 2055 is completely inside atom 2043
+WARNING: atoms 2054 is completely inside atom 2043
+WARNING: atoms 2079 is completely inside atom 2072
+WARNING: atoms 781 is completely inside atom 768
+WARNING: atoms 780 is completely inside atom 768
+WARNING: atoms 779 is completely inside atom 767
+WARNING: atoms 778 is completely inside atom 767
+WARNING: atoms 6 is completely inside atom 0
+WARNING: atoms 5 is completely inside atom 0
+WARNING: atoms 4 is completely inside atom 0
+WARNING: atoms 6 is completely inside atom 0
+WARNING: atoms 5 is completely inside atom 0
+WARNING: atoms 4 is completely inside atom 0
+WARNING: atoms 2055 is completely inside atom 2043
+WARNING: atoms 2054 is completely inside atom 2043
+WARNING: atoms 2055 is completely inside atom 2043
+WARNING: atoms 2054 is completely inside atom 2043
+WARNING: atoms 779 is completely inside atom 767
+WARNING: atoms 778 is completely inside atom 767
+WARNING: atoms 2079 is completely inside atom 2072
+WARNING: atoms 2079 is completely inside atom 2072
+WARNING: atoms 422 is completely inside atom 410
+WARNING: atoms 421 is completely inside atom 410
+WARNING: atoms 424 is completely inside atom 411
+WARNING: atoms 423 is completely inside atom 411
+WARNING: atoms 1855 is completely inside atom 1854
+WARNING: atoms 1856 is completely inside atom 1854
+WARNING: atoms 2056 is completely inside atom 2044
+WARNING: atoms 2057 is completely inside atom 2044
+WARNING: atoms 1855 is completely inside atom 1854
+WARNING: atoms 1856 is completely inside atom 1854
+WARNING: atoms 1855 is completely inside atom 1854
+WARNING: atoms 1856 is completely inside atom 1854
+WARNING: atoms 1944 is completely inside atom 1931
+WARNING: atoms 1943 is completely inside atom 1931
+WARNING: atoms 1942 is completely inside atom 1931
+WARNING: atoms 781 is completely inside atom 768
+WARNING: atoms 780 is completely inside atom 768
+WARNING: atoms 1944 is completely inside atom 1931
+WARNING: atoms 1943 is completely inside atom 1931
+WARNING: atoms 1942 is completely inside atom 1931
+WARNING: atoms 296 is completely inside atom 285
+WARNING: atoms 298 is completely inside atom 285
+WARNING: atoms 297 is completely inside atom 285
+WARNING: atoms 1944 is completely inside atom 1931
+WARNING: atoms 1943 is completely inside atom 1931
+WARNING: atoms 1942 is completely inside atom 1931
+WARNING: atoms 296 is completely inside atom 285
+WARNING: atoms 298 is completely inside atom 285
+WARNING: atoms 297 is completely inside atom 285
+WARNING: atoms 6 is completely inside atom 0
+WARNING: atoms 5 is completely inside atom 0
+WARNING: atoms 4 is completely inside atom 0
+WARNING: atoms 2056 is completely inside atom 2044
+WARNING: atoms 2057 is completely inside atom 2044
+WARNING: atoms 422 is completely inside atom 410
+WARNING: atoms 421 is completely inside atom 410
+WARNING: atoms 424 is completely inside atom 411
+WARNING: atoms 423 is completely inside atom 411
+WARNING: atoms 296 is completely inside atom 285
+WARNING: atoms 298 is completely inside atom 285
+WARNING: atoms 297 is completely inside atom 285
+WARNING: atoms 710 is completely inside atom 697
+WARNING: atoms 709 is completely inside atom 697
+WARNING: atoms 2055 is completely inside atom 2043
+WARNING: atoms 2054 is completely inside atom 2043
+WARNING: atoms 710 is completely inside atom 697
+WARNING: atoms 709 is completely inside atom 697
+WARNING: atoms 710 is completely inside atom 697
+WARNING: atoms 709 is completely inside atom 697
+WARNING: atoms 2079 is completely inside atom 2072
+WARNING: atoms 781 is completely inside atom 768
+WARNING: atoms 780 is completely inside atom 768
+WARNING: atoms 779 is completely inside atom 767
+WARNING: atoms 778 is completely inside atom 767
+WARNING: atoms 422 is completely inside atom 410
+WARNING: atoms 421 is completely inside atom 410
+WARNING: atoms 424 is completely inside atom 411
+WARNING: atoms 423 is completely inside atom 411
+WARNING: atoms 779 is completely inside atom 767
+WARNING: atoms 778 is completely inside atom 767
+WARNING: atoms 779 is completely inside atom 767
+WARNING: atoms 778 is completely inside atom 767
+WARNING: atoms 6 is completely inside atom 0
+WARNING: atoms 5 is completely inside atom 0
+WARNING: atoms 4 is completely inside atom 0
+WARNING: atoms 1301 is completely inside atom 1299
+WARNING: atoms 1300 is completely inside atom 1299
+WARNING: atoms 2056 is completely inside atom 2044
+WARNING: atoms 2057 is completely inside atom 2044
+WARNING: atoms 2055 is completely inside atom 2043
+WARNING: atoms 2054 is completely inside atom 2043
+WARNING: atoms 2079 is completely inside atom 2072
+WARNING: atoms 781 is completely inside atom 768
+WARNING: atoms 780 is completely inside atom 768
+WARNING: atoms 1301 is completely inside atom 1299
+WARNING: atoms 1300 is completely inside atom 1299
+WARNING: atoms 2056 is completely inside atom 2044
+WARNING: atoms 2057 is completely inside atom 2044
+WARNING: atoms 2056 is completely inside atom 2044
+WARNING: atoms 2057 is completely inside atom 2044
+WARNING: atoms 781 is completely inside atom 768
+WARNING: atoms 780 is completely inside atom 768
+WARNING: atoms 1301 is completely inside atom 1299
+WARNING: atoms 1300 is completely inside atom 1299
+WARNING: atoms 781 is completely inside atom 768
+WARNING: atoms 780 is completely inside atom 768
+WARNING: atoms 6 is completely inside atom 0
+WARNING: atoms 5 is completely inside atom 0
+WARNING: atoms 4 is completely inside atom 0
+WARNING: atoms 2055 is completely inside atom 2043
+WARNING: atoms 2054 is completely inside atom 2043
+WARNING: atoms 2079 is completely inside atom 2072
+WARNING: atoms 6 is completely inside atom 0
+WARNING: atoms 5 is completely inside atom 0
+WARNING: atoms 4 is completely inside atom 0
+WARNING: atoms 2055 is completely inside atom 2043
+WARNING: atoms 2054 is completely inside atom 2043
+WARNING: atoms 2079 is completely inside atom 2072
+WARNING: atoms 779 is completely inside atom 767
+WARNING: atoms 778 is completely inside atom 767
+WARNING: atoms 779 is completely inside atom 767
+WARNING: atoms 778 is completely inside atom 767
+WARNING: atoms 779 is completely inside atom 767
+WARNING: atoms 778 is completely inside atom 767
+WARNING: atoms 422 is completely inside atom 410
+WARNING: atoms 421 is completely inside atom 410
+WARNING: atoms 424 is completely inside atom 411
+WARNING: atoms 423 is completely inside atom 411
+WARNING: atoms 2056 is completely inside atom 2044
+WARNING: atoms 2057 is completely inside atom 2044
+WARNING: atoms 2056 is completely inside atom 2044
+WARNING: atoms 2057 is completely inside atom 2044
+WARNING: atoms 2056 is completely inside atom 2044
+WARNING: atoms 2057 is completely inside atom 2044
+WARNING: atoms 6 is completely inside atom 0
+WARNING: atoms 5 is completely inside atom 0
+WARNING: atoms 4 is completely inside atom 0
+WARNING: atoms 781 is completely inside atom 768
+WARNING: atoms 780 is completely inside atom 768
+WARNING: atoms 2055 is completely inside atom 2043
+WARNING: atoms 2054 is completely inside atom 2043
+WARNING: atoms 2079 is completely inside atom 2072
+WARNING: atoms 781 is completely inside atom 768
+WARNING: atoms 780 is completely inside atom 768
+WARNING: atoms 781 is completely inside atom 768
+WARNING: atoms 780 is completely inside atom 768
+WARNING: atoms 1855 is completely inside atom 1854
+WARNING: atoms 1856 is completely inside atom 1854
+WARNING: atoms 1944 is completely inside atom 1931
+WARNING: atoms 1943 is completely inside atom 1931
+WARNING: atoms 1942 is completely inside atom 1931
+WARNING: atoms 6 is completely inside atom 0
+WARNING: atoms 5 is completely inside atom 0
+WARNING: atoms 4 is completely inside atom 0
+WARNING: atoms 2055 is completely inside atom 2043
+WARNING: atoms 2054 is completely inside atom 2043
+WARNING: atoms 6 is completely inside atom 0
+WARNING: atoms 5 is completely inside atom 0
+WARNING: atoms 4 is completely inside atom 0
+WARNING: atoms 2079 is completely inside atom 2072
+WARNING: atoms 296 is completely inside atom 285
+WARNING: atoms 298 is completely inside atom 285
+WARNING: atoms 297 is completely inside atom 285
+WARNING: atoms 1855 is completely inside atom 1854
+WARNING: atoms 1856 is completely inside atom 1854
+WARNING: atoms 2055 is completely inside atom 2043
+WARNING: atoms 2054 is completely inside atom 2043
+WARNING: atoms 2079 is completely inside atom 2072
+WARNING: atoms 1301 is completely inside atom 1299
+WARNING: atoms 1300 is completely inside atom 1299
+WARNING: atoms 710 is completely inside atom 697
+WARNING: atoms 709 is completely inside atom 697
+WARNING: atoms 1944 is completely inside atom 1931
+WARNING: atoms 1943 is completely inside atom 1931
+WARNING: atoms 1942 is completely inside atom 1931
+WARNING: atoms 296 is completely inside atom 285
+WARNING: atoms 298 is completely inside atom 285
+WARNING: atoms 297 is completely inside atom 285
+WARNING: atoms 1855 is completely inside atom 1854
+WARNING: atoms 1856 is completely inside atom 1854
+WARNING: atoms 710 is completely inside atom 697
+WARNING: atoms 709 is completely inside atom 697
+WARNING: atoms 1944 is completely inside atom 1931
+WARNING: atoms 1943 is completely inside atom 1931
+WARNING: atoms 1942 is completely inside atom 1931
+WARNING: atoms 296 is completely inside atom 285
+WARNING: atoms 298 is completely inside atom 285
+WARNING: atoms 297 is completely inside atom 285
+WARNING: atoms 710 is completely inside atom 697
+WARNING: atoms 709 is completely inside atom 697
+WARNING: atoms 6 is completely inside atom 0
+WARNING: atoms 5 is completely inside atom 0
+WARNING: atoms 4 is completely inside atom 0
+WARNING: atoms 6 is completely inside atom 0
+WARNING: atoms 5 is completely inside atom 0
+WARNING: atoms 4 is completely inside atom 0
+WARNING: atoms 6 is completely inside atom 0
+WARNING: atoms 5 is completely inside atom 0
+WARNING: atoms 4 is completely inside atom 0
+WARNING: atoms 2055 is completely inside atom 2043
+WARNING: atoms 2054 is completely inside atom 2043
+WARNING: atoms 2055 is completely inside atom 2043
+WARNING: atoms 2054 is completely inside atom 2043
+WARNING: atoms 2055 is completely inside atom 2043
+WARNING: atoms 2054 is completely inside atom 2043
+WARNING: atoms 2079 is completely inside atom 2072
+WARNING: atoms 2079 is completely inside atom 2072
+WARNING: atoms 2079 is completely inside atom 2072
+WARNING: atoms 422 is completely inside atom 410
+WARNING: atoms 421 is completely inside atom 410
+WARNING: atoms 424 is completely inside atom 411
+WARNING: atoms 423 is completely inside atom 411
+WARNING: atoms 422 is completely inside atom 410
+WARNING: atoms 421 is completely inside atom 410
+WARNING: atoms 424 is completely inside atom 411
+WARNING: atoms 423 is completely inside atom 411
+WARNING: atoms 779 is completely inside atom 767
+WARNING: atoms 778 is completely inside atom 767
+WARNING: atoms 1855 is completely inside atom 1854
+WARNING: atoms 1856 is completely inside atom 1854
+WARNING: atoms 779 is completely inside atom 767
+WARNING: atoms 778 is completely inside atom 767
+WARNING: atoms 1944 is completely inside atom 1931
+WARNING: atoms 1943 is completely inside atom 1931
+WARNING: atoms 1942 is completely inside atom 1931
+WARNING: atoms 296 is completely inside atom 285
+WARNING: atoms 298 is completely inside atom 285
+WARNING: atoms 297 is completely inside atom 285
+WARNING: atoms 2056 is completely inside atom 2044
+WARNING: atoms 2057 is completely inside atom 2044
+WARNING: atoms 1301 is completely inside atom 1299
+WARNING: atoms 1300 is completely inside atom 1299
+WARNING: atoms 710 is completely inside atom 697
+WARNING: atoms 709 is completely inside atom 697
+WARNING: atoms 779 is completely inside atom 767
+WARNING: atoms 778 is completely inside atom 767
+WARNING: atoms 781 is completely inside atom 768
+WARNING: atoms 780 is completely inside atom 768
+WARNING: atoms 2056 is completely inside atom 2044
+WARNING: atoms 2057 is completely inside atom 2044
+WARNING: atoms 1301 is completely inside atom 1299
+WARNING: atoms 1300 is completely inside atom 1299
+WARNING: atoms 781 is completely inside atom 768
+WARNING: atoms 780 is completely inside atom 768
+WARNING: atoms 2056 is completely inside atom 2044
+WARNING: atoms 2057 is completely inside atom 2044
+WARNING: atoms 781 is completely inside atom 768
+WARNING: atoms 780 is completely inside atom 768
+WARNING: atoms 6 is completely inside atom 0
+WARNING: atoms 5 is completely inside atom 0
+WARNING: atoms 4 is completely inside atom 0
+WARNING: atoms 2055 is completely inside atom 2043
+WARNING: atoms 2054 is completely inside atom 2043
+WARNING: atoms 779 is completely inside atom 767
+WARNING: atoms 778 is completely inside atom 767
+WARNING: atoms 2079 is completely inside atom 2072
+WARNING: atoms 6 is completely inside atom 0
+WARNING: atoms 5 is completely inside atom 0
+WARNING: atoms 4 is completely inside atom 0
+WARNING: atoms 1855 is completely inside atom 1854
+WARNING: atoms 1856 is completely inside atom 1854
+WARNING: atoms 2055 is completely inside atom 2043
+WARNING: atoms 2054 is completely inside atom 2043
+WARNING: atoms 2079 is completely inside atom 2072
+WARNING: atoms 1944 is completely inside atom 1931
+WARNING: atoms 1943 is completely inside atom 1931
+WARNING: atoms 1942 is completely inside atom 1931
+WARNING: atoms 1855 is completely inside atom 1854
+WARNING: atoms 1856 is completely inside atom 1854
+WARNING: atoms 296 is completely inside atom 285
+WARNING: atoms 298 is completely inside atom 285
+WARNING: atoms 297 is completely inside atom 285
+WARNING: atoms 2056 is completely inside atom 2044
+WARNING: atoms 2057 is completely inside atom 2044
+WARNING: atoms 1944 is completely inside atom 1931
+WARNING: atoms 1943 is completely inside atom 1931
+WARNING: atoms 1942 is completely inside atom 1931
+WARNING: atoms 710 is completely inside atom 697
+WARNING: atoms 709 is completely inside atom 697
+WARNING: atoms 296 is completely inside atom 285
+WARNING: atoms 298 is completely inside atom 285
+WARNING: atoms 297 is completely inside atom 285
+WARNING: atoms 6 is completely inside atom 0
+WARNING: atoms 5 is completely inside atom 0
+WARNING: atoms 4 is completely inside atom 0
+WARNING: atoms 781 is completely inside atom 768
+WARNING: atoms 780 is completely inside atom 768
+WARNING: atoms 710 is completely inside atom 697
+WARNING: atoms 709 is completely inside atom 697
+WARNING: atoms 2055 is completely inside atom 2043
+WARNING: atoms 2054 is completely inside atom 2043
+WARNING: atoms 2079 is completely inside atom 2072
+WARNING: atoms 779 is completely inside atom 767
+WARNING: atoms 778 is completely inside atom 767
+WARNING: atoms 6 is completely inside atom 0
+WARNING: atoms 5 is completely inside atom 0
+WARNING: atoms 4 is completely inside atom 0
+WARNING: atoms 2055 is completely inside atom 2043
+WARNING: atoms 2054 is completely inside atom 2043
+WARNING: atoms 2079 is completely inside atom 2072
+WARNING: atoms 779 is completely inside atom 767
+WARNING: atoms 778 is completely inside atom 767
+WARNING: atoms 2056 is completely inside atom 2044
+WARNING: atoms 2057 is completely inside atom 2044
+WARNING: atoms 781 is completely inside atom 768
+WARNING: atoms 780 is completely inside atom 768
+WARNING: atoms 2056 is completely inside atom 2044
+WARNING: atoms 2057 is completely inside atom 2044
+WARNING: atoms 781 is completely inside atom 768
+WARNING: atoms 780 is completely inside atom 768
+WARNING: atoms 6 is completely inside atom 0
+WARNING: atoms 5 is completely inside atom 0
+WARNING: atoms 4 is completely inside atom 0
+WARNING: atoms 2055 is completely inside atom 2043
+WARNING: atoms 2054 is completely inside atom 2043
+WARNING: atoms 2079 is completely inside atom 2072
+WARNING: atoms 6 is completely inside atom 0
+WARNING: atoms 5 is completely inside atom 0
+WARNING: atoms 4 is completely inside atom 0
+WARNING: atoms 2055 is completely inside atom 2043
+WARNING: atoms 2054 is completely inside atom 2043
+WARNING: atoms 2079 is completely inside atom 2072
+MSMS 2.6.1 started on c057
+Copyright M.F. Sanner (1994)
+Compilation flags -O2 -DVERBOSE -DTIMING
+Atom 118 ignored, radius = 0.000000
+Atom 139 ignored, radius = 0.000000
+Atom 197 ignored, radius = 0.000000
+Atom 240 ignored, radius = 0.000000
+Atom 537 ignored, radius = 0.000000
+Atom 562 ignored, radius = 0.000000
+Atom 573 ignored, radius = 0.000000
+Atom 675 ignored, radius = 0.000000
+Atom 696 ignored, radius = 0.000000
+Atom 768 ignored, radius = 0.000000
+Atom 995 ignored, radius = 0.000000
+Atom 1078 ignored, radius = 0.000000
+Atom 1119 ignored, radius = 0.000000
+Atom 1140 ignored, radius = 0.000000
+Atom 1180 ignored, radius = 0.000000
+Atom 1287 ignored, radius = 0.000000
+Atom 1461 ignored, radius = 0.000000
+Atom 1540 ignored, radius = 0.000000
+Atom 1645 ignored, radius = 0.000000
+Atom 1897 ignored, radius = 0.000000
+Atom 1911 ignored, radius = 0.000000
+Atom 2014 ignored, radius = 0.000000
+Atom 2057 ignored, radius = 0.000000
+Atom 2107 ignored, radius = 0.000000
+INPUT  test_proteins/6yi3.xyzr 2083 spheres 0 collision only, radii  0.600 to  2.000
+PARAM  Probe_radius  1.400 density 31.500 hdensity  3.000
+REDUCED SURFACE ...
+    RS component 0 identified 410 416 409
+    0 free edge(s) found in component 0
+    RS component  #faces  #edges #free_edges  #vertices   genus
+         0        2104     3156          0        954      50
+    Time Reduced Surface real: 0.03 user: 0.02 sys: 0.00
+ANALYTICAL SOLVENT EXCLUDED SURFACE...
+    Component   0
+        Time Surface real: 0.00 user: 0.01 sys: 0.00
+        Time Singularities real: 0.00 user: 0.00 sys: 0.00
+    SES comp.  #fac.  #edg. #s_edg. #vert. #s_vert. R_h C_h genus
+         0     6416  12918    105    6504      192   0   0    0
+ANALYTICAL SURFACE AREA :
+    Comp. probe_radius,   reent,    toric,   contact    SES       SAS
+      0       1.400    1862.284  3017.721  2667.488  7547.494  9407.065
+TRIANGULATION...
+    Component 0
+WARNING: geodesic which intersects odd number of edges
+WARNING: geodesic which intersects odd number of edges
+WARNING: geodesic which intersects odd number of edges
+    component#, vertices,  edges,  faces, genus, density
+        0         229625  688897  459265    4.5    30.424
+WARNING: Genus mismatch (ana = 0.0, tri = 4.5 )
+        Time Triangulation real: 0.59 user: 0.59 sys: 0.00
+NUMERICAL VOLUMES AND AREA
+    Comp. probe_radius SES_volume SES_area)
+       0      1.40    18903.057   7535.828
+    Total ses_volume: 18903.057
+MSMS terminated normally
+Total Time real: 1.57 user: 1.06 sys: 0.43
+MSMS 2.6.1 started on c057
+Copyright M.F. Sanner (1994)
+Compilation flags -O2 -DVERBOSE -DTIMING
+Atom 118 ignored, radius = 0.000000
+Atom 139 ignored, radius = 0.000000
+Atom 197 ignored, radius = 0.000000
+Atom 240 ignored, radius = 0.000000
+Atom 537 ignored, radius = 0.000000
+Atom 562 ignored, radius = 0.000000
+Atom 573 ignored, radius = 0.000000
+Atom 675 ignored, radius = 0.000000
+Atom 696 ignored, radius = 0.000000
+Atom 768 ignored, radius = 0.000000
+Atom 995 ignored, radius = 0.000000
+Atom 1078 ignored, radius = 0.000000
+Atom 1119 ignored, radius = 0.000000
+Atom 1140 ignored, radius = 0.000000
+Atom 1180 ignored, radius = 0.000000
+Atom 1287 ignored, radius = 0.000000
+Atom 1461 ignored, radius = 0.000000
+Atom 1540 ignored, radius = 0.000000
+Atom 1645 ignored, radius = 0.000000
+Atom 1897 ignored, radius = 0.000000
+Atom 1911 ignored, radius = 0.000000
+Atom 2014 ignored, radius = 0.000000
+Atom 2057 ignored, radius = 0.000000
+Atom 2107 ignored, radius = 0.000000
+INPUT  test_proteins/6yi3.xyzr 2083 spheres 0 collision only, radii  0.600 to  2.000
+PARAM  Probe_radius  1.400 density 31.500 hdensity  3.000
+REDUCED SURFACE ...
+    RS component 0 identified 410 416 409
+    0 free edge(s) found in component 0
+    RS component  #faces  #edges #free_edges  #vertices   genus
+         0        2104     3156          0        954      50
+    Time Reduced Surface real: 0.03 user: 0.03 sys: 0.00
+ANALYTICAL SOLVENT EXCLUDED SURFACE...
+    Component   0
+        Time Surface real: 0.01 user: 0.00 sys: 0.01
+        Time Singularities real: 0.00 user: 0.00 sys: 0.00
+    SES comp.  #fac.  #edg. #s_edg. #vert. #s_vert. R_h C_h genus
+         0     6416  12918    105    6504      192   0   0    0
+ANALYTICAL SURFACE AREA :
+    Comp. probe_radius,   reent,    toric,   contact    SES       SAS
+      0       1.400    1862.284  3017.721  2667.488  7547.494  9407.065
+TRIANGULATION...
+    Component 0
+WARNING: geodesic which intersects odd number of edges
+WARNING: geodesic which intersects odd number of edges
+WARNING: geodesic which intersects odd number of edges
+    component#, vertices,  edges,  faces, genus, density
+        0         229625  688897  459265    4.5    30.424
+WARNING: Genus mismatch (ana = 0.0, tri = 4.5 )
+        Time Triangulation real: 0.59 user: 0.58 sys: 0.00
+NUMERICAL VOLUMES AND AREA
+    Comp. probe_radius SES_volume SES_area)
+       0      1.40    18903.057   7535.828
+    Total ses_volume: 18903.057
+MSMS terminated normally
+Total Time real: 1.57 user: 1.08 sys: 0.43
+MSMS 2.6.1 started on c057
+Copyright M.F. Sanner (1994)
+Compilation flags -O2 -DVERBOSE -DTIMING
+Atom 118 ignored, radius = 0.000000
+Atom 139 ignored, radius = 0.000000
+Atom 197 ignored, radius = 0.000000
+Atom 240 ignored, radius = 0.000000
+Atom 537 ignored, radius = 0.000000
+Atom 562 ignored, radius = 0.000000
+Atom 573 ignored, radius = 0.000000
+Atom 675 ignored, radius = 0.000000
+Atom 696 ignored, radius = 0.000000
+Atom 768 ignored, radius = 0.000000
+Atom 995 ignored, radius = 0.000000
+Atom 1078 ignored, radius = 0.000000
+Atom 1119 ignored, radius = 0.000000
+Atom 1140 ignored, radius = 0.000000
+Atom 1180 ignored, radius = 0.000000
+Atom 1287 ignored, radius = 0.000000
+Atom 1461 ignored, radius = 0.000000
+Atom 1540 ignored, radius = 0.000000
+Atom 1645 ignored, radius = 0.000000
+Atom 1897 ignored, radius = 0.000000
+Atom 1911 ignored, radius = 0.000000
+Atom 2014 ignored, radius = 0.000000
+Atom 2057 ignored, radius = 0.000000
+Atom 2107 ignored, radius = 0.000000
+INPUT  test_proteins/6yi3.xyzr 2083 spheres 0 collision only, radii  0.600 to  2.000
+PARAM  Probe_radius  1.400 density 31.500 hdensity  3.000
+REDUCED SURFACE ...
+    RS component 0 identified 410 416 409
+    0 free edge(s) found in component 0
+    RS component  #faces  #edges #free_edges  #vertices   genus
+         0        2104     3156          0        954      50
+    Time Reduced Surface real: 0.03 user: 0.03 sys: 0.00
+ANALYTICAL SOLVENT EXCLUDED SURFACE...
+    Component   0
+        Time Surface real: 0.01 user: 0.00 sys: 0.00
+        Time Singularities real: 0.00 user: 0.00 sys: 0.00
+    SES comp.  #fac.  #edg. #s_edg. #vert. #s_vert. R_h C_h genus
+         0     6416  12918    105    6504      192   0   0    0
+ANALYTICAL SURFACE AREA :
+    Comp. probe_radius,   reent,    toric,   contact    SES       SAS
+      0       1.400    1862.284  3017.721  2667.488  7547.494  9407.065
+TRIANGULATION...
+    Component 0
+WARNING: geodesic which intersects odd number of edges
+WARNING: geodesic which intersects odd number of edges
+WARNING: geodesic which intersects odd number of edges
+    component#, vertices,  edges,  faces, genus, density
+        0         229625  688897  459265    4.5    30.424
+WARNING: Genus mismatch (ana = 0.0, tri = 4.5 )
+        Time Triangulation real: 0.59 user: 0.59 sys: 0.00
+NUMERICAL VOLUMES AND AREA
+    Comp. probe_radius SES_volume SES_area)
+       0      1.40    18903.057   7535.828
+    Total ses_volume: 18903.057
+MSMS terminated normally
+Total Time real: 1.57 user: 1.10 sys: 0.39
+MSMS 2.6.1 started on c057
+Copyright M.F. Sanner (1994)
+Compilation flags -O2 -DVERBOSE -DTIMING
+Atom 118 ignored, radius = 0.000000
+Atom 139 ignored, radius = 0.000000
+Atom 197 ignored, radius = 0.000000
+Atom 240 ignored, radius = 0.000000
+Atom 537 ignored, radius = 0.000000
+Atom 562 ignored, radius = 0.000000
+Atom 573 ignored, radius = 0.000000
+Atom 675 ignored, radius = 0.000000
+Atom 696 ignored, radius = 0.000000
+Atom 768 ignored, radius = 0.000000
+Atom 995 ignored, radius = 0.000000
+Atom 1078 ignored, radius = 0.000000
+Atom 1119 ignored, radius = 0.000000
+Atom 1140 ignored, radius = 0.000000
+Atom 1180 ignored, radius = 0.000000
+Atom 1287 ignored, radius = 0.000000
+Atom 1461 ignored, radius = 0.000000
+Atom 1540 ignored, radius = 0.000000
+Atom 1645 ignored, radius = 0.000000
+Atom 1897 ignored, radius = 0.000000
+Atom 1911 ignored, radius = 0.000000
+Atom 2014 ignored, radius = 0.000000
+Atom 2057 ignored, radius = 0.000000
+Atom 2107 ignored, radius = 0.000000
+INPUT  test_proteins/6yi3.xyzr 2083 spheres 0 collision only, radii  0.600 to  2.000
+PARAM  Probe_radius  1.400 density 31.500 hdensity  3.000
+REDUCED SURFACE ...
+    RS component 0 identified 410 416 409
+    0 free edge(s) found in component 0
+    RS component  #faces  #edges #free_edges  #vertices   genus
+         0        2104     3156          0        954      50
+    Time Reduced Surface real: 0.04 user: 0.03 sys: 0.00
+ANALYTICAL SOLVENT EXCLUDED SURFACE...
+    Component   0
+        Time Surface real: 0.00 user: 0.01 sys: 0.00
+        Time Singularities real: 0.00 user: 0.00 sys: 0.00
+    SES comp.  #fac.  #edg. #s_edg. #vert. #s_vert. R_h C_h genus
+         0     6416  12918    105    6504      192   0   0    0
+ANALYTICAL SURFACE AREA :
+    Comp. probe_radius,   reent,    toric,   contact    SES       SAS
+      0       1.400    1862.284  3017.721  2667.488  7547.494  9407.065
+TRIANGULATION...
+    Component 0
+WARNING: geodesic which intersects odd number of edges
+WARNING: geodesic which intersects odd number of edges
+WARNING: geodesic which intersects odd number of edges
+    component#, vertices,  edges,  faces, genus, density
+        0         229625  688897  459265    4.5    30.424
+WARNING: Genus mismatch (ana = 0.0, tri = 4.5 )
+        Time Triangulation real: 0.59 user: 0.58 sys: 0.01
+NUMERICAL VOLUMES AND AREA
+    Comp. probe_radius SES_volume SES_area)
+       0      1.40    18903.057   7535.828
+    Total ses_volume: 18903.057
+MSMS terminated normally
+Total Time real: 1.58 user: 1.05 sys: 0.46
+MSMS 2.6.1 started on c057
+Copyright M.F. Sanner (1994)
+Compilation flags -O2 -DVERBOSE -DTIMING
+Atom 118 ignored, radius = 0.000000
+Atom 139 ignored, radius = 0.000000
+Atom 197 ignored, radius = 0.000000
+Atom 240 ignored, radius = 0.000000
+Atom 537 ignored, radius = 0.000000
+Atom 562 ignored, radius = 0.000000
+Atom 573 ignored, radius = 0.000000
+Atom 675 ignored, radius = 0.000000
+Atom 696 ignored, radius = 0.000000
+Atom 768 ignored, radius = 0.000000
+Atom 995 ignored, radius = 0.000000
+Atom 1078 ignored, radius = 0.000000
+Atom 1119 ignored, radius = 0.000000
+Atom 1140 ignored, radius = 0.000000
+Atom 1180 ignored, radius = 0.000000
+Atom 1287 ignored, radius = 0.000000
+Atom 1461 ignored, radius = 0.000000
+Atom 1540 ignored, radius = 0.000000
+Atom 1645 ignored, radius = 0.000000
+Atom 1897 ignored, radius = 0.000000
+Atom 1911 ignored, radius = 0.000000
+Atom 2014 ignored, radius = 0.000000
+Atom 2057 ignored, radius = 0.000000
+Atom 2107 ignored, radius = 0.000000
+INPUT  test_proteins/6yi3.xyzr 2083 spheres 0 collision only, radii  0.600 to  2.000
+PARAM  Probe_radius  1.400 density 31.500 hdensity  3.000
+REDUCED SURFACE ...
+    RS component 0 identified 410 416 409
+    0 free edge(s) found in component 0
+    RS component  #faces  #edges #free_edges  #vertices   genus
+         0        2104     3156          0        954      50
+    Time Reduced Surface real: 0.04 user: 0.03 sys: 0.01
+ANALYTICAL SOLVENT EXCLUDED SURFACE...
+    Component   0
+        Time Surface real: 0.00 user: 0.00 sys: 0.00
+        Time Singularities real: 0.00 user: 0.00 sys: 0.00
+    SES comp.  #fac.  #edg. #s_edg. #vert. #s_vert. R_h C_h genus
+         0     6416  12918    105    6504      192   0   0    0
+ANALYTICAL SURFACE AREA :
+    Comp. probe_radius,   reent,    toric,   contact    SES       SAS
+      0       1.400    1862.284  3017.721  2667.488  7547.494  9407.065
+TRIANGULATION...
+    Component 0
+WARNING: geodesic which intersects odd number of edges
+WARNING: geodesic which intersects odd number of edges
+WARNING: geodesic which intersects odd number of edges
+    component#, vertices,  edges,  faces, genus, density
+        0         229625  688897  459265    4.5    30.424
+WARNING: Genus mismatch (ana = 0.0, tri = 4.5 )
+        Time Triangulation real: 0.59 user: 0.59 sys: 0.00
+NUMERICAL VOLUMES AND AREA
+    Comp. probe_radius SES_volume SES_area)
+       0      1.40    18903.057   7535.828
+    Total ses_volume: 18903.057
+MSMS terminated normally
+Total Time real: 1.58 user: 1.04 sys: 0.45
+MSMS 2.6.1 started on c057
+Copyright M.F. Sanner (1994)
+Compilation flags -O2 -DVERBOSE -DTIMING
+Atom 118 ignored, radius = 0.000000
+Atom 139 ignored, radius = 0.000000
+Atom 197 ignored, radius = 0.000000
+Atom 240 ignored, radius = 0.000000
+Atom 537 ignored, radius = 0.000000
+Atom 562 ignored, radius = 0.000000
+Atom 573 ignored, radius = 0.000000
+Atom 675 ignored, radius = 0.000000
+Atom 696 ignored, radius = 0.000000
+Atom 768 ignored, radius = 0.000000
+Atom 995 ignored, radius = 0.000000
+Atom 1078 ignored, radius = 0.000000
+Atom 1119 ignored, radius = 0.000000
+Atom 1140 ignored, radius = 0.000000
+Atom 1180 ignored, radius = 0.000000
+Atom 1287 ignored, radius = 0.000000
+Atom 1461 ignored, radius = 0.000000
+Atom 1540 ignored, radius = 0.000000
+Atom 1645 ignored, radius = 0.000000
+Atom 1897 ignored, radius = 0.000000
+Atom 1911 ignored, radius = 0.000000
+Atom 2014 ignored, radius = 0.000000
+Atom 2057 ignored, radius = 0.000000
+Atom 2107 ignored, radius = 0.000000
+INPUT  test_proteins/6yi3.xyzr 2083 spheres 0 collision only, radii  0.600 to  2.000
+PARAM  Probe_radius  1.400 density 31.500 hdensity  3.000
+REDUCED SURFACE ...
+    RS component 0 identified 410 416 409
+    0 free edge(s) found in component 0
+    RS component  #faces  #edges #free_edges  #vertices   genus
+         0        2104     3156          0        954      50
+    Time Reduced Surface real: 0.03 user: 0.03 sys: 0.00
+ANALYTICAL SOLVENT EXCLUDED SURFACE...
+    Component   0
+        Time Surface real: 0.00 user: 0.01 sys: 0.00
+        Time Singularities real: 0.00 user: 0.00 sys: 0.00
+    SES comp.  #fac.  #edg. #s_edg. #vert. #s_vert. R_h C_h genus
+         0     6416  12918    105    6504      192   0   0    0
+ANALYTICAL SURFACE AREA :
+    Comp. probe_radius,   reent,    toric,   contact    SES       SAS
+      0       1.400    1862.284  3017.721  2667.488  7547.494  9407.065
+TRIANGULATION...
+    Component 0
+WARNING: geodesic which intersects odd number of edges
+WARNING: geodesic which intersects odd number of edges
+WARNING: geodesic which intersects odd number of edges
+    component#, vertices,  edges,  faces, genus, density
+        0         229625  688897  459265    4.5    30.424
+WARNING: Genus mismatch (ana = 0.0, tri = 4.5 )
+        Time Triangulation real: 0.59 user: 0.58 sys: 0.00
+NUMERICAL VOLUMES AND AREA
+    Comp. probe_radius SES_volume SES_area)
+       0      1.40    18903.057   7535.828
+    Total ses_volume: 18903.057
+MSMS terminated normally
+Total Time real: 1.57 user: 1.07 sys: 0.44
+MSMS 2.6.1 started on c057
+Copyright M.F. Sanner (1994)
+Compilation flags -O2 -DVERBOSE -DTIMING
+Atom 118 ignored, radius = 0.000000
+Atom 139 ignored, radius = 0.000000
+Atom 197 ignored, radius = 0.000000
+Atom 240 ignored, radius = 0.000000
+Atom 537 ignored, radius = 0.000000
+Atom 562 ignored, radius = 0.000000
+Atom 573 ignored, radius = 0.000000
+Atom 675 ignored, radius = 0.000000
+Atom 696 ignored, radius = 0.000000
+Atom 768 ignored, radius = 0.000000
+Atom 995 ignored, radius = 0.000000
+Atom 1078 ignored, radius = 0.000000
+Atom 1119 ignored, radius = 0.000000
+Atom 1140 ignored, radius = 0.000000
+Atom 1180 ignored, radius = 0.000000
+Atom 1287 ignored, radius = 0.000000
+Atom 1461 ignored, radius = 0.000000
+Atom 1540 ignored, radius = 0.000000
+Atom 1645 ignored, radius = 0.000000
+Atom 1897 ignored, radius = 0.000000
+Atom 1911 ignored, radius = 0.000000
+Atom 2014 ignored, radius = 0.000000
+Atom 2057 ignored, radius = 0.000000
+Atom 2107 ignored, radius = 0.000000
+INPUT  test_proteins/6yi3.xyzr 2083 spheres 0 collision only, radii  0.600 to  2.000
+PARAM  Probe_radius  1.400 density 31.500 hdensity  3.000
+REDUCED SURFACE ...
+    RS component 0 identified 410 416 409
+    0 free edge(s) found in component 0
+    RS component  #faces  #edges #free_edges  #vertices   genus
+         0        2104     3156          0        954      50
+    Time Reduced Surface real: 0.03 user: 0.03 sys: 0.00
+ANALYTICAL SOLVENT EXCLUDED SURFACE...
+    Component   0
+        Time Surface real: 0.01 user: 0.00 sys: 0.00
+        Time Singularities real: 0.00 user: 0.00 sys: 0.00
+    SES comp.  #fac.  #edg. #s_edg. #vert. #s_vert. R_h C_h genus
+         0     6416  12918    105    6504      192   0   0    0
+ANALYTICAL SURFACE AREA :
+    Comp. probe_radius,   reent,    toric,   contact    SES       SAS
+      0       1.400    1862.284  3017.721  2667.488  7547.494  9407.065
+TRIANGULATION...
+    Component 0
+WARNING: geodesic which intersects odd number of edges
+WARNING: geodesic which intersects odd number of edges
+WARNING: geodesic which intersects odd number of edges
+    component#, vertices,  edges,  faces, genus, density
+        0         229625  688897  459265    4.5    30.424
+WARNING: Genus mismatch (ana = 0.0, tri = 4.5 )
+        Time Triangulation real: 0.59 user: 0.59 sys: 0.00
+NUMERICAL VOLUMES AND AREA
+    Comp. probe_radius SES_volume SES_area)
+       0      1.40    18903.057   7535.828
+    Total ses_volume: 18903.057
+MSMS terminated normally
+Total Time real: 1.58 user: 1.07 sys: 0.44
+MSMS 2.6.1 started on c057
+Copyright M.F. Sanner (1994)
+Compilation flags -O2 -DVERBOSE -DTIMING
+Atom 118 ignored, radius = 0.000000
+Atom 139 ignored, radius = 0.000000
+Atom 197 ignored, radius = 0.000000
+Atom 240 ignored, radius = 0.000000
+Atom 537 ignored, radius = 0.000000
+Atom 562 ignored, radius = 0.000000
+Atom 573 ignored, radius = 0.000000
+Atom 675 ignored, radius = 0.000000
+Atom 696 ignored, radius = 0.000000
+Atom 768 ignored, radius = 0.000000
+Atom 995 ignored, radius = 0.000000
+Atom 1078 ignored, radius = 0.000000
+Atom 1119 ignored, radius = 0.000000
+Atom 1140 ignored, radius = 0.000000
+Atom 1180 ignored, radius = 0.000000
+Atom 1287 ignored, radius = 0.000000
+Atom 1461 ignored, radius = 0.000000
+Atom 1540 ignored, radius = 0.000000
+Atom 1645 ignored, radius = 0.000000
+Atom 1897 ignored, radius = 0.000000
+Atom 1911 ignored, radius = 0.000000
+Atom 2014 ignored, radius = 0.000000
+Atom 2057 ignored, radius = 0.000000
+Atom 2107 ignored, radius = 0.000000
+INPUT  test_proteins/6yi3.xyzr 2083 spheres 0 collision only, radii  0.600 to  2.000
+PARAM  Probe_radius  1.400 density 31.500 hdensity  3.000
+REDUCED SURFACE ...
+    RS component 0 identified 410 416 409
+    0 free edge(s) found in component 0
+    RS component  #faces  #edges #free_edges  #vertices   genus
+         0        2104     3156          0        954      50
+    Time Reduced Surface real: 0.03 user: 0.03 sys: 0.00
+ANALYTICAL SOLVENT EXCLUDED SURFACE...
+    Component   0
+        Time Surface real: 0.01 user: 0.00 sys: 0.00
+        Time Singularities real: 0.00 user: 0.00 sys: 0.00
+    SES comp.  #fac.  #edg. #s_edg. #vert. #s_vert. R_h C_h genus
+         0     6416  12918    105    6504      192   0   0    0
+ANALYTICAL SURFACE AREA :
+    Comp. probe_radius,   reent,    toric,   contact    SES       SAS
+      0       1.400    1862.284  3017.721  2667.488  7547.494  9407.065
+TRIANGULATION...
+    Component 0
+WARNING: geodesic which intersects odd number of edges
+WARNING: geodesic which intersects odd number of edges
+WARNING: geodesic which intersects odd number of edges
+    component#, vertices,  edges,  faces, genus, density
+        0         229625  688897  459265    4.5    30.424
+WARNING: Genus mismatch (ana = 0.0, tri = 4.5 )
+        Time Triangulation real: 0.59 user: 0.58 sys: 0.01
+NUMERICAL VOLUMES AND AREA
+    Comp. probe_radius SES_volume SES_area)
+       0      1.40    18903.057   7535.828
+    Total ses_volume: 18903.057
+MSMS terminated normally
+Total Time real: 1.57 user: 1.04 sys: 0.46
+MSMS 2.6.1 started on c057
+Copyright M.F. Sanner (1994)
+Compilation flags -O2 -DVERBOSE -DTIMING
+Atom 118 ignored, radius = 0.000000
+Atom 139 ignored, radius = 0.000000
+Atom 197 ignored, radius = 0.000000
+Atom 240 ignored, radius = 0.000000
+Atom 537 ignored, radius = 0.000000
+Atom 562 ignored, radius = 0.000000
+Atom 573 ignored, radius = 0.000000
+Atom 675 ignored, radius = 0.000000
+Atom 696 ignored, radius = 0.000000
+Atom 768 ignored, radius = 0.000000
+Atom 995 ignored, radius = 0.000000
+Atom 1078 ignored, radius = 0.000000
+Atom 1119 ignored, radius = 0.000000
+Atom 1140 ignored, radius = 0.000000
+Atom 1180 ignored, radius = 0.000000
+Atom 1287 ignored, radius = 0.000000
+Atom 1461 ignored, radius = 0.000000
+Atom 1540 ignored, radius = 0.000000
+Atom 1645 ignored, radius = 0.000000
+Atom 1897 ignored, radius = 0.000000
+Atom 1911 ignored, radius = 0.000000
+Atom 2014 ignored, radius = 0.000000
+Atom 2057 ignored, radius = 0.000000
+Atom 2107 ignored, radius = 0.000000
+INPUT  test_proteins/6yi3.xyzr 2083 spheres 0 collision only, radii  0.600 to  2.000
+PARAM  Probe_radius  1.400 density 31.500 hdensity  3.000
+REDUCED SURFACE ...
+    RS component 0 identified 410 416 409
+    0 free edge(s) found in component 0
+    RS component  #faces  #edges #free_edges  #vertices   genus
+         0        2104     3156          0        954      50
+    Time Reduced Surface real: 0.04 user: 0.04 sys: 0.00
+ANALYTICAL SOLVENT EXCLUDED SURFACE...
+    Component   0
+        Time Surface real: 0.00 user: 0.00 sys: 0.00
+        Time Singularities real: 0.00 user: 0.00 sys: 0.00
+    SES comp.  #fac.  #edg. #s_edg. #vert. #s_vert. R_h C_h genus
+         0     6416  12918    105    6504      192   0   0    0
+ANALYTICAL SURFACE AREA :
+    Comp. probe_radius,   reent,    toric,   contact    SES       SAS
+      0       1.400    1862.284  3017.721  2667.488  7547.494  9407.065
+TRIANGULATION...
+    Component 0
+WARNING: geodesic which intersects odd number of edges
+WARNING: geodesic which intersects odd number of edges
+WARNING: geodesic which intersects odd number of edges
+    component#, vertices,  edges,  faces, genus, density
+        0         229625  688897  459265    4.5    30.424
+WARNING: Genus mismatch (ana = 0.0, tri = 4.5 )
+        Time Triangulation real: 0.59 user: 0.59 sys: 0.00
+NUMERICAL VOLUMES AND AREA
+    Comp. probe_radius SES_volume SES_area)
+       0      1.40    18903.057   7535.828
+    Total ses_volume: 18903.057
+MSMS terminated normally
+Total Time real: 1.58 user: 1.09 sys: 0.41
+MSMS 2.6.1 started on c057
+Copyright M.F. Sanner (1994)
+Compilation flags -O2 -DVERBOSE -DTIMING
+Atom 118 ignored, radius = 0.000000
+Atom 139 ignored, radius = 0.000000
+Atom 197 ignored, radius = 0.000000
+Atom 240 ignored, radius = 0.000000
+Atom 537 ignored, radius = 0.000000
+Atom 562 ignored, radius = 0.000000
+Atom 573 ignored, radius = 0.000000
+Atom 675 ignored, radius = 0.000000
+Atom 696 ignored, radius = 0.000000
+Atom 768 ignored, radius = 0.000000
+Atom 995 ignored, radius = 0.000000
+Atom 1078 ignored, radius = 0.000000
+Atom 1119 ignored, radius = 0.000000
+Atom 1140 ignored, radius = 0.000000
+Atom 1180 ignored, radius = 0.000000
+Atom 1287 ignored, radius = 0.000000
+Atom 1461 ignored, radius = 0.000000
+Atom 1540 ignored, radius = 0.000000
+Atom 1645 ignored, radius = 0.000000
+Atom 1897 ignored, radius = 0.000000
+Atom 1911 ignored, radius = 0.000000
+Atom 2014 ignored, radius = 0.000000
+Atom 2057 ignored, radius = 0.000000
+Atom 2107 ignored, radius = 0.000000
+INPUT  test_proteins/6yi3.xyzr 2083 spheres 0 collision only, radii  0.600 to  2.000
+PARAM  Probe_radius  1.400 density 31.500 hdensity  3.000
+REDUCED SURFACE ...
+    RS component 0 identified 410 416 409
+    0 free edge(s) found in component 0
+    RS component  #faces  #edges #free_edges  #vertices   genus
+         0        2104     3156          0        954      50
+    Time Reduced Surface real: 0.04 user: 0.03 sys: 0.00
+ANALYTICAL SOLVENT EXCLUDED SURFACE...
+    Component   0
+        Time Surface real: 0.00 user: 0.00 sys: 0.00
+        Time Singularities real: 0.00 user: 0.00 sys: 0.00
+    SES comp.  #fac.  #edg. #s_edg. #vert. #s_vert. R_h C_h genus
+         0     6416  12918    105    6504      192   0   0    0
+ANALYTICAL SURFACE AREA :
+    Comp. probe_radius,   reent,    toric,   contact    SES       SAS
+      0       1.400    1862.284  3017.721  2667.488  7547.494  9407.065
+TRIANGULATION...
+    Component 0
+WARNING: geodesic which intersects odd number of edges
+WARNING: geodesic which intersects odd number of edges
+WARNING: geodesic which intersects odd number of edges
+    component#, vertices,  edges,  faces, genus, density
+        0         229625  688897  459265    4.5    30.424
+WARNING: Genus mismatch (ana = 0.0, tri = 4.5 )
+        Time Triangulation real: 0.59 user: 0.60 sys: 0.00
+NUMERICAL VOLUMES AND AREA
+    Comp. probe_radius SES_volume SES_area)
+       0      1.40    18903.057   7535.828
+    Total ses_volume: 18903.057
+MSMS terminated normally
+Total Time real: 1.58 user: 1.07 sys: 0.44
+MSMS 2.6.1 started on c057
+Copyright M.F. Sanner (1994)
+Compilation flags -O2 -DVERBOSE -DTIMING
+Atom 118 ignored, radius = 0.000000
+Atom 139 ignored, radius = 0.000000
+Atom 197 ignored, radius = 0.000000
+Atom 240 ignored, radius = 0.000000
+Atom 537 ignored, radius = 0.000000
+Atom 562 ignored, radius = 0.000000
+Atom 573 ignored, radius = 0.000000
+Atom 675 ignored, radius = 0.000000
+Atom 696 ignored, radius = 0.000000
+Atom 768 ignored, radius = 0.000000
+Atom 995 ignored, radius = 0.000000
+Atom 1078 ignored, radius = 0.000000
+Atom 1119 ignored, radius = 0.000000
+Atom 1140 ignored, radius = 0.000000
+Atom 1180 ignored, radius = 0.000000
+Atom 1287 ignored, radius = 0.000000
+Atom 1461 ignored, radius = 0.000000
+Atom 1540 ignored, radius = 0.000000
+Atom 1645 ignored, radius = 0.000000
+Atom 1897 ignored, radius = 0.000000
+Atom 1911 ignored, radius = 0.000000
+Atom 2014 ignored, radius = 0.000000
+Atom 2057 ignored, radius = 0.000000
+Atom 2107 ignored, radius = 0.000000
+INPUT  test_proteins/6yi3.xyzr 2083 spheres 0 collision only, radii  0.600 to  2.000
+PARAM  Probe_radius  1.400 density 31.500 hdensity  3.000
+REDUCED SURFACE ...
+    RS component 0 identified 410 416 409
+    0 free edge(s) found in component 0
+    RS component  #faces  #edges #free_edges  #vertices   genus
+         0        2104     3156          0        954      50
+    Time Reduced Surface real: 0.04 user: 0.04 sys: 0.00
+ANALYTICAL SOLVENT EXCLUDED SURFACE...
+    Component   0
+        Time Surface real: 0.00 user: 0.00 sys: 0.00
+        Time Singularities real: 0.00 user: 0.00 sys: 0.00
+    SES comp.  #fac.  #edg. #s_edg. #vert. #s_vert. R_h C_h genus
+         0     6416  12918    105    6504      192   0   0    0
+ANALYTICAL SURFACE AREA :
+    Comp. probe_radius,   reent,    toric,   contact    SES       SAS
+      0       1.400    1862.284  3017.721  2667.488  7547.494  9407.065
+TRIANGULATION...
+    Component 0
+WARNING: geodesic which intersects odd number of edges
+WARNING: geodesic which intersects odd number of edges
+WARNING: geodesic which intersects odd number of edges
+    component#, vertices,  edges,  faces, genus, density
+        0         229625  688897  459265    4.5    30.424
+WARNING: Genus mismatch (ana = 0.0, tri = 4.5 )
+        Time Triangulation real: 0.59 user: 0.58 sys: 0.01
+NUMERICAL VOLUMES AND AREA
+    Comp. probe_radius SES_volume SES_area)
+       0      1.40    18903.057   7535.828
+    Total ses_volume: 18903.057
+MSMS terminated normally
+Total Time real: 1.58 user: 1.06 sys: 0.45
+MSMS 2.6.1 started on c057
+Copyright M.F. Sanner (1994)
+Compilation flags -O2 -DVERBOSE -DTIMING
+Atom 118 ignored, radius = 0.000000
+Atom 139 ignored, radius = 0.000000
+Atom 197 ignored, radius = 0.000000
+Atom 240 ignored, radius = 0.000000
+Atom 537 ignored, radius = 0.000000
+Atom 562 ignored, radius = 0.000000
+Atom 573 ignored, radius = 0.000000
+Atom 675 ignored, radius = 0.000000
+Atom 696 ignored, radius = 0.000000
+Atom 768 ignored, radius = 0.000000
+Atom 995 ignored, radius = 0.000000
+Atom 1078 ignored, radius = 0.000000
+Atom 1119 ignored, radius = 0.000000
+Atom 1140 ignored, radius = 0.000000
+Atom 1180 ignored, radius = 0.000000
+Atom 1287 ignored, radius = 0.000000
+Atom 1461 ignored, radius = 0.000000
+Atom 1540 ignored, radius = 0.000000
+Atom 1645 ignored, radius = 0.000000
+Atom 1897 ignored, radius = 0.000000
+Atom 1911 ignored, radius = 0.000000
+Atom 2014 ignored, radius = 0.000000
+Atom 2057 ignored, radius = 0.000000
+Atom 2107 ignored, radius = 0.000000
+INPUT  test_proteins/6yi3.xyzr 2083 spheres 0 collision only, radii  0.600 to  2.000
+PARAM  Probe_radius  1.400 density 31.500 hdensity  3.000
+REDUCED SURFACE ...
+    RS component 0 identified 410 416 409
+    0 free edge(s) found in component 0
+    RS component  #faces  #edges #free_edges  #vertices   genus
+         0        2104     3156          0        954      50
+    Time Reduced Surface real: 0.04 user: 0.03 sys: 0.00
+ANALYTICAL SOLVENT EXCLUDED SURFACE...
+    Component   0
+        Time Surface real: 0.00 user: 0.00 sys: 0.00
+        Time Singularities real: 0.00 user: 0.00 sys: 0.00
+    SES comp.  #fac.  #edg. #s_edg. #vert. #s_vert. R_h C_h genus
+         0     6416  12918    105    6504      192   0   0    0
+ANALYTICAL SURFACE AREA :
+    Comp. probe_radius,   reent,    toric,   contact    SES       SAS
+      0       1.400    1862.284  3017.721  2667.488  7547.494  9407.065
+TRIANGULATION...
+    Component 0
+WARNING: geodesic which intersects odd number of edges
+WARNING: geodesic which intersects odd number of edges
+WARNING: geodesic which intersects odd number of edges
+    component#, vertices,  edges,  faces, genus, density
+        0         229625  688897  459265    4.5    30.424
+WARNING: Genus mismatch (ana = 0.0, tri = 4.5 )
+        Time Triangulation real: 0.59 user: 0.58 sys: 0.01
+NUMERICAL VOLUMES AND AREA
+    Comp. probe_radius SES_volume SES_area)
+       0      1.40    18903.057   7535.828
+    Total ses_volume: 18903.057
+MSMS terminated normally
+Total Time real: 1.58 user: 1.08 sys: 0.43
+MSMS 2.6.1 started on c057
+Copyright M.F. Sanner (1994)
+Compilation flags -O2 -DVERBOSE -DTIMING
+Atom 118 ignored, radius = 0.000000
+Atom 139 ignored, radius = 0.000000
+Atom 197 ignored, radius = 0.000000
+Atom 240 ignored, radius = 0.000000
+Atom 537 ignored, radius = 0.000000
+Atom 562 ignored, radius = 0.000000
+Atom 573 ignored, radius = 0.000000
+Atom 675 ignored, radius = 0.000000
+Atom 696 ignored, radius = 0.000000
+Atom 768 ignored, radius = 0.000000
+Atom 995 ignored, radius = 0.000000
+Atom 1078 ignored, radius = 0.000000
+Atom 1119 ignored, radius = 0.000000
+Atom 1140 ignored, radius = 0.000000
+Atom 1180 ignored, radius = 0.000000
+Atom 1287 ignored, radius = 0.000000
+Atom 1461 ignored, radius = 0.000000
+Atom 1540 ignored, radius = 0.000000
+Atom 1645 ignored, radius = 0.000000
+Atom 1897 ignored, radius = 0.000000
+Atom 1911 ignored, radius = 0.000000
+Atom 2014 ignored, radius = 0.000000
+Atom 2057 ignored, radius = 0.000000
+Atom 2107 ignored, radius = 0.000000
+INPUT  test_proteins/6yi3.xyzr 2083 spheres 0 collision only, radii  0.600 to  2.000
+PARAM  Probe_radius  1.400 density 31.500 hdensity  3.000
+REDUCED SURFACE ...
+    RS component 0 identified 410 416 409
+    0 free edge(s) found in component 0
+    RS component  #faces  #edges #free_edges  #vertices   genus
+         0        2104     3156          0        954      50
+    Time Reduced Surface real: 0.03 user: 0.03 sys: 0.00
+ANALYTICAL SOLVENT EXCLUDED SURFACE...
+    Component   0
+        Time Surface real: 0.00 user: 0.00 sys: 0.00
+        Time Singularities real: 0.00 user: 0.00 sys: 0.00
+    SES comp.  #fac.  #edg. #s_edg. #vert. #s_vert. R_h C_h genus
+         0     6416  12918    105    6504      192   0   0    0
+ANALYTICAL SURFACE AREA :
+    Comp. probe_radius,   reent,    toric,   contact    SES       SAS
+      0       1.400    1862.284  3017.721  2667.488  7547.494  9407.065
+TRIANGULATION...
+    Component 0
+WARNING: geodesic which intersects odd number of edges
+WARNING: geodesic which intersects odd number of edges
+WARNING: geodesic which intersects odd number of edges
+    component#, vertices,  edges,  faces, genus, density
+        0         229625  688897  459265    4.5    30.424
+WARNING: Genus mismatch (ana = 0.0, tri = 4.5 )
+        Time Triangulation real: 0.59 user: 0.59 sys: 0.00
+NUMERICAL VOLUMES AND AREA
+    Comp. probe_radius SES_volume SES_area)
+       0      1.40    18903.057   7535.828
+    Total ses_volume: 18903.057
+MSMS terminated normally
+Total Time real: 1.56 user: 1.05 sys: 0.44
+MSMS 2.6.1 started on c057
+Copyright M.F. Sanner (1994)
+Compilation flags -O2 -DVERBOSE -DTIMING
+Atom 118 ignored, radius = 0.000000
+Atom 139 ignored, radius = 0.000000
+Atom 197 ignored, radius = 0.000000
+Atom 240 ignored, radius = 0.000000
+Atom 537 ignored, radius = 0.000000
+Atom 562 ignored, radius = 0.000000
+Atom 573 ignored, radius = 0.000000
+Atom 675 ignored, radius = 0.000000
+Atom 696 ignored, radius = 0.000000
+Atom 768 ignored, radius = 0.000000
+Atom 995 ignored, radius = 0.000000
+Atom 1078 ignored, radius = 0.000000
+Atom 1119 ignored, radius = 0.000000
+Atom 1140 ignored, radius = 0.000000
+Atom 1180 ignored, radius = 0.000000
+Atom 1287 ignored, radius = 0.000000
+Atom 1461 ignored, radius = 0.000000
+Atom 1540 ignored, radius = 0.000000
+Atom 1645 ignored, radius = 0.000000
+Atom 1897 ignored, radius = 0.000000
+Atom 1911 ignored, radius = 0.000000
+Atom 2014 ignored, radius = 0.000000
+Atom 2057 ignored, radius = 0.000000
+Atom 2107 ignored, radius = 0.000000
+INPUT  test_proteins/6yi3.xyzr 2083 spheres 0 collision only, radii  0.600 to  2.000
+PARAM  Probe_radius  1.400 density 31.500 hdensity  3.000
+REDUCED SURFACE ...
+    RS component 0 identified 410 416 409
+    0 free edge(s) found in component 0
+    RS component  #faces  #edges #free_edges  #vertices   genus
+         0        2104     3156          0        954      50
+    Time Reduced Surface real: 0.03 user: 0.03 sys: 0.00
+ANALYTICAL SOLVENT EXCLUDED SURFACE...
+    Component   0
+        Time Surface real: 0.00 user: 0.00 sys: 0.00
+        Time Singularities real: 0.00 user: 0.00 sys: 0.00
+    SES comp.  #fac.  #edg. #s_edg. #vert. #s_vert. R_h C_h genus
+         0     6416  12918    105    6504      192   0   0    0
+ANALYTICAL SURFACE AREA :
+    Comp. probe_radius,   reent,    toric,   contact    SES       SAS
+      0       1.400    1862.284  3017.721  2667.488  7547.494  9407.065
+TRIANGULATION...
+    Component 0
+WARNING: geodesic which intersects odd number of edges
+WARNING: geodesic which intersects odd number of edges
+WARNING: geodesic which intersects odd number of edges
+    component#, vertices,  edges,  faces, genus, density
+        0         229625  688897  459265    4.5    30.424
+WARNING: Genus mismatch (ana = 0.0, tri = 4.5 )
+        Time Triangulation real: 0.59 user: 0.59 sys: 0.00
+NUMERICAL VOLUMES AND AREA
+    Comp. probe_radius SES_volume SES_area)
+       0      1.40    18903.057   7535.828
+    Total ses_volume: 18903.057
+MSMS terminated normally
+Total Time real: 1.56 user: 1.10 sys: 0.41
+MSMS 2.6.1 started on c057
+Copyright M.F. Sanner (1994)
+Compilation flags -O2 -DVERBOSE -DTIMING
+Atom 118 ignored, radius = 0.000000
+Atom 139 ignored, radius = 0.000000
+Atom 197 ignored, radius = 0.000000
+Atom 240 ignored, radius = 0.000000
+Atom 537 ignored, radius = 0.000000
+Atom 562 ignored, radius = 0.000000
+Atom 573 ignored, radius = 0.000000
+Atom 675 ignored, radius = 0.000000
+Atom 696 ignored, radius = 0.000000
+Atom 768 ignored, radius = 0.000000
+Atom 995 ignored, radius = 0.000000
+Atom 1078 ignored, radius = 0.000000
+Atom 1119 ignored, radius = 0.000000
+Atom 1140 ignored, radius = 0.000000
+Atom 1180 ignored, radius = 0.000000
+Atom 1287 ignored, radius = 0.000000
+Atom 1461 ignored, radius = 0.000000
+Atom 1540 ignored, radius = 0.000000
+Atom 1645 ignored, radius = 0.000000
+Atom 1897 ignored, radius = 0.000000
+Atom 1911 ignored, radius = 0.000000
+Atom 2014 ignored, radius = 0.000000
+Atom 2057 ignored, radius = 0.000000
+Atom 2107 ignored, radius = 0.000000
+INPUT  test_proteins/6yi3.xyzr 2083 spheres 0 collision only, radii  0.600 to  2.000
+PARAM  Probe_radius  1.400 density 31.500 hdensity  3.000
+REDUCED SURFACE ...
+    RS component 0 identified 410 416 409
+    0 free edge(s) found in component 0
+    RS component  #faces  #edges #free_edges  #vertices   genus
+         0        2104     3156          0        954      50
+    Time Reduced Surface real: 0.03 user: 0.03 sys: 0.00
+ANALYTICAL SOLVENT EXCLUDED SURFACE...
+    Component   0
+        Time Surface real: 0.01 user: 0.01 sys: 0.00
+        Time Singularities real: 0.00 user: 0.00 sys: 0.00
+    SES comp.  #fac.  #edg. #s_edg. #vert. #s_vert. R_h C_h genus
+         0     6416  12918    105    6504      192   0   0    0
+ANALYTICAL SURFACE AREA :
+    Comp. probe_radius,   reent,    toric,   contact    SES       SAS
+      0       1.400    1862.284  3017.721  2667.488  7547.494  9407.065
+TRIANGULATION...
+    Component 0
+WARNING: geodesic which intersects odd number of edges
+WARNING: geodesic which intersects odd number of edges
+WARNING: geodesic which intersects odd number of edges
+    component#, vertices,  edges,  faces, genus, density
+        0         229625  688897  459265    4.5    30.424
+WARNING: Genus mismatch (ana = 0.0, tri = 4.5 )
+        Time Triangulation real: 0.59 user: 0.58 sys: 0.01
+NUMERICAL VOLUMES AND AREA
+    Comp. probe_radius SES_volume SES_area)
+       0      1.40    18903.057   7535.828
+    Total ses_volume: 18903.057
+MSMS terminated normally
+Total Time real: 1.56 user: 1.06 sys: 0.43
+MSMS 2.6.1 started on c057
+Copyright M.F. Sanner (1994)
+Compilation flags -O2 -DVERBOSE -DTIMING
+Atom 118 ignored, radius = 0.000000
+Atom 139 ignored, radius = 0.000000
+Atom 197 ignored, radius = 0.000000
+Atom 240 ignored, radius = 0.000000
+Atom 537 ignored, radius = 0.000000
+Atom 562 ignored, radius = 0.000000
+Atom 573 ignored, radius = 0.000000
+Atom 675 ignored, radius = 0.000000
+Atom 696 ignored, radius = 0.000000
+Atom 768 ignored, radius = 0.000000
+Atom 995 ignored, radius = 0.000000
+Atom 1078 ignored, radius = 0.000000
+Atom 1119 ignored, radius = 0.000000
+Atom 1140 ignored, radius = 0.000000
+Atom 1180 ignored, radius = 0.000000
+Atom 1287 ignored, radius = 0.000000
+Atom 1461 ignored, radius = 0.000000
+Atom 1540 ignored, radius = 0.000000
+Atom 1645 ignored, radius = 0.000000
+Atom 1897 ignored, radius = 0.000000
+Atom 1911 ignored, radius = 0.000000
+Atom 2014 ignored, radius = 0.000000
+Atom 2057 ignored, radius = 0.000000
+Atom 2107 ignored, radius = 0.000000
+INPUT  test_proteins/6yi3.xyzr 2083 spheres 0 collision only, radii  0.600 to  2.000
+PARAM  Probe_radius  1.400 density 31.500 hdensity  3.000
+REDUCED SURFACE ...
+    RS component 0 identified 410 416 409
+    0 free edge(s) found in component 0
+    RS component  #faces  #edges #free_edges  #vertices   genus
+         0        2104     3156          0        954      50
+    Time Reduced Surface real: 0.04 user: 0.03 sys: 0.00
+ANALYTICAL SOLVENT EXCLUDED SURFACE...
+    Component   0
+        Time Surface real: 0.00 user: 0.00 sys: 0.00
+        Time Singularities real: 0.00 user: 0.00 sys: 0.00
+    SES comp.  #fac.  #edg. #s_edg. #vert. #s_vert. R_h C_h genus
+         0     6416  12918    105    6504      192   0   0    0
+ANALYTICAL SURFACE AREA :
+    Comp. probe_radius,   reent,    toric,   contact    SES       SAS
+      0       1.400    1862.284  3017.721  2667.488  7547.494  9407.065
+TRIANGULATION...
+    Component 0
+WARNING: geodesic which intersects odd number of edges
+WARNING: geodesic which intersects odd number of edges
+WARNING: geodesic which intersects odd number of edges
+    component#, vertices,  edges,  faces, genus, density
+        0         229625  688897  459265    4.5    30.424
+WARNING: Genus mismatch (ana = 0.0, tri = 4.5 )
+        Time Triangulation real: 0.59 user: 0.58 sys: 0.00
+NUMERICAL VOLUMES AND AREA
+    Comp. probe_radius SES_volume SES_area)
+       0      1.40    18903.057   7535.828
+    Total ses_volume: 18903.057
+MSMS terminated normally
+Total Time real: 1.58 user: 1.03 sys: 0.49
+MSMS 2.6.1 started on c057
+Copyright M.F. Sanner (1994)
+Compilation flags -O2 -DVERBOSE -DTIMING
+Atom 118 ignored, radius = 0.000000
+Atom 139 ignored, radius = 0.000000
+Atom 197 ignored, radius = 0.000000
+Atom 240 ignored, radius = 0.000000
+Atom 537 ignored, radius = 0.000000
+Atom 562 ignored, radius = 0.000000
+Atom 573 ignored, radius = 0.000000
+Atom 675 ignored, radius = 0.000000
+Atom 696 ignored, radius = 0.000000
+Atom 768 ignored, radius = 0.000000
+Atom 995 ignored, radius = 0.000000
+Atom 1078 ignored, radius = 0.000000
+Atom 1119 ignored, radius = 0.000000
+Atom 1140 ignored, radius = 0.000000
+Atom 1180 ignored, radius = 0.000000
+Atom 1287 ignored, radius = 0.000000
+Atom 1461 ignored, radius = 0.000000
+Atom 1540 ignored, radius = 0.000000
+Atom 1645 ignored, radius = 0.000000
+Atom 1897 ignored, radius = 0.000000
+Atom 1911 ignored, radius = 0.000000
+Atom 2014 ignored, radius = 0.000000
+Atom 2057 ignored, radius = 0.000000
+Atom 2107 ignored, radius = 0.000000
+INPUT  test_proteins/6yi3.xyzr 2083 spheres 0 collision only, radii  0.600 to  2.000
+PARAM  Probe_radius  1.400 density 31.500 hdensity  3.000
+REDUCED SURFACE ...
+    RS component 0 identified 410 416 409
+    0 free edge(s) found in component 0
+    RS component  #faces  #edges #free_edges  #vertices   genus
+         0        2104     3156          0        954      50
+    Time Reduced Surface real: 0.04 user: 0.03 sys: 0.00
+ANALYTICAL SOLVENT EXCLUDED SURFACE...
+    Component   0
+        Time Surface real: 0.00 user: 0.01 sys: 0.00
+        Time Singularities real: 0.00 user: 0.00 sys: 0.00
+    SES comp.  #fac.  #edg. #s_edg. #vert. #s_vert. R_h C_h genus
+         0     6416  12918    105    6504      192   0   0    0
+ANALYTICAL SURFACE AREA :
+    Comp. probe_radius,   reent,    toric,   contact    SES       SAS
+      0       1.400    1862.284  3017.721  2667.488  7547.494  9407.065
+TRIANGULATION...
+    Component 0
+WARNING: geodesic which intersects odd number of edges
+WARNING: geodesic which intersects odd number of edges
+WARNING: geodesic which intersects odd number of edges
+    component#, vertices,  edges,  faces, genus, density
+        0         229625  688897  459265    4.5    30.424
+WARNING: Genus mismatch (ana = 0.0, tri = 4.5 )
+        Time Triangulation real: 0.59 user: 0.58 sys: 0.01
+NUMERICAL VOLUMES AND AREA
+    Comp. probe_radius SES_volume SES_area)
+       0      1.40    18903.057   7535.828
+    Total ses_volume: 18903.057
+MSMS terminated normally
+Total Time real: 1.58 user: 1.04 sys: 0.45
+MSMS 2.6.1 started on c057
+Copyright M.F. Sanner (1994)
+Compilation flags -O2 -DVERBOSE -DTIMING
+Atom 118 ignored, radius = 0.000000
+Atom 139 ignored, radius = 0.000000
+Atom 197 ignored, radius = 0.000000
+Atom 240 ignored, radius = 0.000000
+Atom 537 ignored, radius = 0.000000
+Atom 562 ignored, radius = 0.000000
+Atom 573 ignored, radius = 0.000000
+Atom 675 ignored, radius = 0.000000
+Atom 696 ignored, radius = 0.000000
+Atom 768 ignored, radius = 0.000000
+Atom 995 ignored, radius = 0.000000
+Atom 1078 ignored, radius = 0.000000
+Atom 1119 ignored, radius = 0.000000
+Atom 1140 ignored, radius = 0.000000
+Atom 1180 ignored, radius = 0.000000
+Atom 1287 ignored, radius = 0.000000
+Atom 1461 ignored, radius = 0.000000
+Atom 1540 ignored, radius = 0.000000
+Atom 1645 ignored, radius = 0.000000
+Atom 1897 ignored, radius = 0.000000
+Atom 1911 ignored, radius = 0.000000
+Atom 2014 ignored, radius = 0.000000
+Atom 2057 ignored, radius = 0.000000
+Atom 2107 ignored, radius = 0.000000
+INPUT  test_proteins/6yi3.xyzr 2083 spheres 0 collision only, radii  0.600 to  2.000
+PARAM  Probe_radius  1.400 density 31.500 hdensity  3.000
+REDUCED SURFACE ...
+    RS component 0 identified 410 416 409
+    0 free edge(s) found in component 0
+    RS component  #faces  #edges #free_edges  #vertices   genus
+         0        2104     3156          0        954      50
+    Time Reduced Surface real: 0.03 user: 0.03 sys: 0.00
+ANALYTICAL SOLVENT EXCLUDED SURFACE...
+    Component   0
+        Time Surface real: 0.01 user: 0.00 sys: 0.00
+        Time Singularities real: 0.00 user: 0.00 sys: 0.00
+    SES comp.  #fac.  #edg. #s_edg. #vert. #s_vert. R_h C_h genus
+         0     6416  12918    105    6504      192   0   0    0
+ANALYTICAL SURFACE AREA :
+    Comp. probe_radius,   reent,    toric,   contact    SES       SAS
+      0       1.400    1862.284  3017.721  2667.488  7547.494  9407.065
+TRIANGULATION...
+    Component 0
+WARNING: geodesic which intersects odd number of edges
+WARNING: geodesic which intersects odd number of edges
+WARNING: geodesic which intersects odd number of edges
+    component#, vertices,  edges,  faces, genus, density
+        0         229625  688897  459265    4.5    30.424
+WARNING: Genus mismatch (ana = 0.0, tri = 4.5 )
+        Time Triangulation real: 0.59 user: 0.59 sys: 0.00
+NUMERICAL VOLUMES AND AREA
+    Comp. probe_radius SES_volume SES_area)
+       0      1.40    18903.057   7535.828
+    Total ses_volume: 18903.057
+MSMS terminated normally
+Total Time real: 1.58 user: 1.05 sys: 0.47
+MSMS 2.6.1 started on c057
+Copyright M.F. Sanner (1994)
+Compilation flags -O2 -DVERBOSE -DTIMING
+Atom 118 ignored, radius = 0.000000
+Atom 139 ignored, radius = 0.000000
+Atom 197 ignored, radius = 0.000000
+Atom 240 ignored, radius = 0.000000
+Atom 537 ignored, radius = 0.000000
+Atom 562 ignored, radius = 0.000000
+Atom 573 ignored, radius = 0.000000
+Atom 675 ignored, radius = 0.000000
+Atom 696 ignored, radius = 0.000000
+Atom 768 ignored, radius = 0.000000
+Atom 995 ignored, radius = 0.000000
+Atom 1078 ignored, radius = 0.000000
+Atom 1119 ignored, radius = 0.000000
+Atom 1140 ignored, radius = 0.000000
+Atom 1180 ignored, radius = 0.000000
+Atom 1287 ignored, radius = 0.000000
+Atom 1461 ignored, radius = 0.000000
+Atom 1540 ignored, radius = 0.000000
+Atom 1645 ignored, radius = 0.000000
+Atom 1897 ignored, radius = 0.000000
+Atom 1911 ignored, radius = 0.000000
+Atom 2014 ignored, radius = 0.000000
+Atom 2057 ignored, radius = 0.000000
+Atom 2107 ignored, radius = 0.000000
+INPUT  test_proteins/6yi3.xyzr 2083 spheres 0 collision only, radii  0.600 to  2.000
+PARAM  Probe_radius  1.400 density 31.500 hdensity  3.000
+REDUCED SURFACE ...
+    RS component 0 identified 410 416 409
+    0 free edge(s) found in component 0
+    RS component  #faces  #edges #free_edges  #vertices   genus
+         0        2104     3156          0        954      50
+    Time Reduced Surface real: 0.04 user: 0.03 sys: 0.00
+ANALYTICAL SOLVENT EXCLUDED SURFACE...
+    Component   0
+        Time Surface real: 0.00 user: 0.01 sys: 0.00
+        Time Singularities real: 0.00 user: 0.00 sys: 0.00
+    SES comp.  #fac.  #edg. #s_edg. #vert. #s_vert. R_h C_h genus
+         0     6416  12918    105    6504      192   0   0    0
+ANALYTICAL SURFACE AREA :
+    Comp. probe_radius,   reent,    toric,   contact    SES       SAS
+      0       1.400    1862.284  3017.721  2667.488  7547.494  9407.065
+TRIANGULATION...
+    Component 0
+WARNING: geodesic which intersects odd number of edges
+WARNING: geodesic which intersects odd number of edges
+WARNING: geodesic which intersects odd number of edges
+    component#, vertices,  edges,  faces, genus, density
+        0         229625  688897  459265    4.5    30.424
+WARNING: Genus mismatch (ana = 0.0, tri = 4.5 )
+        Time Triangulation real: 0.59 user: 0.59 sys: 0.00
+NUMERICAL VOLUMES AND AREA
+    Comp. probe_radius SES_volume SES_area)
+       0      1.40    18903.057   7535.828
+    Total ses_volume: 18903.057
+MSMS terminated normally
+Total Time real: 1.58 user: 1.03 sys: 0.48
+MSMS 2.6.1 started on c057
+Copyright M.F. Sanner (1994)
+Compilation flags -O2 -DVERBOSE -DTIMING
+Atom 118 ignored, radius = 0.000000
+Atom 139 ignored, radius = 0.000000
+Atom 197 ignored, radius = 0.000000
+Atom 240 ignored, radius = 0.000000
+Atom 537 ignored, radius = 0.000000
+Atom 562 ignored, radius = 0.000000
+Atom 573 ignored, radius = 0.000000
+Atom 675 ignored, radius = 0.000000
+Atom 696 ignored, radius = 0.000000
+Atom 768 ignored, radius = 0.000000
+Atom 995 ignored, radius = 0.000000
+Atom 1078 ignored, radius = 0.000000
+Atom 1119 ignored, radius = 0.000000
+Atom 1140 ignored, radius = 0.000000
+Atom 1180 ignored, radius = 0.000000
+Atom 1287 ignored, radius = 0.000000
+Atom 1461 ignored, radius = 0.000000
+Atom 1540 ignored, radius = 0.000000
+Atom 1645 ignored, radius = 0.000000
+Atom 1897 ignored, radius = 0.000000
+Atom 1911 ignored, radius = 0.000000
+Atom 2014 ignored, radius = 0.000000
+Atom 2057 ignored, radius = 0.000000
+Atom 2107 ignored, radius = 0.000000
+INPUT  test_proteins/6yi3.xyzr 2083 spheres 0 collision only, radii  0.600 to  2.000
+PARAM  Probe_radius  1.400 density 31.500 hdensity  3.000
+REDUCED SURFACE ...
+    RS component 0 identified 410 416 409
+    0 free edge(s) found in component 0
+    RS component  #faces  #edges #free_edges  #vertices   genus
+         0        2104     3156          0        954      50
+    Time Reduced Surface real: 0.04 user: 0.03 sys: 0.00
+ANALYTICAL SOLVENT EXCLUDED SURFACE...
+    Component   0
+        Time Surface real: 0.00 user: 0.01 sys: 0.00
+        Time Singularities real: 0.00 user: 0.00 sys: 0.00
+    SES comp.  #fac.  #edg. #s_edg. #vert. #s_vert. R_h C_h genus
+         0     6416  12918    105    6504      192   0   0    0
+ANALYTICAL SURFACE AREA :
+    Comp. probe_radius,   reent,    toric,   contact    SES       SAS
+      0       1.400    1862.284  3017.721  2667.488  7547.494  9407.065
+TRIANGULATION...
+    Component 0
+WARNING: geodesic which intersects odd number of edges
+WARNING: geodesic which intersects odd number of edges
+WARNING: geodesic which intersects odd number of edges
+    component#, vertices,  edges,  faces, genus, density
+        0         229625  688897  459265    4.5    30.424
+WARNING: Genus mismatch (ana = 0.0, tri = 4.5 )
+        Time Triangulation real: 0.59 user: 0.58 sys: 0.01
+NUMERICAL VOLUMES AND AREA
+    Comp. probe_radius SES_volume SES_area)
+       0      1.40    18903.057   7535.828
+    Total ses_volume: 18903.057
+MSMS terminated normally
+Total Time real: 1.58 user: 1.03 sys: 0.46
+MSMS 2.6.1 started on c057
+Copyright M.F. Sanner (1994)
+Compilation flags -O2 -DVERBOSE -DTIMING
+Atom 118 ignored, radius = 0.000000
+Atom 139 ignored, radius = 0.000000
+Atom 197 ignored, radius = 0.000000
+Atom 240 ignored, radius = 0.000000
+Atom 537 ignored, radius = 0.000000
+Atom 562 ignored, radius = 0.000000
+Atom 573 ignored, radius = 0.000000
+Atom 675 ignored, radius = 0.000000
+Atom 696 ignored, radius = 0.000000
+Atom 768 ignored, radius = 0.000000
+Atom 995 ignored, radius = 0.000000
+Atom 1078 ignored, radius = 0.000000
+Atom 1119 ignored, radius = 0.000000
+Atom 1140 ignored, radius = 0.000000
+Atom 1180 ignored, radius = 0.000000
+Atom 1287 ignored, radius = 0.000000
+Atom 1461 ignored, radius = 0.000000
+Atom 1540 ignored, radius = 0.000000
+Atom 1645 ignored, radius = 0.000000
+Atom 1897 ignored, radius = 0.000000
+Atom 1911 ignored, radius = 0.000000
+Atom 2014 ignored, radius = 0.000000
+Atom 2057 ignored, radius = 0.000000
+Atom 2107 ignored, radius = 0.000000
+INPUT  test_proteins/6yi3.xyzr 2083 spheres 0 collision only, radii  0.600 to  2.000
+PARAM  Probe_radius  1.400 density 31.500 hdensity  3.000
+REDUCED SURFACE ...
+    RS component 0 identified 410 416 409
+    0 free edge(s) found in component 0
+    RS component  #faces  #edges #free_edges  #vertices   genus
+         0        2104     3156          0        954      50
+    Time Reduced Surface real: 0.03 user: 0.03 sys: 0.00
+ANALYTICAL SOLVENT EXCLUDED SURFACE...
+    Component   0
+        Time Surface real: 0.00 user: 0.00 sys: 0.00
+        Time Singularities real: 0.00 user: 0.00 sys: 0.00
+    SES comp.  #fac.  #edg. #s_edg. #vert. #s_vert. R_h C_h genus
+         0     6416  12918    105    6504      192   0   0    0
+ANALYTICAL SURFACE AREA :
+    Comp. probe_radius,   reent,    toric,   contact    SES       SAS
+      0       1.400    1862.284  3017.721  2667.488  7547.494  9407.065
+TRIANGULATION...
+    Component 0
+WARNING: geodesic which intersects odd number of edges
+WARNING: geodesic which intersects odd number of edges
+WARNING: geodesic which intersects odd number of edges
+    component#, vertices,  edges,  faces, genus, density
+        0         229625  688897  459265    4.5    30.424
+WARNING: Genus mismatch (ana = 0.0, tri = 4.5 )
+        Time Triangulation real: 0.60 user: 0.59 sys: 0.01
+NUMERICAL VOLUMES AND AREA
+    Comp. probe_radius SES_volume SES_area)
+       0      1.40    18903.057   7535.828
+    Total ses_volume: 18903.057
+MSMS terminated normally
+Total Time real: 1.57 user: 1.06 sys: 0.43
+MSMS 2.6.1 started on c057
+Copyright M.F. Sanner (1994)
+Compilation flags -O2 -DVERBOSE -DTIMING
+Atom 118 ignored, radius = 0.000000
+Atom 139 ignored, radius = 0.000000
+Atom 197 ignored, radius = 0.000000
+Atom 240 ignored, radius = 0.000000
+Atom 537 ignored, radius = 0.000000
+Atom 562 ignored, radius = 0.000000
+Atom 573 ignored, radius = 0.000000
+Atom 675 ignored, radius = 0.000000
+Atom 696 ignored, radius = 0.000000
+Atom 768 ignored, radius = 0.000000
+Atom 995 ignored, radius = 0.000000
+Atom 1078 ignored, radius = 0.000000
+Atom 1119 ignored, radius = 0.000000
+Atom 1140 ignored, radius = 0.000000
+Atom 1180 ignored, radius = 0.000000
+Atom 1287 ignored, radius = 0.000000
+Atom 1461 ignored, radius = 0.000000
+Atom 1540 ignored, radius = 0.000000
+Atom 1645 ignored, radius = 0.000000
+Atom 1897 ignored, radius = 0.000000
+Atom 1911 ignored, radius = 0.000000
+Atom 2014 ignored, radius = 0.000000
+Atom 2057 ignored, radius = 0.000000
+Atom 2107 ignored, radius = 0.000000
+INPUT  test_proteins/6yi3.xyzr 2083 spheres 0 collision only, radii  0.600 to  2.000
+PARAM  Probe_radius  1.400 density 31.500 hdensity  3.000
+REDUCED SURFACE ...
+    RS component 0 identified 410 416 409
+    0 free edge(s) found in component 0
+    RS component  #faces  #edges #free_edges  #vertices   genus
+         0        2104     3156          0        954      50
+    Time Reduced Surface real: 0.04 user: 0.03 sys: 0.00
+ANALYTICAL SOLVENT EXCLUDED SURFACE...
+    Component   0
+        Time Surface real: 0.00 user: 0.00 sys: 0.00
+        Time Singularities real: 0.00 user: 0.01 sys: 0.00
+    SES comp.  #fac.  #edg. #s_edg. #vert. #s_vert. R_h C_h genus
+         0     6416  12918    105    6504      192   0   0    0
+ANALYTICAL SURFACE AREA :
+    Comp. probe_radius,   reent,    toric,   contact    SES       SAS
+      0       1.400    1862.284  3017.721  2667.488  7547.494  9407.065
+TRIANGULATION...
+    Component 0
+WARNING: geodesic which intersects odd number of edges
+WARNING: geodesic which intersects odd number of edges
+WARNING: geodesic which intersects odd number of edges
+    component#, vertices,  edges,  faces, genus, density
+        0         229625  688897  459265    4.5    30.424
+WARNING: Genus mismatch (ana = 0.0, tri = 4.5 )
+        Time Triangulation real: 0.59 user: 0.58 sys: 0.01
+NUMERICAL VOLUMES AND AREA
+    Comp. probe_radius SES_volume SES_area)
+       0      1.40    18903.057   7535.828
+    Total ses_volume: 18903.057
+MSMS terminated normally
+Total Time real: 1.58 user: 1.05 sys: 0.44
+MSMS 2.6.1 started on c057
+Copyright M.F. Sanner (1994)
+Compilation flags -O2 -DVERBOSE -DTIMING
+Atom 118 ignored, radius = 0.000000
+Atom 139 ignored, radius = 0.000000
+Atom 197 ignored, radius = 0.000000
+Atom 240 ignored, radius = 0.000000
+Atom 537 ignored, radius = 0.000000
+Atom 562 ignored, radius = 0.000000
+Atom 573 ignored, radius = 0.000000
+Atom 675 ignored, radius = 0.000000
+Atom 696 ignored, radius = 0.000000
+Atom 768 ignored, radius = 0.000000
+Atom 995 ignored, radius = 0.000000
+Atom 1078 ignored, radius = 0.000000
+Atom 1119 ignored, radius = 0.000000
+Atom 1140 ignored, radius = 0.000000
+Atom 1180 ignored, radius = 0.000000
+Atom 1287 ignored, radius = 0.000000
+Atom 1461 ignored, radius = 0.000000
+Atom 1540 ignored, radius = 0.000000
+Atom 1645 ignored, radius = 0.000000
+Atom 1897 ignored, radius = 0.000000
+Atom 1911 ignored, radius = 0.000000
+Atom 2014 ignored, radius = 0.000000
+Atom 2057 ignored, radius = 0.000000
+Atom 2107 ignored, radius = 0.000000
+INPUT  test_proteins/6yi3.xyzr 2083 spheres 0 collision only, radii  0.600 to  2.000
+PARAM  Probe_radius  1.400 density 31.500 hdensity  3.000
+REDUCED SURFACE ...
+    RS component 0 identified 410 416 409
+    0 free edge(s) found in component 0
+    RS component  #faces  #edges #free_edges  #vertices   genus
+         0        2104     3156          0        954      50
+    Time Reduced Surface real: 0.03 user: 0.03 sys: 0.00
+ANALYTICAL SOLVENT EXCLUDED SURFACE...
+    Component   0
+        Time Surface real: 0.01 user: 0.00 sys: 0.00
+        Time Singularities real: 0.00 user: 0.01 sys: 0.00
+    SES comp.  #fac.  #edg. #s_edg. #vert. #s_vert. R_h C_h genus
+         0     6416  12918    105    6504      192   0   0    0
+ANALYTICAL SURFACE AREA :
+    Comp. probe_radius,   reent,    toric,   contact    SES       SAS
+      0       1.400    1862.284  3017.721  2667.488  7547.494  9407.065
+TRIANGULATION...
+    Component 0
+WARNING: geodesic which intersects odd number of edges
+WARNING: geodesic which intersects odd number of edges
+WARNING: geodesic which intersects odd number of edges
+    component#, vertices,  edges,  faces, genus, density
+        0         229625  688897  459265    4.5    30.424
+WARNING: Genus mismatch (ana = 0.0, tri = 4.5 )
+        Time Triangulation real: 0.59 user: 0.57 sys: 0.01
+NUMERICAL VOLUMES AND AREA
+    Comp. probe_radius SES_volume SES_area)
+       0      1.40    18903.057   7535.828
+    Total ses_volume: 18903.057
+MSMS terminated normally
+Total Time real: 1.58 user: 1.03 sys: 0.46
+MSMS 2.6.1 started on c057
+Copyright M.F. Sanner (1994)
+Compilation flags -O2 -DVERBOSE -DTIMING
+Atom 118 ignored, radius = 0.000000
+Atom 139 ignored, radius = 0.000000
+Atom 197 ignored, radius = 0.000000
+Atom 240 ignored, radius = 0.000000
+Atom 537 ignored, radius = 0.000000
+Atom 562 ignored, radius = 0.000000
+Atom 573 ignored, radius = 0.000000
+Atom 675 ignored, radius = 0.000000
+Atom 696 ignored, radius = 0.000000
+Atom 768 ignored, radius = 0.000000
+Atom 995 ignored, radius = 0.000000
+Atom 1078 ignored, radius = 0.000000
+Atom 1119 ignored, radius = 0.000000
+Atom 1140 ignored, radius = 0.000000
+Atom 1180 ignored, radius = 0.000000
+Atom 1287 ignored, radius = 0.000000
+Atom 1461 ignored, radius = 0.000000
+Atom 1540 ignored, radius = 0.000000
+Atom 1645 ignored, radius = 0.000000
+Atom 1897 ignored, radius = 0.000000
+Atom 1911 ignored, radius = 0.000000
+Atom 2014 ignored, radius = 0.000000
+Atom 2057 ignored, radius = 0.000000
+Atom 2107 ignored, radius = 0.000000
+INPUT  test_proteins/6yi3.xyzr 2083 spheres 0 collision only, radii  0.600 to  2.000
+PARAM  Probe_radius  1.400 density 31.500 hdensity  3.000
+REDUCED SURFACE ...
+    RS component 0 identified 410 416 409
+    0 free edge(s) found in component 0
+    RS component  #faces  #edges #free_edges  #vertices   genus
+         0        2104     3156          0        954      50
+    Time Reduced Surface real: 0.03 user: 0.03 sys: 0.00
+ANALYTICAL SOLVENT EXCLUDED SURFACE...
+    Component   0
+        Time Surface real: 0.01 user: 0.00 sys: 0.01
+        Time Singularities real: 0.00 user: 0.00 sys: 0.00
+    SES comp.  #fac.  #edg. #s_edg. #vert. #s_vert. R_h C_h genus
+         0     6416  12918    105    6504      192   0   0    0
+ANALYTICAL SURFACE AREA :
+    Comp. probe_radius,   reent,    toric,   contact    SES       SAS
+      0       1.400    1862.284  3017.721  2667.488  7547.494  9407.065
+TRIANGULATION...
+    Component 0
+WARNING: geodesic which intersects odd number of edges
+WARNING: geodesic which intersects odd number of edges
+WARNING: geodesic which intersects odd number of edges
+    component#, vertices,  edges,  faces, genus, density
+        0         229625  688897  459265    4.5    30.424
+WARNING: Genus mismatch (ana = 0.0, tri = 4.5 )
+        Time Triangulation real: 0.59 user: 0.58 sys: 0.00
+NUMERICAL VOLUMES AND AREA
+    Comp. probe_radius SES_volume SES_area)
+       0      1.40    18903.057   7535.828
+    Total ses_volume: 18903.057
+MSMS terminated normally
+Total Time real: 1.58 user: 0.98 sys: 0.51
+MSMS 2.6.1 started on c057
+Copyright M.F. Sanner (1994)
+Compilation flags -O2 -DVERBOSE -DTIMING
+Atom 118 ignored, radius = 0.000000
+Atom 139 ignored, radius = 0.000000
+Atom 197 ignored, radius = 0.000000
+Atom 240 ignored, radius = 0.000000
+Atom 537 ignored, radius = 0.000000
+Atom 562 ignored, radius = 0.000000
+Atom 573 ignored, radius = 0.000000
+Atom 675 ignored, radius = 0.000000
+Atom 696 ignored, radius = 0.000000
+Atom 768 ignored, radius = 0.000000
+Atom 995 ignored, radius = 0.000000
+Atom 1078 ignored, radius = 0.000000
+Atom 1119 ignored, radius = 0.000000
+Atom 1140 ignored, radius = 0.000000
+Atom 1180 ignored, radius = 0.000000
+Atom 1287 ignored, radius = 0.000000
+Atom 1461 ignored, radius = 0.000000
+Atom 1540 ignored, radius = 0.000000
+Atom 1645 ignored, radius = 0.000000
+Atom 1897 ignored, radius = 0.000000
+Atom 1911 ignored, radius = 0.000000
+Atom 2014 ignored, radius = 0.000000
+Atom 2057 ignored, radius = 0.000000
+Atom 2107 ignored, radius = 0.000000
+INPUT  test_proteins/6yi3.xyzr 2083 spheres 0 collision only, radii  0.600 to  2.000
+PARAM  Probe_radius  1.400 density 31.500 hdensity  3.000
+REDUCED SURFACE ...
+    RS component 0 identified 410 416 409
+    0 free edge(s) found in component 0
+    RS component  #faces  #edges #free_edges  #vertices   genus
+         0        2104     3156          0        954      50
+    Time Reduced Surface real: 0.04 user: 0.03 sys: 0.00
+ANALYTICAL SOLVENT EXCLUDED SURFACE...
+    Component   0
+        Time Surface real: 0.00 user: 0.00 sys: 0.00
+        Time Singularities real: 0.00 user: 0.00 sys: 0.00
+    SES comp.  #fac.  #edg. #s_edg. #vert. #s_vert. R_h C_h genus
+         0     6416  12918    105    6504      192   0   0    0
+ANALYTICAL SURFACE AREA :
+    Comp. probe_radius,   reent,    toric,   contact    SES       SAS
+      0       1.400    1862.284  3017.721  2667.488  7547.494  9407.065
+TRIANGULATION...
+    Component 0
+WARNING: geodesic which intersects odd number of edges
+WARNING: geodesic which intersects odd number of edges
+WARNING: geodesic which intersects odd number of edges
+    component#, vertices,  edges,  faces, genus, density
+        0         229625  688897  459265    4.5    30.424
+WARNING: Genus mismatch (ana = 0.0, tri = 4.5 )
+        Time Triangulation real: 0.59 user: 0.58 sys: 0.01
+NUMERICAL VOLUMES AND AREA
+    Comp. probe_radius SES_volume SES_area)
+       0      1.40    18903.057   7535.828
+    Total ses_volume: 18903.057
+MSMS terminated normally
+Total Time real: 1.58 user: 1.05 sys: 0.44
+MSMS 2.6.1 started on c057
+Copyright M.F. Sanner (1994)
+Compilation flags -O2 -DVERBOSE -DTIMING
+Atom 118 ignored, radius = 0.000000
+Atom 139 ignored, radius = 0.000000
+Atom 197 ignored, radius = 0.000000
+Atom 240 ignored, radius = 0.000000
+Atom 537 ignored, radius = 0.000000
+Atom 562 ignored, radius = 0.000000
+Atom 573 ignored, radius = 0.000000
+Atom 675 ignored, radius = 0.000000
+Atom 696 ignored, radius = 0.000000
+Atom 768 ignored, radius = 0.000000
+Atom 995 ignored, radius = 0.000000
+Atom 1078 ignored, radius = 0.000000
+Atom 1119 ignored, radius = 0.000000
+Atom 1140 ignored, radius = 0.000000
+Atom 1180 ignored, radius = 0.000000
+Atom 1287 ignored, radius = 0.000000
+Atom 1461 ignored, radius = 0.000000
+Atom 1540 ignored, radius = 0.000000
+Atom 1645 ignored, radius = 0.000000
+Atom 1897 ignored, radius = 0.000000
+Atom 1911 ignored, radius = 0.000000
+Atom 2014 ignored, radius = 0.000000
+Atom 2057 ignored, radius = 0.000000
+Atom 2107 ignored, radius = 0.000000
+INPUT  test_proteins/6yi3.xyzr 2083 spheres 0 collision only, radii  0.600 to  2.000
+PARAM  Probe_radius  1.400 density 31.500 hdensity  3.000
+REDUCED SURFACE ...
+    RS component 0 identified 410 416 409
+    0 free edge(s) found in component 0
+    RS component  #faces  #edges #free_edges  #vertices   genus
+         0        2104     3156          0        954      50
+    Time Reduced Surface real: 0.03 user: 0.03 sys: 0.00
+ANALYTICAL SOLVENT EXCLUDED SURFACE...
+    Component   0
+        Time Surface real: 0.00 user: 0.01 sys: 0.00
+        Time Singularities real: 0.00 user: 0.00 sys: 0.00
+    SES comp.  #fac.  #edg. #s_edg. #vert. #s_vert. R_h C_h genus
+         0     6416  12918    105    6504      192   0   0    0
+ANALYTICAL SURFACE AREA :
+    Comp. probe_radius,   reent,    toric,   contact    SES       SAS
+      0       1.400    1862.284  3017.721  2667.488  7547.494  9407.065
+TRIANGULATION...
+    Component 0
+WARNING: geodesic which intersects odd number of edges
+WARNING: geodesic which intersects odd number of edges
+WARNING: geodesic which intersects odd number of edges
+    component#, vertices,  edges,  faces, genus, density
+        0         229625  688897  459265    4.5    30.424
+WARNING: Genus mismatch (ana = 0.0, tri = 4.5 )
+        Time Triangulation real: 0.60 user: 0.58 sys: 0.00
+NUMERICAL VOLUMES AND AREA
+    Comp. probe_radius SES_volume SES_area)
+       0      1.40    18903.057   7535.828
+    Total ses_volume: 18903.057
+MSMS terminated normally
+Total Time real: 1.57 user: 1.07 sys: 0.42
+MSMS 2.6.1 started on c057
+Copyright M.F. Sanner (1994)
+Compilation flags -O2 -DVERBOSE -DTIMING
+Atom 118 ignored, radius = 0.000000
+Atom 139 ignored, radius = 0.000000
+Atom 197 ignored, radius = 0.000000
+Atom 240 ignored, radius = 0.000000
+Atom 537 ignored, radius = 0.000000
+Atom 562 ignored, radius = 0.000000
+Atom 573 ignored, radius = 0.000000
+Atom 675 ignored, radius = 0.000000
+Atom 696 ignored, radius = 0.000000
+Atom 768 ignored, radius = 0.000000
+Atom 995 ignored, radius = 0.000000
+Atom 1078 ignored, radius = 0.000000
+Atom 1119 ignored, radius = 0.000000
+Atom 1140 ignored, radius = 0.000000
+Atom 1180 ignored, radius = 0.000000
+Atom 1287 ignored, radius = 0.000000
+Atom 1461 ignored, radius = 0.000000
+Atom 1540 ignored, radius = 0.000000
+Atom 1645 ignored, radius = 0.000000
+Atom 1897 ignored, radius = 0.000000
+Atom 1911 ignored, radius = 0.000000
+Atom 2014 ignored, radius = 0.000000
+Atom 2057 ignored, radius = 0.000000
+Atom 2107 ignored, radius = 0.000000
+INPUT  test_proteins/6yi3.xyzr 2083 spheres 0 collision only, radii  0.600 to  2.000
+PARAM  Probe_radius  1.400 density 31.500 hdensity  3.000
+REDUCED SURFACE ...
+    RS component 0 identified 410 416 409
+    0 free edge(s) found in component 0
+    RS component  #faces  #edges #free_edges  #vertices   genus
+         0        2104     3156          0        954      50
+    Time Reduced Surface real: 0.03 user: 0.03 sys: 0.00
+ANALYTICAL SOLVENT EXCLUDED SURFACE...
+    Component   0
+        Time Surface real: 0.00 user: 0.01 sys: 0.00
+        Time Singularities real: 0.00 user: 0.00 sys: 0.00
+    SES comp.  #fac.  #edg. #s_edg. #vert. #s_vert. R_h C_h genus
+         0     6416  12918    105    6504      192   0   0    0
+ANALYTICAL SURFACE AREA :
+    Comp. probe_radius,   reent,    toric,   contact    SES       SAS
+      0       1.400    1862.284  3017.721  2667.488  7547.494  9407.065
+TRIANGULATION...
+    Component 0
+WARNING: geodesic which intersects odd number of edges
+WARNING: geodesic which intersects odd number of edges
+WARNING: geodesic which intersects odd number of edges
+    component#, vertices,  edges,  faces, genus, density
+        0         229625  688897  459265    4.5    30.424
+WARNING: Genus mismatch (ana = 0.0, tri = 4.5 )
+        Time Triangulation real: 0.59 user: 0.58 sys: 0.01
+NUMERICAL VOLUMES AND AREA
+    Comp. probe_radius SES_volume SES_area)
+       0      1.40    18903.057   7535.828
+    Total ses_volume: 18903.057
+MSMS terminated normally
+Total Time real: 1.58 user: 1.12 sys: 0.37
+MSMS 2.6.1 started on c057
+Copyright M.F. Sanner (1994)
+Compilation flags -O2 -DVERBOSE -DTIMING
+Atom 118 ignored, radius = 0.000000
+Atom 139 ignored, radius = 0.000000
+Atom 197 ignored, radius = 0.000000
+Atom 240 ignored, radius = 0.000000
+Atom 537 ignored, radius = 0.000000
+Atom 562 ignored, radius = 0.000000
+Atom 573 ignored, radius = 0.000000
+Atom 675 ignored, radius = 0.000000
+Atom 696 ignored, radius = 0.000000
+Atom 768 ignored, radius = 0.000000
+Atom 995 ignored, radius = 0.000000
+Atom 1078 ignored, radius = 0.000000
+Atom 1119 ignored, radius = 0.000000
+Atom 1140 ignored, radius = 0.000000
+Atom 1180 ignored, radius = 0.000000
+Atom 1287 ignored, radius = 0.000000
+Atom 1461 ignored, radius = 0.000000
+Atom 1540 ignored, radius = 0.000000
+Atom 1645 ignored, radius = 0.000000
+Atom 1897 ignored, radius = 0.000000
+Atom 1911 ignored, radius = 0.000000
+Atom 2014 ignored, radius = 0.000000
+Atom 2057 ignored, radius = 0.000000
+Atom 2107 ignored, radius = 0.000000
+INPUT  test_proteins/6yi3.xyzr 2083 spheres 0 collision only, radii  0.600 to  2.000
+PARAM  Probe_radius  1.400 density 31.500 hdensity  3.000
+REDUCED SURFACE ...
+    RS component 0 identified 410 416 409
+    0 free edge(s) found in component 0
+    RS component  #faces  #edges #free_edges  #vertices   genus
+         0        2104     3156          0        954      50
+    Time Reduced Surface real: 0.04 user: 0.03 sys: 0.00
+ANALYTICAL SOLVENT EXCLUDED SURFACE...
+    Component   0
+        Time Surface real: 0.00 user: 0.00 sys: 0.00
+        Time Singularities real: 0.00 user: 0.00 sys: 0.00
+    SES comp.  #fac.  #edg. #s_edg. #vert. #s_vert. R_h C_h genus
+         0     6416  12918    105    6504      192   0   0    0
+ANALYTICAL SURFACE AREA :
+    Comp. probe_radius,   reent,    toric,   contact    SES       SAS
+      0       1.400    1862.284  3017.721  2667.488  7547.494  9407.065
+TRIANGULATION...
+    Component 0
+WARNING: geodesic which intersects odd number of edges
+WARNING: geodesic which intersects odd number of edges
+WARNING: geodesic which intersects odd number of edges
+    component#, vertices,  edges,  faces, genus, density
+        0         229625  688897  459265    4.5    30.424
+WARNING: Genus mismatch (ana = 0.0, tri = 4.5 )
+        Time Triangulation real: 0.59 user: 0.59 sys: 0.00
+NUMERICAL VOLUMES AND AREA
+    Comp. probe_radius SES_volume SES_area)
+       0      1.40    18903.057   7535.828
+    Total ses_volume: 18903.057
+MSMS terminated normally
+Total Time real: 1.59 user: 1.08 sys: 0.42
+MSMS 2.6.1 started on c057
+Copyright M.F. Sanner (1994)
+Compilation flags -O2 -DVERBOSE -DTIMING
+Atom 118 ignored, radius = 0.000000
+Atom 139 ignored, radius = 0.000000
+Atom 197 ignored, radius = 0.000000
+Atom 240 ignored, radius = 0.000000
+Atom 537 ignored, radius = 0.000000
+Atom 562 ignored, radius = 0.000000
+Atom 573 ignored, radius = 0.000000
+Atom 675 ignored, radius = 0.000000
+Atom 696 ignored, radius = 0.000000
+Atom 768 ignored, radius = 0.000000
+Atom 995 ignored, radius = 0.000000
+Atom 1078 ignored, radius = 0.000000
+Atom 1119 ignored, radius = 0.000000
+Atom 1140 ignored, radius = 0.000000
+Atom 1180 ignored, radius = 0.000000
+Atom 1287 ignored, radius = 0.000000
+Atom 1461 ignored, radius = 0.000000
+Atom 1540 ignored, radius = 0.000000
+Atom 1645 ignored, radius = 0.000000
+Atom 1897 ignored, radius = 0.000000
+Atom 1911 ignored, radius = 0.000000
+Atom 2014 ignored, radius = 0.000000
+Atom 2057 ignored, radius = 0.000000
+Atom 2107 ignored, radius = 0.000000
+INPUT  test_proteins/6yi3.xyzr 2083 spheres 0 collision only, radii  0.600 to  2.000
+PARAM  Probe_radius  1.400 density 31.500 hdensity  3.000
+REDUCED SURFACE ...
+    RS component 0 identified 410 416 409
+    0 free edge(s) found in component 0
+    RS component  #faces  #edges #free_edges  #vertices   genus
+         0        2104     3156          0        954      50
+    Time Reduced Surface real: 0.03 user: 0.03 sys: 0.00
+ANALYTICAL SOLVENT EXCLUDED SURFACE...
+    Component   0
+        Time Surface real: 0.01 user: 0.00 sys: 0.00
+        Time Singularities real: 0.00 user: 0.01 sys: 0.00
+    SES comp.  #fac.  #edg. #s_edg. #vert. #s_vert. R_h C_h genus
+         0     6416  12918    105    6504      192   0   0    0
+ANALYTICAL SURFACE AREA :
+    Comp. probe_radius,   reent,    toric,   contact    SES       SAS
+      0       1.400    1862.284  3017.721  2667.488  7547.494  9407.065
+TRIANGULATION...
+    Component 0
+WARNING: geodesic which intersects odd number of edges
+WARNING: geodesic which intersects odd number of edges
+WARNING: geodesic which intersects odd number of edges
+    component#, vertices,  edges,  faces, genus, density
+        0         229625  688897  459265    4.5    30.424
+WARNING: Genus mismatch (ana = 0.0, tri = 4.5 )
+        Time Triangulation real: 0.59 user: 0.59 sys: 0.00
+NUMERICAL VOLUMES AND AREA
+    Comp. probe_radius SES_volume SES_area)
+       0      1.40    18903.057   7535.828
+    Total ses_volume: 18903.057
+MSMS terminated normally
+Total Time real: 1.57 user: 1.07 sys: 0.42
+MSMS 2.6.1 started on c057
+Copyright M.F. Sanner (1994)
+Compilation flags -O2 -DVERBOSE -DTIMING
+Atom 118 ignored, radius = 0.000000
+Atom 139 ignored, radius = 0.000000
+Atom 197 ignored, radius = 0.000000
+Atom 240 ignored, radius = 0.000000
+Atom 537 ignored, radius = 0.000000
+Atom 562 ignored, radius = 0.000000
+Atom 573 ignored, radius = 0.000000
+Atom 675 ignored, radius = 0.000000
+Atom 696 ignored, radius = 0.000000
+Atom 768 ignored, radius = 0.000000
+Atom 995 ignored, radius = 0.000000
+Atom 1078 ignored, radius = 0.000000
+Atom 1119 ignored, radius = 0.000000
+Atom 1140 ignored, radius = 0.000000
+Atom 1180 ignored, radius = 0.000000
+Atom 1287 ignored, radius = 0.000000
+Atom 1461 ignored, radius = 0.000000
+Atom 1540 ignored, radius = 0.000000
+Atom 1645 ignored, radius = 0.000000
+Atom 1897 ignored, radius = 0.000000
+Atom 1911 ignored, radius = 0.000000
+Atom 2014 ignored, radius = 0.000000
+Atom 2057 ignored, radius = 0.000000
+Atom 2107 ignored, radius = 0.000000
+INPUT  test_proteins/6yi3.xyzr 2083 spheres 0 collision only, radii  0.600 to  2.000
+PARAM  Probe_radius  1.400 density 31.500 hdensity  3.000
+REDUCED SURFACE ...
+    RS component 0 identified 410 416 409
+    0 free edge(s) found in component 0
+    RS component  #faces  #edges #free_edges  #vertices   genus
+         0        2104     3156          0        954      50
+    Time Reduced Surface real: 0.03 user: 0.03 sys: 0.00
+ANALYTICAL SOLVENT EXCLUDED SURFACE...
+    Component   0
+        Time Surface real: 0.00 user: 0.00 sys: 0.00
+        Time Singularities real: 0.00 user: 0.01 sys: 0.00
+    SES comp.  #fac.  #edg. #s_edg. #vert. #s_vert. R_h C_h genus
+         0     6416  12918    105    6504      192   0   0    0
+ANALYTICAL SURFACE AREA :
+    Comp. probe_radius,   reent,    toric,   contact    SES       SAS
+      0       1.400    1862.284  3017.721  2667.488  7547.494  9407.065
+TRIANGULATION...
+    Component 0
+WARNING: geodesic which intersects odd number of edges
+WARNING: geodesic which intersects odd number of edges
+WARNING: geodesic which intersects odd number of edges
+    component#, vertices,  edges,  faces, genus, density
+        0         229625  688897  459265    4.5    30.424
+WARNING: Genus mismatch (ana = 0.0, tri = 4.5 )
+        Time Triangulation real: 0.59 user: 0.59 sys: 0.00
+NUMERICAL VOLUMES AND AREA
+    Comp. probe_radius SES_volume SES_area)
+       0      1.40    18903.057   7535.828
+    Total ses_volume: 18903.057
+MSMS terminated normally
+Total Time real: 1.57 user: 1.07 sys: 0.43
+MSMS 2.6.1 started on c057
+Copyright M.F. Sanner (1994)
+Compilation flags -O2 -DVERBOSE -DTIMING
+Atom 118 ignored, radius = 0.000000
+Atom 139 ignored, radius = 0.000000
+Atom 197 ignored, radius = 0.000000
+Atom 240 ignored, radius = 0.000000
+Atom 537 ignored, radius = 0.000000
+Atom 562 ignored, radius = 0.000000
+Atom 573 ignored, radius = 0.000000
+Atom 675 ignored, radius = 0.000000
+Atom 696 ignored, radius = 0.000000
+Atom 768 ignored, radius = 0.000000
+Atom 995 ignored, radius = 0.000000
+Atom 1078 ignored, radius = 0.000000
+Atom 1119 ignored, radius = 0.000000
+Atom 1140 ignored, radius = 0.000000
+Atom 1180 ignored, radius = 0.000000
+Atom 1287 ignored, radius = 0.000000
+Atom 1461 ignored, radius = 0.000000
+Atom 1540 ignored, radius = 0.000000
+Atom 1645 ignored, radius = 0.000000
+Atom 1897 ignored, radius = 0.000000
+Atom 1911 ignored, radius = 0.000000
+Atom 2014 ignored, radius = 0.000000
+Atom 2057 ignored, radius = 0.000000
+Atom 2107 ignored, radius = 0.000000
+INPUT  test_proteins/6yi3.xyzr 2083 spheres 0 collision only, radii  0.600 to  2.000
+PARAM  Probe_radius  1.400 density 31.500 hdensity  3.000
+REDUCED SURFACE ...
+    RS component 0 identified 410 416 409
+    0 free edge(s) found in component 0
+    RS component  #faces  #edges #free_edges  #vertices   genus
+         0        2104     3156          0        954      50
+    Time Reduced Surface real: 0.03 user: 0.03 sys: 0.00
+ANALYTICAL SOLVENT EXCLUDED SURFACE...
+    Component   0
+        Time Surface real: 0.00 user: 0.00 sys: 0.00
+        Time Singularities real: 0.01 user: 0.00 sys: 0.00
+    SES comp.  #fac.  #edg. #s_edg. #vert. #s_vert. R_h C_h genus
+         0     6416  12918    105    6504      192   0   0    0
+ANALYTICAL SURFACE AREA :
+    Comp. probe_radius,   reent,    toric,   contact    SES       SAS
+      0       1.400    1862.284  3017.721  2667.488  7547.494  9407.065
+TRIANGULATION...
+    Component 0
+WARNING: geodesic which intersects odd number of edges
+WARNING: geodesic which intersects odd number of edges
+WARNING: geodesic which intersects odd number of edges
+    component#, vertices,  edges,  faces, genus, density
+        0         229625  688897  459265    4.5    30.424
+WARNING: Genus mismatch (ana = 0.0, tri = 4.5 )
+        Time Triangulation real: 0.58 user: 0.59 sys: 0.01
+NUMERICAL VOLUMES AND AREA
+    Comp. probe_radius SES_volume SES_area)
+       0      1.40    18903.057   7535.828
+    Total ses_volume: 18903.057
+MSMS terminated normally
+Total Time real: 1.57 user: 1.03 sys: 0.46
+MSMS 2.6.1 started on c057
+Copyright M.F. Sanner (1994)
+Compilation flags -O2 -DVERBOSE -DTIMING
+Atom 118 ignored, radius = 0.000000
+Atom 139 ignored, radius = 0.000000
+Atom 197 ignored, radius = 0.000000
+Atom 240 ignored, radius = 0.000000
+Atom 537 ignored, radius = 0.000000
+Atom 562 ignored, radius = 0.000000
+Atom 573 ignored, radius = 0.000000
+Atom 675 ignored, radius = 0.000000
+Atom 696 ignored, radius = 0.000000
+Atom 768 ignored, radius = 0.000000
+Atom 995 ignored, radius = 0.000000
+Atom 1078 ignored, radius = 0.000000
+Atom 1119 ignored, radius = 0.000000
+Atom 1140 ignored, radius = 0.000000
+Atom 1180 ignored, radius = 0.000000
+Atom 1287 ignored, radius = 0.000000
+Atom 1461 ignored, radius = 0.000000
+Atom 1540 ignored, radius = 0.000000
+Atom 1645 ignored, radius = 0.000000
+Atom 1897 ignored, radius = 0.000000
+Atom 1911 ignored, radius = 0.000000
+Atom 2014 ignored, radius = 0.000000
+Atom 2057 ignored, radius = 0.000000
+Atom 2107 ignored, radius = 0.000000
+INPUT  test_proteins/6yi3.xyzr 2083 spheres 0 collision only, radii  0.600 to  2.000
+PARAM  Probe_radius  1.400 density 31.500 hdensity  3.000
+REDUCED SURFACE ...
+    RS component 0 identified 410 416 409
+    0 free edge(s) found in component 0
+    RS component  #faces  #edges #free_edges  #vertices   genus
+         0        2104     3156          0        954      50
+    Time Reduced Surface real: 0.03 user: 0.03 sys: 0.00
+ANALYTICAL SOLVENT EXCLUDED SURFACE...
+    Component   0
+        Time Surface real: 0.00 user: 0.00 sys: 0.00
+        Time Singularities real: 0.00 user: 0.00 sys: 0.00
+    SES comp.  #fac.  #edg. #s_edg. #vert. #s_vert. R_h C_h genus
+         0     6416  12918    105    6504      192   0   0    0
+ANALYTICAL SURFACE AREA :
+    Comp. probe_radius,   reent,    toric,   contact    SES       SAS
+      0       1.400    1862.284  3017.721  2667.488  7547.494  9407.065
+TRIANGULATION...
+    Component 0
+WARNING: geodesic which intersects odd number of edges
+WARNING: geodesic which intersects odd number of edges
+WARNING: geodesic which intersects odd number of edges
+    component#, vertices,  edges,  faces, genus, density
+        0         229625  688897  459265    4.5    30.424
+WARNING: Genus mismatch (ana = 0.0, tri = 4.5 )
+        Time Triangulation real: 0.59 user: 0.59 sys: 0.01
+NUMERICAL VOLUMES AND AREA
+    Comp. probe_radius SES_volume SES_area)
+       0      1.40    18903.057   7535.828
+    Total ses_volume: 18903.057
+MSMS terminated normally
+Total Time real: 1.58 user: 1.07 sys: 0.42
+ # of surfaces=      459265  # of surface points=      229625
+ # of surfaces=      459265  # of surface points=      229625
+ # of surfaces=      459265  # of surface points=      229625
+ # of surfaces=      459265  # of surface points=      229625
+ # of surfaces=      459265  # of surface points=      229625
+ # of surfaces=      459265  # of surface points=      229625
+ # of surfaces=      459265  # of surface points=      229625
+ # of surfaces=      459265  # of surface points=      229625
+ # of surfaces=      459265  # of surface points=      229625
+ # of surfaces=      459265  # of surface points=      229625
+ # of surfaces=      459265  # of surface points=      229625
+ # of surfaces=      459265  # of surface points=      229625
+ # of surfaces=      459265  # of surface points=      229625
+ # of surfaces=      459265  # of surface points=      229625
+ # of surfaces=      459265  # of surface points=      229625
+ # of surfaces=      459265  # of surface points=      229625
+ # of surfaces=      459265  # of surface points=      229625
+ # of surfaces=      459265  # of surface points=      229625
+ # of surfaces=      459265  # of surface points=      229625
+ # of surfaces=      459265  # of surface points=      229625
+ # of surfaces=      459265  # of surface points=      229625
+ # of surfaces=      459265  # of surface points=      229625
+ # of surfaces=      459265  # of surface points=      229625
+ # of surfaces=      459265  # of surface points=      229625
+ # of surfaces=      459265  # of surface points=      229625
+          21  ugly faces are deleted
+          21  ugly faces are deleted
+ # of surfaces=      459265  # of surface points=      229625
+          21  ugly faces are deleted
+          21  ugly faces are deleted
+          21  ugly faces are deleted
+ total MSMS post-processing time =   5.7861000000000162E-002
+ surface area=   7536.46826    
+ # of surfaces=      459265  # of surface points=      229625
+ total MSMS post-processing time =   5.8780000000000054E-002
+ surface area=   7536.46826    
+ Begin to form right hand side vector b
+ NUMBER OF FACES IN TRIANGULARIZATION:       459244
+ # of surfaces=      459265  # of surface points=      229625
+ total MSMS post-processing time =   5.7239000000000040E-002
+ surface area=   7536.46826    
+ # of surfaces=      459265  # of surface points=      229625
+ total MSMS post-processing time =   5.8783999999999947E-002
+ surface area=   7536.46826    
+ # of surfaces=      459265  # of surface points=      229625
+ total MSMS post-processing time =   5.7126000000000010E-002
+ surface area=   7536.46826    
+          21  ugly faces are deleted
+          21  ugly faces are deleted
+ total MSMS post-processing time =   5.8210000000000095E-002
+ surface area=   7536.46826    
+ # of surfaces=      459265  # of surface points=      229625
+ total MSMS post-processing time =   5.7088000000000028E-002
+ surface area=   7536.46826    
+          21  ugly faces are deleted
+ # of surfaces=      459265  # of surface points=      229625
+          21  ugly faces are deleted
+          21  ugly faces are deleted
+          21  ugly faces are deleted
+          21  ugly faces are deleted
+ total MSMS post-processing time =   5.7153000000000009E-002
+ surface area=   7536.46826    
+          21  ugly faces are deleted
+ total MSMS post-processing time =   5.9120999999999979E-002
+ surface area=   7536.46826    
+ total MSMS post-processing time =   5.7051999999999881E-002
+ surface area=   7536.46826    
+ total MSMS post-processing time =   5.8526999999999996E-002
+ surface area=   7536.46826    
+ total MSMS post-processing time =   5.8106000000000213E-002
+ surface area=   7536.46826    
+ total MSMS post-processing time =   5.8089000000000057E-002
+ surface area=   7536.46826    
+          21  ugly faces are deleted
+          21  ugly faces are deleted
+          21  ugly faces are deleted
+ total MSMS post-processing time =   5.8413000000000048E-002
+ surface area=   7536.46826    
+ total MSMS post-processing time =   5.9503000000000084E-002
+ surface area=   7536.46826    
+ total MSMS post-processing time =   5.8529000000000053E-002
+ surface area=   7536.46826    
+          21  ugly faces are deleted
+          21  ugly faces are deleted
+          21  ugly faces are deleted
+          21  ugly faces are deleted
+          21  ugly faces are deleted
+ total MSMS post-processing time =   5.9284000000000114E-002
+ surface area=   7536.46826    
+ total MSMS post-processing time =   5.7826999999999851E-002
+ surface area=   7536.46826    
+          21  ugly faces are deleted
+ total MSMS post-processing time =   5.8991999999999933E-002
+ surface area=   7536.46826    
+ total MSMS post-processing time =   5.8772000000000046E-002
+ surface area=   7536.46826    
+ total MSMS post-processing time =   5.8035000000000059E-002
+ surface area=   7536.46826    
+ total MSMS post-processing time =   5.7590999999999948E-002
+ surface area=   7536.46826    
+          21  ugly faces are deleted
+          21  ugly faces are deleted
+          21  ugly faces are deleted
+ total MSMS post-processing time =   5.8834000000000053E-002
+ surface area=   7536.46826    
+ total MSMS post-processing time =   5.9269000000000016E-002
+ surface area=   7536.46826    
+ total MSMS post-processing time =   5.7942999999999856E-002
+ surface area=   7536.46826    
+          21  ugly faces are deleted
+          21  ugly faces are deleted
+          21  ugly faces are deleted
+ total MSMS post-processing time =   5.9411000000000103E-002
+ surface area=   7536.46826    
+          21  ugly faces are deleted
+          21  ugly faces are deleted
+ total MSMS post-processing time =   5.8965999999999852E-002
+ surface area=   7536.46826    
+ total MSMS post-processing time =   6.0887999999999831E-002
+ surface area=   7536.46826    
+ total MSMS post-processing time =   6.0095999999999927E-002
+ surface area=   7536.46826    
+ total MSMS post-processing time =   5.9965000000000046E-002
+ surface area=   7536.46826    
+          21  ugly faces are deleted
+          21  ugly faces are deleted
+ total MSMS post-processing time =   6.0077000000000158E-002
+ surface area=   7536.46826    
+ total MSMS post-processing time =   5.9619000000000089E-002
+ surface area=   7536.46826    
+ ===========================================================================
+ Setting up right hand side calc time with reduce =   0.39517787005752325                0
+ Begin to initialize treecode...
+  
+ Creating tree for       459244  particles with max          100  per node...
+  
+ Creating tree for       459244  particles with max          100  per node...
+  
+ Creating tree for       459244  particles with max          100  per node...
+  
+ Creating tree for       459244  particles with max          100  per node...
+  
+ Creating tree for       459244  particles with max          100  per node...
+  
+ Creating tree for       459244  particles with max          100  per node...
+  
+ Creating tree for       459244  particles with max          100  per node...
+  
+ Creating tree for       459244  particles with max          100  per node...
+  
+ Creating tree for       459244  particles with max          100  per node...
+  
+ Creating tree for       459244  particles with max          100  per node...
+  
+ Creating tree for       459244  particles with max          100  per node...
+  
+ Creating tree for       459244  particles with max          100  per node...
+  
+ Creating tree for       459244  particles with max          100  per node...
+  
+ Creating tree for       459244  particles with max          100  per node...
+  
+ Creating tree for       459244  particles with max          100  per node...
+  
+ Creating tree for       459244  particles with max          100  per node...
+  
+ Creating tree for       459244  particles with max          100  per node...
+  
+ Creating tree for       459244  particles with max          100  per node...
+  
+ Creating tree for       459244  particles with max          100  per node...
+  
+ Creating tree for       459244  particles with max          100  per node...
+  
+ Creating tree for       459244  particles with max          100  per node...
+  
+ Creating tree for       459244  particles with max          100  per node...
+  
+ Creating tree for       459244  particles with max          100  per node...
+  
+ Creating tree for       459244  particles with max          100  per node...
+  
+ Creating tree for       459244  particles with max          100  per node...
+  
+ Creating tree for       459244  particles with max          100  per node...
+  
+ Creating tree for       459244  particles with max          100  per node...
+  
+ Creating tree for       459244  particles with max          100  per node...
+  
+ Creating tree for       459244  particles with max          100  per node...
+  
+ Creating tree for       459244  particles with max          100  per node...
+  
+ Creating tree for       459244  particles with max          100  per node...
+  
+ Creating tree for       459244  particles with max          100  per node...
+ Time to create tree (secs):   4.5698000000000016E-002
+ Time to create tree (secs):   4.5082000000000066E-002
+ Begin to allocate varibles for the solver...
+ Time to create tree (secs):   4.5526999999999873E-002
+ Time to create tree (secs):   4.5099999999999696E-002
+ Time to create tree (secs):   4.5787999999999940E-002
+ Time to create tree (secs):   4.5216999999999841E-002
+ Time to create tree (secs):   4.5336999999999961E-002
+ Time to create tree (secs):   4.5638999999999985E-002
+ Time to create tree (secs):   4.5537999999999856E-002
+ Time to create tree (secs):   4.6309000000000156E-002
+ Time to create tree (secs):   4.6017999999999892E-002
+ Time to create tree (secs):   4.5825999999999922E-002
+ Time to create tree (secs):   4.6505999999999936E-002
+ Time to create tree (secs):   4.6807000000000265E-002
+ Time to create tree (secs):   4.6246999999999927E-002
+ Time to create tree (secs):   4.6478999999999937E-002
+ Time to create tree (secs):   4.6558000000000099E-002
+ Time to create tree (secs):   4.6291999999999778E-002
+ Time to create tree (secs):   4.7071000000000085E-002
+ Time to create tree (secs):   4.6864000000000017E-002
+ Time to create tree (secs):   4.6593000000000107E-002
+ Time to create tree (secs):   4.6445999999999987E-002
+ Time to create tree (secs):   4.6078000000000063E-002
+ Time to create tree (secs):   4.6635999999999900E-002
+ Time to create tree (secs):   4.6806000000000125E-002
+ Time to create tree (secs):   4.7004999999999963E-002
+ Time to create tree (secs):   4.6640999999999933E-002
+ Time to create tree (secs):   4.6718999999999955E-002
+ Time to create tree (secs):   4.6696999999999989E-002
+ Time to create tree (secs):   4.6391999999999989E-002
+ Time to create tree (secs):   4.6971000000000096E-002
+ Time to create tree (secs):   4.6521999999999952E-002
+ Begin to call the solver...
+ Preconditioner Time =    8.5670195519924164E-002          25
+ Preconditioner Time =   0.11226864531636238               30
+ Preconditioner Time =   0.11638802662491798               26
+ Preconditioner Time =   0.10437453724443913                9
+ Preconditioner Time =   0.11862609069794416               10
+ Preconditioner Time =   0.10651902016252279               15
+ Preconditioner Time =   0.11669817101210356               14
+ Preconditioner Time =    9.7212169319391251E-002          31
+ Preconditioner Time =   0.10309065505862236               11
+ Preconditioner Time =   0.11904148943722248               16
+ Preconditioner Time =   0.11272920668125153                2
+ Preconditioner Time =   0.12185587175190449                0
+ Preconditioner Time =   0.11714271456003189                6
+ Preconditioner Time =    8.8579218834638596E-002           1
+ Preconditioner Time =   0.10310523305088282               21
+ Preconditioner Time =    9.5689853653311729E-002          27
+ Preconditioner Time =   0.10935615655034781                5
+ Preconditioner Time =    9.7775798290967941E-002           3
+ Preconditioner Time =   0.12397994566708803                4
+ Preconditioner Time =   0.13475682679563761                8
+ Preconditioner Time =   0.12555671576410532               18
+ Preconditioner Time =    9.5731991343200207E-002          17
+ Preconditioner Time =   0.12835624068975449               24
+ Preconditioner Time =   0.12932615913450718               20
+ Preconditioner Time =   0.10158897191286087               13
+ Preconditioner Time =    9.1392083093523979E-002          19
+ Preconditioner Time =   0.11345199495553970               22
+ Preconditioner Time =   0.13290207181125879               12
+ Preconditioner Time =    9.0546852909028530E-002          23
+ Preconditioner Time =    9.7386890091001987E-002           7
+ Preconditioner Time =   0.12203237041831017               28
+ Preconditioner Time =   0.11154930200427771               29
+ Preconditioner Time =   0.10006196051836014               13
+ Preconditioner Time =   0.10392028465867043                5
+ Preconditioner Time =   0.10524469986557961               21
+ Preconditioner Time =    9.2933058738708496E-002          25
+ Preconditioner Time =    9.4421094283461571E-002           9
+ Preconditioner Time =    9.2502608895301819E-002          17
+ Preconditioner Time =   0.10060569643974304               29
+ Preconditioner Time =   0.12012918107211590                4
+ Preconditioner Time =   0.13076164945960045               12
+ Preconditioner Time =    9.3319245614111423E-002           1
+ Preconditioner Time =   0.12673071492463350               20
+ Preconditioner Time =   0.12474734429270029               28
+ Preconditioner Time =   0.12187761813402176                2
+ Preconditioner Time =   0.12203139811754227               22
+ Preconditioner Time =   0.12880830932408571               24
+ Preconditioner Time =   0.11575241386890411                0
+ Preconditioner Time =   0.13082769047468901                8
+ Preconditioner Time =   0.13211138546466827               26
+ Preconditioner Time =   0.12582804169505835               10
+ Preconditioner Time =   0.12874800711870193               16
+ Preconditioner Time =    9.9223119206726551E-002          19
+ Preconditioner Time =    9.6520436927676201E-002           3
+ Preconditioner Time =   0.11646137852221727                6
+ Preconditioner Time =    9.8225388675928116E-002           7
+ Preconditioner Time =   0.10529543459415436               11
+ Preconditioner Time =   0.12549187615513802               18
+ Preconditioner Time =    9.7213961184024811E-002          23
+ Preconditioner Time =    9.5127168111503124E-002          27
+ Preconditioner Time =   0.10954818967729807               15
+ Preconditioner Time =   0.12905021384358406               30
+ Preconditioner Time =   0.10867310408502817               31
+ Preconditioner Time =   0.12329206056892872               14
+ p%radius:   3.3385589830544156     
+ dist*theta:   8.5789982849592281     
+ theta:  0.80000000000000004     
+ =======FAILURE: called COMPP_TREE_PB=======
+Note: The following floating-point exceptions are signalling: IEEE_INVALID_FLAG
+ p%radius:   3.3385589830544156     
+ dist*theta:   8.4700092876769215     
+ theta:  0.80000000000000004     
+ =======FAILURE: called COMPP_TREE_PB=======
+Note: The following floating-point exceptions are signalling: IEEE_INVALID_FLAG
+ p%radius:   3.3385589830544156     
+ dist*theta:   8.4796817162490772     
+ theta:  0.80000000000000004     
+ =======FAILURE: called COMPP_TREE_PB=======
+Note: The following floating-point exceptions are signalling: IEEE_INVALID_FLAG
+ p%radius:   3.3385589830544156     
+ dist*theta:   8.3908902507421725     
+ theta:  0.80000000000000004     
+ =======FAILURE: called COMPP_TREE_PB=======
+Note: The following floating-point exceptions are signalling: IEEE_INVALID_FLAG
+ p%radius:   3.3385589830544156     
+ dist*theta:   8.0549173133213738     
+ theta:  0.80000000000000004     
+ =======FAILURE: called COMPP_TREE_PB=======
+Note: The following floating-point exceptions are signalling: IEEE_INVALID_FLAG
+ p%radius:   3.3385589830544156     
+ dist*theta:   8.0848733675233841     
+ theta:  0.80000000000000004     
+ =======FAILURE: called COMPP_TREE_PB=======
+Note: The following floating-point exceptions are signalling: IEEE_INVALID_FLAG
+ p%radius:   3.3385589830544156     
+ dist*theta:   8.7804256348362113     
+ theta:  0.80000000000000004     
+ =======FAILURE: called COMPP_TREE_PB=======
+Note: The following floating-point exceptions are signalling: IEEE_INVALID_FLAG
+ p%radius:   3.3385589830544156     
+ dist*theta:   8.4233359103016792     
+ theta:  0.80000000000000004     
+ =======FAILURE: called COMPP_TREE_PB=======
+Note: The following floating-point exceptions are signalling: IEEE_INVALID_FLAG
+ p%radius:   3.3385589830544156     
+ dist*theta:   8.2745579915519087     
+ theta:  0.80000000000000004     
+ =======FAILURE: called COMPP_TREE_PB=======
+Note: The following floating-point exceptions are signalling: IEEE_INVALID_FLAG
+ p%radius:   3.3385589830544156     
+ dist*theta:   8.1596875702715739     
+ theta:  0.80000000000000004     
+ =======FAILURE: called COMPP_TREE_PB=======
+Note: The following floating-point exceptions are signalling: IEEE_INVALID_FLAG
+ p%radius:   3.3385589830544156     
+ dist*theta:   8.1495999989092862     
+ theta:  0.80000000000000004     
+ =======FAILURE: called COMPP_TREE_PB=======
+Note: The following floating-point exceptions are signalling: IEEE_INVALID_FLAG
+ p%radius:   3.3385589830544156     
+ dist*theta:   8.2434056166125913     
+ theta:  0.80000000000000004     
+ =======FAILURE: called COMPP_TREE_PB=======
+Note: The following floating-point exceptions are signalling: IEEE_INVALID_FLAG
+ p%radius:   3.3385589830544156     
+ dist*theta:   8.3668060705517870     
+ theta:  0.80000000000000004     
+ =======FAILURE: called COMPP_TREE_PB=======
+Note: The following floating-point exceptions are signalling: IEEE_INVALID_FLAG
+ p%radius:   3.3385589830544156     
+ dist*theta:   8.2837699147187820     
+ theta:  0.80000000000000004     
+ =======FAILURE: called COMPP_TREE_PB=======
+Note: The following floating-point exceptions are signalling: IEEE_INVALID_FLAG
+ p%radius:   3.3385589830544156     
+ dist*theta:   8.6254541538402503     
+ theta:  0.80000000000000004     
+ =======FAILURE: called COMPP_TREE_PB=======
+Note: The following floating-point exceptions are signalling: IEEE_INVALID_FLAG
+ p%radius:   3.3385589830544156     
+ dist*theta:   8.2598221675772159     
+ theta:  0.80000000000000004     
+ =======FAILURE: called COMPP_TREE_PB=======
+Note: The following floating-point exceptions are signalling: IEEE_INVALID_FLAG
+ p%radius:   3.3385589830544156     
+ dist*theta:   8.6577557420435962     
+ theta:  0.80000000000000004     
+ =======FAILURE: called COMPP_TREE_PB=======
+Note: The following floating-point exceptions are signalling: IEEE_INVALID_FLAG
+ p%radius:   3.3385589830544156     
+ dist*theta:   8.3573569655058328     
+ theta:  0.80000000000000004     
+ =======FAILURE: called COMPP_TREE_PB=======
+Note: The following floating-point exceptions are signalling: IEEE_INVALID_FLAG
+ p%radius:   3.3385589830544156     
+ dist*theta:   8.2482787785627671     
+ theta:  0.80000000000000004     
+ =======FAILURE: called COMPP_TREE_PB=======
+Note: The following floating-point exceptions are signalling: IEEE_INVALID_FLAG
+ p%radius:   3.3385589830544156     
+ dist*theta:   8.2561468322429636     
+ theta:  0.80000000000000004     
+ =======FAILURE: called COMPP_TREE_PB=======
+Note: The following floating-point exceptions are signalling: IEEE_INVALID_FLAG
+ p%radius:   3.3385589830544156     
+ dist*theta:   8.3519174910781881     
+ theta:  0.80000000000000004     
+ =======FAILURE: called COMPP_TREE_PB=======
+Note: The following floating-point exceptions are signalling: IEEE_INVALID_FLAG
+ p%radius:   3.3385589830544156     
+ dist*theta:   8.5409202553875243     
+ theta:  0.80000000000000004     
+ =======FAILURE: called COMPP_TREE_PB=======
+Note: The following floating-point exceptions are signalling: IEEE_INVALID_FLAG
+ p%radius:   3.3385589830544156     
+ dist*theta:   8.1519954934018735     
+ theta:  0.80000000000000004     
+ =======FAILURE: called COMPP_TREE_PB=======
+Note: The following floating-point exceptions are signalling: IEEE_INVALID_FLAG
+ p%radius:   3.3385589830544156     
+ dist*theta:   8.5843649948289400     
+ theta:  0.80000000000000004     
+ =======FAILURE: called COMPP_TREE_PB=======
+Note: The following floating-point exceptions are signalling: IEEE_INVALID_FLAG
+ p%radius:   3.3385589830544156     
+ dist*theta:   8.1567076615234626     
+ theta:  0.80000000000000004     
+ =======FAILURE: called COMPP_TREE_PB=======
+Note: The following floating-point exceptions are signalling: IEEE_INVALID_FLAG
+ p%radius:   3.3385589830544156     
+ dist*theta:   8.1798270093090721     
+ theta:  0.80000000000000004     
+ =======FAILURE: called COMPP_TREE_PB=======
+Note: The following floating-point exceptions are signalling: IEEE_INVALID_FLAG
+ p%radius:   3.3385589830544156     
+ dist*theta:   8.4642564915978031     
+ theta:  0.80000000000000004     
+ =======FAILURE: called COMPP_TREE_PB=======
+Note: The following floating-point exceptions are signalling: IEEE_INVALID_FLAG
+ p%radius:   3.3385589830544156     
+ dist*theta:   8.3144081497121629     
+ theta:  0.80000000000000004     
+ =======FAILURE: called COMPP_TREE_PB=======
+Note: The following floating-point exceptions are signalling: IEEE_INVALID_FLAG
+ p%radius:   3.3385589830544156     
+ dist*theta:   8.6946397331280458     
+ theta:  0.80000000000000004     
+ =======FAILURE: called COMPP_TREE_PB=======
+Note: The following floating-point exceptions are signalling: IEEE_INVALID_FLAG IEEE_DIVIDE_BY_ZERO
+ p%radius:   3.3385589830544156     
+ dist*theta:   8.2671197327458330     
+ theta:  0.80000000000000004     
+ =======FAILURE: called COMPP_TREE_PB=======
+Note: The following floating-point exceptions are signalling: IEEE_INVALID_FLAG
+ p%radius:   3.3385589830544156     
+ dist*theta:   8.3711073506170930     
+ theta:  0.80000000000000004     
+ =======FAILURE: called COMPP_TREE_PB=======
+Note: The following floating-point exceptions are signalling: IEEE_INVALID_FLAG
+ p%radius:   3.3385589830544156     
+ dist*theta:   8.5057365040045507     
+ theta:  0.80000000000000004     
+ =======FAILURE: called COMPP_TREE_PB=======
+Note: The following floating-point exceptions are signalling: IEEE_INVALID_FLAG

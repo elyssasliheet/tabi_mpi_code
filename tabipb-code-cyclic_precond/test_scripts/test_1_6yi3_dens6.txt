@@ -1,0 +1,150 @@
+ Starting MPI with     1 processes.
+ PDB ID: 6yi3                                                                                                
+ Density: 6                                                                                                   
+WARNING: atoms 422 is completely inside atom 410
+WARNING: atoms 421 is completely inside atom 410
+WARNING: atoms 424 is completely inside atom 411
+WARNING: atoms 423 is completely inside atom 411
+WARNING: atoms 1301 is completely inside atom 1299
+WARNING: atoms 1300 is completely inside atom 1299
+WARNING: atoms 1855 is completely inside atom 1854
+WARNING: atoms 1856 is completely inside atom 1854
+WARNING: atoms 1944 is completely inside atom 1931
+WARNING: atoms 1943 is completely inside atom 1931
+WARNING: atoms 1942 is completely inside atom 1931
+WARNING: atoms 296 is completely inside atom 285
+WARNING: atoms 298 is completely inside atom 285
+WARNING: atoms 297 is completely inside atom 285
+WARNING: atoms 710 is completely inside atom 697
+WARNING: atoms 709 is completely inside atom 697
+WARNING: atoms 779 is completely inside atom 767
+WARNING: atoms 778 is completely inside atom 767
+WARNING: atoms 2056 is completely inside atom 2044
+WARNING: atoms 2057 is completely inside atom 2044
+WARNING: atoms 781 is completely inside atom 768
+WARNING: atoms 780 is completely inside atom 768
+WARNING: atoms 6 is completely inside atom 0
+WARNING: atoms 5 is completely inside atom 0
+WARNING: atoms 4 is completely inside atom 0
+WARNING: atoms 2055 is completely inside atom 2043
+WARNING: atoms 2054 is completely inside atom 2043
+WARNING: atoms 2079 is completely inside atom 2072
+MSMS 2.6.1 started on c066
+Copyright M.F. Sanner (1994)
+Compilation flags -O2 -DVERBOSE -DTIMING
+Atom 118 ignored, radius = 0.000000
+Atom 139 ignored, radius = 0.000000
+Atom 197 ignored, radius = 0.000000
+Atom 240 ignored, radius = 0.000000
+Atom 537 ignored, radius = 0.000000
+Atom 562 ignored, radius = 0.000000
+Atom 573 ignored, radius = 0.000000
+Atom 675 ignored, radius = 0.000000
+Atom 696 ignored, radius = 0.000000
+Atom 768 ignored, radius = 0.000000
+Atom 995 ignored, radius = 0.000000
+Atom 1078 ignored, radius = 0.000000
+Atom 1119 ignored, radius = 0.000000
+Atom 1140 ignored, radius = 0.000000
+Atom 1180 ignored, radius = 0.000000
+Atom 1287 ignored, radius = 0.000000
+Atom 1461 ignored, radius = 0.000000
+Atom 1540 ignored, radius = 0.000000
+Atom 1645 ignored, radius = 0.000000
+Atom 1897 ignored, radius = 0.000000
+Atom 1911 ignored, radius = 0.000000
+Atom 2014 ignored, radius = 0.000000
+Atom 2057 ignored, radius = 0.000000
+Atom 2107 ignored, radius = 0.000000
+INPUT  test_proteins/6yi3.xyzr 2083 spheres 0 collision only, radii  0.600 to  2.000
+PARAM  Probe_radius  1.400 density  6.000 hdensity  3.000
+REDUCED SURFACE ...
+    RS component 0 identified 410 416 409
+    0 free edge(s) found in component 0
+    RS component  #faces  #edges #free_edges  #vertices   genus
+         0        2104     3156          0        954      50
+    Time Reduced Surface real: 0.02 user: 0.03 sys: 0.00
+ANALYTICAL SOLVENT EXCLUDED SURFACE...
+    Component   0
+        Time Surface real: 0.01 user: 0.00 sys: 0.00
+        Time Singularities real: 0.00 user: 0.00 sys: 0.00
+    SES comp.  #fac.  #edg. #s_edg. #vert. #s_vert. R_h C_h genus
+         0     6416  12918    105    6504      192   0   0    0
+ANALYTICAL SURFACE AREA :
+    Comp. probe_radius,   reent,    toric,   contact    SES       SAS
+      0       1.400    1862.284  3017.721  2667.488  7547.494  9407.065
+TRIANGULATION...
+    Component 0
+WARNING: geodesic which intersects odd number of edges
+    component#, vertices,  edges,  faces, genus, density
+        0          42460  127374   84916    0     5.626
+        Time Triangulation real: 0.07 user: 0.08 sys: 0.00
+NUMERICAL VOLUMES AND AREA
+    Comp. probe_radius SES_volume SES_area)
+       0      1.40    18878.568   7480.130
+    Total ses_volume: 18878.568
+MSMS terminated normally
+Total Time real: 0.20 user: 0.18 sys: 0.00
+ # of surfaces=       84916  # of surface points=       42460
+          13  ugly faces are deleted
+ total MSMS post-processing time =   8.1820000000000226E-003
+ surface area=   7480.35156    
+ Begin to form right hand side vector b
+ NUMBER OF FACES IN TRIANGULARIZATION:        84903
+ ===========================================================================
+ Setting up right hand side calc time with reduce =    1.4593235934153199                0
+ Begin to initialize treecode...
+  
+ Creating tree for        84903  particles with max          100  per node...
+ Time to create tree (secs):   5.4669999999998886E-003
+ Begin to allocate varibles for the solver...
+ Begin to call the solver...
+ Preconditioner Time =   0.27303517237305641                0
+ Preconditioner Time =   0.27286741882562637                0
+ Treecode time =    9.8389509320259094                0
+ treecode_times:    9.8389509320259094     
+ Preconditioner Time =   0.27378423418849707                0
+           1 err=   0.22295431746962652     
+ Treecode time =    9.8435375345870852                0
+ treecode_times:    9.8435375345870852     
+ Preconditioner Time =   0.27393036521971226                0
+           2 err=    5.8693210144070265E-002
+ Treecode time =    9.8314046515151858                0
+ treecode_times:    9.8314046515151858     
+ Preconditioner Time =   0.29651256743818521                0
+           3 err=    1.9393501412107557E-002
+ Treecode time =    9.8463380699977279                0
+ treecode_times:    9.8463380699977279     
+ Preconditioner Time =   0.27352999057620764                0
+           4 err=    9.0633957141779894E-003
+ Treecode time =    9.8434388032183051                0
+ treecode_times:    9.8434388032183051     
+ Preconditioner Time =   0.27368300221860409                0
+           5 err=    4.1588671560396024E-003
+ Treecode time =    9.8288706205785275                0
+ treecode_times:    9.8288706205785275     
+ Preconditioner Time =   0.27314846310764551                0
+           6 err=    1.7683021301094712E-003
+ Treecode time =    9.8395025804638863                0
+ treecode_times:    9.8395025804638863     
+ Preconditioner Time =   0.27336297743022442                0
+           7 err=    8.7552506682315795E-004
+ Treecode time =    9.8431147187948227                0
+ treecode_times:    9.8431147187948227     
+ Preconditioner Time =   0.27326062601059675                0
+           8 err=    4.1989363923644569E-004
+ Treecode time =    9.8437469294294715                0
+ treecode_times:    9.8437469294294715     
+ Preconditioner Time =   0.27359068114310503                0
+           9 err=    1.7349235009580076E-004
+ Treecode time =    9.8278305241838098                0
+ treecode_times:    9.8278305241838098     
+ Preconditioner Time =   0.27317094430327415                0
+ err=   6.2253677997024302E-005 ierr=           0 iter=          10
+ Solvation Energy =  -1968.9978271769137     
+ Solvation energy calc time =    2.2168315947055817                0
+ Error deallocating xtemp, ind_vert, vert_ptl, xyz_temp
+ setup cpu=  0.207200006    
+ solving cpu=   105.772461    
+ cpu for computing solvation energy=   2.54436302    
+ Total cpu=    108.524025    

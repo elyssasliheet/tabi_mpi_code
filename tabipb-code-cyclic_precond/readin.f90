@@ -131,7 +131,7 @@ real*8 xyzqr(5)
     END DO
     CLOSE(103)
     call surface_area(s_area) ! the post-MSMS code
-    print *,'surface area=', real(s_area)
+    !print *,'surface area=', real(s_area)
 
     !rslt=system('rm '//pathname(1:lenpath)//fname(1:lenfname)//".xyzr")
     !rslt=system('rm '//pathname(1:lenpath)//fname(1:lenfname)//".vert")
@@ -190,7 +190,7 @@ real*8,allocatable:: nvert_copy(:,:)
             endif
             s_area=s_area+area_local
     enddo
-    print *,nface-nfacenew,' ugly faces are deleted'
+    !print *,nface-nfacenew,' ugly faces are deleted'
         
     nface=nfacenew
     deallocate(nvert,STAT=ierr)

@@ -1,0 +1,12 @@
+#!/bin/bash
+#SBATCH -J test_1_dir       # job name to display in squeue
+#SBATCH -o test_scripts/test_1_direct.txt     # standard output file
+#SBATCH -n 1                            # requested MPI tasks
+#SBATCH -p standard-l               # requested partition
+#SBATCH -t 2500                           # maximum runtime in minutes
+#SBATCH --exclusive                     # do not share nodes
+#SBATCH --mem 256GB
+#SBATCH --mail-user esliheet@smu.edu
+#SBATCH --mail-type=all
+
+mpirun ./tabipb.exe

@@ -441,8 +441,14 @@ C		CALL COMP_MS(p,x,y,z,q(:,:,1),numpars)
 C#####################################################################			
 C		p%exist_ms=1
 C	END IF   
-       
+C ES: MAKE SURE WE NEVER CALL THIS (for direct sum)
        CALL  COMPP_TREE_PB(kk,p,peng,kappa,theta,eps,tempq,der_cof)
+C       print*, "p%radius:", p%radius
+C       print*, "dist*theta:", dist*theta
+C       print*, "theta:", theta
+
+C       print*, "=======FAILURE: called COMPP_TREE_PB======="
+C       stop
 C       CALL COMPP_DIRECT_PB(penglocal,p%ibeg,p%iend,
 C     &                        x,y,z,tpoten,kappa,numpars,eps)
 C       write(*,*) peng(1),penglocal(1),(peng(1)-penglocal(1))/peng(1)
@@ -463,6 +469,7 @@ C
                CALL COMPP_TREE(p%child(i)%p_to_tnode,penglocal,x,y,z,q,
      &               tpoten,kappa,theta,numpars,kk,eps,tempq,der_cof)
                peng=peng+penglocal
+
             END DO  
          END IF 
       END IF
@@ -1455,7 +1462,8 @@ C Remove the singularities
       ftime = MPI_Wtime();
       runtime = ftime-stime
 
-      
+      print*, "Treecode time = ", runtime, myid
+
       call MPI_Allreduce(mytpoten, final_tpoten, 2*numpars, 
      & MPI_REAL8, MPI_SUM, MPI_COMM_WORLD, ierr)
       
@@ -1483,7 +1491,7 @@ C Remove the singularities
             write(12,*) treecode_times
             print*, "treecode_times: ", treecode_times
       endif
- 
+
       RETURN
       END SUBROUTINE TREE_COMPP_PB
 

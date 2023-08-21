@@ -1,0 +1,12 @@
+#!/bin/bash
+#SBATCH -J dens28       # job name to display in squeue
+#SBATCH -o test_scripts/test_6yi3_dens28.txt     # standard output file
+#SBATCH -n 1                            # requested MPI tasks
+#SBATCH -p standard-s               # requested partition
+#SBATCH -t 180                           # maximum runtime in minutes
+#SBATCH --exclusive                     # do not share nodes
+#SBATCH --mem 256GB
+#SBATCH --mail-user esliheet@smu.edu
+#SBATCH --mail-type=all
+
+mpirun ./tabipb.exe

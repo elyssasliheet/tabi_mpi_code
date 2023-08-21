@@ -86,6 +86,7 @@ eps=eps1/eps0;
 
 call cpu_time(cpu1)
 
+
 call readin
 
 if (myid == 0) then
